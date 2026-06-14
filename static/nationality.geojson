@@ -818,6 +818,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          23.8222636,
+          -2.9814344
+        ]
+      },
+      "properties": {
+        "name": "Congo, The Democratic Republic of the",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           38.4313975,
           1.4419683
         ]
