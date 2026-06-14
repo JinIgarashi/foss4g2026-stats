@@ -1,5 +1,6 @@
 {
   "type": "FeatureCollection",
+  "created_at": "2026-06-14T22:44:49.800Z",
   "features": [
     {
       "type": "Feature",
@@ -642,7 +643,7 @@
       },
       "properties": {
         "name": "Ljubljana, Slovenia, Ljubljana",
-        "count": 7
+        "count": 8
       }
     },
     {
@@ -832,20 +833,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          129.7874339,
-          33.1154683
-        ]
-      },
-      "properties": {
-        "name": "Nagasaki. Japan",
-        "count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           175.0519306,
           -39.9324904
         ]
@@ -949,8 +936,8 @@
         ]
       },
       "properties": {
-        "name": "Saitama, Japan, saitama, Saitama",
-        "count": 5
+        "name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本",
+        "count": 6
       }
     },
     {
@@ -1229,8 +1216,8 @@
         ]
       },
       "properties": {
-        "name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa",
-        "count": 10
+        "name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa, 神奈川県",
+        "count": 12
       }
     },
     {
@@ -1588,20 +1575,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          85.552917,
-          27.618921
-        ]
-      },
-      "properties": {
-        "name": "dhulikhel",
-        "count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           125.5784093,
           -8.5536809
         ]
@@ -1748,7 +1721,7 @@
       },
       "properties": {
         "name": "Zagreb, Croatia, Zagreb",
-        "count": 3
+        "count": 5
       }
     },
     {
@@ -2148,20 +2121,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.0739102,
-          10.2735633
-        ]
-      },
-      "properties": {
-        "name": "Costa Rica",
-        "count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           19.8417103,
           45.2445426
         ]
@@ -2364,6 +2323,20 @@
       },
       "properties": {
         "name": "Shizuoka, Japan",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.552917,
+          27.618921
+        ]
+      },
+      "properties": {
+        "name": "dhulikhel",
         "count": 1
       }
     },
