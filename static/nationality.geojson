@@ -1,5 +1,6 @@
 {
   "type": "FeatureCollection",
+  "created_at": "2026-06-14T22:44:49.801Z",
   "features": [
     {
       "type": "Feature",
@@ -222,7 +223,7 @@
       },
       "properties": {
         "name": "Japan",
-        "count": 96
+        "count": 98
       }
     },
     {
@@ -320,7 +321,7 @@
       },
       "properties": {
         "name": "Slovenia",
-        "count": 5
+        "count": 6
       }
     },
     {
@@ -530,7 +531,7 @@
       },
       "properties": {
         "name": "Croatia",
-        "count": 4
+        "count": 6
       }
     },
     {
@@ -622,20 +623,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          83.9999901,
-          28.3780464
-        ]
-      },
-      "properties": {
-        "name": "Nepal",
-        "count": 3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           126.063482,
           -8.7443169
         ]
@@ -643,6 +630,20 @@
       "properties": {
         "name": "Timor-Leste",
         "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9999901,
+          28.3780464
+        ]
+      },
+      "properties": {
+        "name": "Nepal",
+        "count": 3
       }
     },
     {
@@ -726,20 +727,6 @@
       },
       "properties": {
         "name": "Sweden",
-        "count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.0739102,
-          10.2735633
-        ]
-      },
-      "properties": {
-        "name": "Costa Rica",
         "count": 1
       }
     },

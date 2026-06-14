@@ -9,7 +9,8 @@
 		GlobeControl,
 		GeolocateControl,
 		Marker,
-		Popup
+		Popup,
+		AttributionControl
 	} from 'maplibre-gl';
 	import { MAPSTORE_CONTEXT_KEY, type MapStore } from '$lib/stores';
 
@@ -26,9 +27,18 @@
 			style: `https://api.protomaps.com/styles/v5/light/en.json?key=${PUBLIC_PROTOMAP_KEY}`,
 			center: [132.45118, 34.39205],
 			zoom: 3,
-			hash: true
+			hash: true,
+			attributionControl: false
 		});
 
+		mapInstance.addControl(
+			new AttributionControl({
+				customAttribution:
+					'© <a href="https://2026.foss4g.org" target="_blank">FOSS4G Hiroshima 2026</a>',
+				compact: true
+			}),
+			'bottom-right'
+		);
 		mapInstance.addControl(new ScaleControl(), 'bottom-left');
 		mapInstance.addControl(new NavigationControl(), 'bottom-right');
 		mapInstance.addControl(new GlobeControl(), 'bottom-right');

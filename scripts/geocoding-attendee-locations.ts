@@ -83,6 +83,7 @@ async function geocode(
 
 function buildGeoJSON(locationCounts: Map<string, { lat: number; lon: number; count: number }>): {
 	type: 'FeatureCollection';
+	created_at: string;
 	features: GeoJSONFeature[];
 } {
 	const features: GeoJSONFeature[] = [];
@@ -93,7 +94,7 @@ function buildGeoJSON(locationCounts: Map<string, { lat: number; lon: number; co
 			properties: { name, count }
 		});
 	}
-	return { type: 'FeatureCollection', features };
+	return { type: 'FeatureCollection', created_at: new Date().toISOString(), features };
 }
 
 async function main() {
