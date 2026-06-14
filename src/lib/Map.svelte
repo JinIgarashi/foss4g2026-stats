@@ -4,7 +4,6 @@
 	import { getContext, onDestroy } from 'svelte';
 	import {
 		Map as MaplibreMap,
-		ScaleControl,
 		NavigationControl,
 		GlobeControl,
 		GeolocateControl,
@@ -27,6 +26,7 @@
 			style: `https://api.protomaps.com/styles/v5/light/en.json?key=${PUBLIC_PROTOMAP_KEY}`,
 			center: [132.45118, 34.39205],
 			zoom: 3,
+			maxZoom: 10,
 			hash: true,
 			attributionControl: false
 		});
@@ -39,7 +39,6 @@
 			}),
 			'bottom-right'
 		);
-		mapInstance.addControl(new ScaleControl(), 'bottom-left');
 		mapInstance.addControl(new NavigationControl(), 'bottom-right');
 		mapInstance.addControl(new GlobeControl(), 'bottom-right');
 		mapInstance.addControl(
