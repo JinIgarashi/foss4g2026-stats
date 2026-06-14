@@ -107,7 +107,8 @@
 				filter: ['has', 'point_count'],
 				layout: {
 					'text-field': ['get', 'sum'],
-					'text-size': 12
+					'text-size': 12,
+					'text-font': ['Noto Sans Regular']
 				}
 			});
 
@@ -132,6 +133,7 @@
 				layout: {
 					'text-field': ['get', 'count'],
 					'text-size': 11,
+					'text-font': ['Noto Sans Regular'],
 					'text-allow-overlap': true
 				}
 			});
@@ -144,9 +146,11 @@
 					filter: ['!', ['has', 'point_count']],
 					layout: {
 						'text-field': ['get', 'name'],
-						'text-size': 11,
-						'text-offset': [0, 1.5],
-						'text-anchor': 'top'
+						'text-size': 12,
+						'text-font': ['Noto Sans Bold'],
+						'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+						'text-radial-offset': 1.5,
+						'text-justify': 'auto'
 					},
 					paint: {
 						'text-color': '#333',
