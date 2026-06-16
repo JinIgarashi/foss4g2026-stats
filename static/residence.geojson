@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "created_at": "2026-06-14T22:44:49.800Z",
+  "created_at": "2026-06-16T11:39:42.017Z",
   "features": [
     {
       "type": "Feature",
@@ -418,8 +418,8 @@
         ]
       },
       "properties": {
-        "name": "Kagoshima, Japan",
-        "count": 1
+        "name": "Kagoshima, Japan, Kagoshima",
+        "count": 2
       }
     },
     {
@@ -475,7 +475,7 @@
       },
       "properties": {
         "name": "Tokyo, Japan, Tokyo, Tokyo,Japan",
-        "count": 26
+        "count": 28
       }
     },
     {
@@ -755,7 +755,7 @@
       },
       "properties": {
         "name": "Sapporo, Japan, Hokkaido, Sapporo",
-        "count": 3
+        "count": 4
       }
     },
     {
@@ -937,7 +937,7 @@
       },
       "properties": {
         "name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本",
-        "count": 6
+        "count": 7
       }
     },
     {
@@ -2168,8 +2168,8 @@
         ]
       },
       "properties": {
-        "name": "Malawi, Zomba",
-        "count": 1
+        "name": "Malawi, Zomba, Zomba, Malawi",
+        "count": 2
       }
     },
     {
@@ -2575,6 +2575,34 @@
       },
       "properties": {
         "name": "Hanover, NH, USA",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2240181,
+          -17.9566909
+        ]
+      },
+      "properties": {
+        "name": "Broome, Australia",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4829321,
+          41.8933203
+        ]
+      },
+      "properties": {
+        "name": "Roma",
         "count": 1
       }
     }
