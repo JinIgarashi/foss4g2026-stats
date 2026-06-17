@@ -19,6 +19,9 @@ export default defineConfig({
 			adapter: adapter(),
 			paths: {
 				base: (process.env.BASE_PATH || '') as '' | `/${string}`
+			},
+			alias: {
+				'@/*': './src/lib/*'
 			}
 		})
 	],

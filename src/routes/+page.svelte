@@ -27,6 +27,7 @@
 	import Space from '$lib/Space.svelte';
 	import SpaceAtmosphere from '$lib/SpaceAtmosphere.svelte';
 	import logoSvg from '$lib/assets/logo.svg';
+	import Button from '@/components/ui/button/button.svelte';
 
 	let exportControl = $state<MaplibreExportControl | null>(null);
 	let drawControl = $state<MaplibreTerradrawControl | null>(null);
@@ -98,8 +99,8 @@
 
 		<Layers />
 
-		<CustomControl position="bottom-left">
-			<a
+		<CustomControl position="bottom-left" group={false}>
+			<Button
 				href="https://2026.foss4g.org/en/register/registration/"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -107,7 +108,7 @@
 			>
 				<img src={logoSvg} alt="" class="h-5 w-5 brightness-0 invert" />
 				Join FOSS4G Hiroshima 2026
-			</a>
+			</Button>
 		</CustomControl>
 
 		{#if drawControl}
