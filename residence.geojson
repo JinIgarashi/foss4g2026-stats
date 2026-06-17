@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "created_at": "2026-06-16T11:39:42.017Z",
+  "created_at": "2026-06-17T11:20:01.699Z",
   "features": [
     {
       "type": "Feature",
@@ -755,7 +755,7 @@
       },
       "properties": {
         "name": "Sapporo, Japan, Hokkaido, Sapporo",
-        "count": 4
+        "count": 5
       }
     },
     {
@@ -1034,8 +1034,8 @@
         ]
       },
       "properties": {
-        "name": "Montpellier, France",
-        "count": 1
+        "name": "Montpellier, France, Montpellier",
+        "count": 2
       }
     },
     {
@@ -2604,6 +2604,48 @@
       "properties": {
         "name": "Roma",
         "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.8854538,
+          -23.1867782
+        ]
+      },
+      "properties": {
+        "name": "São José dos Campos, Brasil",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4456588,
+          44.8153318
+        ]
+      },
+      "properties": {
+        "name": "Belgrade, Serbia",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6180016,
+          33.6251241
+        ]
+      },
+      "properties": {
+        "name": "Fukuoka prefecture,Japan",
+        "count": 3
       }
     }
   ]
