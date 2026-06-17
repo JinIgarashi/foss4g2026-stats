@@ -4,6 +4,8 @@
 	import MapPinned from '@lucide/svelte/icons/map-pinned';
 	import Layers from '@lucide/svelte/icons/layers';
 	import * as Card from '$lib/components/ui/card/index.js';
+	import { Label } from '$lib/components/ui/label/index.js';
+	import { Switch } from '$lib/components/ui/switch/index.js';
 
 	type LayerType = 'residence' | 'nationality';
 	type LayerStats = {
@@ -23,40 +25,48 @@
 		layersReady: boolean;
 		stats: LayerStats;
 	} = $props();
+
+	const setLayer = (layer: LayerType) => {
+		activeLayer = layer;
+	};
 </script>
 
-<CustomControl position="top-left" class="w-96" group={false}>
+<CustomControl position="top-left" class="w-76" group={false}>
 	<Card.Root>
 		<Card.Header>
 			<Card.Title><Layers size={16} class="inline-block mr-2" />Layers</Card.Title>
 		</Card.Header>
 		<Card.Content>
-			<label class="flex cursor-pointer items-center gap-2 text-sm text-gray-600">
-				<input
-					type="radio"
-					name="layer"
-					value="residence"
+			<div class="flex items-center justify-between gap-3 text-sm text-gray-600">
+				<Label for="layer-residence" class="cursor-pointer">
+					<span>
+						<MapPinHouse size={14} />
+					</span>
+					Where attendees come from
+				</Label>
+				<Switch
+					id="layer-residence"
 					checked={activeLayer === 'residence'}
-					onchange={() => (activeLayer = 'residence')}
+					onCheckedChange={(checked: boolean) => {
+						if (checked) setLayer('residence');
+					}}
 				/>
-				<span>
-					<MapPinHouse size={14} />
-				</span>
-				Where attendees come from
-			</label>
-			<label class="mt-1 flex cursor-pointer items-center gap-2 text-sm text-gray-600">
-				<input
-					type="radio"
-					name="layer"
-					value="nationality"
+			</div>
+			<div class="mt-2 flex items-center justify-between gap-3 text-sm text-gray-600">
+				<Label for="layer-nationality" class="cursor-pointer">
+					<span>
+						<MapPinned size={14} />
+					</span>
+					What nationality attendees have
+				</Label>
+				<Switch
+					id="layer-nationality"
 					checked={activeLayer === 'nationality'}
-					onchange={() => (activeLayer = 'nationality')}
+					onCheckedChange={(checked: boolean) => {
+						if (checked) setLayer('nationality');
+					}}
 				/>
-				<span>
-					<MapPinned size={14} />
-				</span>
-				What nationality attendees have
-			</label>
+			</div>
 		</Card.Content>
 		{#if layersReady}
 			<Card.Footer class="flex flex-col items-start text-left">
@@ -70,11 +80,13 @@
 						from
 						<span class="font-semibold text-gray-700">{stats.nationalityCount}</span> nationalities
 					{/if}
-
-					{#if stats.createdAt}
-						(As of {stats.createdAt})
-					{/if}
 				</p>
+
+				{#if stats.createdAt}
+					<p class="text-xs text-gray-500">
+						As of {stats.createdAt}
+					</p>
+				{/if}
 				<p class="mt-1 text-xs text-gray-400 leading-snug">
 					This data is based on registered attendee's answers to optional questions about their City
 					and Country and Nationality.

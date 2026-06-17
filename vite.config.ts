@@ -30,7 +30,8 @@ export default defineConfig({
 			'maplibre-gl',
 			'@watergis/maplibre-gl-export',
 			'@lucide/svelte',
-			'@watergis/maplibre-gl-terradraw'
+			'@watergis/maplibre-gl-terradraw',
+			'bits-ui'
 		]
 	}
 });
