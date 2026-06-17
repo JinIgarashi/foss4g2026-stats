@@ -32,6 +32,14 @@
 	const setLayer = (layer: LayerType) => {
 		activeLayer = layer;
 	};
+
+	let infoOpen = $state(false);
+	let infoTriggerId = $state<string | null>(null);
+
+	const openInfo = () => {
+		infoTriggerId = 'layer-info';
+		infoOpen = true;
+	};
 </script>
 
 <CustomControl position="top-left" class="w-76" group={false}>
@@ -93,11 +101,17 @@
 							</p>
 						{/if}
 					</div>
-					<Tooltip.Provider>
-						<Tooltip.Root>
+					<Tooltip.Provider delayDuration={200}>
+						<Tooltip.Root
+							disableCloseOnTriggerClick
+							bind:open={infoOpen}
+							bind:triggerId={infoTriggerId}
+						>
 							<Tooltip.Trigger
+								id="layer-info"
 								class={buttonVariants({ variant: 'ghost', size: 'icon' }) + ' ml-auto shrink-0'}
 								aria-label="About attendee data"
+								onclick={openInfo}
 							>
 								<Info />
 							</Tooltip.Trigger>
