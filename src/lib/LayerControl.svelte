@@ -3,9 +3,12 @@
 	import MapPinHouse from '@lucide/svelte/icons/map-pin-house';
 	import MapPinned from '@lucide/svelte/icons/map-pinned';
 	import Layers from '@lucide/svelte/icons/layers';
+	import Info from '@lucide/svelte/icons/info';
 	import * as Card from '$lib/components/ui/card/index.js';
+	import { buttonVariants } from '$lib/components/ui/button/index.js';
 	import { Label } from '$lib/components/ui/label/index.js';
 	import { Switch } from '$lib/components/ui/switch/index.js';
+	import * as Tooltip from '$lib/components/ui/tooltip/index.js';
 
 	type LayerType = 'residence' | 'nationality';
 	type LayerStats = {
@@ -48,7 +51,7 @@
 					id="layer-residence"
 					checked={activeLayer === 'residence'}
 					onCheckedChange={(checked: boolean) => {
-						if (checked) setLayer('residence');
+						setLayer(checked ? 'residence' : 'nationality');
 					}}
 				/>
 			</div>
@@ -63,34 +66,50 @@
 					id="layer-nationality"
 					checked={activeLayer === 'nationality'}
 					onCheckedChange={(checked: boolean) => {
-						if (checked) setLayer('nationality');
+						setLayer(checked ? 'nationality' : 'residence');
 					}}
 				/>
 			</div>
 		</Card.Content>
 		{#if layersReady}
-			<Card.Footer class="flex flex-col items-start text-left">
-				<p class="text-xs text-gray-500">
-					{#if activeLayer === 'residence'}
-						<span class="font-semibold text-gray-700">{stats.residenceAttendees}</span> attendees
-						from
-						<span class="font-semibold text-gray-700">{stats.residenceLocations}</span> locations
-					{:else}
-						<span class="font-semibold text-gray-700">{stats.nationalityAttendees}</span> attendees
-						from
-						<span class="font-semibold text-gray-700">{stats.nationalityCount}</span> nationalities
-					{/if}
-				</p>
+			<Card.Footer class="text-left">
+				<div class="flex w-full items-start gap-2">
+					<div class="min-w-0">
+						<p class="text-xs text-gray-500">
+							{#if activeLayer === 'residence'}
+								<span class="font-semibold text-gray-700">{stats.residenceAttendees}</span>
+								attendees from
+								<span class="font-semibold text-gray-700">{stats.residenceLocations}</span> locations
+							{:else}
+								<span class="font-semibold text-gray-700">{stats.nationalityAttendees}</span>
+								attendees from
+								<span class="font-semibold text-gray-700">{stats.nationalityCount}</span> nationalities
+							{/if}
+						</p>
 
-				{#if stats.createdAt}
-					<p class="text-xs text-gray-500">
-						As of {stats.createdAt}
-					</p>
-				{/if}
-				<p class="mt-1 text-xs text-gray-400 leading-snug">
-					This data is based on registered attendee's answers to optional questions about their City
-					and Country and Nationality.
-				</p>
+						{#if stats.createdAt}
+							<p class="text-xs text-gray-500">
+								As of {stats.createdAt}
+							</p>
+						{/if}
+					</div>
+					<Tooltip.Provider>
+						<Tooltip.Root>
+							<Tooltip.Trigger
+								class={buttonVariants({ variant: 'ghost', size: 'icon' }) + ' ml-auto shrink-0'}
+								aria-label="About attendee data"
+							>
+								<Info />
+							</Tooltip.Trigger>
+							<Tooltip.Content class="max-w-64 text-xs leading-relaxed">
+								<p>
+									This data is based on registered attendee's answers to optional questions about
+									their City and Country and Nationality.
+								</p>
+							</Tooltip.Content>
+						</Tooltip.Root>
+					</Tooltip.Provider>
+				</div>
 			</Card.Footer>
 		{/if}
 	</Card.Root>
