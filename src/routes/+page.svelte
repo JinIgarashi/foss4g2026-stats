@@ -9,6 +9,8 @@
 		DPI
 	} from '@watergis/maplibre-gl-export';
 	import '@watergis/maplibre-gl-export/dist/maplibre-gl-export.css';
+	import { MaplibreTerradrawControl } from '@watergis/maplibre-gl-terradraw';
+	import '@watergis/maplibre-gl-terradraw/dist/maplibre-gl-terradraw.css';
 	import {
 		MapLibre,
 		NavigationControl,
@@ -27,6 +29,7 @@
 	import logoSvg from '$lib/assets/logo.svg';
 
 	let exportControl = $state<MaplibreExportControl | null>(null);
+	let drawControl = $state<MaplibreTerradrawControl | null>(null);
 
 	onMount(() => {
 		exportControl = new MaplibreExportControl({
@@ -37,6 +40,23 @@
 			Crosshair: true,
 			PrintableArea: true,
 			Local: 'en'
+		});
+
+		drawControl = new MaplibreTerradrawControl({
+			modes: [
+				'render',
+				'marker',
+				'linestring',
+				'polygon',
+				'freehand-linestring',
+				'select',
+				'delete-selection',
+				'delete',
+				'undo',
+				'redo'
+			],
+			open: true,
+			showDeleteConfirmation: true
 		});
 	});
 </script>
@@ -89,5 +109,9 @@
 				Join FOSS4G Hiroshima 2026
 			</a>
 		</CustomControl>
+
+		{#if drawControl}
+			<CustomControl position="top-right" control={drawControl} />
+		{/if}
 	</MapLibre>
 </Space>
