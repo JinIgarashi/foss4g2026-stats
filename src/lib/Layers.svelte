@@ -9,6 +9,9 @@
 		CustomControl,
 		getMapContext
 	} from 'svelte-maplibre-gl';
+	import MapPinHouse from '@lucide/svelte/icons/map-pin-house';
+	import MapPinned from '@lucide/svelte/icons/map-pinned';
+	import Layers from '@lucide/svelte/icons/layers';
 
 	type LayerType = 'residence' | 'nationality';
 	let activeLayer: LayerType = $state('residence');
@@ -251,8 +254,8 @@
 {/if}
 
 <CustomControl position="top-left">
-	<div class="w-64 p-3">
-		<p class="mb-2 text-sm font-semibold text-gray-700">Layer</p>
+	<div class="w-72 p-3">
+		<p class="mb-2 text-sm font-semibold text-gray-700"><Layers size={16} class="inline-block mr-2" />Layers</p>
 		<label class="flex cursor-pointer items-center gap-2 text-sm text-gray-600">
 			<input
 				type="radio"
@@ -261,6 +264,9 @@
 				checked={activeLayer === 'residence'}
 				onchange={() => (activeLayer = 'residence')}
 			/>
+			<span>
+				<MapPinHouse size={14}  />
+			</span>
 			Where attendees come from
 		</label>
 		<label class="mt-1 flex cursor-pointer items-center gap-2 text-sm text-gray-600">
@@ -271,6 +277,9 @@
 				checked={activeLayer === 'nationality'}
 				onchange={() => (activeLayer = 'nationality')}
 			/>
+			<span>
+				<MapPinned size={14}  />
+			</span>
 			What nationality attendees have
 		</label>
 		{#if layersReady}

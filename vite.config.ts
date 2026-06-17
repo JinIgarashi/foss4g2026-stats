@@ -23,6 +23,6 @@ export default defineConfig({
 		})
 	],
 	ssr: {
-		noExternal: ['maplibre-gl']
+		noExternal: ['maplibre-gl', '@watergis/maplibre-gl-export', '@lucide/svelte']
 	}
 });

@@ -1,6 +1,14 @@
 <script lang="ts">
-	import 'maplibre-gl/dist/maplibre-gl.css';
 	import { PUBLIC_PROTOMAP_KEY } from '$env/static/public';
+	import { onMount } from 'svelte';
+	import {
+		MaplibreExportControl,
+		Size,
+		PageOrientation,
+		Format,
+		DPI
+	} from '@watergis/maplibre-gl-export';
+	import '@watergis/maplibre-gl-export/dist/maplibre-gl-export.css';
 	import {
 		MapLibre,
 		NavigationControl,
@@ -17,6 +25,20 @@
 	import Space from '$lib/Space.svelte';
 	import SpaceAtmosphere from '$lib/SpaceAtmosphere.svelte';
 	import logoSvg from '$lib/assets/logo.svg';
+
+	let exportControl = $state<MaplibreExportControl | null>(null);
+
+	onMount(() => {
+		exportControl = new MaplibreExportControl({
+			PageSize: Size.A4,
+			PageOrientation: PageOrientation.Landscape,
+			Format: Format.PNG,
+			DPI: DPI[96],
+			Crosshair: true,
+			PrintableArea: true,
+			Local: 'en'
+		});
+	});
 </script>
 
 <Space>
@@ -44,6 +66,9 @@
 			positionOptions={{ enableHighAccuracy: true }}
 			trackUserLocation={true}
 		/>
+		{#if exportControl}
+			<CustomControl position="bottom-right" control={exportControl} />
+		{/if}
 
 		<Marker lnglat={[132.45118, 34.39205]} color="#e53e3e">
 			<Popup offset={25}>
