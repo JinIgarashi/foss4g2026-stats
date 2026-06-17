@@ -11,19 +11,7 @@
 		'fog-ground-blend': 0.75,
 		'horizon-fog-blend': 0.35,
 		'sky-horizon-blend': 0.3,
-		'atmosphere-blend': [
-			'interpolate',
-			['linear'],
-			['zoom'],
-			0,
-			0.18,
-			3,
-			0.45,
-			6,
-			0.85,
-			10,
-			1
-		]
+		'atmosphere-blend': ['interpolate', ['linear'], ['zoom'], 0, 0.18, 3, 0.45, 6, 0.85, 10, 1]
 	};
 </script>
 

@@ -255,7 +255,9 @@
 
 <CustomControl position="top-left">
 	<div class="w-72 p-3">
-		<p class="mb-2 text-sm font-semibold text-gray-700"><Layers size={16} class="inline-block mr-2" />Layers</p>
+		<p class="mb-2 text-sm font-semibold text-gray-700">
+			<Layers size={16} class="inline-block mr-2" />Layers
+		</p>
 		<label class="flex cursor-pointer items-center gap-2 text-sm text-gray-600">
 			<input
 				type="radio"
@@ -265,7 +267,7 @@
 				onchange={() => (activeLayer = 'residence')}
 			/>
 			<span>
-				<MapPinHouse size={14}  />
+				<MapPinHouse size={14} />
 			</span>
 			Where attendees come from
 		</label>
@@ -278,7 +280,7 @@
 				onchange={() => (activeLayer = 'nationality')}
 			/>
 			<span>
-				<MapPinned size={14}  />
+				<MapPinned size={14} />
 			</span>
 			What nationality attendees have
 		</label>
