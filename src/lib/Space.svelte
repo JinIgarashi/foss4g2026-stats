@@ -1,10 +1,11 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
+	import { cn } from '$lib/utils.js';
 
-	let { children }: { children?: Snippet } = $props();
+	let { children, class: className }: { children?: Snippet; class?: string } = $props();
 </script>
 
-<div class="space-shell h-full w-full">
+<div class={cn('space-shell h-full w-full', className)}>
 	<div class="space-stars" aria-hidden="true"></div>
 	{@render children?.()}
 </div>

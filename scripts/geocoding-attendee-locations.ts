@@ -4,7 +4,7 @@ import { join } from 'path';
 
 const DATA_DIR = join(import.meta.dirname, 'data');
 const CACHE_FILE = join(DATA_DIR, 'geocode-cache.json');
-const OUTPUT_DIR = join(import.meta.dirname, '..', 'static');
+const OUTPUT_DIR = join(import.meta.dirname, '..', 'src', 'lib', 'assets');
 
 const NOMINATIM_BASE = 'https://nominatim.openstreetmap.org/search';
 const USER_AGENT = 'foss4g2026-stats (https://github.com/JinIgarashi/foss4g2026-stats)';

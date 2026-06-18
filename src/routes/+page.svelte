@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { PageData } from './$types';
 	import { PUBLIC_PROTOMAP_KEY } from '$env/static/public';
 	import { onMount } from 'svelte';
 	import {
@@ -23,14 +24,40 @@
 		CustomControl,
 		Hash
 	} from 'svelte-maplibre-gl';
-	import Layers from '$lib/Layers.svelte';
+	import { Spinner } from '$lib/components/ui/spinner/index.js';
+	import LayerControl from '$lib/LayerControl.svelte';
+	import ResidenceLayer from '$lib/ResidenceLayer.svelte';
+	import NationalityLayer from '$lib/NationalityLayer.svelte';
 	import Space from '$lib/Space.svelte';
 	import SpaceAtmosphere from '$lib/SpaceAtmosphere.svelte';
 	import logoSvg from '$lib/assets/logo.svg';
 	import Button from '@/components/ui/button/button.svelte';
 
+	let {
+		data
+	}: {
+		data: PageData;
+	} = $props();
+
+	type LayerType = 'residence' | 'nationality';
+
 	let exportControl = $state<MaplibreExportControl | null>(null);
 	let drawControl = $state<MaplibreTerradrawControl | null>(null);
+	let isMapLoaded = $state(false);
+	let activeLayer: LayerType = $state('residence');
+
+	const COLORS = {
+		residence: ['#51bbd6', '#f1f075', '#f28cb1'],
+		nationality: ['#6b9eff', '#a8e06c', '#ff8c6b']
+	};
+
+	let stats = $derived({
+		residenceAttendees: data.residenceStats.attendees,
+		residenceLocations: data.residenceStats.locations,
+		nationalityAttendees: data.nationalityStats.attendees,
+		nationalityCount: data.nationalityStats.locations,
+		createdAt: data.residenceStats.createdAt
+	});
 
 	onMount(() => {
 		exportControl = new MaplibreExportControl({
@@ -62,7 +89,16 @@
 	});
 </script>
 
-<Space>
+{#if !isMapLoaded}
+	<div class="flex items-center justify-center w-full h-full bg-white">
+		<div class="flex flex-col items-center gap-4">
+			<Spinner />
+			<p class="text-sm text-gray-600">Loading...</p>
+		</div>
+	</div>
+{/if}
+
+<Space class={!isMapLoaded ? 'hidden' : ''}>
 	<MapLibre
 		class="space-map h-full w-full"
 		style={`https://api.protomaps.com/styles/v5/light/en.json?key=${PUBLIC_PROTOMAP_KEY}`}
@@ -70,6 +106,7 @@
 		zoom={3}
 		maxZoom={10}
 		attributionControl={false}
+		onload={() => (isMapLoaded = true)}
 	>
 		<Hash />
 		<Projection type="globe" />
@@ -97,7 +134,9 @@
 			</Popup>
 		</Marker>
 
-		<Layers />
+		<ResidenceLayer {activeLayer} data={data.residenceData} colors={COLORS.residence} />
+		<NationalityLayer {activeLayer} data={data.nationalityData} colors={COLORS.nationality} />
+		<LayerControl bind:activeLayer layersReady={true} {stats} />
 
 		<CustomControl position="bottom-left" group={false}>
 			<Button

@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { GeoJSONSource, CircleLayer, SymbolLayer } from 'svelte-maplibre-gl';
+	import { onMount } from 'svelte';
+	import type * as maplibregl from 'maplibre-gl';
+	import { GeoJSONSource, CircleLayer, SymbolLayer, getMapContext } from 'svelte-maplibre-gl';
 
 	type LayerType = 'residence' | 'nationality';
 	type LocationProperties = {
@@ -17,6 +19,42 @@
 		activeLayer: LayerType;
 		colors: string[];
 	} = $props();
+
+	onMount(() => {
+		const mapCtx = getMapContext();
+		const map = mapCtx.map;
+		if (!map) {
+			return;
+		}
+
+		const handleClusterClick = async (e: maplibregl.MapMouseEvent) => {
+			const features = e.target.queryRenderedFeatures(e.point, { layers: ['residence-clusters'] });
+			if (!features.length) return;
+			const clusterId = features[0].properties?.cluster_id;
+			const source = e.target.getSource('residence') as maplibregl.GeoJSONSource;
+			const zoom = await source.getClusterExpansionZoom(clusterId);
+			const geom = features[0].geometry as { type: 'Point'; coordinates: [number, number] };
+			e.target.easeTo({ center: geom.coordinates, zoom });
+		};
+
+		const handleMouseEnter = (e: maplibregl.MapLayerMouseEvent) => {
+			e.target.getCanvas().style.cursor = 'pointer';
+		};
+
+		const handleMouseLeave = (e: maplibregl.MapLayerMouseEvent) => {
+			e.target.getCanvas().style.cursor = '';
+		};
+
+		map.on('click', 'residence-clusters', handleClusterClick);
+		map.on('mouseenter', 'residence-clusters', handleMouseEnter);
+		map.on('mouseleave', 'residence-clusters', handleMouseLeave);
+
+		return () => {
+			map.off('click', 'residence-clusters', handleClusterClick);
+			map.off('mouseenter', 'residence-clusters', handleMouseEnter);
+			map.off('mouseleave', 'residence-clusters', handleMouseLeave);
+		};
+	});
 </script>
 
 <GeoJSONSource
