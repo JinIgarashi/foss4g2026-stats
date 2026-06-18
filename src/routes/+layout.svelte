@@ -38,7 +38,7 @@
 		<a href="https://2026.foss4g.org" target="_blank" rel="noopener noreferrer">
 			<img src={logo} alt="FOSS4G Hiroshima 2026" class="h-10" />
 		</a>
-		<h1 class="text-lg font-semibold text-gray-800">Attendee Statistics</h1>
+		<h1 class="text-lg font-semibold">Attendee Statistics</h1>
 	</header>
 	<main class="relative flex-1">
 		{@render children()}
