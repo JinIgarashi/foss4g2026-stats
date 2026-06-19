@@ -32,6 +32,7 @@
 	import SpaceAtmosphere from '$lib/SpaceAtmosphere.svelte';
 	import logoSvg from '$lib/assets/logo.svg';
 	import Button from '@/components/ui/button/button.svelte';
+	import ChartControl from '@/ChartControl.svelte';
 
 	let {
 		data
@@ -137,6 +138,12 @@
 		<ResidenceLayer {activeLayer} data={data.residenceData} colors={COLORS.residence} />
 		<NationalityLayer {activeLayer} data={data.nationalityData} colors={COLORS.nationality} />
 		<LayerControl bind:activeLayer layersReady={true} {stats} />
+
+		<ChartControl
+			bind:activeLayer
+			residenceData={data.residenceData}
+			nationalityData={data.nationalityData}
+		/>
 
 		<CustomControl position="bottom-left" group={false}>
 			<Button

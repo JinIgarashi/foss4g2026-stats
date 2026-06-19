@@ -152,14 +152,23 @@
 			{/if}
 		</Card.Root>
 	{:else}
-		<Button
-			variant="outline"
-			size="icon"
-			class="layer-toggle-btn border-slate-200 bg-white/90 text-slate-900 shadow-sm backdrop-blur-sm cursor-pointer"
-			onclick={() => (layerPanelOpen = true)}
-		>
-			<Layers />
-		</Button>
+		<Tooltip.Provider>
+			<Tooltip.Root>
+				<Tooltip.Trigger>
+					<Button
+						variant="outline"
+						size="icon"
+						class="layer-toggle-btn border-slate-200 bg-white/90 text-slate-900 shadow-sm backdrop-blur-sm cursor-pointer"
+						onclick={() => (layerPanelOpen = true)}
+					>
+						<Layers />
+					</Button>
+				</Tooltip.Trigger>
+				<Tooltip.Content>
+					<p>Show layer control</p>
+				</Tooltip.Content>
+			</Tooltip.Root>
+		</Tooltip.Provider>
 	{/if}
 </CustomControl>
 
