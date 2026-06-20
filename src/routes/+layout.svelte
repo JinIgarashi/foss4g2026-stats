@@ -2,6 +2,7 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import logo from '$lib/assets/logo-with-title.svg';
+	import { siGithub } from 'simple-icons';
 
 	let { children } = $props();
 
@@ -38,7 +39,19 @@
 		<a href="https://2026.foss4g.org" target="_blank" rel="noopener noreferrer">
 			<img src={logo} alt="FOSS4G Hiroshima 2026" class="h-10" />
 		</a>
-		<h1 class="text-lg font-semibold">Attendee Statistics</h1>
+		<p class="font-semibold">Attendee Statistics</p>
+		<a
+			href="https://github.com/JinIgarashi/foss4g2026-stats"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="GitHub Repository"
+			class="ml-auto inline-flex h-9 w-9 items-center justify-center rounded-md text-gray-600 transition-colors hover:bg-gray-100 hover:text-black"
+		>
+			<svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 fill-current">
+				<title>{siGithub.title}</title>
+				<path d={siGithub.path} />
+			</svg>
+		</a>
 	</header>
 	<main class="relative flex-1">
 		{@render children()}
