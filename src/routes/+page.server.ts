@@ -4,6 +4,8 @@ import residenceDataRaw from '$lib/assets/residence.geojson?raw';
 type LocationProperties = {
 	count: number;
 	name?: string;
+	country?: string;
+	region?: string;
 };
 
 type GeoJSONData = GeoJSON.FeatureCollection<GeoJSON.Point, LocationProperties> & {

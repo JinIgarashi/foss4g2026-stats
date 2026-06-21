@@ -5,6 +5,8 @@
 export type LocationProperties = {
 	count: number;
 	name?: string;
+	country?: string;
+	region?: string;
 };
 
 export type GeoJSONFeature = GeoJSON.Feature<GeoJSON.Point, LocationProperties & { name: string }>;
@@ -12,6 +14,8 @@ export type GeoJSONFeature = GeoJSON.Feature<GeoJSON.Point, LocationProperties &
 export interface ChartData {
 	name: string;
 	count: number;
+	country: string;
+	region: string;
 }
 
 /**
@@ -23,7 +27,9 @@ export function geoJsonToChartData(features: GeoJSONFeature[]): ChartData[] {
 	return features
 		.map((feature) => ({
 			name: feature.properties.name || 'Unknown',
-			count: feature.properties.count || 0
+			count: feature.properties.count || 0,
+			country: feature.properties.country || '-',
+			region: feature.properties.region || '-'
 		}))
 		.sort((a, b) => b.count - a.count);
 }

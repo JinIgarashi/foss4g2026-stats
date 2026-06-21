@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-06-21T03:41:31.015Z",
+	"created_at": "2026-06-21T03:59:48.766Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -10,7 +10,9 @@
 			},
 			"properties": {
 				"name": "Philippines",
-				"count": 8
+				"count": 8,
+				"country": "Philippines",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -21,7 +23,9 @@
 			},
 			"properties": {
 				"name": "Brazil",
-				"count": 11
+				"count": 11,
+				"country": "Brazil",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -32,7 +36,9 @@
 			},
 			"properties": {
 				"name": "Taiwan",
-				"count": 3
+				"count": 3,
+				"country": "Taiwan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -43,7 +49,9 @@
 			},
 			"properties": {
 				"name": "Australia",
-				"count": 16
+				"count": 16,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -54,7 +62,9 @@
 			},
 			"properties": {
 				"name": "United Kingdom",
-				"count": 9
+				"count": 9,
+				"country": "United Kingdom",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -65,7 +75,9 @@
 			},
 			"properties": {
 				"name": "Malaysia",
-				"count": 3
+				"count": 3,
+				"country": "Malaysia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -76,7 +88,9 @@
 			},
 			"properties": {
 				"name": "Romania",
-				"count": 3
+				"count": 3,
+				"country": "Romania",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -87,7 +101,9 @@
 			},
 			"properties": {
 				"name": "Czechia",
-				"count": 3
+				"count": 3,
+				"country": "Czechia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -98,7 +114,9 @@
 			},
 			"properties": {
 				"name": "Germany",
-				"count": 11
+				"count": 11,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -109,7 +127,9 @@
 			},
 			"properties": {
 				"name": "Italy",
-				"count": 8
+				"count": 8,
+				"country": "Italy",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -120,7 +140,9 @@
 			},
 			"properties": {
 				"name": "France",
-				"count": 8
+				"count": 8,
+				"country": "France",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -131,7 +153,9 @@
 			},
 			"properties": {
 				"name": "Denmark",
-				"count": 2
+				"count": 2,
+				"country": "Denmark",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -142,7 +166,9 @@
 			},
 			"properties": {
 				"name": "Poland",
-				"count": 3
+				"count": 3,
+				"country": "Poland",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -153,7 +179,9 @@
 			},
 			"properties": {
 				"name": "Slovenia",
-				"count": 7
+				"count": 7,
+				"country": "Slovenia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -164,7 +192,9 @@
 			},
 			"properties": {
 				"name": "United States",
-				"count": 31
+				"count": 31,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -175,7 +205,9 @@
 			},
 			"properties": {
 				"name": "Canada",
-				"count": 11
+				"count": 11,
+				"country": "Canada",
+				"region": "North America"
 			}
 		},
 		{
@@ -186,7 +218,9 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 116
+				"count": 116,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -197,7 +231,9 @@
 			},
 			"properties": {
 				"name": "Egypt",
-				"count": 1
+				"count": 1,
+				"country": "Egypt",
+				"region": "Middle East & North Africa"
 			}
 		},
 		{
@@ -208,7 +244,9 @@
 			},
 			"properties": {
 				"name": "Argentina",
-				"count": 1
+				"count": 1,
+				"country": "Argentina",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -219,7 +257,9 @@
 			},
 			"properties": {
 				"name": "Norway",
-				"count": 9
+				"count": 9,
+				"country": "Norway",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -230,7 +270,9 @@
 			},
 			"properties": {
 				"name": "Thailand",
-				"count": 24
+				"count": 24,
+				"country": "Thailand",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -241,7 +283,9 @@
 			},
 			"properties": {
 				"name": "South Korea",
-				"count": 26
+				"count": 26,
+				"country": "South Korea",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -252,7 +296,9 @@
 			},
 			"properties": {
 				"name": "India",
-				"count": 17
+				"count": 17,
+				"country": "India",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -263,7 +309,9 @@
 			},
 			"properties": {
 				"name": "Netherlands",
-				"count": 7
+				"count": 7,
+				"country": "Netherlands",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -274,7 +322,9 @@
 			},
 			"properties": {
 				"name": "Portugal",
-				"count": 4
+				"count": 4,
+				"country": "Portugal",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -285,7 +335,9 @@
 			},
 			"properties": {
 				"name": "Tanzania",
-				"count": 1
+				"count": 1,
+				"country": "Tanzania",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -296,7 +348,9 @@
 			},
 			"properties": {
 				"name": "China",
-				"count": 8
+				"count": 8,
+				"country": "China",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -307,7 +361,9 @@
 			},
 			"properties": {
 				"name": "Switzerland",
-				"count": 5
+				"count": 5,
+				"country": "Switzerland",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -318,7 +374,9 @@
 			},
 			"properties": {
 				"name": "New Zealand",
-				"count": 6
+				"count": 6,
+				"country": "New Zealand",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -329,7 +387,9 @@
 			},
 			"properties": {
 				"name": "Paraguay",
-				"count": 2
+				"count": 2,
+				"country": "Paraguay",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -340,7 +400,9 @@
 			},
 			"properties": {
 				"name": "Vietnam",
-				"count": 1
+				"count": 1,
+				"country": "Vietnam",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -351,7 +413,9 @@
 			},
 			"properties": {
 				"name": "Singapore",
-				"count": 5
+				"count": 5,
+				"country": "Singapore",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -362,7 +426,9 @@
 			},
 			"properties": {
 				"name": "Nigeria",
-				"count": 3
+				"count": 3,
+				"country": "Nigeria",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -373,7 +439,9 @@
 			},
 			"properties": {
 				"name": "Finland",
-				"count": 2
+				"count": 2,
+				"country": "Finland",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -384,7 +452,9 @@
 			},
 			"properties": {
 				"name": "Spain",
-				"count": 3
+				"count": 3,
+				"country": "Spain",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -395,7 +465,9 @@
 			},
 			"properties": {
 				"name": "Estonia",
-				"count": 3
+				"count": 3,
+				"country": "Estonia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -406,7 +478,9 @@
 			},
 			"properties": {
 				"name": "Jamaica",
-				"count": 1
+				"count": 1,
+				"country": "Jamaica",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -417,7 +491,9 @@
 			},
 			"properties": {
 				"name": "Croatia",
-				"count": 6
+				"count": 6,
+				"country": "Croatia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -428,7 +504,9 @@
 			},
 			"properties": {
 				"name": "Türkiye",
-				"count": 2
+				"count": 2,
+				"country": "Turkey",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -439,7 +517,9 @@
 			},
 			"properties": {
 				"name": "Luxembourg",
-				"count": 1
+				"count": 1,
+				"country": "Luxembourg",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -450,7 +530,9 @@
 			},
 			"properties": {
 				"name": "Slovakia",
-				"count": 1
+				"count": 1,
+				"country": "Slovakia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -461,7 +543,9 @@
 			},
 			"properties": {
 				"name": "Sri Lanka",
-				"count": 3
+				"count": 3,
+				"country": "Sri Lanka",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -472,7 +556,9 @@
 			},
 			"properties": {
 				"name": "Colombia",
-				"count": 2
+				"count": 2,
+				"country": "Colombia",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -483,7 +569,9 @@
 			},
 			"properties": {
 				"name": "Ukraine",
-				"count": 1
+				"count": 1,
+				"country": "Ukraine",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -494,7 +582,9 @@
 			},
 			"properties": {
 				"name": "Timor-Leste",
-				"count": 2
+				"count": 2,
+				"country": "Timor-Leste",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -505,7 +595,9 @@
 			},
 			"properties": {
 				"name": "Nepal",
-				"count": 3
+				"count": 3,
+				"country": "Nepal",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -516,7 +608,9 @@
 			},
 			"properties": {
 				"name": "Saudi Arabia",
-				"count": 2
+				"count": 2,
+				"country": "Saudi Arabia",
+				"region": "Middle East & North Africa"
 			}
 		},
 		{
@@ -527,7 +621,9 @@
 			},
 			"properties": {
 				"name": "Zimbabwe",
-				"count": 1
+				"count": 1,
+				"country": "Zimbabwe",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -538,7 +634,9 @@
 			},
 			"properties": {
 				"name": "South Africa",
-				"count": 2
+				"count": 2,
+				"country": "South Africa",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -549,7 +647,9 @@
 			},
 			"properties": {
 				"name": "Fiji",
-				"count": 3
+				"count": 3,
+				"country": "Fiji",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -560,7 +660,9 @@
 			},
 			"properties": {
 				"name": "Albania",
-				"count": 1
+				"count": 1,
+				"country": "Albania",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -571,7 +673,9 @@
 			},
 			"properties": {
 				"name": "Sweden",
-				"count": 1
+				"count": 1,
+				"country": "Sweden",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -582,7 +686,9 @@
 			},
 			"properties": {
 				"name": "Russian Federation",
-				"count": 1
+				"count": 1,
+				"country": "Russia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -593,7 +699,9 @@
 			},
 			"properties": {
 				"name": "Pakistan",
-				"count": 2
+				"count": 2,
+				"country": "Pakistan",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -604,7 +712,9 @@
 			},
 			"properties": {
 				"name": "Hong Kong",
-				"count": 1
+				"count": 1,
+				"country": "Hong Kong",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -615,7 +725,9 @@
 			},
 			"properties": {
 				"name": "Malawi",
-				"count": 2
+				"count": 2,
+				"country": "Malawi",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -626,7 +738,9 @@
 			},
 			"properties": {
 				"name": "Indonesia",
-				"count": 3
+				"count": 3,
+				"country": "Indonesia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -637,7 +751,9 @@
 			},
 			"properties": {
 				"name": "Congo, The Democratic Republic of the",
-				"count": 1
+				"count": 1,
+				"country": "Dem. Rep. Congo",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -648,7 +764,9 @@
 			},
 			"properties": {
 				"name": "Kenya",
-				"count": 1
+				"count": 1,
+				"country": "Kenya",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -659,7 +777,9 @@
 			},
 			"properties": {
 				"name": "Serbia",
-				"count": 1
+				"count": 1,
+				"country": "Serbia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -670,7 +790,9 @@
 			},
 			"properties": {
 				"name": "Mexico",
-				"count": 1
+				"count": 1,
+				"country": "Mexico",
+				"region": "Latin America & Caribbean"
 			}
 		}
 	]

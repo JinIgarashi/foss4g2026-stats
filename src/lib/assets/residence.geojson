@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-06-21T03:41:31.015Z",
+	"created_at": "2026-06-21T03:59:48.765Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -10,7 +10,9 @@
 			},
 			"properties": {
 				"name": "Bansud, Philippines",
-				"count": 1
+				"count": 1,
+				"country": "Philippines",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -21,7 +23,9 @@
 			},
 			"properties": {
 				"name": "Quezon City, Philippines",
-				"count": 3
+				"count": 3,
+				"country": "Philippines",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -32,7 +36,9 @@
 			},
 			"properties": {
 				"name": "Caucaia, Brazil",
-				"count": 1
+				"count": 1,
+				"country": "Brazil",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -43,7 +49,9 @@
 			},
 			"properties": {
 				"name": "Hsinchu",
-				"count": 1
+				"count": 1,
+				"country": "Taiwan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -54,7 +62,9 @@
 			},
 			"properties": {
 				"name": "Melbourne, Australia",
-				"count": 5
+				"count": 5,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -65,7 +75,9 @@
 			},
 			"properties": {
 				"name": "Perth, Australia, Perth",
-				"count": 2
+				"count": 2,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -76,7 +88,9 @@
 			},
 			"properties": {
 				"name": "Hobart, Australia",
-				"count": 1
+				"count": 1,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -87,7 +101,9 @@
 			},
 			"properties": {
 				"name": "Kuala Lumpur, Malaysia",
-				"count": 1
+				"count": 1,
+				"country": "Malaysia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -98,7 +114,9 @@
 			},
 			"properties": {
 				"name": "Sibiu",
-				"count": 1
+				"count": 1,
+				"country": "Romania",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -109,7 +127,9 @@
 			},
 			"properties": {
 				"name": "Prague",
-				"count": 1
+				"count": 1,
+				"country": "Czechia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -120,7 +140,9 @@
 			},
 			"properties": {
 				"name": "Fremantle, Australia",
-				"count": 2
+				"count": 2,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -131,7 +153,9 @@
 			},
 			"properties": {
 				"name": "London, London, UK",
-				"count": 2
+				"count": 2,
+				"country": "United Kingdom",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -142,7 +166,9 @@
 			},
 			"properties": {
 				"name": "Balaruc les bains, FRANCE",
-				"count": 1
+				"count": 1,
+				"country": "France",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -153,7 +179,9 @@
 			},
 			"properties": {
 				"name": "Copenhagen, Denmark",
-				"count": 1
+				"count": 1,
+				"country": "Denmark",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -164,7 +192,9 @@
 			},
 			"properties": {
 				"name": "Warsaw, Poland",
-				"count": 2
+				"count": 2,
+				"country": "Poland",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -175,7 +205,9 @@
 			},
 			"properties": {
 				"name": "Heidelberg, Heidelberg, Germany",
-				"count": 2
+				"count": 2,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -186,7 +218,9 @@
 			},
 			"properties": {
 				"name": "Železniki, Slovenia",
-				"count": 1
+				"count": 1,
+				"country": "Slovenia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -197,7 +231,9 @@
 			},
 			"properties": {
 				"name": "Bruxelles, Brussels, Belgium",
-				"count": 2
+				"count": 2,
+				"country": "Belgium",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -208,7 +244,9 @@
 			},
 			"properties": {
 				"name": "Bristol, UK",
-				"count": 1
+				"count": 1,
+				"country": "United Kingdom",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -219,7 +257,9 @@
 			},
 			"properties": {
 				"name": "Jackson, New Hampshire, USA",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -230,7 +270,9 @@
 			},
 			"properties": {
 				"name": "Denver, Colorado",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -241,7 +283,9 @@
 			},
 			"properties": {
 				"name": "Fairbanks, Alaska, Fairbanks, USA, Fairbanks, United States of America",
-				"count": 3
+				"count": 3,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -252,7 +296,9 @@
 			},
 			"properties": {
 				"name": "和歌山県",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -263,7 +309,9 @@
 			},
 			"properties": {
 				"name": "Iowa City, Iowa, USA",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -274,7 +322,9 @@
 			},
 			"properties": {
 				"name": "Bend, Oregon",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -285,7 +335,9 @@
 			},
 			"properties": {
 				"name": "New York, NY, New York City, United States",
-				"count": 2
+				"count": 2,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -296,7 +348,9 @@
 			},
 			"properties": {
 				"name": "Philadelphia, US",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -307,7 +361,9 @@
 			},
 			"properties": {
 				"name": "Ottawa, Canada",
-				"count": 3
+				"count": 3,
+				"country": "Canada",
+				"region": "North America"
 			}
 		},
 		{
@@ -318,7 +374,9 @@
 			},
 			"properties": {
 				"name": "Vancouver, Canada",
-				"count": 1
+				"count": 1,
+				"country": "Canada",
+				"region": "North America"
 			}
 		},
 		{
@@ -329,7 +387,9 @@
 			},
 			"properties": {
 				"name": "Hyogo Japan, Hyogo, Japan, HYOGO",
-				"count": 3
+				"count": 3,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -340,7 +400,9 @@
 			},
 			"properties": {
 				"name": "Kagoshima, Japan, Kagoshima",
-				"count": 2
+				"count": 2,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -351,7 +413,9 @@
 			},
 			"properties": {
 				"name": "Cairo, Egypt",
-				"count": 1
+				"count": 1,
+				"country": "Egypt",
+				"region": "Middle East & North Africa"
 			}
 		},
 		{
@@ -362,7 +426,9 @@
 			},
 			"properties": {
 				"name": "Gonzalez Catan, Buenos Aires",
-				"count": 1
+				"count": 1,
+				"country": "Argentina",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -373,7 +439,9 @@
 			},
 			"properties": {
 				"name": "Chiba, Chiba, Japan, 千葉県",
-				"count": 8
+				"count": 8,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -384,7 +452,9 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan",
-				"count": 30
+				"count": 30,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -395,7 +465,9 @@
 			},
 			"properties": {
 				"name": "Buzău, România",
-				"count": 2
+				"count": 2,
+				"country": "Romania",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -406,7 +478,9 @@
 			},
 			"properties": {
 				"name": "Bærum, Norway",
-				"count": 1
+				"count": 1,
+				"country": "Norway",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -417,7 +491,9 @@
 			},
 			"properties": {
 				"name": "Jevnaker, Norway",
-				"count": 1
+				"count": 1,
+				"country": "Norway",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -428,7 +504,9 @@
 			},
 			"properties": {
 				"name": "Oslo, Norway, Oslo",
-				"count": 4
+				"count": 4,
+				"country": "Norway",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -439,7 +517,9 @@
 			},
 			"properties": {
 				"name": "Bangkok, Thailand, Bangkok,Thailand, Bankok, Thailand, Bangkok",
-				"count": 7
+				"count": 7,
+				"country": "Thailand",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -450,7 +530,9 @@
 			},
 			"properties": {
 				"name": "Wheal Rose, Cornwall",
-				"count": 1
+				"count": 1,
+				"country": "United Kingdom",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -461,7 +543,9 @@
 			},
 			"properties": {
 				"name": "Birmingham, UK",
-				"count": 1
+				"count": 1,
+				"country": "United Kingdom",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -472,7 +556,9 @@
 			},
 			"properties": {
 				"name": "Paris, France",
-				"count": 2
+				"count": 2,
+				"country": "France",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -483,7 +569,9 @@
 			},
 			"properties": {
 				"name": "Ellensburg, USA",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -494,7 +582,9 @@
 			},
 			"properties": {
 				"name": "Taipei, Taiwan",
-				"count": 1
+				"count": 1,
+				"country": "Taiwan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -505,7 +595,9 @@
 			},
 			"properties": {
 				"name": "Gouda, The Netherlands",
-				"count": 1
+				"count": 1,
+				"country": "Netherlands",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -516,7 +608,9 @@
 			},
 			"properties": {
 				"name": "Taguig City, Philippines",
-				"count": 1
+				"count": 1,
+				"country": "Philippines",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -527,7 +621,9 @@
 			},
 			"properties": {
 				"name": "Ljubljana, Slovenia, Ljubljana",
-				"count": 8
+				"count": 8,
+				"country": "Slovenia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -538,7 +634,9 @@
 			},
 			"properties": {
 				"name": "KOLSÅS",
-				"count": 1
+				"count": 1,
+				"country": "Norway",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -549,7 +647,9 @@
 			},
 			"properties": {
 				"name": "Tartu, Estonia",
-				"count": 4
+				"count": 4,
+				"country": "Estonia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -560,7 +660,9 @@
 			},
 			"properties": {
 				"name": "Toronto, Canada",
-				"count": 1
+				"count": 1,
+				"country": "Canada",
+				"region": "North America"
 			}
 		},
 		{
@@ -571,7 +673,9 @@
 			},
 			"properties": {
 				"name": "Lisbon, Portugal",
-				"count": 3
+				"count": 3,
+				"country": "Portugal",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -582,7 +686,9 @@
 			},
 			"properties": {
 				"name": "Zanzibar",
-				"count": 1
+				"count": 1,
+				"country": "Tanzania",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -593,7 +699,9 @@
 			},
 			"properties": {
 				"name": "Victoria, Canada",
-				"count": 1
+				"count": 1,
+				"country": "Canada",
+				"region": "North America"
 			}
 		},
 		{
@@ -604,7 +712,9 @@
 			},
 			"properties": {
 				"name": "Kobe, Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -615,7 +725,9 @@
 			},
 			"properties": {
 				"name": "Sapporo, Japan, Hokkaido, Sapporo",
-				"count": 6
+				"count": 6,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -626,7 +738,9 @@
 			},
 			"properties": {
 				"name": "Osaka, Japan, osaka,japan, Osaka, JAPAN",
-				"count": 5
+				"count": 5,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -637,7 +751,9 @@
 			},
 			"properties": {
 				"name": "Ishikawa Prefecture, Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -648,7 +764,9 @@
 			},
 			"properties": {
 				"name": "Buffalo, New York State, United States, Buffalo, USA",
-				"count": 2
+				"count": 2,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -659,7 +777,9 @@
 			},
 			"properties": {
 				"name": "Laax",
-				"count": 1
+				"count": 1,
+				"country": "Switzerland",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -670,7 +790,9 @@
 			},
 			"properties": {
 				"name": "Littleport, UK",
-				"count": 1
+				"count": 1,
+				"country": "United Kingdom",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -681,7 +803,9 @@
 			},
 			"properties": {
 				"name": "Whanganui, New Zealand",
-				"count": 1
+				"count": 1,
+				"country": "New Zealand",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -692,7 +816,9 @@
 			},
 			"properties": {
 				"name": "Wageningen",
-				"count": 1
+				"count": 1,
+				"country": "Netherlands",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -703,7 +829,9 @@
 			},
 			"properties": {
 				"name": "Seoul, South Korea, Seoul, Seoul, Korea",
-				"count": 9
+				"count": 9,
+				"country": "South Korea",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -714,7 +842,9 @@
 			},
 			"properties": {
 				"name": "Asuncion, Paraguay, Asunción, Paraguay",
-				"count": 2
+				"count": 2,
+				"country": "Paraguay",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -725,7 +855,9 @@
 			},
 			"properties": {
 				"name": "Berlin, Germany",
-				"count": 6
+				"count": 6,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -736,7 +868,9 @@
 			},
 			"properties": {
 				"name": "Kamagawa, Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -747,7 +881,9 @@
 			},
 			"properties": {
 				"name": "Seongnam city, South Korea, Seongnam, South Korea",
-				"count": 2
+				"count": 2,
+				"country": "South Korea",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -758,7 +894,9 @@
 			},
 			"properties": {
 				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本",
-				"count": 7
+				"count": 7,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -769,7 +907,9 @@
 			},
 			"properties": {
 				"name": "JAPAN, Japan",
-				"count": 2
+				"count": 2,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -780,7 +920,9 @@
 			},
 			"properties": {
 				"name": "Aichi, Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -791,7 +933,9 @@
 			},
 			"properties": {
 				"name": "Hiroshima, japan, Hiroshima, Japan, Hiroshima",
-				"count": 8
+				"count": 8,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -802,7 +946,9 @@
 			},
 			"properties": {
 				"name": "Singapore",
-				"count": 2
+				"count": 2,
+				"country": "Singapore",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -813,7 +959,9 @@
 			},
 			"properties": {
 				"name": "Neuchâtel, Switzerland",
-				"count": 1
+				"count": 1,
+				"country": "Switzerland",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -824,7 +972,9 @@
 			},
 			"properties": {
 				"name": "Canberra City",
-				"count": 1
+				"count": 1,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -835,7 +985,9 @@
 			},
 			"properties": {
 				"name": "Montpellier, France, Montpellier",
-				"count": 2
+				"count": 2,
+				"country": "France",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -846,7 +998,9 @@
 			},
 			"properties": {
 				"name": "Nagano, Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -857,7 +1011,9 @@
 			},
 			"properties": {
 				"name": "Toyo",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -868,7 +1024,9 @@
 			},
 			"properties": {
 				"name": "Toulouse, France",
-				"count": 2
+				"count": 2,
+				"country": "France",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -879,7 +1037,9 @@
 			},
 			"properties": {
 				"name": "Fornebu, Norway",
-				"count": 1
+				"count": 1,
+				"country": "Norway",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -890,7 +1050,9 @@
 			},
 			"properties": {
 				"name": "KhonKaen Thailand",
-				"count": 2
+				"count": 2,
+				"country": "Thailand",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -901,7 +1063,9 @@
 			},
 			"properties": {
 				"name": "Ubon Ratchathani, Thailand",
-				"count": 1
+				"count": 1,
+				"country": "Thailand",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -912,7 +1076,9 @@
 			},
 			"properties": {
 				"name": "gunma",
-				"count": 2
+				"count": 2,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -923,7 +1089,9 @@
 			},
 			"properties": {
 				"name": "Lagos, Nigeria, Lagos",
-				"count": 2
+				"count": 2,
+				"country": "Nigeria",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -934,7 +1102,9 @@
 			},
 			"properties": {
 				"name": "Zaandijk, The Netherlands",
-				"count": 1
+				"count": 1,
+				"country": "Netherlands",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -945,7 +1115,9 @@
 			},
 			"properties": {
 				"name": "Delhi, India",
-				"count": 2
+				"count": 2,
+				"country": "India",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -956,7 +1128,9 @@
 			},
 			"properties": {
 				"name": "Okayama,Japan, Okayama, Japan",
-				"count": 3
+				"count": 3,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -967,7 +1141,9 @@
 			},
 			"properties": {
 				"name": "Oita, JAPAN",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -978,7 +1154,9 @@
 			},
 			"properties": {
 				"name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa, 神奈川県",
-				"count": 12
+				"count": 12,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -989,7 +1167,9 @@
 			},
 			"properties": {
 				"name": "France",
-				"count": 1
+				"count": 1,
+				"country": "France",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1000,7 +1180,9 @@
 			},
 			"properties": {
 				"name": "Barcelona, Spain",
-				"count": 3
+				"count": 3,
+				"country": "Spain",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1011,7 +1193,9 @@
 			},
 			"properties": {
 				"name": "Pato Branco - Brazil, Pato Branco, Brazil",
-				"count": 2
+				"count": 2,
+				"country": "Brazil",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -1022,7 +1206,9 @@
 			},
 			"properties": {
 				"name": "Hilo, United States",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -1033,7 +1219,9 @@
 			},
 			"properties": {
 				"name": "São Paulo, Brazil, São Paulo",
-				"count": 2
+				"count": 2,
+				"country": "Brazil",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -1044,7 +1232,9 @@
 			},
 			"properties": {
 				"name": "Kingston, Jamaica",
-				"count": 1
+				"count": 1,
+				"country": "Jamaica",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -1055,7 +1245,9 @@
 			},
 			"properties": {
 				"name": "Enschede, The Netherlands, Enschede, Netherlands",
-				"count": 2
+				"count": 2,
+				"country": "Netherlands",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1066,7 +1258,9 @@
 			},
 			"properties": {
 				"name": "Varaždin",
-				"count": 1
+				"count": 1,
+				"country": "Croatia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1077,7 +1271,9 @@
 			},
 			"properties": {
 				"name": "The United States",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -1088,7 +1284,9 @@
 			},
 			"properties": {
 				"name": "Thailand",
-				"count": 1
+				"count": 1,
+				"country": "Thailand",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1099,7 +1297,9 @@
 			},
 			"properties": {
 				"name": "Mueang Phitsanulok, Thailand",
-				"count": 1
+				"count": 1,
+				"country": "Thailand",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1110,7 +1310,9 @@
 			},
 			"properties": {
 				"name": "Mueang Phitsanulok",
-				"count": 1
+				"count": 1,
+				"country": "Thailand",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1121,7 +1323,9 @@
 			},
 			"properties": {
 				"name": "Helsinki, Finland",
-				"count": 1
+				"count": 1,
+				"country": "Finland",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1132,7 +1336,9 @@
 			},
 			"properties": {
 				"name": "Presov, Slovakia",
-				"count": 1
+				"count": 1,
+				"country": "Slovakia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1143,7 +1349,9 @@
 			},
 			"properties": {
 				"name": "Glasgow, Scotland",
-				"count": 1
+				"count": 1,
+				"country": "United Kingdom",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1154,7 +1362,9 @@
 			},
 			"properties": {
 				"name": "Marikina, Philippines",
-				"count": 1
+				"count": 1,
+				"country": "Philippines",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1165,7 +1375,9 @@
 			},
 			"properties": {
 				"name": "Kurunegala,  Sri Lanka",
-				"count": 1
+				"count": 1,
+				"country": "Sri Lanka",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -1176,7 +1388,9 @@
 			},
 			"properties": {
 				"name": "Broomfield, Colorado, USA",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -1187,7 +1401,9 @@
 			},
 			"properties": {
 				"name": "San Francisco, USA, San Francisco, California",
-				"count": 2
+				"count": 2,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -1198,7 +1414,9 @@
 			},
 			"properties": {
 				"name": "Bulacan, Philippines",
-				"count": 1
+				"count": 1,
+				"country": "Philippines",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1209,7 +1427,9 @@
 			},
 			"properties": {
 				"name": "Leipzig, Germany",
-				"count": 2
+				"count": 2,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1220,7 +1440,9 @@
 			},
 			"properties": {
 				"name": "Gauting",
-				"count": 1
+				"count": 1,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1231,7 +1453,9 @@
 			},
 			"properties": {
 				"name": "Zürich, Switzerland, Zurich, Switzerland",
-				"count": 2
+				"count": 2,
+				"country": "Switzerland",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1242,7 +1466,9 @@
 			},
 			"properties": {
 				"name": "Reykjavik, Iceland, Reykjavík, Iceland",
-				"count": 2
+				"count": 2,
+				"country": "Iceland",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1253,7 +1479,9 @@
 			},
 			"properties": {
 				"name": "Christchurch, New Zealand",
-				"count": 5
+				"count": 5,
+				"country": "New Zealand",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1264,7 +1492,9 @@
 			},
 			"properties": {
 				"name": "Dili",
-				"count": 2
+				"count": 2,
+				"country": "Timor-Leste",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1275,7 +1505,9 @@
 			},
 			"properties": {
 				"name": "Bangalore, India, Bengaluru, India",
-				"count": 7
+				"count": 7,
+				"country": "India",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -1286,7 +1518,9 @@
 			},
 			"properties": {
 				"name": "France, Vannes",
-				"count": 1
+				"count": 1,
+				"country": "France",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1297,7 +1531,9 @@
 			},
 			"properties": {
 				"name": "Brno, Czechia",
-				"count": 1
+				"count": 1,
+				"country": "Czechia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1308,7 +1544,9 @@
 			},
 			"properties": {
 				"name": "Tallinn, Estonia",
-				"count": 1
+				"count": 1,
+				"country": "Estonia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1319,7 +1557,9 @@
 			},
 			"properties": {
 				"name": "Sargans, Switzerland",
-				"count": 1
+				"count": 1,
+				"country": "Switzerland",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1330,7 +1570,9 @@
 			},
 			"properties": {
 				"name": "Milan, Italy",
-				"count": 2
+				"count": 2,
+				"country": "Italy",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1341,7 +1583,9 @@
 			},
 			"properties": {
 				"name": "Riyadh, Riyadh, Kingdom of Saudi Arabia, Riyadh, Saudi Arabia",
-				"count": 3
+				"count": 3,
+				"country": "Saudi Arabia",
+				"region": "Middle East & North Africa"
 			}
 		},
 		{
@@ -1352,7 +1596,9 @@
 			},
 			"properties": {
 				"name": "Los Angeles, United States of America",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -1363,7 +1609,9 @@
 			},
 			"properties": {
 				"name": "Harare, Zimbabwe",
-				"count": 1
+				"count": 1,
+				"country": "Zimbabwe",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -1374,7 +1622,9 @@
 			},
 			"properties": {
 				"name": "Zagreb, Croatia, Zagreb",
-				"count": 5
+				"count": 5,
+				"country": "Croatia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1385,7 +1635,9 @@
 			},
 			"properties": {
 				"name": "Port Harcourt,Nigeria",
-				"count": 1
+				"count": 1,
+				"country": "Nigeria",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -1396,7 +1648,9 @@
 			},
 			"properties": {
 				"name": "Lyon, France",
-				"count": 1
+				"count": 1,
+				"country": "France",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1407,7 +1661,9 @@
 			},
 			"properties": {
 				"name": "Oxford, United Kingdom",
-				"count": 1
+				"count": 1,
+				"country": "United Kingdom",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1418,7 +1674,9 @@
 			},
 			"properties": {
 				"name": "Pretoria, South Africa",
-				"count": 2
+				"count": 2,
+				"country": "South Africa",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -1429,7 +1687,9 @@
 			},
 			"properties": {
 				"name": "Aveiro, Portugal",
-				"count": 1
+				"count": 1,
+				"country": "Portugal",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1440,7 +1700,9 @@
 			},
 			"properties": {
 				"name": "Seattle, USA",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -1451,7 +1713,9 @@
 			},
 			"properties": {
 				"name": "Boston, United States",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -1462,7 +1726,9 @@
 			},
 			"properties": {
 				"name": "Okinawa, Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1473,7 +1739,9 @@
 			},
 			"properties": {
 				"name": "Suva, Suva, Fiji",
-				"count": 3
+				"count": 3,
+				"country": "Fiji",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1484,7 +1752,9 @@
 			},
 			"properties": {
 				"name": "Tsukuba, Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1495,7 +1765,9 @@
 			},
 			"properties": {
 				"name": "Gyeonggi-do, Korea",
-				"count": 1
+				"count": 1,
+				"country": "South Korea",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1506,7 +1778,9 @@
 			},
 			"properties": {
 				"name": "Brighton-le-sands",
-				"count": 1
+				"count": 1,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1517,7 +1791,9 @@
 			},
 			"properties": {
 				"name": "İstanbul, Türkiye",
-				"count": 1
+				"count": 1,
+				"country": "Turkey",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1528,7 +1804,9 @@
 			},
 			"properties": {
 				"name": "Hyderabad, India",
-				"count": 2
+				"count": 2,
+				"country": "India",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -1539,7 +1817,9 @@
 			},
 			"properties": {
 				"name": "Selangor, Malaysia",
-				"count": 1
+				"count": 1,
+				"country": "Malaysia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1550,7 +1830,9 @@
 			},
 			"properties": {
 				"name": "Flintevej 35",
-				"count": 1
+				"count": 1,
+				"country": "Denmark",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1561,7 +1843,9 @@
 			},
 			"properties": {
 				"name": "Sejong, Republic of Korea",
-				"count": 1
+				"count": 1,
+				"country": "South Korea",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1572,7 +1856,9 @@
 			},
 			"properties": {
 				"name": "Valencia, Spain",
-				"count": 1
+				"count": 1,
+				"country": "Spain",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1583,7 +1869,9 @@
 			},
 			"properties": {
 				"name": "Uithoorn, Netherlands",
-				"count": 1
+				"count": 1,
+				"country": "Netherlands",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1594,7 +1882,9 @@
 			},
 			"properties": {
 				"name": "Würzburg, Germany",
-				"count": 1
+				"count": 1,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1605,7 +1895,9 @@
 			},
 			"properties": {
 				"name": "Billesholm, Sweden",
-				"count": 1
+				"count": 1,
+				"country": "Sweden",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1616,7 +1908,9 @@
 			},
 			"properties": {
 				"name": "Nelson, Canada",
-				"count": 1
+				"count": 1,
+				"country": "Canada",
+				"region": "North America"
 			}
 		},
 		{
@@ -1627,7 +1921,9 @@
 			},
 			"properties": {
 				"name": "Colorado, USA",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -1638,7 +1934,9 @@
 			},
 			"properties": {
 				"name": "Kathmandu",
-				"count": 1
+				"count": 1,
+				"country": "Nepal",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -1649,7 +1947,9 @@
 			},
 			"properties": {
 				"name": "Mumbai, India",
-				"count": 1
+				"count": 1,
+				"country": "India",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -1660,7 +1960,9 @@
 			},
 			"properties": {
 				"name": "PETALING JAYA",
-				"count": 1
+				"count": 1,
+				"country": "Malaysia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1671,7 +1973,9 @@
 			},
 			"properties": {
 				"name": "Pune, India",
-				"count": 1
+				"count": 1,
+				"country": "India",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -1682,7 +1986,9 @@
 			},
 			"properties": {
 				"name": "Novisad, Servia",
-				"count": 1
+				"count": 1,
+				"country": "Serbia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1693,7 +1999,9 @@
 			},
 			"properties": {
 				"name": "Sydney, Australia",
-				"count": 1
+				"count": 1,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1704,7 +2012,9 @@
 			},
 			"properties": {
 				"name": "Mashiko, Tochigi, Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1715,7 +2025,9 @@
 			},
 			"properties": {
 				"name": "Malawi, Zomba, Zomba, Malawi",
-				"count": 2
+				"count": 2,
+				"country": "Malawi",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -1726,7 +2038,9 @@
 			},
 			"properties": {
 				"name": "Yogyakarta, Indonesia",
-				"count": 1
+				"count": 1,
+				"country": "Indonesia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1737,7 +2051,9 @@
 			},
 			"properties": {
 				"name": "Liverpool, United Kingdom",
-				"count": 1
+				"count": 1,
+				"country": "United Kingdom",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1748,7 +2064,9 @@
 			},
 			"properties": {
 				"name": "Hokkaido, Nagano",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1759,7 +2077,9 @@
 			},
 			"properties": {
 				"name": "Hokkaido, Japan",
-				"count": 4
+				"count": 4,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1770,7 +2090,9 @@
 			},
 			"properties": {
 				"name": "kinshasa",
-				"count": 1
+				"count": 1,
+				"country": "Dem. Rep. Congo",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -1781,7 +2103,9 @@
 			},
 			"properties": {
 				"name": "Nara, Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1792,7 +2116,9 @@
 			},
 			"properties": {
 				"name": "Arlington, United States",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -1803,7 +2129,9 @@
 			},
 			"properties": {
 				"name": "Nairobi, Kenya",
-				"count": 1
+				"count": 1,
+				"country": "Kenya",
+				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -1814,7 +2142,9 @@
 			},
 			"properties": {
 				"name": "Anyang, South Korea",
-				"count": 1
+				"count": 1,
+				"country": "South Korea",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1825,7 +2155,9 @@
 			},
 			"properties": {
 				"name": "Shizuoka, Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1836,7 +2168,9 @@
 			},
 			"properties": {
 				"name": "dhulikhel",
-				"count": 1
+				"count": 1,
+				"country": "Nepal",
+				"region": "South Asia"
 			}
 		},
 		{
@@ -1847,7 +2181,9 @@
 			},
 			"properties": {
 				"name": "Port Hedland, Australia",
-				"count": 2
+				"count": 2,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1858,7 +2194,9 @@
 			},
 			"properties": {
 				"name": "Hokkaido",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1869,7 +2207,9 @@
 			},
 			"properties": {
 				"name": "Purworejo, Indonesia",
-				"count": 1
+				"count": 1,
+				"country": "Indonesia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1880,7 +2220,9 @@
 			},
 			"properties": {
 				"name": "Niigata, Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1891,7 +2233,9 @@
 			},
 			"properties": {
 				"name": "Noumea",
-				"count": 1
+				"count": 1,
+				"country": "New Caledonia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1902,7 +2246,9 @@
 			},
 			"properties": {
 				"name": "千葉県柏市",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1913,7 +2259,9 @@
 			},
 			"properties": {
 				"name": "Müncheberg",
-				"count": 1
+				"count": 1,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1924,7 +2272,9 @@
 			},
 			"properties": {
 				"name": "Porto Alegre, Brazil",
-				"count": 1
+				"count": 1,
+				"country": "Brazil",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -1935,7 +2285,9 @@
 			},
 			"properties": {
 				"name": "Nova Iguaçu",
-				"count": 1
+				"count": 1,
+				"country": "Brazil",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -1946,7 +2298,9 @@
 			},
 			"properties": {
 				"name": "Florianópolis/Santa Catarina",
-				"count": 1
+				"count": 1,
+				"country": "Brazil",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -1957,7 +2311,9 @@
 			},
 			"properties": {
 				"name": "SKUI, Norway",
-				"count": 1
+				"count": 1,
+				"country": "Norway",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1968,7 +2324,9 @@
 			},
 			"properties": {
 				"name": "Yokohama,Japan, Yokohama, Japan",
-				"count": 2
+				"count": 2,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -1979,7 +2337,9 @@
 			},
 			"properties": {
 				"name": "Italy",
-				"count": 2
+				"count": 2,
+				"country": "Italy",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -1990,7 +2350,9 @@
 			},
 			"properties": {
 				"name": "Fukutsu",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -2001,7 +2363,9 @@
 			},
 			"properties": {
 				"name": "Dublin, California",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -2012,7 +2376,9 @@
 			},
 			"properties": {
 				"name": "Kumamoto Japan",
-				"count": 1
+				"count": 1,
+				"country": "China",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -2023,7 +2389,9 @@
 			},
 			"properties": {
 				"name": "Hanover, NH, USA",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		},
 		{
@@ -2034,7 +2402,9 @@
 			},
 			"properties": {
 				"name": "Broome, Australia",
-				"count": 1
+				"count": 1,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -2045,7 +2415,9 @@
 			},
 			"properties": {
 				"name": "Roma",
-				"count": 1
+				"count": 1,
+				"country": "Italy",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -2056,7 +2428,9 @@
 			},
 			"properties": {
 				"name": "São José dos Campos, Brasil",
-				"count": 1
+				"count": 1,
+				"country": "Brazil",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -2067,7 +2441,9 @@
 			},
 			"properties": {
 				"name": "Belgrade, Serbia",
-				"count": 1
+				"count": 1,
+				"country": "Serbia",
+				"region": "Europe & Central Asia"
 			}
 		},
 		{
@@ -2078,7 +2454,9 @@
 			},
 			"properties": {
 				"name": "Fukuoka prefecture,Japan, Fukuoka",
-				"count": 5
+				"count": 5,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -2089,7 +2467,9 @@
 			},
 			"properties": {
 				"name": "Naucalpan, edo de Mexico",
-				"count": 1
+				"count": 1,
+				"country": "Mexico",
+				"region": "Latin America & Caribbean"
 			}
 		},
 		{
@@ -2100,7 +2480,9 @@
 			},
 			"properties": {
 				"name": "Kumamoto,Japan",
-				"count": 1
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -2111,7 +2493,9 @@
 			},
 			"properties": {
 				"name": "Springfield, Illinois",
-				"count": 1
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		}
 	]

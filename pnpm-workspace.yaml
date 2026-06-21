@@ -1,5 +1,6 @@
 allowBuilds:
   core-js: false
+  duckdb: true
   esbuild: false
 onlyBuiltDependencies:
   - '@tailwindcss/oxide'

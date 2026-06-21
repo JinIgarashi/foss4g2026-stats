@@ -16,8 +16,14 @@
 	type LayerType = 'residence' | 'nationality';
 
 	interface Props {
-		residenceData?: GeoJSON.FeatureCollection<GeoJSON.Point, { count: number; name?: string }>;
-		nationalityData?: GeoJSON.FeatureCollection<GeoJSON.Point, { count: number; name?: string }>;
+		residenceData?: GeoJSON.FeatureCollection<
+			GeoJSON.Point,
+			{ count: number; name?: string; country?: string; region?: string }
+		>;
+		nationalityData?: GeoJSON.FeatureCollection<
+			GeoJSON.Point,
+			{ count: number; name?: string; country?: string; region?: string }
+		>;
 		activeLayer?: LayerType;
 	}
 
@@ -32,10 +38,12 @@
 	let drawerOpen = $state(false);
 	let isPreparing = $state(false);
 	let mapExtent = $state<[number, number, number, number] | null>(null);
-	let preparedData = $state<{ id: string; rank: number; name: string; count: number }[]>([]);
+	let preparedData = $state<
+		{ id: string; rank: number; name: string; count: number; country: string; region: string }[]
+	>([]);
 	let selectedBar = $state<{ name: string; count: number } | null>(null);
 	let viewMode = $state<'chart' | 'table'>('chart');
-	let sortKey = $state<'name' | 'count'>('count');
+	let sortKey = $state<'name' | 'country' | 'region' | 'count'>('count');
 	let sortDirection = $state<'asc' | 'desc'>('desc');
 
 	const TOP_N = 20;
@@ -129,7 +137,7 @@
 		return label.slice(0, 14);
 	};
 
-	const handleSort = (key: 'name' | 'count') => {
+	const handleSort = (key: 'name' | 'country' | 'region' | 'count') => {
 		if (sortKey === key) {
 			sortDirection = sortDirection === 'desc' ? 'asc' : 'desc';
 			return;
@@ -139,9 +147,16 @@
 		sortDirection = key === 'count' ? 'desc' : 'asc';
 	};
 
-	const sortIndicator = (key: 'name' | 'count') => {
+	const sortIndicator = (key: 'name' | 'country' | 'region' | 'count') => {
 		if (sortKey !== key) return '';
 		return sortDirection === 'desc' ? '↓' : '↑';
+	};
+
+	const getSortLabel = (key: 'name' | 'country' | 'region' | 'count') => {
+		if (key === 'count') return 'attendee count';
+		if (key === 'country') return 'country';
+		if (key === 'region') return 'region';
+		return 'name';
 	};
 
 	let preparedChartData = $derived(preparedData.slice(0, TOP_N));
@@ -150,6 +165,18 @@
 		[...preparedData].sort((a, b) => {
 			if (sortKey === 'count') {
 				return sortDirection === 'desc' ? b.count - a.count : a.count - b.count;
+			}
+
+			if (sortKey === 'country') {
+				return sortDirection === 'desc'
+					? b.country.localeCompare(a.country)
+					: a.country.localeCompare(b.country);
+			}
+
+			if (sortKey === 'region') {
+				return sortDirection === 'desc'
+					? b.region.localeCompare(a.region)
+					: a.region.localeCompare(b.region);
 			}
 
 			return sortDirection === 'desc' ? b.name.localeCompare(a.name) : a.name.localeCompare(b.name);
@@ -347,7 +374,7 @@
 							<Tabs.Content value="table" class="mt-3 min-h-0 flex-1">
 								<div class="flex h-full min-h-0 flex-col">
 									<p class="mb-2 shrink-0 text-xs text-gray-500">
-										Sorted by {sortKey === 'count' ? 'attendee count' : 'name'} ({sortDirection}): {preparedData.length}
+										Sorted by {getSortLabel(sortKey)} ({sortDirection}): {preparedData.length}
 										rows
 									</p>
 									<div class="table-scroll min-h-0 flex-1 rounded-md border">
@@ -368,6 +395,32 @@
 																	? 'Residence'
 																	: 'Nationality'}{sortIndicator('name')
 																	? ` ${sortIndicator('name')}`
+																	: ''}</span
+															>
+														</button>
+													</Table.Head>
+													<Table.Head class="sticky top-0 z-20 bg-white">
+														<button
+															type="button"
+															onclick={() => handleSort('country')}
+															class="inline-flex cursor-pointer items-center gap-1 text-left"
+														>
+															<span
+																>Country{sortIndicator('country')
+																	? ` ${sortIndicator('country')}`
+																	: ''}</span
+															>
+														</button>
+													</Table.Head>
+													<Table.Head class="sticky top-0 z-20 bg-white">
+														<button
+															type="button"
+															onclick={() => handleSort('region')}
+															class="inline-flex cursor-pointer items-center gap-1 text-left"
+														>
+															<span
+																>Region{sortIndicator('region')
+																	? ` ${sortIndicator('region')}`
 																	: ''}</span
 															>
 														</button>
@@ -395,6 +448,12 @@
 														</Table.Cell>
 														<Table.Cell class="max-w-[320px] truncate" title={row.name}>
 															{row.name}
+														</Table.Cell>
+														<Table.Cell class="max-w-[220px] truncate" title={row.country}>
+															{row.country}
+														</Table.Cell>
+														<Table.Cell class="max-w-[220px] truncate" title={row.region}>
+															{row.region}
 														</Table.Cell>
 														<Table.Cell class="text-right font-semibold">
 															{row.count}

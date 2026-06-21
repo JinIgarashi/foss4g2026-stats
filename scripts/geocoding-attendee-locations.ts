@@ -1,9 +1,11 @@
 import { parse } from 'csv-parse/sync';
+import duckdb from 'duckdb';
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'fs';
 import { join } from 'path';
 
 const DATA_DIR = join(import.meta.dirname, 'data');
 const CACHE_FILE = join(DATA_DIR, 'geocode-cache.json');
+const COUNTRIES_PARQUET_FILE = join(DATA_DIR, 'ne_10m_admin_0_countries.parquet');
 const OUTPUT_DIR = join(import.meta.dirname, '..', 'src', 'lib', 'assets');
 
 const NOMINATIM_BASE = 'https://nominatim.openstreetmap.org/search';
@@ -22,7 +24,178 @@ interface GeoCache {
 interface GeoJSONFeature {
 	type: 'Feature';
 	geometry: { type: 'Point'; coordinates: [number, number] };
-	properties: { name: string; count: number };
+	properties: { name: string; count: number; country?: string; region?: string };
+}
+
+interface PointCountryRegionRow {
+	feature_index: number;
+	country: string | null;
+	region: string | null;
+}
+
+function escapeSqlString(input: string): string {
+	return input.replace(/'/g, "''");
+}
+
+function runSql(conn: duckdb.Database, sql: string): Promise<void> {
+	return new Promise((resolve, reject) => {
+		conn.run(sql, (err) => {
+			if (err) {
+				reject(err);
+				return;
+			}
+			resolve();
+		});
+	});
+}
+
+function allSql<T>(conn: duckdb.Database, sql: string): Promise<T[]> {
+	return new Promise((resolve, reject) => {
+		conn.all(sql, (err: Error | null, rows: unknown) => {
+			if (err) {
+				reject(err);
+				return;
+			}
+			resolve((rows ?? []) as T[]);
+		});
+	});
+}
+
+function closeConnection(conn: duckdb.Database): Promise<void> {
+	return new Promise((resolve, reject) => {
+		conn.close((err) => {
+			if (err) {
+				reject(err);
+				return;
+			}
+			resolve();
+		});
+	});
+}
+
+async function enrichGeoJsonWithCountryAndRegion(features: GeoJSONFeature[]): Promise<void> {
+	if (!existsSync(COUNTRIES_PARQUET_FILE)) {
+		console.warn('Countries parquet file was not found. country/region enrichment skipped.');
+		return;
+	}
+
+	if (features.length === 0) {
+		return;
+	}
+
+	const conn = new duckdb.Database(':memory:');
+
+	try {
+		try {
+			await runSql(conn, 'LOAD spatial;');
+		} catch {
+			await runSql(conn, 'INSTALL spatial;');
+			await runSql(conn, 'LOAD spatial;');
+		}
+
+		await runSql(
+			conn,
+			'CREATE TEMP TABLE points (feature_index INTEGER, name VARCHAR, count INTEGER, lon DOUBLE, lat DOUBLE);'
+		);
+
+		const pointRows = features
+			.map((feature, featureIndex) => {
+				const [lon, lat] = feature.geometry.coordinates;
+				const name = escapeSqlString(feature.properties.name || 'Unknown');
+				const count = Number.isFinite(feature.properties.count) ? feature.properties.count : 0;
+				return `(${featureIndex}, '${name}', ${count}, ${lon}, ${lat})`;
+			})
+			.join(', ');
+
+		await runSql(conn, `INSERT INTO points VALUES ${pointRows};`);
+
+		const parquetPath = escapeSqlString(COUNTRIES_PARQUET_FILE);
+		const pointCountryRegion = await allSql<PointCountryRegionRow>(
+			conn,
+			`
+				WITH countries AS (
+					SELECT
+						NAME,
+						REGION_WB,
+						CASE
+							WHEN TRY_CAST(geometry AS GEOMETRY) IS NOT NULL THEN TRY_CAST(geometry AS GEOMETRY)
+							ELSE ST_GeomFromWKB(CAST(geometry AS BLOB))
+						END AS geom
+					FROM read_parquet('${parquetPath}')
+				),
+				polygon_matches AS (
+					SELECT
+						p.feature_index,
+						c.NAME AS country,
+						c.REGION_WB AS region,
+						1 AS match_priority,
+						CASE
+							WHEN lower(p.name) LIKE '%' || lower(c.NAME) || '%' THEN 0
+							ELSE 1
+						END AS name_bias,
+						0.0 AS centroid_distance,
+						ST_Area(c.geom) AS area
+					FROM points p
+					JOIN countries c ON ST_Intersects(ST_Point(p.lon, p.lat), c.geom)
+				),
+				bbox_matches AS (
+					SELECT
+						p.feature_index,
+						c.NAME AS country,
+						c.REGION_WB AS region,
+						2 AS match_priority,
+						CASE
+							WHEN lower(p.name) LIKE '%' || lower(c.NAME) || '%' THEN 0
+							ELSE 1
+						END AS name_bias,
+						ST_Distance(ST_Point(p.lon, p.lat), ST_Centroid(c.geom)) AS centroid_distance,
+						ST_Area(c.geom) AS area
+					FROM points p
+					JOIN countries c ON ST_Intersects(ST_Point(p.lon, p.lat), ST_Envelope(c.geom))
+					WHERE NOT EXISTS (
+						SELECT 1
+						FROM polygon_matches pm
+						WHERE pm.feature_index = p.feature_index
+					)
+				),
+				candidate_matches AS (
+					SELECT * FROM polygon_matches
+					UNION ALL
+					SELECT * FROM bbox_matches
+				),
+				ranked_matches AS (
+					SELECT
+						p.feature_index,
+						cm.country,
+						cm.region,
+						ROW_NUMBER() OVER (
+							PARTITION BY p.feature_index
+							ORDER BY cm.match_priority, cm.name_bias, cm.centroid_distance, cm.area
+						) AS rank_in_match
+					FROM points p
+					LEFT JOIN candidate_matches cm ON p.feature_index = cm.feature_index
+				)
+				SELECT feature_index, country, region
+				FROM ranked_matches
+				WHERE rank_in_match = 1 OR rank_in_match IS NULL
+				ORDER BY feature_index;
+			`
+		);
+
+		for (const row of pointCountryRegion) {
+			const feature = features[row.feature_index];
+			if (!feature) continue;
+
+			if (row.country) {
+				feature.properties.country = row.country;
+			}
+			if (row.region) {
+				feature.properties.region = row.region;
+			}
+		}
+	} finally {
+		await closeConnection(conn);
+	}
 }
 
 function loadCache(): GeoCache {
@@ -190,6 +363,10 @@ async function main() {
 
 	const residenceFeatures = buildGeoJSON(residenceForGeoJSON);
 	const nationalityFeatures = buildGeoJSON(nationalityGeo);
+
+	console.log('\nAdding country/region attributes with DuckDB spatial intersection...');
+	await enrichGeoJsonWithCountryAndRegion(residenceFeatures.features);
+	await enrichGeoJsonWithCountryAndRegion(nationalityFeatures.features);
 
 	writeFileSync(join(OUTPUT_DIR, 'residence.geojson'), JSON.stringify(residenceFeatures, null, 2));
 	writeFileSync(
