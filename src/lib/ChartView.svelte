@@ -137,9 +137,11 @@
 </script>
 
 <div
-	class="chart-layout grid h-full min-h-0 grid-cols-1 gap-3 overflow-y-auto pb-1 pr-1 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] md:grid-rows-2 md:overflow-hidden md:pb-0 md:pr-0"
+	class={`chart-layout grid h-full min-h-0 grid-cols-1 gap-3 overflow-y-auto pb-1 pr-1 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] lg:grid-rows-2 lg:overflow-hidden lg:pb-0 lg:pr-0 ${showCountryPie ? 'md:grid-cols-2' : ''}`}
 >
-	<Card.Root class="chart-blue-bars flex min-h-90 min-w-0 flex-col py-4 md:row-span-2 md:min-h-0">
+	<Card.Root
+		class={`chart-blue-bars flex min-h-90 min-w-0 flex-col py-4 lg:row-span-2 lg:min-h-0 ${showCountryPie ? 'md:col-span-2 lg:col-auto' : ''}`}
+	>
 		<Card.Header class="px-4">
 			<Card.Title>Top {topN} {activeLayer === 'residence' ? 'Residence' : 'Nationality'}</Card.Title
 			>
@@ -213,7 +215,7 @@
 	</Card.Root>
 
 	{#if showCountryPie}
-		<Card.Root class="flex min-h-70 min-w-0 flex-col py-4 md:min-h-0">
+		<Card.Root class="flex min-h-70 min-w-0 flex-col py-4 lg:min-h-0">
 			<Card.Header class="px-4">
 				<Card.Title>By country (Top 10)</Card.Title>
 				<Card.Description>Attendee share</Card.Description>
@@ -298,7 +300,7 @@
 	{/if}
 
 	<Card.Root
-		class={`flex min-h-70 min-w-0 flex-col py-4 md:min-h-0 ${showCountryPie ? '' : 'md:row-span-2'}`}
+		class={`flex min-h-70 min-w-0 flex-col py-4 lg:min-h-0 ${showCountryPie ? '' : 'lg:row-span-2'}`}
 	>
 		<Card.Header class="px-4">
 			<Card.Title>By region</Card.Title>
