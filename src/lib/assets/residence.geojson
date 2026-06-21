@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-06-20T06:27:31.046Z",
+	"created_at": "2026-06-21T03:41:31.015Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -193,11 +193,11 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [4.3510915, 50.8551025]
+				"coordinates": [4.352493, 50.8467372]
 			},
 			"properties": {
-				"name": "Bruxelles",
-				"count": 1
+				"name": "Bruxelles, Brussels, Belgium",
+				"count": 2
 			}
 		},
 		{
@@ -384,7 +384,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan",
-				"count": 29
+				"count": 30
 			}
 		},
 		{
@@ -468,7 +468,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.3483915, 48.8534951]
+				"coordinates": [2.320041, 48.8588897]
 			},
 			"properties": {
 				"name": "Paris, France",
@@ -501,7 +501,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [4.7106094, 52.0114922]
+				"coordinates": [4.7111221, 52.0181194]
 			},
 			"properties": {
 				"name": "Gouda, The Netherlands",
@@ -615,7 +615,7 @@
 			},
 			"properties": {
 				"name": "Sapporo, Japan, Hokkaido, Sapporo",
-				"count": 5
+				"count": 6
 			}
 		},
 		{
@@ -1018,7 +1018,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-155.1003754, 19.6854458]
+				"coordinates": [-155.08158, 19.7073734]
 			},
 			"properties": {
 				"name": "Hilo, United States",
@@ -1557,17 +1557,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [4.352493, 50.8467372]
-			},
-			"properties": {
-				"name": "Brussels, Belgium",
-				"count": 1
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [127.289, 36.4799999]
 			},
 			"properties": {
@@ -1755,7 +1744,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [141.3596706, 43.1329017]
+				"coordinates": [141.4464748, 42.9858533]
 			},
 			"properties": {
 				"name": "Hokkaido, Nagano",
@@ -1810,7 +1799,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [36.8288509, -1.302398]
+				"coordinates": [36.8172812, -1.2890006]
 			},
 			"properties": {
 				"name": "Nairobi, Kenya",
@@ -2089,7 +2078,7 @@
 			},
 			"properties": {
 				"name": "Fukuoka prefecture,Japan, Fukuoka",
-				"count": 4
+				"count": 5
 			}
 		},
 		{
@@ -2111,6 +2100,17 @@
 			},
 			"properties": {
 				"name": "Kumamoto,Japan",
+				"count": 1
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-89.6439575, 39.7990175]
+			},
+			"properties": {
+				"name": "Springfield, Illinois",
 				"count": 1
 			}
 		}

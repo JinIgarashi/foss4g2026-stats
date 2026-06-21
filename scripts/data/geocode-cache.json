@@ -1,0 +1,1517 @@
+{
+  "Bansud, Philippines": {
+    "lat": 12.8640556,
+    "lon": 121.4555057,
+    "display_name": "Bansud, Oriental Mindoro, Mimaropa, 5210, Philippines"
+  },
+  "Quezon City, Philippines": {
+    "lat": 14.6510546,
+    "lon": 121.0486254,
+    "display_name": "Quezon City, Eastern Manila District, Metro Manila, Philippines"
+  },
+  "Caucaia, Brazil": {
+    "lat": -3.771737,
+    "lon": -38.7905693,
+    "display_name": "Caucaia, Ceará, Região Nordeste, Brasil"
+  },
+  "Hsinchu": {
+    "lat": 24.8066333,
+    "lon": 120.9686833,
+    "display_name": "新竹市, 臺灣"
+  },
+  "Melbourne, Australia": {
+    "lat": -37.8142454,
+    "lon": 144.9631732,
+    "display_name": "Melbourne, Victoria, 3000, Australia"
+  },
+  "Perth, Australia": {
+    "lat": -31.9558967,
+    "lon": 115.8605784,
+    "display_name": "Perth, Western Australia, 6000, Australia"
+  },
+  "Hobart, Australia": {
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "display_name": "Hobart, Tasmania, Australia"
+  },
+  "Kuala Lumpur, Malaysia": {
+    "lat": 3.1516964,
+    "lon": 101.6942371,
+    "display_name": "Kuala Lumpur, Malaysia"
+  },
+  "Sibiu": {
+    "lat": 45.7973912,
+    "lon": 24.1519202,
+    "display_name": "Sibiu, România"
+  },
+  "Prague": {
+    "lat": 50.0874654,
+    "lon": 14.4212535,
+    "display_name": "Praha, Česko"
+  },
+  "Fremantle, Australia": {
+    "lat": -32.0534086,
+    "lon": 115.7586172,
+    "display_name": "Fremantle, Western Australia, 6160, Australia"
+  },
+  "London": {
+    "lat": 51.5074456,
+    "lon": -0.1277653,
+    "display_name": "Greater London, England, United Kingdom"
+  },
+  "Balaruc les bains, FRANCE": {
+    "lat": 43.4444987,
+    "lon": 3.679545,
+    "display_name": "Balaruc-les-Bains, Montpellier, Hérault, Occitanie, France métropolitaine, 34540, France"
+  },
+  "Copenhagen, Denmark": {
+    "lat": 55.6867243,
+    "lon": 12.5700724,
+    "display_name": "København, Københavns Kommune, Region Hovedstaden, 1357, Danmark"
+  },
+  "Warsaw, Poland": {
+    "lat": 52.2333742,
+    "lon": 21.0711489,
+    "display_name": "Warszawa, województwo mazowieckie, Polska"
+  },
+  "Heidelberg": {
+    "lat": 49.4093582,
+    "lon": 8.694724,
+    "display_name": "Heidelberg, Baden-Württemberg, Deutschland"
+  },
+  "Železniki, Slovenia": {
+    "lat": 46.2182822,
+    "lon": 14.1204077,
+    "display_name": "Železniki, Slovenija"
+  },
+  "Bruxelles": {
+    "lat": 50.8467372,
+    "lon": 4.352493,
+    "display_name": "Bruxelles - Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, België / Belgique / Belgien"
+  },
+  "Bristol, UK": {
+    "lat": 51.4538022,
+    "lon": -2.5972985,
+    "display_name": "Bristol, City of Bristol, West of England, England, United Kingdom"
+  },
+  "Jackson, New Hampshire, USA": {
+    "lat": 44.144276,
+    "lon": -71.181107,
+    "display_name": "Jackson, Carroll County, New Hampshire, 03846, United States"
+  },
+  "Denver, Colorado": {
+    "lat": 39.7392364,
+    "lon": -104.984862,
+    "display_name": "Denver, Colorado, United States"
+  },
+  "Fairbanks, Alaska": {
+    "lat": 64.837845,
+    "lon": -147.716675,
+    "display_name": "Fairbanks, Fairbanks North Star Borough, Alaska, United States"
+  },
+  "和歌山県": {
+    "lat": 33.8070292,
+    "lon": 135.5930743,
+    "display_name": "和歌山県, 日本"
+  },
+  "Iowa City, Iowa, USA": {
+    "lat": 41.6612561,
+    "lon": -91.5299106,
+    "display_name": "Iowa City, Johnson County, Iowa, United States"
+  },
+  "Bend, Oregon": {
+    "lat": 44.0581728,
+    "lon": -121.3153096,
+    "display_name": "Bend, Deschutes County, Oregon, United States"
+  },
+  "New York, NY": {
+    "lat": 40.7127281,
+    "lon": -74.0060152,
+    "display_name": "New York, United States"
+  },
+  "Philadelphia, US": {
+    "lat": 39.9527237,
+    "lon": -75.1635262,
+    "display_name": "Philadelphia, Philadelphia County, Pennsylvania, United States"
+  },
+  "Ottawa, Canada": {
+    "lat": 45.4208777,
+    "lon": -75.6901106,
+    "display_name": "Ottawa, Eastern Ontario, Ontario, Canada"
+  },
+  "Vancouver, Canada": {
+    "lat": 49.2608724,
+    "lon": -123.113952,
+    "display_name": "Vancouver, Metro Vancouver Regional District, British Columbia, Canada"
+  },
+  "Hyogo Japan": {
+    "lat": 34.914934,
+    "lon": 134.860666,
+    "display_name": "兵庫県, 日本"
+  },
+  "Kagoshima, Japan": {
+    "lat": 31.521587,
+    "lon": 130.5474077,
+    "display_name": "鹿児島県, 日本"
+  },
+  "Cairo, Egypt": {
+    "lat": 30.0443879,
+    "lon": 31.2357257,
+    "display_name": "القاهرة, مصر"
+  },
+  "Gonzalez Catan, Buenos Aires": {
+    "lat": -34.769249,
+    "lon": -58.6480318,
+    "display_name": "González Catán, Partido de La Matanza, Buenos Aires, 1759, Argentina"
+  },
+  "Chiba": {
+    "lat": 35.549399,
+    "lon": 140.2647303,
+    "display_name": "千葉県, 日本"
+  },
+  "Tokyo, Japan": {
+    "lat": 35.6768601,
+    "lon": 139.7638947,
+    "display_name": "東京都, 日本"
+  },
+  "Buzău, România": {
+    "lat": 45.2692582,
+    "lon": 26.7748173,
+    "display_name": "Buzău, România"
+  },
+  "Bærum, Norway": {
+    "lat": 59.9289639,
+    "lon": 10.4997108,
+    "display_name": "Bærum, Akershus, Norge"
+  },
+  "Jevnaker, Norway": {
+    "lat": 60.2825545,
+    "lon": 10.4084579,
+    "display_name": "Jevnaker, Akershus, 3520, Norge"
+  },
+  "Oslo, Norway": {
+    "lat": 59.9133301,
+    "lon": 10.7389701,
+    "display_name": "Oslo, Norge"
+  },
+  "Bangkok, Thailand": {
+    "lat": 13.7524938,
+    "lon": 100.4935089,
+    "display_name": "กรุงเทพมหานคร, ประเทศไทย"
+  },
+  "Wheal Rose, Cornwall": {
+    "lat": 50.2594918,
+    "lon": -5.2018944,
+    "display_name": "Wheal Rose, St. Agnes, Scorrier, Blackwater, Cornwall, England, TR16 5DD, United Kingdom"
+  },
+  "15F, 143, Gasan digital 2-ro, Geumcheon-gu, seoul, Republic of Korea": null,
+  "Chiba, Japan": {
+    "lat": 35.549399,
+    "lon": 140.2647303,
+    "display_name": "千葉県, 日本"
+  },
+  "Birmingham, UK": {
+    "lat": 52.4948994,
+    "lon": -1.8518439,
+    "display_name": "Birmingham, West Midlands, England, United Kingdom"
+  },
+  "Paris, France": {
+    "lat": 48.8588897,
+    "lon": 2.320041,
+    "display_name": "Paris, Île-de-France, France métropolitaine, France"
+  },
+  "Ellensburg, USA": {
+    "lat": 46.9970635,
+    "lon": -120.545122,
+    "display_name": "Ellensburg, Kittitas County, Washington, 98926, United States"
+  },
+  "Taipei, Taiwan": {
+    "lat": 25.0375198,
+    "lon": 121.5636796,
+    "display_name": "臺北市, 臺灣"
+  },
+  "Gouda, The Netherlands": {
+    "lat": 52.0181194,
+    "lon": 4.7111221,
+    "display_name": "Gouda, Zuid-Holland, Nederland"
+  },
+  "Taguig City, Philippines": {
+    "lat": 14.5270538,
+    "lon": 121.0744942,
+    "display_name": "Taguig, Southern Manila District, Metro Manila, Philippines"
+  },
+  "Ljubljana, Slovenia": {
+    "lat": 46.0500268,
+    "lon": 14.5069289,
+    "display_name": "Ljubljana, Upravna Enota Ljubljana, 1000, Slovenija"
+  },
+  "KOLSÅS": {
+    "lat": 59.9140604,
+    "lon": 10.5017133,
+    "display_name": "Kolsås, Trikkestien, Hauger, Kolsås, Bærum, Akershus, 1352, Norge"
+  },
+  "Tartu, Estonia": {
+    "lat": 58.3779528,
+    "lon": 26.7290023,
+    "display_name": "Tartu linn, Tartu maakond, Eesti"
+  },
+  "Toronto, Canada": {
+    "lat": 43.6534817,
+    "lon": -79.3839347,
+    "display_name": "Toronto, Golden Horseshoe, Ontario, Canada"
+  },
+  "Lisbon, Portugal": {
+    "lat": 38.7077507,
+    "lon": -9.1365919,
+    "display_name": "Lisboa, Portugal"
+  },
+  "Zanzibar": {
+    "lat": -6.0999709,
+    "lon": 39.3209535,
+    "display_name": "Zanzibar زنجبار, Tanzania"
+  },
+  "Victoria, Canada": {
+    "lat": 48.4283182,
+    "lon": -123.364953,
+    "display_name": "Victoria, Capital Regional District, British Columbia, Canada"
+  },
+  "Kobe, Japan": {
+    "lat": 34.6932379,
+    "lon": 135.1943764,
+    "display_name": "神戸市, 兵庫県, 日本"
+  },
+  "Sapporo, Japan": {
+    "lat": 43.061936,
+    "lon": 141.3542924,
+    "display_name": "札幌市, 石狩振興局, 北海道, 北海道地方, 日本"
+  },
+  "Osaka, Japan": {
+    "lat": 34.6937569,
+    "lon": 135.5014539,
+    "display_name": "大阪市, 大阪府, 日本"
+  },
+  "Ishikawa Prefecture, Japan": {
+    "lat": 36.9890574,
+    "lon": 136.8162839,
+    "display_name": "石川県, 日本"
+  },
+  "Buffalo, New York State, United States": {
+    "lat": 42.8864163,
+    "lon": -78.8781493,
+    "display_name": "Buffalo, Erie County, New York, United States"
+  },
+  "Laax": {
+    "lat": 46.806412,
+    "lon": 9.2581267,
+    "display_name": "Laax, Surselva, Graubünden/Grischun/Grigioni, Schweiz/Suisse/Svizzera/Svizra"
+  },
+  "Littleport, UK": {
+    "lat": 52.4570345,
+    "lon": 0.3065856,
+    "display_name": "Littleport, East Cambridgeshire, Cambridgeshire, Cambridgeshire and Peterborough, England, United Kingdom"
+  },
+  "Whanganui, New Zealand": {
+    "lat": -39.9324904,
+    "lon": 175.0519306,
+    "display_name": "Whanganui, Whanganui District, Manawatū-Whanganui, 4500, New Zealand / Aotearoa"
+  },
+  "Wageningen": {
+    "lat": 51.9685817,
+    "lon": 5.6682981,
+    "display_name": "Wageningen, Gelderland, Nederland"
+  },
+  "Seoul, South Korea": {
+    "lat": 37.5666791,
+    "lon": 126.9782914,
+    "display_name": "서울특별시, 대한민국"
+  },
+  "Melboourne,Victoria": null,
+  "Asuncion, Paraguay": {
+    "lat": -25.2800459,
+    "lon": -57.6343814,
+    "display_name": "Asunción, Distrito Capital, Región Oriental, 001013, Paraguay / Paraguái"
+  },
+  "Berlin, Germany": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "display_name": "Berlin, Deutschland"
+  },
+  "Kamagawa, Japan": {
+    "lat": 38.2819144,
+    "lon": 140.8558059,
+    "display_name": "神奈川クリーニング　北山店, 通町中山線, 北山三丁目, 三条町, 青葉区, 仙台市, 宮城県, 981-0935, 日本"
+  },
+  "Seoul": {
+    "lat": 37.5666791,
+    "lon": 126.9782914,
+    "display_name": "서울특별시, 대한민국"
+  },
+  "Seoul, Korea": {
+    "lat": 37.5666791,
+    "lon": 126.9782914,
+    "display_name": "서울특별시, 대한민국"
+  },
+  "Seongnam city, South Korea": {
+    "lat": 37.4201556,
+    "lon": 127.1262092,
+    "display_name": "성남시, 경기도, 대한민국"
+  },
+  "Seongnam, South Korea": {
+    "lat": 37.4201556,
+    "lon": 127.1262092,
+    "display_name": "성남시, 경기도, 대한민국"
+  },
+  "osaka,japan": {
+    "lat": 34.6937569,
+    "lon": 135.5014539,
+    "display_name": "大阪市, 大阪府, 日本"
+  },
+  "Oslo": {
+    "lat": 59.9133301,
+    "lon": 10.7389701,
+    "display_name": "Oslo, Norge"
+  },
+  "Tokyo": {
+    "lat": 35.6768601,
+    "lon": 139.7638947,
+    "display_name": "東京都, 日本"
+  },
+  "Saitama, Japan": {
+    "lat": 35.9754168,
+    "lon": 139.4160114,
+    "display_name": "埼玉県, 日本"
+  },
+  "JAPAN": {
+    "lat": 36.5748441,
+    "lon": 139.2394179,
+    "display_name": "日本"
+  },
+  "Aichi, Japan": {
+    "lat": 34.9991645,
+    "lon": 137.254574,
+    "display_name": "愛知県, 日本"
+  },
+  "Hiroshima, japan": {
+    "lat": 34.3917241,
+    "lon": 132.4517589,
+    "display_name": "広島市, 広島県, 日本"
+  },
+  "Hiroshima, Japan": {
+    "lat": 34.3917241,
+    "lon": 132.4517589,
+    "display_name": "広島市, 広島県, 日本"
+  },
+  "Singapore": {
+    "lat": 1.357107,
+    "lon": 103.8194992,
+    "display_name": "Singapore"
+  },
+  "Neuchâtel, Switzerland": {
+    "lat": 46.9895828,
+    "lon": 6.9292641,
+    "display_name": "Neuchâtel, Région Littoral, Neuchâtel, Schweiz/Suisse/Svizzera/Svizra"
+  },
+  "Canberra City": {
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "display_name": "Canberra, District of Canberra Central, Australian Capital Territory, 2600, Australia"
+  },
+  "Montpellier, France": {
+    "lat": 43.6112422,
+    "lon": 3.8767337,
+    "display_name": "Montpellier, Hérault, Occitanie, France métropolitaine, France"
+  },
+  "Nagano, Japan": {
+    "lat": 36.1143945,
+    "lon": 138.0319015,
+    "display_name": "長野県, 日本"
+  },
+  "Toyo": {
+    "lat": 33.5230707,
+    "lon": 134.2429417,
+    "display_name": "東洋町, 安芸郡, 高知県, 日本"
+  },
+  "Toulouse, France": {
+    "lat": 43.6044638,
+    "lon": 1.4442433,
+    "display_name": "Toulouse, Haute-Garonne, Occitanie, France métropolitaine, France"
+  },
+  "Fornebu, Norway": {
+    "lat": 59.8964105,
+    "lon": 10.6155296,
+    "display_name": "Fornebu, Bærum, Akershus, 1360, Norge"
+  },
+  "KhonKaen Thailand": {
+    "lat": 16.4591873,
+    "lon": 102.8119933,
+    "display_name": "มหาวิทยาลัยขอนแก่น, ถนนมิตรภาพ, เทศบาลนครขอนแก่น, ศิลา, อำเภอเมืองขอนแก่น, จังหวัดขอนแก่น, 40002, ประเทศไทย"
+  },
+  "Ubon Ratchathani, Thailand": {
+    "lat": 15.1879684,
+    "lon": 105.3269544,
+    "display_name": "จังหวัดอุบลราชธานี, ประเทศไทย"
+  },
+  "gunma": {
+    "lat": 36.52198,
+    "lon": 139.033483,
+    "display_name": "群馬県, 日本"
+  },
+  "Lagos, Nigeria": {
+    "lat": 6.4550575,
+    "lon": 3.3941795,
+    "display_name": "Lagos, Lagos Island, Lagos, 100242, Nigeria"
+  },
+  "Bangkok,Thailand": {
+    "lat": 13.7524938,
+    "lon": 100.4935089,
+    "display_name": "กรุงเทพมหานคร, ประเทศไทย"
+  },
+  "Zaandijk, The Netherlands": {
+    "lat": 52.4744145,
+    "lon": 4.8080282,
+    "display_name": "Zaandijk, Zaanstad, Noord-Holland, Nederland"
+  },
+  "Bankok, Thailand": {
+    "lat": 13.7524938,
+    "lon": 100.4935089,
+    "display_name": "กรุงเทพมหานคร, ประเทศไทย"
+  },
+  "Delhi, India": {
+    "lat": 28.6138954,
+    "lon": 77.2090057,
+    "display_name": "New Delhi, Delhi, India"
+  },
+  "Okayama,Japan": {
+    "lat": 34.8581334,
+    "lon": 133.7759256,
+    "display_name": "岡山県, 日本"
+  },
+  "Fairbanks, USA": {
+    "lat": 64.837845,
+    "lon": -147.716675,
+    "display_name": "Fairbanks, Fairbanks North Star Borough, Alaska, United States"
+  },
+  "Oita, JAPAN": {
+    "lat": 33.2393864,
+    "lon": 131.6096524,
+    "display_name": "大分市, 大分県, 870-8504, 日本"
+  },
+  "Kanagawa ken": {
+    "lat": 35.4342935,
+    "lon": 139.374753,
+    "display_name": "神奈川県, 日本"
+  },
+  "Ljubljana": {
+    "lat": 46.0500268,
+    "lon": 14.5069289,
+    "display_name": "Ljubljana, Upravna Enota Ljubljana, 1000, Slovenija"
+  },
+  "France": {
+    "lat": 46.603354,
+    "lon": 1.8883335,
+    "display_name": "France"
+  },
+  "Japan": {
+    "lat": 36.5748441,
+    "lon": 139.2394179,
+    "display_name": "日本"
+  },
+  "Barcelona, Spain": {
+    "lat": 41.3825802,
+    "lon": 2.177073,
+    "display_name": "Barcelona, Barcelonès, Barcelona, Catalunya, España"
+  },
+  "Pato Branco - Brazil": {
+    "lat": -26.2295984,
+    "lon": -52.6712474,
+    "display_name": "Pato Branco, Paraná, Região Sul, Brasil"
+  },
+  "Hilo, United States": {
+    "lat": 19.7073734,
+    "lon": -155.08158,
+    "display_name": "Hilo, Hawaiʻi County, Hawaii, 96720, United States"
+  },
+  "São Paulo, Brazil": {
+    "lat": -23.5506507,
+    "lon": -46.6333824,
+    "display_name": "São Paulo, Região Sudeste, Brasil"
+  },
+  "Kingston, Jamaica": {
+    "lat": 17.9712148,
+    "lon": -76.7928128,
+    "display_name": "Kingston, Surrey County, Jamaica"
+  },
+  "Enschede, The Netherlands": {
+    "lat": 52.2209855,
+    "lon": 6.8940537,
+    "display_name": "Enschede, Overijssel, Nederland"
+  },
+  "Varaždin": {
+    "lat": 46.3079645,
+    "lon": 16.3378198,
+    "display_name": "Grad Varaždin, Varaždinska županija, Hrvatska"
+  },
+  "The United States": {
+    "lat": 36.1337324,
+    "lon": -80.2782636,
+    "display_name": "Subway, The, Eure Drive, Reynolda Village, Winston-Salem, Forsyth County, North Carolina, 27109, United States"
+  },
+  "Thailand": {
+    "lat": 14.8971921,
+    "lon": 100.83273,
+    "display_name": "ประเทศไทย"
+  },
+  "Mueang Phitsanulok, Thailand": {
+    "lat": 16.8121365,
+    "lon": 100.260915,
+    "display_name": "สมาคมไหหลำภาคเหนือประเทศไทย, ถนนบรมไตรโลกนารถ, เทศบาลนครพิษณุโลก, อรัญญิก, อำเภอเมืองพิษณุโลก, จังหวัดพิษณุโลก, 65000, ประเทศไทย"
+  },
+  "Mueang Phitsanulok": {
+    "lat": 16.8157611,
+    "lon": 100.2634423,
+    "display_name": "เทศบาลนครพิษณุโลก, อำเภอเมืองพิษณุโลก, จังหวัดพิษณุโลก, ประเทศไทย"
+  },
+  "Helsinki, Finland": {
+    "lat": 60.1666204,
+    "lon": 24.9435408,
+    "display_name": "Helsinki, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland"
+  },
+  "Presov, Slovakia": {
+    "lat": 49.0000074,
+    "lon": 21.2392122,
+    "display_name": "Prešov, okres Prešov, Prešovský kraj, Slovensko"
+  },
+  "Glasgow, Scotland": {
+    "lat": 55.861155,
+    "lon": -4.2501687,
+    "display_name": "Glasgow, Glasgow City, Alba / Scotland, G2 1AR, United Kingdom"
+  },
+  "Hiroshima": {
+    "lat": 34.3917241,
+    "lon": 132.4517589,
+    "display_name": "広島市, 広島県, 日本"
+  },
+  "Marikina, Philippines": {
+    "lat": 14.6331084,
+    "lon": 121.0993541,
+    "display_name": "Marikina, Eastern Manila District, Metro Manila, Philippines"
+  },
+  "Kurunegala,  Sri Lanka": {
+    "lat": 7.4870464,
+    "lon": 80.364908,
+    "display_name": "Kurunegala, Kurunǣgala, North Western Province, 60000, Sri Lanka"
+  },
+  "Fairbanks, United States of America": {
+    "lat": 64.837845,
+    "lon": -147.716675,
+    "display_name": "Fairbanks, Fairbanks North Star Borough, Alaska, United States"
+  },
+  "Broomfield, Colorado, USA": {
+    "lat": 39.9403995,
+    "lon": -105.05208,
+    "display_name": "Broomfield, Colorado, United States"
+  },
+  "San Francisco, USA": {
+    "lat": 37.7879363,
+    "lon": -122.4075201,
+    "display_name": "San Francisco, California, United States"
+  },
+  "Bulacan, Philippines": {
+    "lat": 15,
+    "lon": 121.083333,
+    "display_name": "Bulacan, Central Luzon, Philippines"
+  },
+  "Leipzig, Germany": {
+    "lat": 51.3406321,
+    "lon": 12.3747329,
+    "display_name": "Leipzig, Sachsen, Deutschland"
+  },
+  "Gauting": {
+    "lat": 48.0667794,
+    "lon": 11.380285,
+    "display_name": "Gauting, Landkreis Starnberg, Bayern, 82131, Deutschland"
+  },
+  "Zürich, Switzerland": {
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "display_name": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra"
+  },
+  "Reykjavik, Iceland": {
+    "lat": 64.145981,
+    "lon": -21.9422367,
+    "display_name": "Reykjavíkurborg, Höfuðborgarsvæðið, Ísland"
+  },
+  "Asunción, Paraguay": {
+    "lat": -25.2800459,
+    "lon": -57.6343814,
+    "display_name": "Asunción, Distrito Capital, Región Oriental, 001013, Paraguay / Paraguái"
+  },
+  "Okayama, Japan": {
+    "lat": 34.8581334,
+    "lon": 133.7759256,
+    "display_name": "岡山県, 日本"
+  },
+  "Christchurch, New Zealand": {
+    "lat": -43.530955,
+    "lon": 172.6364343,
+    "display_name": "Christchurch, Christchurch City, Canterbury, New Zealand / Aotearoa"
+  },
+  "Hyogo, Japan": {
+    "lat": 34.914934,
+    "lon": 134.860666,
+    "display_name": "兵庫県, 日本"
+  },
+  "Dili": {
+    "lat": -8.5536809,
+    "lon": 125.5784093,
+    "display_name": "Dili, Vera Cruz, Dili, Timor-Leste"
+  },
+  "Bangalore, India": {
+    "lat": 12.9767936,
+    "lon": 77.590082,
+    "display_name": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+  },
+  "France, Vannes": {
+    "lat": 47.6586772,
+    "lon": -2.7599079,
+    "display_name": "Vannes, Morbihan, Bretagne, France métropolitaine, 56000, France"
+  },
+  "Brno, Czechia": {
+    "lat": 49.1922443,
+    "lon": 16.6113382,
+    "display_name": "Brno, okres Brno-město, Jihomoravský kraj, Česko"
+  },
+  "Tallinn, Estonia": {
+    "lat": 59.437242,
+    "lon": 24.7572693,
+    "display_name": "Tallinn, Harju maakond, Eesti"
+  },
+  "Sargans, Switzerland": {
+    "lat": 47.0482641,
+    "lon": 9.4401995,
+    "display_name": "Sargans, Wahlkreis Sarganserland, St. Gallen, 7320, Schweiz/Suisse/Svizzera/Svizra"
+  },
+  "Milan, Italy": {
+    "lat": 45.4641943,
+    "lon": 9.1896346,
+    "display_name": "Milano, Rodano, Milano, Lombardia, Italia"
+  },
+  "Pato Branco, Brazil": {
+    "lat": -26.2295984,
+    "lon": -52.6712474,
+    "display_name": "Pato Branco, Paraná, Região Sul, Brasil"
+  },
+  "Bangkok": {
+    "lat": 13.7524938,
+    "lon": 100.4935089,
+    "display_name": "กรุงเทพมหานคร, ประเทศไทย"
+  },
+  "Riyadh": {
+    "lat": 24.638916,
+    "lon": 46.7160104,
+    "display_name": "الرياض, محافظة الرياض, منطقة الرياض, 12613, السعودية"
+  },
+  "Bengaluru, India": {
+    "lat": 12.9767936,
+    "lon": 77.590082,
+    "display_name": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+  },
+  "Los Angeles, United States of America": {
+    "lat": 34.0536909,
+    "lon": -118.242766,
+    "display_name": "Los Angeles, Los Angeles County, California, United States"
+  },
+  "Harare, Zimbabwe": {
+    "lat": -17.8567035,
+    "lon": 31.0601584,
+    "display_name": "Harare Province, Zimbabwe"
+  },
+  "London, UK": {
+    "lat": 51.5074456,
+    "lon": -0.1277653,
+    "display_name": "Greater London, England, United Kingdom"
+  },
+  "Perth": {
+    "lat": -31.9558967,
+    "lon": 115.8605784,
+    "display_name": "Perth, Western Australia, 6000, Australia"
+  },
+  "Zagreb, Croatia": {
+    "lat": 45.8130967,
+    "lon": 15.9772795,
+    "display_name": "Grad Zagreb, Hrvatska"
+  },
+  "Port Harcourt,Nigeria": {
+    "lat": 4.7676576,
+    "lon": 7.0188527,
+    "display_name": "Port-Harcourt, Rivers, Nigeria"
+  },
+  "Kantarawichai": null,
+  "Lyon, France": {
+    "lat": 45.7578137,
+    "lon": 4.8320114,
+    "display_name": "Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, France"
+  },
+  "Oxford, United Kingdom": {
+    "lat": 51.7520131,
+    "lon": -1.2578499,
+    "display_name": "Oxford, Oxfordshire, England, United Kingdom"
+  },
+  "Pretoria, South Africa": {
+    "lat": -25.7459277,
+    "lon": 28.1879101,
+    "display_name": "Pretoria, City of Tshwane Metropolitan Municipality, Gauteng, 0142, South Africa"
+  },
+  "Aveiro, Portugal": {
+    "lat": 40.640496,
+    "lon": -8.6537841,
+    "display_name": "Aveiro, Portugal"
+  },
+  "Seattle, USA": {
+    "lat": 47.6038321,
+    "lon": -122.330062,
+    "display_name": "Seattle, King County, Washington, United States"
+  },
+  "Zurich, Switzerland": {
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "display_name": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra"
+  },
+  "Boston, United States": {
+    "lat": 42.3588336,
+    "lon": -71.0578303,
+    "display_name": "Boston, Suffolk County, Massachusetts, United States"
+  },
+  "Lagos": {
+    "lat": 6.4550575,
+    "lon": 3.3941795,
+    "display_name": "Lagos, Lagos Island, Lagos, 100242, Nigeria"
+  },
+  "Enschede, Netherlands": {
+    "lat": 52.2209855,
+    "lon": 6.8940537,
+    "display_name": "Enschede, Overijssel, Nederland"
+  },
+  "Melobourne, Australia": null,
+  "Okinawa, Japan": {
+    "lat": 26.5707754,
+    "lon": 128.0255901,
+    "display_name": "沖縄県, 日本"
+  },
+  "Suva": {
+    "lat": -18.1415884,
+    "lon": 178.4421662,
+    "display_name": "Suva, Rewa, Central, Viti"
+  },
+  "Tsukuba, Japan": {
+    "lat": 36.0833265,
+    "lon": 140.077279,
+    "display_name": "つくば市, 茨城県, 日本"
+  },
+  "Gyeonggi-do, Korea": {
+    "lat": 37.2884675,
+    "lon": 127.0535231,
+    "display_name": "경기도, 대한민국"
+  },
+  "Brighton-le-sands": {
+    "lat": -33.9580947,
+    "lon": 151.1526052,
+    "display_name": "Brighton-Le-Sands, St George, Sydney, New South Wales, 2216, Australia"
+  },
+  "İstanbul, Türkiye": {
+    "lat": 41.006381,
+    "lon": 28.9758715,
+    "display_name": "İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye"
+  },
+  "Hyderabad, India": {
+    "lat": 17.360589,
+    "lon": 78.4740613,
+    "display_name": "Hyderabad, Bahadurpura mandal, Hyderabad, Telangana, India"
+  },
+  "Selangor, Malaysia": {
+    "lat": 3.2083304,
+    "lon": 101.304146,
+    "display_name": "Selangor, Malaysia"
+  },
+  "Flintevej 35": {
+    "lat": 57.042218,
+    "lon": 9.872922,
+    "display_name": "35, Flintevej, Solbyen, Mølholm, Aalborg, Aalborg Kommune, Region Nordjylland, 9000, Danmark"
+  },
+  "Brussels, Belgium": {
+    "lat": 50.8467372,
+    "lon": 4.352493,
+    "display_name": "Bruxelles - Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, België / Belgique / Belgien"
+  },
+  "Reykjavík, Iceland": {
+    "lat": 64.145981,
+    "lon": -21.9422367,
+    "display_name": "Reykjavíkurborg, Höfuðborgarsvæðið, Ísland"
+  },
+  "Sejong, Republic of Korea": {
+    "lat": 36.4799999,
+    "lon": 127.289,
+    "display_name": "세종특별자치시, 대한민국"
+  },
+  "Valencia, Spain": {
+    "lat": 39.4697065,
+    "lon": -0.3763353,
+    "display_name": "València, Comarca de València, València / Valencia, Comunitat Valenciana, España"
+  },
+  "Zagreb": {
+    "lat": 45.8130967,
+    "lon": 15.9772795,
+    "display_name": "Grad Zagreb, Hrvatska"
+  },
+  "Heidelberg, Germany": {
+    "lat": 49.4093582,
+    "lon": 8.694724,
+    "display_name": "Heidelberg, Baden-Württemberg, Deutschland"
+  },
+  "Uithoorn, Netherlands": {
+    "lat": 52.2411412,
+    "lon": 4.8251096,
+    "display_name": "Uithoorn, Noord-Holland, Nederland"
+  },
+  "Würzburg, Germany": {
+    "lat": 49.7780356,
+    "lon": 9.9434769,
+    "display_name": "Würzburg, Bayern, Deutschland"
+  },
+  "Billesholm, Sweden": {
+    "lat": 56.0589004,
+    "lon": 12.9714633,
+    "display_name": "Billesholm, Bjuvs kommun, Skåne län, 267 73, Sverige"
+  },
+  "Nelson, Canada": {
+    "lat": 49.494891,
+    "lon": -117.290039,
+    "display_name": "Nelson, Regional District of Central Kootenay, British Columbia, Canada"
+  },
+  "Buffalo, USA": {
+    "lat": 42.8864163,
+    "lon": -78.8781493,
+    "display_name": "Buffalo, Erie County, New York, United States"
+  },
+  "New York City, United States": {
+    "lat": 40.7127281,
+    "lon": -74.0060152,
+    "display_name": "New York, United States"
+  },
+  "São Paulo": {
+    "lat": -23.5506507,
+    "lon": -46.6333824,
+    "display_name": "São Paulo, Região Sudeste, Brasil"
+  },
+  "Colorado, USA": {
+    "lat": 38.7251776,
+    "lon": -105.607716,
+    "display_name": "Colorado, United States"
+  },
+  "Kathmandu": {
+    "lat": 27.708317,
+    "lon": 85.3205817,
+    "display_name": "काठमाडौँ महानगरपालिका, काठमाडौं जिल्ला, बागमती प्रदेश, नेपाल"
+  },
+  "Mumbai, India": {
+    "lat": 19.054999,
+    "lon": 72.8692035,
+    "display_name": "Mumbai, Mumbai Suburban District, Maharashtra, 400051, India"
+  },
+  "PETALING JAYA": {
+    "lat": 3.0988792,
+    "lon": 101.6454202,
+    "display_name": "Petaling Jaya, Petaling, Selangor, Malaysia"
+  },
+  "Pune, India": {
+    "lat": 18.5213738,
+    "lon": 73.8545071,
+    "display_name": "Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India"
+  },
+  "Novisad, Servia": {
+    "lat": 45.2445426,
+    "lon": 19.8417103,
+    "display_name": "#NoviSad, Булевар ослобођења, МЗ Бошко Буха, МЗ Прва војвођанска бригада, Нови Сад, Град Нови Сад, Јужнобачки управни округ, Војводина, 21101, Србија"
+  },
+  "Sydney, Australia": {
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "display_name": "Sydney, New South Wales, Australia"
+  },
+  "Mashiko, Tochigi, Japan": {
+    "lat": 36.4673502,
+    "lon": 140.0935974,
+    "display_name": "益子町, 芳賀郡, 栃木県, 日本"
+  },
+  "Kanagawa, Japan": {
+    "lat": 35.4342935,
+    "lon": 139.374753,
+    "display_name": "神奈川県, 日本"
+  },
+  "Malawi, Zomba": {
+    "lat": -15.3863208,
+    "lon": 35.3268273,
+    "display_name": "Zomba, Southern Region, Malawi"
+  },
+  "Yogyakarta, Indonesia": {
+    "lat": -7.7953473,
+    "lon": 110.3672845,
+    "display_name": "Daerah Istimewa Yogyakarta, Indonesia"
+  },
+  "Liverpool, United Kingdom": {
+    "lat": 53.3933411,
+    "lon": -2.9166389,
+    "display_name": "Liverpool, Liverpool City Region, England, United Kingdom"
+  },
+  "Hokkaido, Nagano": {
+    "lat": 42.9858533,
+    "lon": 141.4464748,
+    "display_name": "ながの小児科, 羊ヶ丘線, 美しが丘3条3丁目, 美しが丘, 清田区, 札幌市, 石狩振興局, 北海道, 北海道地方, 004-0813, 日本"
+  },
+  "Hokkaido, Japan": {
+    "lat": 43.4519831,
+    "lon": 142.8197834,
+    "display_name": "北海道, 北海道地方, 日本"
+  },
+  "kinshasa": {
+    "lat": -4.3196982,
+    "lon": 15.3424196,
+    "display_name": "Kinshasa, République démocratique du Congo"
+  },
+  "Tokyo,Japan": {
+    "lat": 35.6768601,
+    "lon": 139.7638947,
+    "display_name": "東京都, 日本"
+  },
+  "Nara, Japan": {
+    "lat": 34.6845445,
+    "lon": 135.8048359,
+    "display_name": "奈良市, 奈良県, 日本"
+  },
+  "千葉県": {
+    "lat": 35.549399,
+    "lon": 140.2647303,
+    "display_name": "千葉県, 日本"
+  },
+  "Arlington, United States": {
+    "lat": 32.7355816,
+    "lon": -97.1071186,
+    "display_name": "Arlington, Tarrant County, Texas, United States"
+  },
+  "Nairobi, Kenya": {
+    "lat": -1.2890006,
+    "lon": 36.8172812,
+    "display_name": "Nairobi, Zimmerman, Soko ya Mawe, Nairobi, Kenya"
+  },
+  "Anyang, South Korea": {
+    "lat": 37.3938528,
+    "lon": 126.9570605,
+    "display_name": "안양시, 경기도, 대한민국"
+  },
+  "Shizuoka, Japan": {
+    "lat": 34.9751974,
+    "lon": 138.3831697,
+    "display_name": "静岡市, 静岡県, 420-8602, 日本"
+  },
+  "saitama": {
+    "lat": 35.9754168,
+    "lon": 139.4160114,
+    "display_name": "埼玉県, 日本"
+  },
+  "dhulikhel": {
+    "lat": 27.618921,
+    "lon": 85.552917,
+    "display_name": "धुलिखेल, दुधौली नगरपालिका, काभ्रेपलाञ्चोक जिल्ला, बागमती प्रदेश, 09771, नेपाल"
+  },
+  "San Francisco, California": {
+    "lat": 37.7879363,
+    "lon": -122.4075201,
+    "display_name": "San Francisco, California, United States"
+  },
+  "Saitama": {
+    "lat": 35.9754168,
+    "lon": 139.4160114,
+    "display_name": "埼玉県, 日本"
+  },
+  "Port Hedland, Australia": {
+    "lat": -20.3111814,
+    "lon": 118.5801181,
+    "display_name": "Port Hedland, Western Australia, 6721, Australia"
+  },
+  "Hokkaido": {
+    "lat": 43.4339536,
+    "lon": 142.9521222,
+    "display_name": "北海道地方, 日本"
+  },
+  "Purworejo, Indonesia": {
+    "lat": -7.7073021,
+    "lon": 109.9665117,
+    "display_name": "Purworejo, Jawa Tengah, Indonesia"
+  },
+  "Niigata, Japan": {
+    "lat": 37.6452283,
+    "lon": 138.7669125,
+    "display_name": "新潟県, 日本"
+  },
+  "Noumea": {
+    "lat": -22.2745264,
+    "lon": 166.442419,
+    "display_name": "Nouméa, Province Sud, Nouvelle-Calédonie, 98800, France"
+  },
+  "Suva, Fiji": {
+    "lat": -18.1415884,
+    "lon": 178.4421662,
+    "display_name": "Suva, Rewa, Central, Viti"
+  },
+  "千葉県柏市": {
+    "lat": 35.8676218,
+    "lon": 139.9756876,
+    "display_name": "柏市, 千葉県, 日本"
+  },
+  "Kanagawa prefecture": {
+    "lat": 35.4342935,
+    "lon": 139.374753,
+    "display_name": "神奈川県, 日本"
+  },
+  "Müncheberg": {
+    "lat": 52.5037484,
+    "lon": 14.1404688,
+    "display_name": "Müncheberg, Märkisch-Oderland, Brandenburg, 15374, Deutschland"
+  },
+  "Porto Alegre, Brazil": {
+    "lat": -30.0324999,
+    "lon": -51.2303767,
+    "display_name": "Porto Alegre, Rio Grande do Sul, Região Sul, Brasil"
+  },
+  "Nova Iguaçu": {
+    "lat": -22.7592175,
+    "lon": -43.4508728,
+    "display_name": "Nova Iguaçu, Rio de Janeiro, Região Sudeste, Brasil"
+  },
+  "HYOGO": {
+    "lat": 34.914934,
+    "lon": 134.860666,
+    "display_name": "兵庫県, 日本"
+  },
+  "Florianópolis/Santa Catarina": {
+    "lat": -27.5973002,
+    "lon": -48.5496098,
+    "display_name": "Florianópolis, Santa Catarina, Região Sul, Brasil"
+  },
+  "SKUI, Norway": {
+    "lat": 59.9258643,
+    "lon": 10.4470874,
+    "display_name": "Skui, Bærum, Akershus, 1340, Norge"
+  },
+  "Yokohama,Japan": {
+    "lat": 35.4503381,
+    "lon": 139.6343802,
+    "display_name": "横浜市, 神奈川県, 231-0017, 日本"
+  },
+  "Italy": {
+    "lat": 42.6384261,
+    "lon": 12.674297,
+    "display_name": "Italia"
+  },
+  "Fukutsu": {
+    "lat": 33.7668264,
+    "lon": 130.4913329,
+    "display_name": "福津市, 福岡県, 日本"
+  },
+  "Hokkaido, Sapporo": {
+    "lat": 43.061936,
+    "lon": 141.3542924,
+    "display_name": "札幌市, 石狩振興局, 北海道, 北海道地方, 日本"
+  },
+  "Dublin, California": {
+    "lat": 37.7021521,
+    "lon": -121.9357918,
+    "display_name": "Dublin, Alameda County, California, 94568, United States"
+  },
+  "Kumamoto Japan": {
+    "lat": 22.5406641,
+    "lon": 113.969089,
+    "display_name": "Kumamoto Japan, 9028, 深南大道, 华夏街社区, 沙河街道, 南山区, 深圳市, 广东省, 518053, 中国"
+  },
+  "Hanover, NH, USA": {
+    "lat": 43.7023545,
+    "lon": -72.2892164,
+    "display_name": "Hanover, Grafton County, New Hampshire, United States"
+  },
+  "Kanagawa": {
+    "lat": 35.4342935,
+    "lon": 139.374753,
+    "display_name": "神奈川県, 日本"
+  },
+  "Riyadh, Kingdom of Saudi Arabia": {
+    "lat": 24.638916,
+    "lon": 46.7160104,
+    "display_name": "الرياض, محافظة الرياض, منطقة الرياض, 12613, السعودية"
+  },
+  "Yokohama, Japan": {
+    "lat": 35.4503381,
+    "lon": 139.6343802,
+    "display_name": "横浜市, 神奈川県, 231-0017, 日本"
+  },
+  "埼玉県、日本": {
+    "lat": 35.9754168,
+    "lon": 139.4160114,
+    "display_name": "埼玉県, 日本"
+  },
+  "神奈川県": {
+    "lat": 35.4342935,
+    "lon": 139.374753,
+    "display_name": "神奈川県, 日本"
+  },
+  "Kagoshima": {
+    "lat": 31.521587,
+    "lon": 130.5474077,
+    "display_name": "鹿児島県, 日本"
+  },
+  "Kanagawa, Saitama": null,
+  "Zomba, Malawi": {
+    "lat": -15.3863208,
+    "lon": 35.3268273,
+    "display_name": "Zomba, Southern Region, Malawi"
+  },
+  "Broome, Australia": {
+    "lat": -17.9566909,
+    "lon": 122.2240181,
+    "display_name": "Broome, Western Australia, 6726, Australia"
+  },
+  "Roma": {
+    "lat": 41.8933203,
+    "lon": 12.4829321,
+    "display_name": "Roma, Roma Capitale, Lazio, Italia"
+  },
+  "Montpellier": {
+    "lat": 43.6112422,
+    "lon": 3.8767337,
+    "display_name": "Montpellier, Hérault, Occitanie, France métropolitaine, France"
+  },
+  "São José dos Campos, Brasil": {
+    "lat": -23.1867782,
+    "lon": -45.8854538,
+    "display_name": "São José dos Campos, São Paulo, Região Sudeste, Brasil"
+  },
+  "Belgrade, Serbia": {
+    "lat": 44.8153318,
+    "lon": 20.4456588,
+    "display_name": "Београд, Град Београд, Централна Србија, Србија"
+  },
+  "Riyadh, Saudi Arabia": {
+    "lat": 24.638916,
+    "lon": 46.7160104,
+    "display_name": "الرياض, محافظة الرياض, منطقة الرياض, 12613, السعودية"
+  },
+  "Fukuoka prefecture,Japan": {
+    "lat": 33.6251241,
+    "lon": 130.6180016,
+    "display_name": "福岡県, 日本"
+  },
+  "Fukuoka": {
+    "lat": 33.6251241,
+    "lon": 130.6180016,
+    "display_name": "福岡県, 日本"
+  },
+  "Naucalpan, edo de Mexico": {
+    "lat": 19.4788356,
+    "lon": -99.2327986,
+    "display_name": "Naucalpan de Juárez, Estado de México, México"
+  },
+  "Kumamoto,Japan": {
+    "lat": 32.6450475,
+    "lon": 130.6341345,
+    "display_name": "熊本県, 日本"
+  },
+  "Osaka, JAPAN": {
+    "lat": 34.6937569,
+    "lon": 135.5014539,
+    "display_name": "大阪市, 大阪府, 日本"
+  },
+  "Springfield, Illinois": {
+    "lat": 39.7990175,
+    "lon": -89.6439575,
+    "display_name": "Springfield, Sangamon County, Illinois, United States"
+  },
+  "Philippines": {
+    "lat": 12.7503486,
+    "lon": 122.7312101,
+    "display_name": "Philippines"
+  },
+  "Brazil": {
+    "lat": -10.3333333,
+    "lon": -53.2,
+    "display_name": "Brasil"
+  },
+  "Taiwan": {
+    "lat": 23.9739374,
+    "lon": 120.9820179,
+    "display_name": "臺灣"
+  },
+  "Australia": {
+    "lat": -24.7761086,
+    "lon": 134.755,
+    "display_name": "Australia"
+  },
+  "United Kingdom": {
+    "lat": 54.7023545,
+    "lon": -3.2765753,
+    "display_name": "United Kingdom"
+  },
+  "Malaysia": {
+    "lat": 4.5693754,
+    "lon": 102.2656823,
+    "display_name": "Malaysia"
+  },
+  "Romania": {
+    "lat": 45.9852129,
+    "lon": 24.6859225,
+    "display_name": "România"
+  },
+  "Czechia": {
+    "lat": 49.7439047,
+    "lon": 15.3381061,
+    "display_name": "Česko"
+  },
+  "Germany": {
+    "lat": 51.1638175,
+    "lon": 10.4478313,
+    "display_name": "Deutschland"
+  },
+  "Denmark": {
+    "lat": 55.670249,
+    "lon": 10.3333283,
+    "display_name": "Danmark"
+  },
+  "Poland": {
+    "lat": 52.215933,
+    "lon": 19.134422,
+    "display_name": "Polska"
+  },
+  "Slovenia": {
+    "lat": 46.1199444,
+    "lon": 14.8153333,
+    "display_name": "Slovenija"
+  },
+  "United States": {
+    "lat": 39.7837304,
+    "lon": -100.445882,
+    "display_name": "United States"
+  },
+  "Canada": {
+    "lat": 61.0666922,
+    "lon": -107.991707,
+    "display_name": "Canada"
+  },
+  "Egypt": {
+    "lat": 26.2540493,
+    "lon": 29.2675469,
+    "display_name": "مصر"
+  },
+  "Argentina": {
+    "lat": -34.9964963,
+    "lon": -64.9672817,
+    "display_name": "Argentina"
+  },
+  "Norway": {
+    "lat": 61.1529386,
+    "lon": 8.7876653,
+    "display_name": "Norge"
+  },
+  "South Korea": {
+    "lat": 36.638392,
+    "lon": 127.6961188,
+    "display_name": "대한민국"
+  },
+  "India": {
+    "lat": 22.3511148,
+    "lon": 78.6677428,
+    "display_name": "India"
+  },
+  "Netherlands": {
+    "lat": 52.2434979,
+    "lon": 5.6343227,
+    "display_name": "Nederland"
+  },
+  "Portugal": {
+    "lat": 39.6621648,
+    "lon": -8.1353519,
+    "display_name": "Portugal"
+  },
+  "Tanzania": {
+    "lat": -6.5247123,
+    "lon": 35.7878438,
+    "display_name": "Tanzania"
+  },
+  "China": {
+    "lat": 34.5412252,
+    "lon": 108.9237067,
+    "display_name": "中国"
+  },
+  "Switzerland": {
+    "lat": 46.7985624,
+    "lon": 8.2319736,
+    "display_name": "Schweiz/Suisse/Svizzera/Svizra"
+  },
+  "New Zealand": {
+    "lat": -41.5000831,
+    "lon": 172.8344077,
+    "display_name": "New Zealand / Aotearoa"
+  },
+  "Paraguay": {
+    "lat": -23.3165935,
+    "lon": -58.1693445,
+    "display_name": "Paraguay / Paraguái"
+  },
+  "Vietnam": {
+    "lat": 15.9266657,
+    "lon": 107.9650855,
+    "display_name": "Việt Nam"
+  },
+  "Nigeria": {
+    "lat": 9.6000359,
+    "lon": 7.9999721,
+    "display_name": "Nigeria"
+  },
+  "Finland": {
+    "lat": 63.2467777,
+    "lon": 25.9209164,
+    "display_name": "Suomi / Finland"
+  },
+  "Spain": {
+    "lat": 39.3260685,
+    "lon": -4.8379791,
+    "display_name": "España"
+  },
+  "Estonia": {
+    "lat": 58.7523778,
+    "lon": 25.3319078,
+    "display_name": "Eesti"
+  },
+  "Jamaica": {
+    "lat": 18.1850507,
+    "lon": -77.3947693,
+    "display_name": "Jamaica"
+  },
+  "Croatia": {
+    "lat": 45.3658443,
+    "lon": 15.6575209,
+    "display_name": "Hrvatska"
+  },
+  "Türkiye": {
+    "lat": 39.294076,
+    "lon": 35.2316631,
+    "display_name": "Türkiye"
+  },
+  "Luxembourg": {
+    "lat": 49.8158683,
+    "lon": 6.1296751,
+    "display_name": "Lëtzebuerg"
+  },
+  "Slovakia": {
+    "lat": 48.7411522,
+    "lon": 19.4528646,
+    "display_name": "Slovensko"
+  },
+  "Sri Lanka": {
+    "lat": 7.5554942,
+    "lon": 80.7137847,
+    "display_name": "Sri Lanka"
+  },
+  "Colombia": {
+    "lat": 4.099917,
+    "lon": -72.9088133,
+    "display_name": "Colombia"
+  },
+  "Ukraine": {
+    "lat": 49.4871968,
+    "lon": 31.2718321,
+    "display_name": "Україна"
+  },
+  "Timor-Leste": {
+    "lat": -8.7443169,
+    "lon": 126.063482,
+    "display_name": "Timor-Leste"
+  },
+  "Nepal": {
+    "lat": 28.3780464,
+    "lon": 83.9999901,
+    "display_name": "नेपाल"
+  },
+  "Saudi Arabia": {
+    "lat": 25.6242618,
+    "lon": 42.3528328,
+    "display_name": "السعودية"
+  },
+  "Zimbabwe": {
+    "lat": -18.4554963,
+    "lon": 29.7468414,
+    "display_name": "Zimbabwe"
+  },
+  "South Africa": {
+    "lat": -28.8166236,
+    "lon": 24.991639,
+    "display_name": "South Africa"
+  },
+  "Fiji": {
+    "lat": -18.1239696,
+    "lon": 179.0122737,
+    "display_name": "Viti"
+  },
+  "Albania": {
+    "lat": 41.000028,
+    "lon": 19.9999619,
+    "display_name": "Shqipëria"
+  },
+  "Sweden": {
+    "lat": 59.6749712,
+    "lon": 14.5208584,
+    "display_name": "Sverige"
+  },
+  "Russian Federation": {
+    "lat": 64.6863136,
+    "lon": 97.7453061,
+    "display_name": "Россия"
+  },
+  "Pakistan": {
+    "lat": 30.3308401,
+    "lon": 71.247499,
+    "display_name": "پاکستان"
+  },
+  "Hong Kong": {
+    "lat": 22.2818333,
+    "lon": 114.1582831,
+    "display_name": "香港 Hong Kong, 中国"
+  },
+  "Malawi": {
+    "lat": -13.2687204,
+    "lon": 33.9301963,
+    "display_name": "Malawi"
+  },
+  "Indonesia": {
+    "lat": -2.4833826,
+    "lon": 117.8902853,
+    "display_name": "Indonesia"
+  },
+  "Congo, The Democratic Republic of the": {
+    "lat": -2.9814344,
+    "lon": 23.8222636,
+    "display_name": "Democratic Republic of the Congo"
+  },
+  "Kenya": {
+    "lat": 1.4419683,
+    "lon": 38.4313975,
+    "display_name": "Kenya"
+  },
+  "Serbia": {
+    "lat": 44.0243229,
+    "lon": 21.0765743,
+    "display_name": "Србија"
+  },
+  "Mexico": {
+    "lat": 23.6585116,
+    "lon": -102.0077097,
+    "display_name": "México"
+  }
+}
