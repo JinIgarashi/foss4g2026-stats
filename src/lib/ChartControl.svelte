@@ -5,13 +5,12 @@
 	import { Button } from './components/ui/button';
 	import * as Drawer from '$lib/components/ui/drawer/index.js';
 	import * as ButtonGroup from '$lib/components/ui/button-group/index.js';
-	import * as Chart from '$lib/components/ui/chart/index.js';
 	import * as Tabs from '$lib/components/ui/tabs/index.js';
-	import * as Table from '$lib/components/ui/table/index.js';
 	import { Spinner } from '$lib/components/ui/spinner/index.js';
-	import { BarChart } from 'layerchart';
 	import { geoJsonToChartData, type GeoJSONFeature } from '$lib/chartUtils';
 	import * as Tooltip from '$lib/components/ui/tooltip/index.js';
+	import ChartView from '$lib/ChartView.svelte';
+	import TableView from '$lib/TableView.svelte';
 
 	type LayerType = 'residence' | 'nationality';
 
@@ -41,12 +40,7 @@
 	let preparedData = $state<
 		{ id: string; rank: number; name: string; count: number; country: string; region: string }[]
 	>([]);
-	let selectedBar = $state<{ name: string; count: number } | null>(null);
 	let viewMode = $state<'chart' | 'table'>('chart');
-	let sortKey = $state<'name' | 'country' | 'region' | 'count'>('count');
-	let sortDirection = $state<'asc' | 'desc'>('desc');
-
-	const TOP_N = 20;
 
 	const mapCtx = getMapContext();
 
@@ -101,7 +95,6 @@
 
 	const prepareChartData = async () => {
 		isPreparing = true;
-		selectedBar = null;
 		await tick();
 
 		if (scopeType === 'extent') {
@@ -119,70 +112,11 @@
 		void prepareChartData();
 	});
 
-	const chartConfig = {
-		count: {
-			label: 'Attendees',
-			color: '#2563eb'
-		}
-	} satisfies Chart.ChartConfig;
-
 	const formatDisplayLabel = (raw: string) => {
 		const normalized = String(raw ?? '').trim();
 		if (activeLayer !== 'residence') return normalized;
 		return normalized.split(',')[0]?.trim() ?? normalized;
 	};
-
-	const formatAxisLabel = (raw: string) => {
-		const label = formatDisplayLabel(raw);
-		return label.slice(0, 14);
-	};
-
-	const handleSort = (key: 'name' | 'country' | 'region' | 'count') => {
-		if (sortKey === key) {
-			sortDirection = sortDirection === 'desc' ? 'asc' : 'desc';
-			return;
-		}
-
-		sortKey = key;
-		sortDirection = key === 'count' ? 'desc' : 'asc';
-	};
-
-	const sortIndicator = (key: 'name' | 'country' | 'region' | 'count') => {
-		if (sortKey !== key) return '';
-		return sortDirection === 'desc' ? '↓' : '↑';
-	};
-
-	const getSortLabel = (key: 'name' | 'country' | 'region' | 'count') => {
-		if (key === 'count') return 'attendee count';
-		if (key === 'country') return 'country';
-		if (key === 'region') return 'region';
-		return 'name';
-	};
-
-	let preparedChartData = $derived(preparedData.slice(0, TOP_N));
-	let chartCanvasMinWidth = $derived(Math.max(preparedChartData.length * 56, 640));
-	let preparedTableData = $derived(
-		[...preparedData].sort((a, b) => {
-			if (sortKey === 'count') {
-				return sortDirection === 'desc' ? b.count - a.count : a.count - b.count;
-			}
-
-			if (sortKey === 'country') {
-				return sortDirection === 'desc'
-					? b.country.localeCompare(a.country)
-					: a.country.localeCompare(b.country);
-			}
-
-			if (sortKey === 'region') {
-				return sortDirection === 'desc'
-					? b.region.localeCompare(a.region)
-					: a.region.localeCompare(b.region);
-			}
-
-			return sortDirection === 'desc' ? b.name.localeCompare(a.name) : a.name.localeCompare(b.name);
-		})
-	);
-	let preparedTotalAttendees = $derived(preparedData.reduce((sum, row) => sum + row.count, 0));
 </script>
 
 <CustomControl position="top-left" group={false}>
@@ -301,175 +235,11 @@
 							</Tabs.List>
 
 							<Tabs.Content value="chart" class="mt-3 min-h-0 flex-1">
-								<div class="flex h-full min-h-0 flex-col">
-									<p class="mb-2 shrink-0 text-xs text-gray-500">
-										X-axis: {activeLayer === 'residence' ? 'Residence' : 'Nationality'} (Top {TOP_N})
-									</p>
-									<div class="chart-blue-bars relative min-h-0 flex-1 w-full">
-										<div
-											class="chart-scroll-x h-full rounded-md border border-slate-100 bg-white/60"
-											data-vaul-no-drag
-											role="presentation"
-											onpointerdown={(e) => e.stopPropagation()}
-										>
-											<div class="relative h-full" style={`min-width: ${chartCanvasMinWidth}px;`}>
-												{#if selectedBar}
-													<div
-														class="absolute right-2 top-2 z-20 rounded-md border bg-white/95 p-3 text-xs shadow-md backdrop-blur-sm"
-													>
-														<div class="mb-1 font-semibold text-slate-800">{selectedBar.name}</div>
-														<div class="text-slate-600">Attendees: {selectedBar.count}</div>
-													</div>
-												{/if}
-
-												<Chart.Container config={chartConfig} class="h-full min-h-0 w-full">
-													<BarChart
-														data={preparedChartData}
-														x="name"
-														y="count"
-														axis={true}
-														padding={{ top: 20, right: 16, left: 52, bottom: 132 }}
-														tooltipContext={{
-															mode: 'band',
-															findTooltipData: 'closest',
-															hideDelay: 80,
-															touchEvents: 'pan-x'
-														}}
-														onBarClick={(_, detail) => {
-															const item = detail.data as { name?: string; count?: number };
-															selectedBar = {
-																name: formatDisplayLabel(String(item?.name ?? '-')),
-																count: Number(item?.count ?? 0)
-															};
-														}}
-														props={{
-															xAxis: {
-																tickLabelProps: {
-																	rotate: 60,
-																	textAnchor: 'start',
-																	dx: '1.3em',
-																	dy: '0.4em',
-																	dominantBaseline: 'hanging'
-																},
-																format: (d: string) => formatAxisLabel(d)
-															},
-															bars: {
-																fill: '#2563eb',
-																class: 'stat-bar',
-																style: 'transition: fill 140ms ease;'
-															}
-														}}
-													>
-														{#snippet tooltip()}
-															<Chart.Tooltip labelKey="name" nameKey="name" color="#2563eb" />
-														{/snippet}
-													</BarChart>
-												</Chart.Container>
-											</div>
-										</div>
-									</div>
-								</div>
+								<ChartView data={preparedData} {activeLayer} />
 							</Tabs.Content>
 
 							<Tabs.Content value="table" class="mt-3 min-h-0 flex-1">
-								<div class="flex h-full min-h-0 flex-col">
-									<p class="mb-2 shrink-0 text-xs text-gray-500">
-										Sorted by {getSortLabel(sortKey)} ({sortDirection}): {preparedData.length}
-										rows
-									</p>
-									<div class="table-scroll min-h-0 flex-1 rounded-md border">
-										<Table.Root>
-											<Table.Header class="sticky top-0 z-20 bg-white">
-												<Table.Row>
-													<Table.Head class="sticky top-0 z-20 w-16 bg-white text-right"
-														>#</Table.Head
-													>
-													<Table.Head class="sticky top-0 z-20 bg-white">
-														<button
-															type="button"
-															onclick={() => handleSort('name')}
-															class="inline-flex cursor-pointer items-center gap-1 text-left"
-														>
-															<span
-																>{activeLayer === 'residence'
-																	? 'Residence'
-																	: 'Nationality'}{sortIndicator('name')
-																	? ` ${sortIndicator('name')}`
-																	: ''}</span
-															>
-														</button>
-													</Table.Head>
-													<Table.Head class="sticky top-0 z-20 bg-white">
-														<button
-															type="button"
-															onclick={() => handleSort('country')}
-															class="inline-flex cursor-pointer items-center gap-1 text-left"
-														>
-															<span
-																>Country{sortIndicator('country')
-																	? ` ${sortIndicator('country')}`
-																	: ''}</span
-															>
-														</button>
-													</Table.Head>
-													<Table.Head class="sticky top-0 z-20 bg-white">
-														<button
-															type="button"
-															onclick={() => handleSort('region')}
-															class="inline-flex cursor-pointer items-center gap-1 text-left"
-														>
-															<span
-																>Region{sortIndicator('region')
-																	? ` ${sortIndicator('region')}`
-																	: ''}</span
-															>
-														</button>
-													</Table.Head>
-													<Table.Head class="sticky top-0 z-20 bg-white text-right">
-														<button
-															type="button"
-															onclick={() => handleSort('count')}
-															class="ml-auto inline-flex cursor-pointer items-center gap-1"
-														>
-															<span
-																>Attendees{sortIndicator('count')
-																	? ` ${sortIndicator('count')}`
-																	: ''}</span
-															>
-														</button>
-													</Table.Head>
-												</Table.Row>
-											</Table.Header>
-											<Table.Body>
-												{#each preparedTableData as row (row.id)}
-													<Table.Row>
-														<Table.Cell class="text-right font-mono text-xs text-gray-600">
-															{row.rank}
-														</Table.Cell>
-														<Table.Cell class="max-w-[320px] truncate" title={row.name}>
-															{row.name}
-														</Table.Cell>
-														<Table.Cell class="max-w-[220px] truncate" title={row.country}>
-															{row.country}
-														</Table.Cell>
-														<Table.Cell class="max-w-[220px] truncate" title={row.region}>
-															{row.region}
-														</Table.Cell>
-														<Table.Cell class="text-right font-semibold">
-															{row.count}
-														</Table.Cell>
-													</Table.Row>
-												{/each}
-											</Table.Body>
-										</Table.Root>
-									</div>
-									<div class="mt-3 shrink-0 rounded-md border bg-gray-50 px-3 py-2 text-sm">
-										<div class="flex items-center justify-between">
-											<span class="font-medium text-slate-700">Total</span>
-											<span class="font-semibold text-slate-900">{preparedTotalAttendees}</span>
-										</div>
-									</div>
-								</div>
+								<TableView data={preparedData} {activeLayer} />
 							</Tabs.Content>
 						</Tabs.Root>
 					{:else}
@@ -487,26 +257,5 @@
 	:global(.maplibregl-ctrl .layer-toggle-btn:hover) {
 		background-color: rgb(255 255 255) !important;
 		color: rgb(15 23 42) !important;
-	}
-
-	:global(.chart-blue-bars .stat-bar) {
-		fill: #2563eb;
-	}
-
-	:global(.chart-blue-bars .stat-bar:hover) {
-		fill: #1d4ed8;
-	}
-
-	:global(.table-scroll [data-slot='table-container']) {
-		height: 100%;
-		max-height: none;
-		overflow-y: auto;
-	}
-
-	.chart-scroll-x {
-		overflow-x: auto;
-		overflow-y: hidden;
-		touch-action: pan-x;
-		-webkit-overflow-scrolling: touch;
 	}
 </style>
