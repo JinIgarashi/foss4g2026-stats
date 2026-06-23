@@ -227,7 +227,7 @@
 							<div class="pie-legend-item" title={item.label}>
 								<span class="pie-legend-swatch" style={`background-color: ${item.color};`}></span>
 								<span class="pie-legend-label"
-									>{item.label} ({item.value.toLocaleString()}, {formatPercent(
+									>{item.label} ({item.value.toLocaleString()} attendees, {formatPercent(
 										countryPieTotal > 0 ? item.value / countryPieTotal : 0
 									)})</span
 								>
@@ -313,7 +313,7 @@
 						<div class="pie-legend-item" title={item.label}>
 							<span class="pie-legend-swatch" style={`background-color: ${item.color};`}></span>
 							<span class="pie-legend-label"
-								>{item.label} ({item.value.toLocaleString()}, {formatPercent(
+								>{item.label} ({item.value.toLocaleString()} attendees, {formatPercent(
 									regionPieTotal > 0 ? item.value / regionPieTotal : 0
 								)})</span
 							>
