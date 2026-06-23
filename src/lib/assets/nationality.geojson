@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-06-21T03:59:48.766Z",
+	"created_at": "2026-06-23T08:17:07.366Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -192,7 +192,7 @@
 			},
 			"properties": {
 				"name": "United States",
-				"count": 31,
+				"count": 32,
 				"country": "United States of America",
 				"region": "North America"
 			}
@@ -218,7 +218,7 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 116,
+				"count": 123,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -283,7 +283,7 @@
 			},
 			"properties": {
 				"name": "South Korea",
-				"count": 26,
+				"count": 27,
 				"country": "South Korea",
 				"region": "East Asia & Pacific"
 			}
@@ -296,7 +296,7 @@
 			},
 			"properties": {
 				"name": "India",
-				"count": 17,
+				"count": 18,
 				"country": "India",
 				"region": "South Asia"
 			}
@@ -309,7 +309,7 @@
 			},
 			"properties": {
 				"name": "Netherlands",
-				"count": 7,
+				"count": 8,
 				"country": "Netherlands",
 				"region": "Europe & Central Asia"
 			}
@@ -374,7 +374,7 @@
 			},
 			"properties": {
 				"name": "New Zealand",
-				"count": 6,
+				"count": 7,
 				"country": "New Zealand",
 				"region": "East Asia & Pacific"
 			}

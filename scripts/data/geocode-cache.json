@@ -1513,5 +1513,40 @@
     "lat": 23.6585116,
     "lon": -102.0077097,
     "display_name": "México"
+  },
+  "Ito, Shizuoka, Japan": {
+    "lat": 34.9656621,
+    "lon": 139.101729,
+    "display_name": "伊東市, 静岡県, 日本"
+  },
+  "Hiroshima Japan": {
+    "lat": 34.3917241,
+    "lon": 132.4517589,
+    "display_name": "広島市, 広島県, 日本"
+  },
+  "Izumi City, Japan": {
+    "lat": 38.321877,
+    "lon": 140.8812271,
+    "display_name": "仙台市泉中央駅前駐車場, 泉塩釜線, 泉中央一丁目, 泉中央南, 泉区, 仙台市, 宮城県, 981-3133, 日本"
+  },
+  "Kyoto,Japan": {
+    "lat": 35.0115754,
+    "lon": 135.7681441,
+    "display_name": "京都市, 京都府, 日本"
+  },
+  "Brooklyn, New York": {
+    "lat": 40.6526006,
+    "lon": -73.9497211,
+    "display_name": "Brooklyn, Kings County, New York, United States"
+  },
+  "Utrecht, the Netherlands": {
+    "lat": 52.0907006,
+    "lon": 5.1215634,
+    "display_name": "Utrecht, Nederland"
+  },
+  "BUSAN": {
+    "lat": 35.1799528,
+    "lon": 129.0752365,
+    "display_name": "부산광역시, 대한민국"
   }
 }

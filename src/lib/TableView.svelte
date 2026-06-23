@@ -134,7 +134,7 @@
 			</Table.Body>
 		</Table.Root>
 	</div>
-	<div class="mt-3 shrink-0 rounded-md border bg-gray-50 px-3 py-2 text-sm">
+	<div class="my-3 shrink-0 rounded-md border bg-gray-50 px-3 py-2 text-sm">
 		<div class="flex items-center justify-between">
 			<span class="font-medium text-slate-700">Total</span>
 			<span class="font-semibold text-slate-900">{totalAttendees}</span>
