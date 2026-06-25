@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-06-23T08:17:07.366Z",
+	"created_at": "2026-06-25T08:55:08.977Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -452,7 +452,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan",
-				"count": 33,
+				"count": 34,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -893,8 +893,8 @@
 				"coordinates": [139.4160114, 35.9754168]
 			},
 			"properties": {
-				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本",
-				"count": 8,
+				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan",
+				"count": 11,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -907,7 +907,7 @@
 			},
 			"properties": {
 				"name": "JAPAN, Japan",
-				"count": 2,
+				"count": 3,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -2194,7 +2194,7 @@
 			},
 			"properties": {
 				"name": "Hokkaido",
-				"count": 1,
+				"count": 2,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -2560,6 +2560,58 @@
 				"name": "BUSAN",
 				"count": 1,
 				"country": "South Korea",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [4.35839, 52.0114017]
+			},
+			"properties": {
+				"name": "Delft, Netherlands",
+				"count": 1,
+				"country": "Netherlands",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [5.9850306, 49.4959628]
+			},
+			"properties": {
+				"name": "Esch-sur-Alzette, Luxembourg",
+				"count": 1,
+				"country": "Luxembourg",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [110.4229104, -6.9903988]
+			},
+			"properties": {
+				"name": "Semarang, Indonesia",
+				"count": 1,
+				"country": "Indonesia",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [101.5185278, 3.0739429]
+			},
+			"properties": {
+				"name": "SHAH ALAM, MALAYSIA",
+				"count": 1,
+				"country": "Malaysia",
 				"region": "East Asia & Pacific"
 			}
 		}

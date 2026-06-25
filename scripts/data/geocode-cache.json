@@ -1548,5 +1548,31 @@
     "lat": 35.1799528,
     "lon": 129.0752365,
     "display_name": "부산광역시, 대한민국"
+  },
+  "Delft, Netherlands": {
+    "lat": 52.0114017,
+    "lon": 4.35839,
+    "display_name": "Delft, Zuid-Holland, Nederland"
+  },
+  "1-1-706 Tsutsujigaoka, Aoba-ku, Yokohama-shi, Kanagawa-ken": null,
+  "Saitama-ken,Japan": {
+    "lat": 35.9754168,
+    "lon": 139.4160114,
+    "display_name": "埼玉県, 日本"
+  },
+  "Esch-sur-Alzette, Luxembourg": {
+    "lat": 49.4959628,
+    "lon": 5.9850306,
+    "display_name": "Esch-sur-Alzette, Canton Esch-sur-Alzette, Lëtzebuerg"
+  },
+  "Semarang, Indonesia": {
+    "lat": -6.9903988,
+    "lon": 110.4229104,
+    "display_name": "Kota Semarang, Jawa Tengah, Jawa, Indonesia"
+  },
+  "SHAH ALAM, MALAYSIA": {
+    "lat": 3.0739429,
+    "lon": 101.5185278,
+    "display_name": "Shah Alam, Petaling, Selangor, Malaysia"
   }
 }
