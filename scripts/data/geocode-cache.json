@@ -1574,5 +1574,30 @@
     "lat": 3.0739429,
     "lon": 101.5185278,
     "display_name": "Shah Alam, Petaling, Selangor, Malaysia"
+  },
+  "Tottori": {
+    "lat": 35.3555075,
+    "lon": 133.8678525,
+    "display_name": "鳥取県, 日本"
+  },
+  "Lund, Sweden": {
+    "lat": 55.7029296,
+    "lon": 13.1929449,
+    "display_name": "Lund, Lunds kommun, Skåne län, Sverige"
+  },
+  "Canmore, Canada": {
+    "lat": 51.0866897,
+    "lon": -115.3481135,
+    "display_name": "Canmore, Town of Canmore, Alberta, T1W 2H4, Canada"
+  },
+  "Gimhae": {
+    "lat": 35.2310947,
+    "lon": 128.8908228,
+    "display_name": "김해시, 경상남도, 대한민국"
+  },
+  "Busan, South Korea": {
+    "lat": 35.1799528,
+    "lon": 129.0752365,
+    "display_name": "부산광역시, 대한민국"
   }
 }

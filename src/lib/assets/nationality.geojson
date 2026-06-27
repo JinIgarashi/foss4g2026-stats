@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-06-25T08:55:08.979Z",
+	"created_at": "2026-06-27T08:32:53.371Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -23,7 +23,7 @@
 			},
 			"properties": {
 				"name": "Brazil",
-				"count": 12,
+				"count": 13,
 				"country": "Brazil",
 				"region": "Latin America & Caribbean"
 			}
@@ -123,6 +123,19 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"name": "No answer",
+				"count": 56,
+				"country": "France",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [12.674297, 42.6384261]
 			},
 			"properties": {
@@ -205,7 +218,7 @@
 			},
 			"properties": {
 				"name": "Canada",
-				"count": 11,
+				"count": 12,
 				"country": "Canada",
 				"region": "North America"
 			}
@@ -218,7 +231,7 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 130,
+				"count": 135,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -283,7 +296,7 @@
 			},
 			"properties": {
 				"name": "South Korea",
-				"count": 31,
+				"count": 33,
 				"country": "South Korea",
 				"region": "East Asia & Pacific"
 			}
@@ -673,7 +686,7 @@
 			},
 			"properties": {
 				"name": "Sweden",
-				"count": 1,
+				"count": 2,
 				"country": "Sweden",
 				"region": "Europe & Central Asia"
 			}

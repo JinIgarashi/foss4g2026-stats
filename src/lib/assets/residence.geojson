@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-06-25T08:55:08.977Z",
+	"created_at": "2026-06-27T08:32:53.369Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -129,6 +129,19 @@
 				"name": "Prague",
 				"count": 1,
 				"country": "Czechia",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"name": "No answer",
+				"count": 100,
+				"country": "France",
 				"region": "Europe & Central Asia"
 			}
 		},
@@ -452,7 +465,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan",
-				"count": 34,
+				"count": 35,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -933,7 +946,7 @@
 			},
 			"properties": {
 				"name": "Hiroshima, japan, Hiroshima, Japan, Hiroshima, Hiroshima Japan",
-				"count": 9,
+				"count": 10,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -1219,7 +1232,7 @@
 			},
 			"properties": {
 				"name": "São Paulo, Brazil, São Paulo",
-				"count": 2,
+				"count": 3,
 				"country": "Brazil",
 				"region": "Latin America & Caribbean"
 			}
@@ -2557,8 +2570,8 @@
 				"coordinates": [129.0752365, 35.1799528]
 			},
 			"properties": {
-				"name": "BUSAN",
-				"count": 1,
+				"name": "BUSAN, Busan, South Korea",
+				"count": 2,
 				"country": "South Korea",
 				"region": "East Asia & Pacific"
 			}
@@ -2574,6 +2587,19 @@
 				"count": 1,
 				"country": "Netherlands",
 				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [133.8678525, 35.3555075]
+			},
+			"properties": {
+				"name": "Tottori",
+				"count": 2,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -2612,6 +2638,45 @@
 				"name": "SHAH ALAM, MALAYSIA",
 				"count": 1,
 				"country": "Malaysia",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [13.1929449, 55.7029296]
+			},
+			"properties": {
+				"name": "Lund, Sweden",
+				"count": 1,
+				"country": "Sweden",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-115.3481135, 51.0866897]
+			},
+			"properties": {
+				"name": "Canmore, Canada",
+				"count": 1,
+				"country": "Canada",
+				"region": "North America"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [128.8908228, 35.2310947]
+			},
+			"properties": {
+				"name": "Gimhae",
+				"count": 1,
+				"country": "South Korea",
 				"region": "East Asia & Pacific"
 			}
 		}

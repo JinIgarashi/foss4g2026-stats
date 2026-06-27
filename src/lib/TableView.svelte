@@ -46,8 +46,10 @@
 		return 'name';
 	};
 
+	let filteredData = $derived(data.filter((row) => row.name !== 'No answer'));
+
 	let sortedTableData = $derived(
-		[...data].sort((a, b) => {
+		[...filteredData].sort((a, b) => {
 			if (sortKey === 'count') {
 				return sortDirection === 'desc' ? b.count - a.count : a.count - b.count;
 			}
@@ -67,12 +69,12 @@
 			return sortDirection === 'desc' ? b.name.localeCompare(a.name) : a.name.localeCompare(b.name);
 		})
 	);
-	let totalAttendees = $derived(data.reduce((sum, row) => sum + row.count, 0));
+	let totalAttendees = $derived(filteredData.reduce((sum, row) => sum + row.count, 0));
 </script>
 
 <div class="flex h-full min-h-0 flex-col">
 	<p class="mb-2 shrink-0 text-xs text-gray-500">
-		Sorted by {getSortLabel(sortKey)} ({sortDirection}): {data.length} rows
+		Sorted by {getSortLabel(sortKey)} ({sortDirection}): {filteredData.length} rows
 	</p>
 	<div class="table-scroll min-h-0 flex-1 rounded-md border">
 		<Table.Root>

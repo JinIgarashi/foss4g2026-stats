@@ -20,6 +20,23 @@
 		colors: string[];
 	} = $props();
 
+	let normalizedData = $derived({
+		...data,
+		features: data.features.map((feature) => {
+			const normalizedName = String(feature.properties.name ?? '')
+				.split(',')[0]
+				?.trim();
+
+			return {
+				...feature,
+				properties: {
+					...feature.properties,
+					name: normalizedName || feature.properties.name
+				}
+			};
+		})
+	});
+
 	onMount(() => {
 		const mapCtx = getMapContext();
 		const map = mapCtx.map;
@@ -59,7 +76,7 @@
 
 <GeoJSONSource
 	id="residence"
-	{data}
+	data={normalizedData}
 	cluster={true}
 	clusterMaxZoom={14}
 	clusterRadius={50}
@@ -103,6 +120,23 @@
 			'text-size': 11,
 			'text-font': ['Noto Sans Regular'],
 			'text-allow-overlap': true
+		}}
+	/>
+	<SymbolLayer
+		filter={['!', ['has', 'point_count']]}
+		layout={{
+			visibility: activeLayer === 'residence' ? 'visible' : 'none',
+			'text-field': ['get', 'name'],
+			'text-size': 12,
+			'text-font': ['Noto Sans Bold'],
+			'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+			'text-radial-offset': 1.5,
+			'text-justify': 'auto'
+		}}
+		paint={{
+			'text-color': '#333',
+			'text-halo-color': '#fff',
+			'text-halo-width': 1
 		}}
 	/>
 </GeoJSONSource>

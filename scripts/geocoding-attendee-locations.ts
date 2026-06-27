@@ -10,6 +10,8 @@ const OUTPUT_DIR = join(import.meta.dirname, '..', 'src', 'lib', 'assets');
 
 const NOMINATIM_BASE = 'https://nominatim.openstreetmap.org/search';
 const USER_AGENT = 'foss4g2026-stats (https://github.com/JinIgarashi/foss4g2026-stats)';
+const NO_ANSWER_LABEL = 'No answer';
+const NULL_ISLAND = { lat: 0, lon: 0 };
 
 interface NominatimResult {
 	lat: string;
@@ -296,15 +298,11 @@ async function main() {
 			if (!email || seenEmails.has(email)) continue;
 			seenEmails.add(email);
 
-			const city = (row['City and Country'] || '').trim();
-			const nationality = (row['Nationality'] || '').trim();
+			const city = (row['City and Country'] || '').trim() || NO_ANSWER_LABEL;
+			const nationality = (row['Nationality'] || '').trim() || NO_ANSWER_LABEL;
 
-			if (city) {
-				residenceCounts.set(city, (residenceCounts.get(city) || 0) + 1);
-			}
-			if (nationality) {
-				nationalityCounts.set(nationality, (nationalityCounts.get(nationality) || 0) + 1);
-			}
+			residenceCounts.set(city, (residenceCounts.get(city) || 0) + 1);
+			nationalityCounts.set(nationality, (nationalityCounts.get(nationality) || 0) + 1);
 		}
 	}
 
@@ -320,6 +318,25 @@ async function main() {
 	let i = 0;
 	for (const [city, count] of residenceCounts) {
 		i++;
+		if (city === NO_ANSWER_LABEL) {
+			const key = `${NULL_ISLAND.lat},${NULL_ISLAND.lon}`;
+			const existing = residenceGeo.get(key);
+			if (existing) {
+				existing.count += count;
+				if (!existing.names.includes(NO_ANSWER_LABEL)) {
+					existing.names.push(NO_ANSWER_LABEL);
+				}
+			} else {
+				residenceGeo.set(key, {
+					lat: NULL_ISLAND.lat,
+					lon: NULL_ISLAND.lon,
+					count,
+					names: [NO_ANSWER_LABEL]
+				});
+			}
+			continue;
+		}
+
 		const cached = city in cache;
 		if (!cached) {
 			console.log(`  [${i}/${residenceCounts.size}] Geocoding "${city}"...`);
@@ -344,6 +361,15 @@ async function main() {
 	i = 0;
 	for (const [nationality, count] of nationalityCounts) {
 		i++;
+		if (nationality === NO_ANSWER_LABEL) {
+			nationalityGeo.set(NO_ANSWER_LABEL, {
+				lat: NULL_ISLAND.lat,
+				lon: NULL_ISLAND.lon,
+				count
+			});
+			continue;
+		}
+
 		const cached = nationality in cache;
 		if (!cached) {
 			console.log(`  [${i}/${nationalityCounts.size}] Geocoding "${nationality}"...`);
@@ -357,7 +383,7 @@ async function main() {
 	saveCache(cache);
 
 	const residenceForGeoJSON = new Map<string, { lat: number; lon: number; count: number }>();
-	for (const [key, { lat, lon, count, names }] of residenceGeo) {
+	for (const { lat, lon, count, names } of residenceGeo.values()) {
 		residenceForGeoJSON.set(names.join(', '), { lat, lon, count });
 	}
 

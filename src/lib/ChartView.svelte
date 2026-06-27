@@ -123,13 +123,14 @@
 		return `${Math.round(percent)}%`;
 	};
 
-	let preparedChartData = $derived(data.slice(0, topN));
+	let filteredData = $derived(data.filter((row) => row.name !== 'No answer'));
+	let preparedChartData = $derived(filteredData.slice(0, topN));
 	let chartCanvasMinWidth = $derived(Math.max(preparedChartData.length * 56, 640));
 	let showCountryPie = $derived(activeLayer === 'residence');
 	let countryPieData = $derived(
-		aggregatePieData(data, 'country', { maxSlices: 11, othersLabel: 'Others' })
+		aggregatePieData(filteredData, 'country', { maxSlices: 11, othersLabel: 'Others' })
 	);
-	let regionPieData = $derived(aggregatePieData(data, 'region'));
+	let regionPieData = $derived(aggregatePieData(filteredData, 'region'));
 	let countryPieTotal = $derived(countryPieData.reduce((sum, item) => sum + item.value, 0));
 	let regionPieTotal = $derived(regionPieData.reduce((sum, item) => sum + item.value, 0));
 	let countryPieConfig = $derived(toPieChartConfig(countryPieData));
