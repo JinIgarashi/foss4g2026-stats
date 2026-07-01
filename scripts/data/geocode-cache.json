@@ -1599,5 +1599,120 @@
     "lat": 35.1799528,
     "lon": 129.0752365,
     "display_name": "부산광역시, 대한민국"
+  },
+  "Kashipur, India": {
+    "lat": 29.2117573,
+    "lon": 78.9617306,
+    "display_name": "Kashipur, Udham Singh Nagar, Uttarakhand, 244713, India"
+  },
+  "Muscat, Oman": {
+    "lat": 23.6123628,
+    "lon": 58.5938134,
+    "display_name": "مسقط, ولاية مسقط, محافظة مسقط, عمان"
+  },
+  "Giza, Egypt": {
+    "lat": 29.9870753,
+    "lon": 31.2118063,
+    "display_name": "الجيزة, 12524, مصر"
+  },
+  "Dehradun, Uttarakhand": {
+    "lat": 30.3255646,
+    "lon": 78.0436813,
+    "display_name": "Dehradun, Uttarakhand, 248001, India"
+  },
+  "Lahore, Pakistan": {
+    "lat": 31.5656822,
+    "lon": 74.3141829,
+    "display_name": "لاہور, تحصیل لاہور شہر, ضلع لاہور, لاہور ڈویژن, پنجاب, 54100, پاکستان"
+  },
+  "Jakarta, Indonesia": {
+    "lat": -6.1754049,
+    "lon": 106.827168,
+    "display_name": "Daerah Khusus Ibukota Jakarta, Jawa, Indonesia"
+  },
+  "Shanghai": {
+    "lat": 31.2312707,
+    "lon": 121.4700152,
+    "display_name": "上海市, 中国"
+  },
+  "Arusha, Tanzania": {
+    "lat": -3.3696827,
+    "lon": 36.6880794,
+    "display_name": "Arusha, Arusha Municipal, Arusha, Northern Zone, 23103, Tanzania"
+  },
+  "Bremen, Germany": {
+    "lat": 53.0758196,
+    "lon": 8.8071646,
+    "display_name": "Bremen, Deutschland"
+  },
+  "aichi": {
+    "lat": 34.9991645,
+    "lon": 137.254574,
+    "display_name": "愛知県, 日本"
+  },
+  "Nanded, India": {
+    "lat": 19.0942729,
+    "lon": 77.4832628,
+    "display_name": "Nanded, Maharashtra, India"
+  },
+  "Sao Paulo - Brazil": {
+    "lat": -23.5506507,
+    "lon": -46.6333824,
+    "display_name": "São Paulo, Região Sudeste, Brasil"
+  },
+  "Ibaraki,  Japan": {
+    "lat": 36.2869536,
+    "lon": 140.4703384,
+    "display_name": "茨城県, 日本"
+  },
+  "Khlong Nueng, Khlong Luang, Pathum Thani, Thailand": {
+    "lat": 14.0383459,
+    "lon": 100.6204276,
+    "display_name": "คลองหนึ่ง, เทศบาลเมืองคลองหลวง, อำเภอคลองหลวง, จังหวัดปทุมธานี, ประเทศไทย"
+  },
+  "Shizuoka, JAPAN": {
+    "lat": 34.9751974,
+    "lon": 138.3831697,
+    "display_name": "静岡市, 静岡県, 420-8602, 日本"
+  },
+  "Warszawa": {
+    "lat": 52.2333742,
+    "lon": 21.0711489,
+    "display_name": "Warszawa, województwo mazowieckie, Polska"
+  },
+  "Warsaw": {
+    "lat": 52.2333742,
+    "lon": 21.0711489,
+    "display_name": "Warszawa, województwo mazowieckie, Polska"
+  },
+  "Istanbul, Türkiye": {
+    "lat": 41.006381,
+    "lon": 28.9758715,
+    "display_name": "İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye"
+  },
+  "Ontario, Canada": {
+    "lat": 50.000678,
+    "lon": -86.000977,
+    "display_name": "Ontario, Canada"
+  },
+  "Canberra": {
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "display_name": "Canberra, District of Canberra Central, Australian Capital Territory, 2600, Australia"
+  },
+  "Shizuoka,Japan": {
+    "lat": 34.9751974,
+    "lon": 138.3831697,
+    "display_name": "静岡市, 静岡県, 420-8602, 日本"
+  },
+  "Iran": {
+    "lat": 32.6475314,
+    "lon": 54.5643516,
+    "display_name": "ایران"
+  },
+  "Syrian Arab Republic": {
+    "lat": 34.6401861,
+    "lon": 39.0494106,
+    "display_name": "سوريا"
   }
 }

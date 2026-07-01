@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-06-27T08:32:53.371Z",
+	"created_at": "2026-07-01T11:14:48.620Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -23,7 +23,7 @@
 			},
 			"properties": {
 				"name": "Brazil",
-				"count": 13,
+				"count": 14,
 				"country": "Brazil",
 				"region": "Latin America & Caribbean"
 			}
@@ -49,7 +49,7 @@
 			},
 			"properties": {
 				"name": "Australia",
-				"count": 16,
+				"count": 17,
 				"country": "Australia",
 				"region": "East Asia & Pacific"
 			}
@@ -127,7 +127,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 56,
+				"count": 47,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -153,7 +153,7 @@
 			},
 			"properties": {
 				"name": "France",
-				"count": 9,
+				"count": 10,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -179,7 +179,7 @@
 			},
 			"properties": {
 				"name": "Poland",
-				"count": 3,
+				"count": 6,
 				"country": "Poland",
 				"region": "Europe & Central Asia"
 			}
@@ -231,7 +231,7 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 135,
+				"count": 148,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -244,7 +244,7 @@
 			},
 			"properties": {
 				"name": "Egypt",
-				"count": 1,
+				"count": 2,
 				"country": "Egypt",
 				"region": "Middle East & North Africa"
 			}
@@ -283,7 +283,7 @@
 			},
 			"properties": {
 				"name": "Thailand",
-				"count": 24,
+				"count": 26,
 				"country": "Thailand",
 				"region": "East Asia & Pacific"
 			}
@@ -309,7 +309,7 @@
 			},
 			"properties": {
 				"name": "India",
-				"count": 18,
+				"count": 21,
 				"country": "India",
 				"region": "South Asia"
 			}
@@ -348,7 +348,7 @@
 			},
 			"properties": {
 				"name": "Tanzania",
-				"count": 1,
+				"count": 2,
 				"country": "Tanzania",
 				"region": "Sub-Saharan Africa"
 			}
@@ -361,7 +361,7 @@
 			},
 			"properties": {
 				"name": "China",
-				"count": 8,
+				"count": 10,
 				"country": "China",
 				"region": "East Asia & Pacific"
 			}
@@ -517,7 +517,7 @@
 			},
 			"properties": {
 				"name": "Türkiye",
-				"count": 2,
+				"count": 3,
 				"country": "Turkey",
 				"region": "Europe & Central Asia"
 			}
@@ -712,7 +712,7 @@
 			},
 			"properties": {
 				"name": "Pakistan",
-				"count": 2,
+				"count": 3,
 				"country": "Pakistan",
 				"region": "South Asia"
 			}
@@ -751,7 +751,7 @@
 			},
 			"properties": {
 				"name": "Indonesia",
-				"count": 4,
+				"count": 5,
 				"country": "Indonesia",
 				"region": "East Asia & Pacific"
 			}
@@ -806,6 +806,32 @@
 				"count": 1,
 				"country": "Mexico",
 				"region": "Latin America & Caribbean"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [54.5643516, 32.6475314]
+			},
+			"properties": {
+				"name": "Iran",
+				"count": 1,
+				"country": "Iran",
+				"region": "Middle East & North Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [39.0494106, 34.6401861]
+			},
+			"properties": {
+				"name": "Syrian Arab Republic",
+				"count": 1,
+				"country": "Syria",
+				"region": "Middle East & North Africa"
 			}
 		}
 	]

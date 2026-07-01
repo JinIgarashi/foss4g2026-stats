@@ -2,7 +2,7 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import logo from '$lib/assets/logo-with-title.svg';
-	import { siGithub } from 'simple-icons';
+	import siGithub from 'simple-icons/icons/github.svg?raw';
 
 	let { children } = $props();
 
@@ -47,10 +47,13 @@
 			aria-label="GitHub Repository"
 			class="ml-auto inline-flex h-9 w-9 items-center justify-center rounded-md text-gray-600 transition-colors hover:bg-gray-100 hover:text-black"
 		>
-			<svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 fill-current">
-				<title>{siGithub.title}</title>
-				<path d={siGithub.path} />
-			</svg>
+			<span
+				aria-hidden="true"
+				class="inline-flex h-6 w-6 [&>svg]:h-full [&>svg]:w-full [&>svg]:fill-current"
+			>
+				<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+				{@html siGithub}
+			</span>
 		</a>
 	</header>
 	<main class="relative flex-1">

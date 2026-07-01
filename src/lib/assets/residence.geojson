@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-06-27T08:32:53.369Z",
+	"created_at": "2026-07-01T11:14:48.619Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -140,7 +140,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 100,
+				"count": 95,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -204,8 +204,8 @@
 				"coordinates": [21.0711489, 52.2333742]
 			},
 			"properties": {
-				"name": "Warsaw, Poland",
-				"count": 2,
+				"name": "Warsaw, Poland, Warszawa, Warsaw",
+				"count": 4,
 				"country": "Poland",
 				"region": "Europe & Central Asia"
 			}
@@ -400,7 +400,7 @@
 			},
 			"properties": {
 				"name": "Hyogo Japan, Hyogo, Japan, HYOGO",
-				"count": 3,
+				"count": 4,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -465,7 +465,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan",
-				"count": 35,
+				"count": 38,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -929,11 +929,24 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [78.9617306, 29.2117573]
+			},
+			"properties": {
+				"name": "Kashipur, India",
+				"count": 1,
+				"country": "India",
+				"region": "South Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [137.254574, 34.9991645]
 			},
 			"properties": {
-				"name": "Aichi, Japan",
-				"count": 1,
+				"name": "Aichi, Japan, aichi",
+				"count": 2,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -946,7 +959,7 @@
 			},
 			"properties": {
 				"name": "Hiroshima, japan, Hiroshima, Japan, Hiroshima, Hiroshima Japan",
-				"count": 10,
+				"count": 11,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -984,8 +997,8 @@
 				"coordinates": [149.1012676, -35.2975906]
 			},
 			"properties": {
-				"name": "Canberra City",
-				"count": 1,
+				"name": "Canberra City, Canberra",
+				"count": 2,
 				"country": "Australia",
 				"region": "East Asia & Pacific"
 			}
@@ -1141,7 +1154,7 @@
 			},
 			"properties": {
 				"name": "Okayama,Japan, Okayama, Japan",
-				"count": 3,
+				"count": 4,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -1167,7 +1180,7 @@
 			},
 			"properties": {
 				"name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa, 神奈川県",
-				"count": 12,
+				"count": 13,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -1231,8 +1244,8 @@
 				"coordinates": [-46.6333824, -23.5506507]
 			},
 			"properties": {
-				"name": "São Paulo, Brazil, São Paulo",
-				"count": 3,
+				"name": "São Paulo, Brazil, São Paulo, Sao Paulo - Brazil",
+				"count": 4,
 				"country": "Brazil",
 				"region": "Latin America & Caribbean"
 			}
@@ -1803,8 +1816,8 @@
 				"coordinates": [28.9758715, 41.006381]
 			},
 			"properties": {
-				"name": "İstanbul, Türkiye",
-				"count": 1,
+				"name": "İstanbul, Türkiye, Istanbul, Türkiye",
+				"count": 2,
 				"country": "Turkey",
 				"region": "Europe & Central Asia"
 			}
@@ -2678,6 +2691,175 @@
 				"count": 1,
 				"country": "South Korea",
 				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [58.5938134, 23.6123628]
+			},
+			"properties": {
+				"name": "Muscat, Oman",
+				"count": 1,
+				"country": "Oman",
+				"region": "Middle East & North Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [31.2118063, 29.9870753]
+			},
+			"properties": {
+				"name": "Giza, Egypt",
+				"count": 1,
+				"country": "Egypt",
+				"region": "Middle East & North Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [78.0436813, 30.3255646]
+			},
+			"properties": {
+				"name": "Dehradun, Uttarakhand",
+				"count": 1,
+				"country": "India",
+				"region": "South Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [74.3141829, 31.5656822]
+			},
+			"properties": {
+				"name": "Lahore, Pakistan",
+				"count": 1,
+				"country": "Pakistan",
+				"region": "South Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [106.827168, -6.1754049]
+			},
+			"properties": {
+				"name": "Jakarta, Indonesia",
+				"count": 1,
+				"country": "Indonesia",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4700152, 31.2312707]
+			},
+			"properties": {
+				"name": "Shanghai",
+				"count": 1,
+				"country": "China",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [36.6880794, -3.3696827]
+			},
+			"properties": {
+				"name": "Arusha, Tanzania",
+				"count": 1,
+				"country": "Tanzania",
+				"region": "Sub-Saharan Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.8071646, 53.0758196]
+			},
+			"properties": {
+				"name": "Bremen, Germany",
+				"count": 1,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [77.4832628, 19.0942729]
+			},
+			"properties": {
+				"name": "Nanded, India",
+				"count": 1,
+				"country": "India",
+				"region": "South Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [140.4703384, 36.2869536]
+			},
+			"properties": {
+				"name": "Ibaraki,  Japan",
+				"count": 2,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [100.6204276, 14.0383459]
+			},
+			"properties": {
+				"name": "Khlong Nueng, Khlong Luang, Pathum Thani, Thailand",
+				"count": 1,
+				"country": "Thailand",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [138.3831697, 34.9751974]
+			},
+			"properties": {
+				"name": "Shizuoka, JAPAN, Shizuoka,Japan",
+				"count": 2,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-86.000977, 50.000678]
+			},
+			"properties": {
+				"name": "Ontario, Canada",
+				"count": 1,
+				"country": "Canada",
+				"region": "North America"
 			}
 		}
 	]
