@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-07-01T11:14:48.620Z",
+	"created_at": "2026-07-03T12:27:28.139Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -23,7 +23,7 @@
 			},
 			"properties": {
 				"name": "Brazil",
-				"count": 14,
+				"count": 16,
 				"country": "Brazil",
 				"region": "Latin America & Caribbean"
 			}
@@ -49,7 +49,7 @@
 			},
 			"properties": {
 				"name": "Australia",
-				"count": 17,
+				"count": 19,
 				"country": "Australia",
 				"region": "East Asia & Pacific"
 			}
@@ -75,7 +75,7 @@
 			},
 			"properties": {
 				"name": "Malaysia",
-				"count": 4,
+				"count": 5,
 				"country": "Malaysia",
 				"region": "East Asia & Pacific"
 			}
@@ -114,7 +114,7 @@
 			},
 			"properties": {
 				"name": "Germany",
-				"count": 11,
+				"count": 12,
 				"country": "Germany",
 				"region": "Europe & Central Asia"
 			}
@@ -179,8 +179,21 @@
 			},
 			"properties": {
 				"name": "Poland",
-				"count": 6,
+				"count": 7,
 				"country": "Poland",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [14.12456, 47.59397]
+			},
+			"properties": {
+				"name": "Austria",
+				"count": 1,
+				"country": "Austria",
 				"region": "Europe & Central Asia"
 			}
 		},
@@ -205,9 +218,22 @@
 			},
 			"properties": {
 				"name": "United States",
-				"count": 32,
+				"count": 33,
 				"country": "United States of America",
 				"region": "North America"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [172.8344077, -41.5000831]
+			},
+			"properties": {
+				"name": "New Zealand",
+				"count": 8,
+				"country": "New Zealand",
+				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -231,7 +257,7 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 148,
+				"count": 152,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -335,7 +361,7 @@
 			},
 			"properties": {
 				"name": "Portugal",
-				"count": 4,
+				"count": 5,
 				"country": "Portugal",
 				"region": "Europe & Central Asia"
 			}
@@ -377,19 +403,6 @@
 				"count": 5,
 				"country": "Switzerland",
 				"region": "Europe & Central Asia"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [172.8344077, -41.5000831]
-			},
-			"properties": {
-				"name": "New Zealand",
-				"count": 7,
-				"country": "New Zealand",
-				"region": "East Asia & Pacific"
 			}
 		},
 		{
@@ -832,6 +845,19 @@
 				"count": 1,
 				"country": "Syria",
 				"region": "Middle East & North Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-172.12005, -13.7693895]
+			},
+			"properties": {
+				"name": "Samoa",
+				"count": 1,
+				"country": "Samoa",
+				"region": "East Asia & Pacific"
 			}
 		}
 	]

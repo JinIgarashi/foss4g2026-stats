@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-07-01T11:14:48.619Z",
+	"created_at": "2026-07-03T12:27:28.137Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -75,7 +75,7 @@
 			},
 			"properties": {
 				"name": "Perth, Australia, Perth",
-				"count": 2,
+				"count": 4,
 				"country": "Australia",
 				"region": "East Asia & Pacific"
 			}
@@ -214,6 +214,19 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [16.3725042, 48.2083537]
+			},
+			"properties": {
+				"name": "Vienna, Austria",
+				"count": 1,
+				"country": "Austria",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [8.694724, 49.4093582]
 			},
 			"properties": {
@@ -279,6 +292,32 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [13.3951309, 52.5173885]
+			},
+			"properties": {
+				"name": "Berlin, Germany",
+				"count": 7,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-74.0060152, 40.7127281]
+			},
+			"properties": {
+				"name": "New York, USA, New York, NY, New York City, United States",
+				"count": 3,
+				"country": "United States of America",
+				"region": "North America"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-104.984862, 39.7392364]
 			},
 			"properties": {
@@ -336,19 +375,6 @@
 			"properties": {
 				"name": "Bend, Oregon",
 				"count": 1,
-				"country": "United States of America",
-				"region": "North America"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-74.0060152, 40.7127281]
-			},
-			"properties": {
-				"name": "New York, NY, New York City, United States",
-				"count": 2,
 				"country": "United States of America",
 				"region": "North America"
 			}
@@ -465,7 +491,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan",
-				"count": 38,
+				"count": 39,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -643,6 +669,19 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [7.6251879, 51.9625101]
+			},
+			"properties": {
+				"name": "Münster, Germany",
+				"count": 1,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [10.5017133, 59.9140604]
 			},
 			"properties": {
@@ -686,7 +725,7 @@
 			},
 			"properties": {
 				"name": "Lisbon, Portugal",
-				"count": 3,
+				"count": 5,
 				"country": "Portugal",
 				"region": "Europe & Central Asia"
 			}
@@ -737,8 +776,8 @@
 				"coordinates": [141.3542924, 43.061936]
 			},
 			"properties": {
-				"name": "Sapporo, Japan, Hokkaido, Sapporo",
-				"count": 6,
+				"name": "Sapporo, Japan, Hokkaido, Sapporo, Sapporo, Hokkaido",
+				"count": 7,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -864,19 +903,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [13.3951309, 52.5173885]
-			},
-			"properties": {
-				"name": "Berlin, Germany",
-				"count": 6,
-				"country": "Germany",
-				"region": "Europe & Central Asia"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [140.8558059, 38.2819144]
 			},
 			"properties": {
@@ -907,7 +933,7 @@
 			},
 			"properties": {
 				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan",
-				"count": 11,
+				"count": 12,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -1231,8 +1257,8 @@
 				"coordinates": [-155.08158, 19.7073734]
 			},
 			"properties": {
-				"name": "Hilo, United States",
-				"count": 1,
+				"name": "Hilo, United States, Hilo, USA",
+				"count": 2,
 				"country": "United States of America",
 				"region": "North America"
 			}
@@ -2129,7 +2155,7 @@
 			},
 			"properties": {
 				"name": "Nara, Japan",
-				"count": 1,
+				"count": 2,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -2323,8 +2349,8 @@
 				"coordinates": [-48.5496098, -27.5973002]
 			},
 			"properties": {
-				"name": "Florianópolis/Santa Catarina",
-				"count": 1,
+				"name": "Florianópolis/ SC, Florianópolis/Santa Catarina",
+				"count": 2,
 				"country": "Brazil",
 				"region": "Latin America & Caribbean"
 			}
@@ -2860,6 +2886,32 @@
 				"count": 1,
 				"country": "Canada",
 				"region": "North America"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [138.6380495, 35.6399328]
+			},
+			"properties": {
+				"name": "Yamanashi, JAPAN",
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [18.5965831, 53.0145361]
+			},
+			"properties": {
+				"name": "Toruń, Poland",
+				"count": 1,
+				"country": "Poland",
+				"region": "Europe & Central Asia"
 			}
 		}
 	]

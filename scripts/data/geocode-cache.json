@@ -1714,5 +1714,55 @@
     "lat": 34.6401861,
     "lon": 39.0494106,
     "display_name": "سوريا"
+  },
+  "Vienna, Austria": {
+    "lat": 48.2083537,
+    "lon": 16.3725042,
+    "display_name": "Wien, Österreich"
+  },
+  "New York, USA": {
+    "lat": 40.7127281,
+    "lon": -74.0060152,
+    "display_name": "New York, United States"
+  },
+  "Münster, Germany": {
+    "lat": 51.9625101,
+    "lon": 7.6251879,
+    "display_name": "Münster, Nordrhein-Westfalen, Deutschland"
+  },
+  "Florianópolis/ SC": {
+    "lat": -27.5973002,
+    "lon": -48.5496098,
+    "display_name": "Florianópolis, Santa Catarina, Região Sul, Brasil"
+  },
+  "Yamanashi, JAPAN": {
+    "lat": 35.6399328,
+    "lon": 138.6380495,
+    "display_name": "山梨県, 日本"
+  },
+  "Sapporo, Hokkaido": {
+    "lat": 43.061936,
+    "lon": 141.3542924,
+    "display_name": "札幌市, 石狩振興局, 北海道, 北海道地方, 日本"
+  },
+  "Hilo, USA": {
+    "lat": 19.7073734,
+    "lon": -155.08158,
+    "display_name": "Hilo, Hawaiʻi County, Hawaii, 96720, United States"
+  },
+  "Toruń, Poland": {
+    "lat": 53.0145361,
+    "lon": 18.5965831,
+    "display_name": "Toruń, województwo kujawsko-pomorskie, Polska"
+  },
+  "Austria": {
+    "lat": 47.59397,
+    "lon": 14.12456,
+    "display_name": "Österreich"
+  },
+  "Samoa": {
+    "lat": -13.7693895,
+    "lon": -172.12005,
+    "display_name": "Sāmoa"
   }
 }
