@@ -2,6 +2,8 @@ allowBuilds:
   core-js: false
   duckdb: true
   esbuild: false
+minimumReleaseAgeExclude:
+  - svelte-maplibre-gl@2.1.0
 onlyBuiltDependencies:
   - '@tailwindcss/oxide'
   - esbuild

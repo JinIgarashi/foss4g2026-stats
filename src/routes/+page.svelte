@@ -78,6 +78,7 @@
 				'linestring',
 				'polygon',
 				'freehand-linestring',
+				'text',
 				'select',
 				'delete-selection',
 				'delete',
