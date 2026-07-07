@@ -1764,5 +1764,75 @@
     "lat": -13.7693895,
     "lon": -172.12005,
     "display_name": "Sāmoa"
+  },
+  "hyderabad": {
+    "lat": 17.360589,
+    "lon": 78.4740613,
+    "display_name": "Hyderabad, Bahadurpura mandal, Hyderabad, Telangana, India"
+  },
+  "Fukuoka,Japan": {
+    "lat": 33.6251241,
+    "lon": 130.6180016,
+    "display_name": "福岡県, 日本"
+  },
+  "Miyagi,japan": {
+    "lat": 38.3880155,
+    "lon": 140.9761025,
+    "display_name": "宮城県, 日本"
+  },
+  "Iwate, Japan": {
+    "lat": 39.5713763,
+    "lon": 141.4253574,
+    "display_name": "岩手県, 日本"
+  },
+  "Hiroshima,japan": {
+    "lat": 34.3917241,
+    "lon": 132.4517589,
+    "display_name": "広島市, 広島県, 日本"
+  },
+  "morioka,japan": {
+    "lat": 39.7021331,
+    "lon": 141.1545397,
+    "display_name": "盛岡市, 岩手県, 日本"
+  },
+  "Nara": {
+    "lat": 38.8927368,
+    "lon": -77.0229201,
+    "display_name": "U.S. National Archives, 700, Pennsylvania Avenue Northwest, Downtown, Ward 2, Washington, District of Columbia, 20004, United States"
+  },
+  "福井県": {
+    "lat": 35.9263502,
+    "lon": 136.6068127,
+    "display_name": "福井県, 日本"
+  },
+  "Incheon, Republic of Korea": {
+    "lat": 37.456,
+    "lon": 126.7052,
+    "display_name": "인천광역시, 대한민국"
+  },
+  "Kochi, Japan": {
+    "lat": 33.5588482,
+    "lon": 133.5310918,
+    "display_name": "高知市, 高知県, 780-8571, 日本"
+  },
+  "Daejeon, Republic of Korea": {
+    "lat": 36.3497007,
+    "lon": 127.3849016,
+    "display_name": "대전광역시, 대한민국"
+  },
+  "Chiba,Japan": {
+    "lat": 35.549399,
+    "lon": 140.2647303,
+    "display_name": "千葉県, 日本"
+  },
+  "Daejeon, South Korea": {
+    "lat": 36.3497007,
+    "lon": 127.3849016,
+    "display_name": "대전광역시, 대한민국"
+  },
+  "Shah Alam, Malaysia": {
+    "lat": 3.0739429,
+    "lon": 101.5185278,
+    "display_name": "Shah Alam, Petaling, Selangor, Malaysia"
   }
 }
