@@ -1,1062 +1,864 @@
 {
-  "type": "FeatureCollection",
-  "created_at": "2026-07-07T08:04:06.622Z",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.7312101,
-          12.7503486
-        ]
-      },
-      "properties": {
-        "name": "Philippines",
-        "count": 8,
-        "country": "Philippines",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -53.2,
-          -10.3333333
-        ]
-      },
-      "properties": {
-        "name": "Brazil",
-        "count": 16,
-        "country": "Brazil",
-        "region": "Latin America & Caribbean"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.9820179,
-          23.9739374
-        ]
-      },
-      "properties": {
-        "name": "Taiwan",
-        "count": 3,
-        "country": "Taiwan",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          134.755,
-          -24.7761086
-        ]
-      },
-      "properties": {
-        "name": "Australia",
-        "count": 19,
-        "country": "Australia",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.2765753,
-          54.7023545
-        ]
-      },
-      "properties": {
-        "name": "United Kingdom",
-        "count": 9,
-        "country": "United Kingdom",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          102.2656823,
-          4.5693754
-        ]
-      },
-      "properties": {
-        "name": "Malaysia",
-        "count": 6,
-        "country": "Malaysia",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.6859225,
-          45.9852129
-        ]
-      },
-      "properties": {
-        "name": "Romania",
-        "count": 3,
-        "country": "Romania",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.3381061,
-          49.7439047
-        ]
-      },
-      "properties": {
-        "name": "Czechia",
-        "count": 3,
-        "country": "Czechia",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.4478313,
-          51.1638175
-        ]
-      },
-      "properties": {
-        "name": "Germany",
-        "count": 12,
-        "country": "Germany",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0,
-          0
-        ]
-      },
-      "properties": {
-        "name": "No answer",
-        "count": 48,
-        "country": "France",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.674297,
-          42.6384261
-        ]
-      },
-      "properties": {
-        "name": "Italy",
-        "count": 8,
-        "country": "Italy",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.8883335,
-          46.603354
-        ]
-      },
-      "properties": {
-        "name": "France",
-        "count": 10,
-        "country": "France",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.3333283,
-          55.670249
-        ]
-      },
-      "properties": {
-        "name": "Denmark",
-        "count": 2,
-        "country": "Denmark",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.134422,
-          52.215933
-        ]
-      },
-      "properties": {
-        "name": "Poland",
-        "count": 7,
-        "country": "Poland",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.12456,
-          47.59397
-        ]
-      },
-      "properties": {
-        "name": "Austria",
-        "count": 1,
-        "country": "Austria",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8153333,
-          46.1199444
-        ]
-      },
-      "properties": {
-        "name": "Slovenia",
-        "count": 7,
-        "country": "Slovenia",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.445882,
-          39.7837304
-        ]
-      },
-      "properties": {
-        "name": "United States",
-        "count": 33,
-        "country": "United States of America",
-        "region": "North America"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.8344077,
-          -41.5000831
-        ]
-      },
-      "properties": {
-        "name": "New Zealand",
-        "count": 8,
-        "country": "New Zealand",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -107.991707,
-          61.0666922
-        ]
-      },
-      "properties": {
-        "name": "Canada",
-        "count": 12,
-        "country": "Canada",
-        "region": "North America"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.2394179,
-          36.5748441
-        ]
-      },
-      "properties": {
-        "name": "Japan",
-        "count": 164,
-        "country": "Japan",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          29.2675469,
-          26.2540493
-        ]
-      },
-      "properties": {
-        "name": "Egypt",
-        "count": 2,
-        "country": "Egypt",
-        "region": "Middle East & North Africa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.9672817,
-          -34.9964963
-        ]
-      },
-      "properties": {
-        "name": "Argentina",
-        "count": 1,
-        "country": "Argentina",
-        "region": "Latin America & Caribbean"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.7876653,
-          61.1529386
-        ]
-      },
-      "properties": {
-        "name": "Norway",
-        "count": 9,
-        "country": "Norway",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          100.83273,
-          14.8971921
-        ]
-      },
-      "properties": {
-        "name": "Thailand",
-        "count": 26,
-        "country": "Thailand",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.6961188,
-          36.638392
-        ]
-      },
-      "properties": {
-        "name": "South Korea",
-        "count": 43,
-        "country": "South Korea",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.6677428,
-          22.3511148
-        ]
-      },
-      "properties": {
-        "name": "India",
-        "count": 22,
-        "country": "India",
-        "region": "South Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.6343227,
-          52.2434979
-        ]
-      },
-      "properties": {
-        "name": "Netherlands",
-        "count": 8,
-        "country": "Netherlands",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -8.1353519,
-          39.6621648
-        ]
-      },
-      "properties": {
-        "name": "Portugal",
-        "count": 5,
-        "country": "Portugal",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.7878438,
-          -6.5247123
-        ]
-      },
-      "properties": {
-        "name": "Tanzania",
-        "count": 2,
-        "country": "Tanzania",
-        "region": "Sub-Saharan Africa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          108.9237067,
-          34.5412252
-        ]
-      },
-      "properties": {
-        "name": "China",
-        "count": 10,
-        "country": "China",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.2319736,
-          46.7985624
-        ]
-      },
-      "properties": {
-        "name": "Switzerland",
-        "count": 5,
-        "country": "Switzerland",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.1693445,
-          -23.3165935
-        ]
-      },
-      "properties": {
-        "name": "Paraguay",
-        "count": 2,
-        "country": "Paraguay",
-        "region": "Latin America & Caribbean"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.9650855,
-          15.9266657
-        ]
-      },
-      "properties": {
-        "name": "Vietnam",
-        "count": 1,
-        "country": "Vietnam",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.8194992,
-          1.357107
-        ]
-      },
-      "properties": {
-        "name": "Singapore",
-        "count": 5,
-        "country": "Singapore",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.9999721,
-          9.6000359
-        ]
-      },
-      "properties": {
-        "name": "Nigeria",
-        "count": 3,
-        "country": "Nigeria",
-        "region": "Sub-Saharan Africa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.9209164,
-          63.2467777
-        ]
-      },
-      "properties": {
-        "name": "Finland",
-        "count": 2,
-        "country": "Finland",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.8379791,
-          39.3260685
-        ]
-      },
-      "properties": {
-        "name": "Spain",
-        "count": 3,
-        "country": "Spain",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.3319078,
-          58.7523778
-        ]
-      },
-      "properties": {
-        "name": "Estonia",
-        "count": 3,
-        "country": "Estonia",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.3947693,
-          18.1850507
-        ]
-      },
-      "properties": {
-        "name": "Jamaica",
-        "count": 1,
-        "country": "Jamaica",
-        "region": "Latin America & Caribbean"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.6575209,
-          45.3658443
-        ]
-      },
-      "properties": {
-        "name": "Croatia",
-        "count": 6,
-        "country": "Croatia",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.2316631,
-          39.294076
-        ]
-      },
-      "properties": {
-        "name": "Türkiye",
-        "count": 3,
-        "country": "Turkey",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.1296751,
-          49.8158683
-        ]
-      },
-      "properties": {
-        "name": "Luxembourg",
-        "count": 1,
-        "country": "Luxembourg",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.4528646,
-          48.7411522
-        ]
-      },
-      "properties": {
-        "name": "Slovakia",
-        "count": 1,
-        "country": "Slovakia",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.7137847,
-          7.5554942
-        ]
-      },
-      "properties": {
-        "name": "Sri Lanka",
-        "count": 3,
-        "country": "Sri Lanka",
-        "region": "South Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.9088133,
-          4.099917
-        ]
-      },
-      "properties": {
-        "name": "Colombia",
-        "count": 2,
-        "country": "Colombia",
-        "region": "Latin America & Caribbean"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          31.2718321,
-          49.4871968
-        ]
-      },
-      "properties": {
-        "name": "Ukraine",
-        "count": 1,
-        "country": "Ukraine",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.063482,
-          -8.7443169
-        ]
-      },
-      "properties": {
-        "name": "Timor-Leste",
-        "count": 2,
-        "country": "Timor-Leste",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          83.9999901,
-          28.3780464
-        ]
-      },
-      "properties": {
-        "name": "Nepal",
-        "count": 3,
-        "country": "Nepal",
-        "region": "South Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          42.3528328,
-          25.6242618
-        ]
-      },
-      "properties": {
-        "name": "Saudi Arabia",
-        "count": 2,
-        "country": "Saudi Arabia",
-        "region": "Middle East & North Africa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          29.7468414,
-          -18.4554963
-        ]
-      },
-      "properties": {
-        "name": "Zimbabwe",
-        "count": 1,
-        "country": "Zimbabwe",
-        "region": "Sub-Saharan Africa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.991639,
-          -28.8166236
-        ]
-      },
-      "properties": {
-        "name": "South Africa",
-        "count": 2,
-        "country": "South Africa",
-        "region": "Sub-Saharan Africa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.0122737,
-          -18.1239696
-        ]
-      },
-      "properties": {
-        "name": "Fiji",
-        "count": 3,
-        "country": "Fiji",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.9999619,
-          41.000028
-        ]
-      },
-      "properties": {
-        "name": "Albania",
-        "count": 1,
-        "country": "Albania",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.5208584,
-          59.6749712
-        ]
-      },
-      "properties": {
-        "name": "Sweden",
-        "count": 2,
-        "country": "Sweden",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          97.7453061,
-          64.6863136
-        ]
-      },
-      "properties": {
-        "name": "Russian Federation",
-        "count": 1,
-        "country": "Russia",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.247499,
-          30.3308401
-        ]
-      },
-      "properties": {
-        "name": "Pakistan",
-        "count": 3,
-        "country": "Pakistan",
-        "region": "South Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.1582831,
-          22.2818333
-        ]
-      },
-      "properties": {
-        "name": "Hong Kong",
-        "count": 1,
-        "country": "Hong Kong",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.9301963,
-          -13.2687204
-        ]
-      },
-      "properties": {
-        "name": "Malawi",
-        "count": 2,
-        "country": "Malawi",
-        "region": "Sub-Saharan Africa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          117.8902853,
-          -2.4833826
-        ]
-      },
-      "properties": {
-        "name": "Indonesia",
-        "count": 5,
-        "country": "Indonesia",
-        "region": "East Asia & Pacific"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.8222636,
-          -2.9814344
-        ]
-      },
-      "properties": {
-        "name": "Congo, The Democratic Republic of the",
-        "count": 1,
-        "country": "Dem. Rep. Congo",
-        "region": "Sub-Saharan Africa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          38.4313975,
-          1.4419683
-        ]
-      },
-      "properties": {
-        "name": "Kenya",
-        "count": 1,
-        "country": "Kenya",
-        "region": "Sub-Saharan Africa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.0765743,
-          44.0243229
-        ]
-      },
-      "properties": {
-        "name": "Serbia",
-        "count": 1,
-        "country": "Serbia",
-        "region": "Europe & Central Asia"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.0077097,
-          23.6585116
-        ]
-      },
-      "properties": {
-        "name": "Mexico",
-        "count": 1,
-        "country": "Mexico",
-        "region": "Latin America & Caribbean"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          54.5643516,
-          32.6475314
-        ]
-      },
-      "properties": {
-        "name": "Iran",
-        "count": 1,
-        "country": "Iran",
-        "region": "Middle East & North Africa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          39.0494106,
-          34.6401861
-        ]
-      },
-      "properties": {
-        "name": "Syrian Arab Republic",
-        "count": 1,
-        "country": "Syria",
-        "region": "Middle East & North Africa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.12005,
-          -13.7693895
-        ]
-      },
-      "properties": {
-        "name": "Samoa",
-        "count": 1,
-        "country": "Samoa",
-        "region": "East Asia & Pacific"
-      }
-    }
-  ]
+	"type": "FeatureCollection",
+	"created_at": "2026-07-12T00:42:05.257Z",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [122.7312101, 12.7503486]
+			},
+			"properties": {
+				"name": "Philippines",
+				"count": 8,
+				"country": "Philippines",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-53.2, -10.3333333]
+			},
+			"properties": {
+				"name": "Brazil",
+				"count": 17,
+				"country": "Brazil",
+				"region": "Latin America & Caribbean"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.9820179, 23.9739374]
+			},
+			"properties": {
+				"name": "Taiwan",
+				"count": 3,
+				"country": "Taiwan",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [134.755, -24.7761086]
+			},
+			"properties": {
+				"name": "Australia",
+				"count": 20,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.2765753, 54.7023545]
+			},
+			"properties": {
+				"name": "United Kingdom",
+				"count": 9,
+				"country": "United Kingdom",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [102.2656823, 4.5693754]
+			},
+			"properties": {
+				"name": "Malaysia",
+				"count": 7,
+				"country": "Malaysia",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.6859225, 45.9852129]
+			},
+			"properties": {
+				"name": "Romania",
+				"count": 3,
+				"country": "Romania",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [15.3381061, 49.7439047]
+			},
+			"properties": {
+				"name": "Czechia",
+				"count": 3,
+				"country": "Czechia",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [10.4478313, 51.1638175]
+			},
+			"properties": {
+				"name": "Germany",
+				"count": 12,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"name": "No answer",
+				"count": 50,
+				"country": "France",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [12.674297, 42.6384261]
+			},
+			"properties": {
+				"name": "Italy",
+				"count": 8,
+				"country": "Italy",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.8883335, 46.603354]
+			},
+			"properties": {
+				"name": "France",
+				"count": 11,
+				"country": "France",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [10.3333283, 55.670249]
+			},
+			"properties": {
+				"name": "Denmark",
+				"count": 2,
+				"country": "Denmark",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [19.134422, 52.215933]
+			},
+			"properties": {
+				"name": "Poland",
+				"count": 7,
+				"country": "Poland",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [14.12456, 47.59397]
+			},
+			"properties": {
+				"name": "Austria",
+				"count": 1,
+				"country": "Austria",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [14.8153333, 46.1199444]
+			},
+			"properties": {
+				"name": "Slovenia",
+				"count": 7,
+				"country": "Slovenia",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-100.445882, 39.7837304]
+			},
+			"properties": {
+				"name": "United States",
+				"count": 33,
+				"country": "United States of America",
+				"region": "North America"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [172.8344077, -41.5000831]
+			},
+			"properties": {
+				"name": "New Zealand",
+				"count": 8,
+				"country": "New Zealand",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-107.991707, 61.0666922]
+			},
+			"properties": {
+				"name": "Canada",
+				"count": 12,
+				"country": "Canada",
+				"region": "North America"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [139.2394179, 36.5748441]
+			},
+			"properties": {
+				"name": "Japan",
+				"count": 175,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [29.2675469, 26.2540493]
+			},
+			"properties": {
+				"name": "Egypt",
+				"count": 2,
+				"country": "Egypt",
+				"region": "Middle East & North Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-64.9672817, -34.9964963]
+			},
+			"properties": {
+				"name": "Argentina",
+				"count": 1,
+				"country": "Argentina",
+				"region": "Latin America & Caribbean"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.7876653, 61.1529386]
+			},
+			"properties": {
+				"name": "Norway",
+				"count": 9,
+				"country": "Norway",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [100.83273, 14.8971921]
+			},
+			"properties": {
+				"name": "Thailand",
+				"count": 28,
+				"country": "Thailand",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [127.6961188, 36.638392]
+			},
+			"properties": {
+				"name": "South Korea",
+				"count": 44,
+				"country": "South Korea",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [78.6677428, 22.3511148]
+			},
+			"properties": {
+				"name": "India",
+				"count": 22,
+				"country": "India",
+				"region": "South Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [5.6343227, 52.2434979]
+			},
+			"properties": {
+				"name": "Netherlands",
+				"count": 8,
+				"country": "Netherlands",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-8.1353519, 39.6621648]
+			},
+			"properties": {
+				"name": "Portugal",
+				"count": 5,
+				"country": "Portugal",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [35.7878438, -6.5247123]
+			},
+			"properties": {
+				"name": "Tanzania",
+				"count": 2,
+				"country": "Tanzania",
+				"region": "Sub-Saharan Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [108.9237067, 34.5412252]
+			},
+			"properties": {
+				"name": "China",
+				"count": 10,
+				"country": "China",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.2319736, 46.7985624]
+			},
+			"properties": {
+				"name": "Switzerland",
+				"count": 5,
+				"country": "Switzerland",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-58.1693445, -23.3165935]
+			},
+			"properties": {
+				"name": "Paraguay",
+				"count": 2,
+				"country": "Paraguay",
+				"region": "Latin America & Caribbean"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [107.9650855, 15.9266657]
+			},
+			"properties": {
+				"name": "Vietnam",
+				"count": 1,
+				"country": "Vietnam",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.8194992, 1.357107]
+			},
+			"properties": {
+				"name": "Singapore",
+				"count": 5,
+				"country": "Singapore",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.9999721, 9.6000359]
+			},
+			"properties": {
+				"name": "Nigeria",
+				"count": 3,
+				"country": "Nigeria",
+				"region": "Sub-Saharan Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.9209164, 63.2467777]
+			},
+			"properties": {
+				"name": "Finland",
+				"count": 2,
+				"country": "Finland",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.8379791, 39.3260685]
+			},
+			"properties": {
+				"name": "Spain",
+				"count": 3,
+				"country": "Spain",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.3319078, 58.7523778]
+			},
+			"properties": {
+				"name": "Estonia",
+				"count": 3,
+				"country": "Estonia",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-77.3947693, 18.1850507]
+			},
+			"properties": {
+				"name": "Jamaica",
+				"count": 1,
+				"country": "Jamaica",
+				"region": "Latin America & Caribbean"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [15.6575209, 45.3658443]
+			},
+			"properties": {
+				"name": "Croatia",
+				"count": 6,
+				"country": "Croatia",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [35.2316631, 39.294076]
+			},
+			"properties": {
+				"name": "Türkiye",
+				"count": 3,
+				"country": "Turkey",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [6.1296751, 49.8158683]
+			},
+			"properties": {
+				"name": "Luxembourg",
+				"count": 1,
+				"country": "Luxembourg",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [19.4528646, 48.7411522]
+			},
+			"properties": {
+				"name": "Slovakia",
+				"count": 1,
+				"country": "Slovakia",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-72.9088133, 4.099917]
+			},
+			"properties": {
+				"name": "Colombia",
+				"count": 2,
+				"country": "Colombia",
+				"region": "Latin America & Caribbean"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [31.2718321, 49.4871968]
+			},
+			"properties": {
+				"name": "Ukraine",
+				"count": 1,
+				"country": "Ukraine",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [126.063482, -8.7443169]
+			},
+			"properties": {
+				"name": "Timor-Leste",
+				"count": 2,
+				"country": "Timor-Leste",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [83.9999901, 28.3780464]
+			},
+			"properties": {
+				"name": "Nepal",
+				"count": 3,
+				"country": "Nepal",
+				"region": "South Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [42.3528328, 25.6242618]
+			},
+			"properties": {
+				"name": "Saudi Arabia",
+				"count": 2,
+				"country": "Saudi Arabia",
+				"region": "Middle East & North Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [29.7468414, -18.4554963]
+			},
+			"properties": {
+				"name": "Zimbabwe",
+				"count": 1,
+				"country": "Zimbabwe",
+				"region": "Sub-Saharan Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [80.7137847, 7.5554942]
+			},
+			"properties": {
+				"name": "Sri Lanka",
+				"count": 2,
+				"country": "Sri Lanka",
+				"region": "South Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.991639, -28.8166236]
+			},
+			"properties": {
+				"name": "South Africa",
+				"count": 2,
+				"country": "South Africa",
+				"region": "Sub-Saharan Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [179.0122737, -18.1239696]
+			},
+			"properties": {
+				"name": "Fiji",
+				"count": 3,
+				"country": "Fiji",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [19.9999619, 41.000028]
+			},
+			"properties": {
+				"name": "Albania",
+				"count": 1,
+				"country": "Albania",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [14.5208584, 59.6749712]
+			},
+			"properties": {
+				"name": "Sweden",
+				"count": 2,
+				"country": "Sweden",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [97.7453061, 64.6863136]
+			},
+			"properties": {
+				"name": "Russian Federation",
+				"count": 1,
+				"country": "Russia",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [71.247499, 30.3308401]
+			},
+			"properties": {
+				"name": "Pakistan",
+				"count": 3,
+				"country": "Pakistan",
+				"region": "South Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.1582831, 22.2818333]
+			},
+			"properties": {
+				"name": "Hong Kong",
+				"count": 1,
+				"country": "Hong Kong",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [33.9301963, -13.2687204]
+			},
+			"properties": {
+				"name": "Malawi",
+				"count": 2,
+				"country": "Malawi",
+				"region": "Sub-Saharan Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [117.8902853, -2.4833826]
+			},
+			"properties": {
+				"name": "Indonesia",
+				"count": 5,
+				"country": "Indonesia",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.8222636, -2.9814344]
+			},
+			"properties": {
+				"name": "Congo, The Democratic Republic of the",
+				"count": 1,
+				"country": "Dem. Rep. Congo",
+				"region": "Sub-Saharan Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [38.4313975, 1.4419683]
+			},
+			"properties": {
+				"name": "Kenya",
+				"count": 1,
+				"country": "Kenya",
+				"region": "Sub-Saharan Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.0765743, 44.0243229]
+			},
+			"properties": {
+				"name": "Serbia",
+				"count": 1,
+				"country": "Serbia",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-102.0077097, 23.6585116]
+			},
+			"properties": {
+				"name": "Mexico",
+				"count": 1,
+				"country": "Mexico",
+				"region": "Latin America & Caribbean"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [54.5643516, 32.6475314]
+			},
+			"properties": {
+				"name": "Iran",
+				"count": 1,
+				"country": "Iran",
+				"region": "Middle East & North Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [39.0494106, 34.6401861]
+			},
+			"properties": {
+				"name": "Syrian Arab Republic",
+				"count": 1,
+				"country": "Syria",
+				"region": "Middle East & North Africa"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-172.12005, -13.7693895]
+			},
+			"properties": {
+				"name": "Samoa",
+				"count": 1,
+				"country": "Samoa",
+				"region": "East Asia & Pacific"
+			}
+		}
+	]
 }

@@ -1834,5 +1834,26 @@
     "lat": 3.0739429,
     "lon": 101.5185278,
     "display_name": "Shah Alam, Petaling, Selangor, Malaysia"
+  },
+  "TOKYO": {
+    "lat": 35.6768601,
+    "lon": 139.7638947,
+    "display_name": "東京都, 日本"
+  },
+  "Barberasz - France": null,
+  "Tochigi Japan": {
+    "lat": 36.6782167,
+    "lon": 139.8096549,
+    "display_name": "栃木県, 日本"
+  },
+  "Shah Alam, Selangor": {
+    "lat": 3.0739429,
+    "lon": 101.5185278,
+    "display_name": "Shah Alam, Petaling, Selangor, Malaysia"
+  },
+  "Brasília": {
+    "lat": -10.3333333,
+    "lon": -53.2,
+    "display_name": "Brasil"
   }
 }
