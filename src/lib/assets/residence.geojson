@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-07-12T00:42:05.256Z",
+	"created_at": "2026-07-17T08:40:03.706Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -140,7 +140,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 103,
+				"count": 101,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -491,7 +491,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan, TOKYO",
-				"count": 45,
+				"count": 48,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -789,8 +789,8 @@
 				"coordinates": [135.5014539, 34.6937569]
 			},
 			"properties": {
-				"name": "Osaka, Japan, osaka,japan, Osaka, JAPAN",
-				"count": 7,
+				"name": "Osaka, Japan, osaka,japan, Osaka, JAPAN, Osaka,Japan",
+				"count": 9,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -932,8 +932,8 @@
 				"coordinates": [139.4160114, 35.9754168]
 			},
 			"properties": {
-				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan",
-				"count": 12,
+				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan, Saitama,Japan",
+				"count": 15,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -949,6 +949,19 @@
 				"count": 3,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-107.991707, 61.0666922]
+			},
+			"properties": {
+				"name": "Canada",
+				"count": 1,
+				"country": "Canada",
+				"region": "North America"
 			}
 		},
 		{
@@ -972,7 +985,7 @@
 			},
 			"properties": {
 				"name": "Aichi, Japan, aichi",
-				"count": 2,
+				"count": 5,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -985,7 +998,7 @@
 			},
 			"properties": {
 				"name": "Hiroshima, japan, Hiroshima, Japan, Hiroshima, Hiroshima Japan, Hiroshima,japan",
-				"count": 12,
+				"count": 13,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -1778,7 +1791,7 @@
 			},
 			"properties": {
 				"name": "Suva, Suva, Fiji",
-				"count": 3,
+				"count": 4,
 				"country": "Fiji",
 				"region": "East Asia & Pacific"
 			}
@@ -2232,8 +2245,8 @@
 				"coordinates": [142.9521222, 43.4339536]
 			},
 			"properties": {
-				"name": "Hokkaido",
-				"count": 2,
+				"name": "Hokkaido, Hokkaido,Japan",
+				"count": 3,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -2596,8 +2609,8 @@
 				"coordinates": [129.0752365, 35.1799528]
 			},
 			"properties": {
-				"name": "BUSAN, Busan, South Korea",
-				"count": 2,
+				"name": "BUSAN, Busan, South Korea, BUSAN, SOUTH KOREA",
+				"count": 5,
 				"country": "South Korea",
 				"region": "East Asia & Pacific"
 			}
@@ -3029,6 +3042,19 @@
 				"count": 1,
 				"country": "Brazil",
 				"region": "Latin America & Caribbean"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.9803621, 14.5904492]
+			},
+			"properties": {
+				"name": "Manila, Philippines",
+				"count": 1,
+				"country": "Philippines",
+				"region": "East Asia & Pacific"
 			}
 		}
 	]

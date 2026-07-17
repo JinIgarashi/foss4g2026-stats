@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-07-12T00:42:05.257Z",
+	"created_at": "2026-07-17T08:40:03.707Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -10,7 +10,7 @@
 			},
 			"properties": {
 				"name": "Philippines",
-				"count": 8,
+				"count": 9,
 				"country": "Philippines",
 				"region": "East Asia & Pacific"
 			}
@@ -127,7 +127,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 50,
+				"count": 48,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -257,7 +257,7 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 175,
+				"count": 187,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -322,7 +322,7 @@
 			},
 			"properties": {
 				"name": "South Korea",
-				"count": 44,
+				"count": 47,
 				"country": "South Korea",
 				"region": "East Asia & Pacific"
 			}
@@ -387,7 +387,7 @@
 			},
 			"properties": {
 				"name": "China",
-				"count": 10,
+				"count": 12,
 				"country": "China",
 				"region": "East Asia & Pacific"
 			}
@@ -673,7 +673,7 @@
 			},
 			"properties": {
 				"name": "Fiji",
-				"count": 3,
+				"count": 4,
 				"country": "Fiji",
 				"region": "East Asia & Pacific"
 			}

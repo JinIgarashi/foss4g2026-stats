@@ -1855,5 +1855,30 @@
     "lat": -10.3333333,
     "lon": -53.2,
     "display_name": "Brasil"
+  },
+  "BUSAN, SOUTH KOREA": {
+    "lat": 35.1799528,
+    "lon": 129.0752365,
+    "display_name": "부산광역시, 대한민국"
+  },
+  "Manila, Philippines": {
+    "lat": 14.5904492,
+    "lon": 120.9803621,
+    "display_name": "Manila, Capital District, Metro Manila, Philippines"
+  },
+  "Osaka,Japan": {
+    "lat": 34.6937569,
+    "lon": 135.5014539,
+    "display_name": "大阪市, 大阪府, 日本"
+  },
+  "Saitama,Japan": {
+    "lat": 35.9754168,
+    "lon": 139.4160114,
+    "display_name": "埼玉県, 日本"
+  },
+  "Hokkaido,Japan": {
+    "lat": 43.4339536,
+    "lon": 142.9521222,
+    "display_name": "北海道地方, 日本"
   }
 }
