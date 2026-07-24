@@ -56,7 +56,7 @@
 	{#if layerPanelOpen}
 		<Card.Root class="w-80 py-4">
 			<Card.Header class="flex flex-row items-center justify-between">
-				<Card.Title><Layers size={16} class="inline-block mr-2" />Layers</Card.Title>
+				<Card.Title><Layers size={16} class="mr-2 inline-block" />Layers</Card.Title>
 				<Button
 					variant="ghost"
 					size="icon"
@@ -158,7 +158,7 @@
 					<Button
 						variant="outline"
 						size="icon"
-						class="layer-toggle-btn border-slate-200 bg-white/90 text-slate-900 shadow-sm backdrop-blur-sm cursor-pointer"
+						class="layer-toggle-btn cursor-pointer border-slate-200 bg-white/90 text-slate-900 shadow-sm backdrop-blur-sm"
 						onclick={() => (layerPanelOpen = true)}
 					>
 						<Layers />

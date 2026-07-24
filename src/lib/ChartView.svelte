@@ -138,7 +138,7 @@
 </script>
 
 <div
-	class={`chart-layout grid h-full min-h-0 grid-cols-1 gap-3 overflow-y-auto pb-1 pr-1 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] lg:grid-rows-2 lg:overflow-hidden lg:pb-0 lg:pr-0 ${showCountryPie ? 'md:grid-cols-2' : ''}`}
+	class={`chart-layout grid h-full min-h-0 grid-cols-1 gap-3 overflow-y-auto pr-1 pb-1 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] lg:grid-rows-2 lg:overflow-hidden lg:pr-0 lg:pb-0 ${showCountryPie ? 'md:grid-cols-2' : ''}`}
 >
 	<Card.Root
 		class={`chart-blue-bars flex min-h-90 min-w-0 flex-col py-4 lg:row-span-2 lg:min-h-0 ${showCountryPie ? 'md:col-span-2 lg:col-auto' : ''}`}
@@ -160,7 +160,7 @@
 				<div class="relative h-full" style={`min-width: ${chartCanvasMinWidth}px;`}>
 					{#if selectedBar}
 						<div
-							class="absolute right-2 top-2 z-20 rounded-md border bg-white/95 p-3 text-xs shadow-md backdrop-blur-sm"
+							class="absolute top-2 right-2 z-20 rounded-md border bg-white/95 p-3 text-xs shadow-md backdrop-blur-sm"
 						>
 							<div class="mb-1 font-semibold text-slate-800">{selectedBar.name}</div>
 							<div class="text-slate-600">Attendees: {selectedBar.count}</div>
@@ -266,10 +266,10 @@
 													style={`background-color: ${resolvedColor};`}
 												></span>
 											</div>
-											<div class="text-foreground font-mono font-medium tabular-nums">
+											<div class="font-mono font-medium text-foreground tabular-nums">
 												{attendeeCount.toLocaleString()} attendees
 											</div>
-											<div class="text-muted-foreground font-mono tabular-nums">
+											<div class="font-mono text-muted-foreground tabular-nums">
 												{formatPercent(ratio)}
 											</div>
 										</div>
@@ -352,10 +352,10 @@
 												style={`background-color: ${resolvedColor};`}
 											></span>
 										</div>
-										<div class="text-foreground font-mono font-medium tabular-nums">
+										<div class="font-mono font-medium text-foreground tabular-nums">
 											{attendeeCount.toLocaleString()} attendees
 										</div>
-										<div class="text-muted-foreground font-mono tabular-nums">
+										<div class="font-mono text-muted-foreground tabular-nums">
 											{formatPercent(ratio)}
 										</div>
 									</div>

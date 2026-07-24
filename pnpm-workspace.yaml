@@ -3,7 +3,8 @@ allowBuilds:
   duckdb: true
   esbuild: false
 minimumReleaseAgeExclude:
-  - svelte-maplibre-gl@2.1.0
+  - svelte-maplibre-gl@2.1.0 || 2.2.0
+  - '@watergis/maplibre-gl-export@5.0.0'
 onlyBuiltDependencies:
   - '@tailwindcss/oxide'
   - esbuild

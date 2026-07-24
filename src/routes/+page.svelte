@@ -92,7 +92,7 @@
 </script>
 
 {#if !isMapLoaded}
-	<div class="flex items-center justify-center w-full h-full bg-white">
+	<div class="flex h-full w-full items-center justify-center bg-white">
 		<div class="flex flex-col items-center gap-4">
 			<Spinner />
 			<p class="text-sm text-gray-600">Loading...</p>

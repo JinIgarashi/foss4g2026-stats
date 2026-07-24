@@ -128,7 +128,7 @@
 						<Button
 							variant="outline"
 							size="icon"
-							class="layer-toggle-btn border-slate-200 bg-white/90 text-slate-900 shadow-sm backdrop-blur-sm cursor-pointer hover:bg-white hover:text-slate-900"
+							class="layer-toggle-btn cursor-pointer border-slate-200 bg-white/90 text-slate-900 shadow-sm backdrop-blur-sm hover:bg-white hover:text-slate-900"
 						>
 							<ChartColumn />
 						</Button>
