@@ -1880,5 +1880,46 @@
     "lat": 43.4339536,
     "lon": 142.9521222,
     "display_name": "北海道地方, 日本"
+  },
+  "Vancouver, France": {
+    "lat": 47.2234801,
+    "lon": -1.6313602,
+    "display_name": "Vancouver, Rue James Cook, Zone commerciale Atlantis, Atlantis, Solvardière, Saint-Herblain, Nantes, Loire-Atlantique, Pays de la Loire, France métropolitaine, 44800, France"
+  },
+  "Bogor, Indonesia": {
+    "lat": -6.5963564,
+    "lon": 106.7973188,
+    "display_name": "Bogor, Jawa Barat, Indonesia"
+  },
+  "chiba/Japan": {
+    "lat": 35.549399,
+    "lon": 140.2647303,
+    "display_name": "千葉県, 日本"
+  },
+  "Nagasaki,Japan": {
+    "lat": 33.1154683,
+    "lon": 129.7874339,
+    "display_name": "長崎県, 日本"
+  },
+  "Nagasaki, Japan": {
+    "lat": 33.1154683,
+    "lon": 129.7874339,
+    "display_name": "長崎県, 日本"
+  },
+  "Potsdam, Germany": {
+    "lat": 52.4009309,
+    "lon": 13.0591397,
+    "display_name": "Potsdam, Brandenburg, Deutschland"
+  },
+  "Burjasson (Spain=": null,
+  "Shizuoka": {
+    "lat": 34.9751974,
+    "lon": 138.3831697,
+    "display_name": "静岡市, 静岡県, 420-8602, 日本"
+  },
+  "Chiba Japan": {
+    "lat": 35.549399,
+    "lon": 140.2647303,
+    "display_name": "千葉県, 日本"
   }
 }

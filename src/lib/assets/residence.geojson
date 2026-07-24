@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-07-17T08:40:03.706Z",
+	"created_at": "2026-07-24T11:46:54.014Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -62,7 +62,7 @@
 			},
 			"properties": {
 				"name": "Melbourne, Australia",
-				"count": 6,
+				"count": 7,
 				"country": "Australia",
 				"region": "East Asia & Pacific"
 			}
@@ -140,7 +140,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 101,
+				"count": 122,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -477,8 +477,8 @@
 				"coordinates": [140.2647303, 35.549399]
 			},
 			"properties": {
-				"name": "Chiba, Chiba, Japan, 千葉県, Chiba,Japan",
-				"count": 9,
+				"name": "Chiba, Chiba, Japan, 千葉県, chiba/Japan, Chiba,Japan, Chiba Japan",
+				"count": 12,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -790,7 +790,7 @@
 			},
 			"properties": {
 				"name": "Osaka, Japan, osaka,japan, Osaka, JAPAN, Osaka,Japan",
-				"count": 9,
+				"count": 10,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -933,7 +933,7 @@
 			},
 			"properties": {
 				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan, Saitama,Japan",
-				"count": 15,
+				"count": 16,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -1566,10 +1566,10 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-2.7599079, 47.6586772]
+				"coordinates": [-1.6313602, 47.2234801]
 			},
 			"properties": {
-				"name": "France, Vannes",
+				"name": "Vancouver, France",
 				"count": 1,
 				"country": "France",
 				"region": "Europe & Central Asia"
@@ -2762,6 +2762,19 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [106.7973188, -6.5963564]
+			},
+			"properties": {
+				"name": "Bogor, Indonesia",
+				"count": 1,
+				"country": "Indonesia",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [74.3141829, 31.5656822]
 			},
 			"properties": {
@@ -2869,8 +2882,8 @@
 				"coordinates": [138.3831697, 34.9751974]
 			},
 			"properties": {
-				"name": "Shizuoka, JAPAN, Shizuoka,Japan",
-				"count": 2,
+				"name": "Shizuoka, JAPAN, Shizuoka,Japan, Shizuoka",
+				"count": 3,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -3055,6 +3068,32 @@
 				"count": 1,
 				"country": "Philippines",
 				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [129.7874339, 33.1154683]
+			},
+			"properties": {
+				"name": "Nagasaki,Japan, Nagasaki, Japan",
+				"count": 2,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [13.0591397, 52.4009309]
+			},
+			"properties": {
+				"name": "Potsdam, Germany",
+				"count": 1,
+				"country": "Germany",
+				"region": "Europe & Central Asia"
 			}
 		}
 	]

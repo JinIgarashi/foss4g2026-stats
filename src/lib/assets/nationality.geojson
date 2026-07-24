@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-07-17T08:40:03.707Z",
+	"created_at": "2026-07-24T11:46:54.015Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -49,7 +49,7 @@
 			},
 			"properties": {
 				"name": "Australia",
-				"count": 20,
+				"count": 21,
 				"country": "Australia",
 				"region": "East Asia & Pacific"
 			}
@@ -114,7 +114,7 @@
 			},
 			"properties": {
 				"name": "Germany",
-				"count": 12,
+				"count": 13,
 				"country": "Germany",
 				"region": "Europe & Central Asia"
 			}
@@ -127,7 +127,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 48,
+				"count": 68,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -244,7 +244,7 @@
 			},
 			"properties": {
 				"name": "Canada",
-				"count": 12,
+				"count": 13,
 				"country": "Canada",
 				"region": "North America"
 			}
@@ -257,7 +257,7 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 187,
+				"count": 195,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -322,7 +322,7 @@
 			},
 			"properties": {
 				"name": "South Korea",
-				"count": 47,
+				"count": 48,
 				"country": "South Korea",
 				"region": "East Asia & Pacific"
 			}
@@ -478,7 +478,7 @@
 			},
 			"properties": {
 				"name": "Spain",
-				"count": 3,
+				"count": 4,
 				"country": "Spain",
 				"region": "Europe & Central Asia"
 			}
@@ -604,19 +604,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [83.9999901, 28.3780464]
-			},
-			"properties": {
-				"name": "Nepal",
-				"count": 3,
-				"country": "Nepal",
-				"region": "South Asia"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [42.3528328, 25.6242618]
 			},
 			"properties": {
@@ -708,6 +695,19 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [83.9999901, 28.3780464]
+			},
+			"properties": {
+				"name": "Nepal",
+				"count": 2,
+				"country": "Nepal",
+				"region": "South Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [97.7453061, 64.6863136]
 			},
 			"properties": {
@@ -764,7 +764,7 @@
 			},
 			"properties": {
 				"name": "Indonesia",
-				"count": 5,
+				"count": 6,
 				"country": "Indonesia",
 				"region": "East Asia & Pacific"
 			}
