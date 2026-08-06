@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-07-24T11:46:54.015Z",
+	"created_at": "2026-08-06T07:56:39.472Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -36,7 +36,7 @@
 			},
 			"properties": {
 				"name": "Taiwan",
-				"count": 3,
+				"count": 4,
 				"country": "Taiwan",
 				"region": "East Asia & Pacific"
 			}
@@ -49,7 +49,7 @@
 			},
 			"properties": {
 				"name": "Australia",
-				"count": 21,
+				"count": 22,
 				"country": "Australia",
 				"region": "East Asia & Pacific"
 			}
@@ -62,7 +62,7 @@
 			},
 			"properties": {
 				"name": "United Kingdom",
-				"count": 9,
+				"count": 10,
 				"country": "United Kingdom",
 				"region": "Europe & Central Asia"
 			}
@@ -127,7 +127,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 68,
+				"count": 66,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -218,7 +218,7 @@
 			},
 			"properties": {
 				"name": "United States",
-				"count": 33,
+				"count": 39,
 				"country": "United States of America",
 				"region": "North America"
 			}
@@ -244,7 +244,7 @@
 			},
 			"properties": {
 				"name": "Canada",
-				"count": 13,
+				"count": 14,
 				"country": "Canada",
 				"region": "North America"
 			}
@@ -257,7 +257,7 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 195,
+				"count": 226,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -296,7 +296,7 @@
 			},
 			"properties": {
 				"name": "Norway",
-				"count": 9,
+				"count": 10,
 				"country": "Norway",
 				"region": "Europe & Central Asia"
 			}
@@ -322,7 +322,7 @@
 			},
 			"properties": {
 				"name": "South Korea",
-				"count": 48,
+				"count": 49,
 				"country": "South Korea",
 				"region": "East Asia & Pacific"
 			}
@@ -335,7 +335,7 @@
 			},
 			"properties": {
 				"name": "India",
-				"count": 22,
+				"count": 20,
 				"country": "India",
 				"region": "South Asia"
 			}
@@ -387,7 +387,7 @@
 			},
 			"properties": {
 				"name": "China",
-				"count": 12,
+				"count": 13,
 				"country": "China",
 				"region": "East Asia & Pacific"
 			}
@@ -426,7 +426,7 @@
 			},
 			"properties": {
 				"name": "Vietnam",
-				"count": 1,
+				"count": 2,
 				"country": "Vietnam",
 				"region": "East Asia & Pacific"
 			}
@@ -452,7 +452,7 @@
 			},
 			"properties": {
 				"name": "Nigeria",
-				"count": 3,
+				"count": 4,
 				"country": "Nigeria",
 				"region": "Sub-Saharan Africa"
 			}
@@ -478,7 +478,7 @@
 			},
 			"properties": {
 				"name": "Spain",
-				"count": 4,
+				"count": 5,
 				"country": "Spain",
 				"region": "Europe & Central Asia"
 			}
@@ -816,7 +816,7 @@
 			},
 			"properties": {
 				"name": "Mexico",
-				"count": 1,
+				"count": 2,
 				"country": "Mexico",
 				"region": "Latin America & Caribbean"
 			}

@@ -1921,5 +1921,80 @@
     "lat": 35.549399,
     "lon": 140.2647303,
     "display_name": "千葉県, 日本"
+  },
+  "Trondheim": {
+    "lat": 63.4304475,
+    "lon": 10.3952118,
+    "display_name": "Trondheim, Trøndelag, Norge"
+  },
+  "Kawasaki, Japan": {
+    "lat": 35.5306639,
+    "lon": 139.7037668,
+    "display_name": "川崎市, 神奈川県, 日本"
+  },
+  "Yokohama": {
+    "lat": 35.4503381,
+    "lon": 139.6343802,
+    "display_name": "横浜市, 神奈川県, 231-0017, 日本"
+  },
+  "Tokyo Japan": {
+    "lat": 35.6768601,
+    "lon": 139.7638947,
+    "display_name": "東京都, 日本"
+  },
+  "DUBLIN": {
+    "lat": 53.3493795,
+    "lon": -6.2605593,
+    "display_name": "Dublin, County Dublin, Leinster, Éire / Ireland"
+  },
+  "Okinawa": {
+    "lat": 26.5707754,
+    "lon": 128.0255901,
+    "display_name": "沖縄県, 日本"
+  },
+  "Bilbao, Spain": {
+    "lat": 43.2630018,
+    "lon": -2.9350039,
+    "display_name": "Bilbao, Bizkaia, Euskadi, España"
+  },
+  "St Louis, MO, USA": {
+    "lat": 38.6254063,
+    "lon": -90.190009,
+    "display_name": "Saint Louis, Missouri, United States"
+  },
+  "Morelia, Michoacan; Mexico": {
+    "lat": 19.6546004,
+    "lon": -101.2623797,
+    "display_name": "Morelia, Michoacán, México"
+  },
+  "Osaka-shi, Osaka , Japan": {
+    "lat": 34.6937569,
+    "lon": 135.5014539,
+    "display_name": "大阪市, 大阪府, 日本"
+  },
+  "Kanzaki City, Japan": {
+    "lat": 33.3768655,
+    "lon": 130.3274057,
+    "display_name": "神埼市脊振支所, 三瀬神埼線, 脊振町広滝, 神埼市, 佐賀県, 日本"
+  },
+  "Okinawa City, Japan": {
+    "lat": 26.3324313,
+    "lon": 127.7903201,
+    "display_name": "コザしんきんスタジアム, グラウンド通り, 上地二丁目, 仲宗根町, 沖縄市, 沖縄県, 904-0031, 日本"
+  },
+  "Kanagawa Prefecture": {
+    "lat": 35.4342935,
+    "lon": 139.374753,
+    "display_name": "神奈川県, 日本"
+  },
+  "Tottori.pref": {
+    "lat": 35.5032981,
+    "lon": 134.2372357,
+    "display_name": "鳥取県庁, 若葉台東町線, 吉方町一丁目, 大榎町, 鳥取市, 鳥取県, 680-0045, 日本"
+  },
+  "Philadelphia, USA": {
+    "lat": 39.9527237,
+    "lon": -75.1635262,
+    "display_name": "Philadelphia, Philadelphia County, Pennsylvania, United States"
   }
 }
