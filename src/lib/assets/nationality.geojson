@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-06T07:56:39.472Z",
+	"created_at": "2026-08-13T10:48:29.365Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -36,7 +36,7 @@
 			},
 			"properties": {
 				"name": "Taiwan",
-				"count": 4,
+				"count": 5,
 				"country": "Taiwan",
 				"region": "East Asia & Pacific"
 			}
@@ -62,7 +62,7 @@
 			},
 			"properties": {
 				"name": "United Kingdom",
-				"count": 10,
+				"count": 11,
 				"country": "United Kingdom",
 				"region": "Europe & Central Asia"
 			}
@@ -88,7 +88,7 @@
 			},
 			"properties": {
 				"name": "Romania",
-				"count": 3,
+				"count": 4,
 				"country": "Romania",
 				"region": "Europe & Central Asia"
 			}
@@ -127,7 +127,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 66,
+				"count": 72,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -257,7 +257,7 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 226,
+				"count": 254,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -309,7 +309,7 @@
 			},
 			"properties": {
 				"name": "Thailand",
-				"count": 28,
+				"count": 29,
 				"country": "Thailand",
 				"region": "East Asia & Pacific"
 			}
@@ -335,7 +335,7 @@
 			},
 			"properties": {
 				"name": "India",
-				"count": 20,
+				"count": 21,
 				"country": "India",
 				"region": "South Asia"
 			}
@@ -439,7 +439,7 @@
 			},
 			"properties": {
 				"name": "Singapore",
-				"count": 5,
+				"count": 7,
 				"country": "Singapore",
 				"region": "East Asia & Pacific"
 			}
@@ -764,7 +764,7 @@
 			},
 			"properties": {
 				"name": "Indonesia",
-				"count": 6,
+				"count": 7,
 				"country": "Indonesia",
 				"region": "East Asia & Pacific"
 			}

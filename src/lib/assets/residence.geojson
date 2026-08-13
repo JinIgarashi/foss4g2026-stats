@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-06T07:56:39.471Z",
+	"created_at": "2026-08-13T10:48:29.363Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -84,19 +84,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [147.3281233, -42.8825088]
-			},
-			"properties": {
-				"name": "Hobart, Australia",
-				"count": 1,
-				"country": "Australia",
-				"region": "East Asia & Pacific"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [101.6942371, 3.1516964]
 			},
 			"properties": {
@@ -140,7 +127,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 131,
+				"count": 146,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -218,7 +205,7 @@
 			},
 			"properties": {
 				"name": "Vienna, Austria",
-				"count": 1,
+				"count": 2,
 				"country": "Austria",
 				"region": "Europe & Central Asia"
 			}
@@ -491,7 +478,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan, TOKYO, Tokyo Japan",
-				"count": 59,
+				"count": 71,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -556,7 +543,7 @@
 			},
 			"properties": {
 				"name": "Bangkok, Thailand, Bangkok,Thailand, Bankok, Thailand, Bangkok",
-				"count": 8,
+				"count": 9,
 				"country": "Thailand",
 				"region": "East Asia & Pacific"
 			}
@@ -621,7 +608,7 @@
 			},
 			"properties": {
 				"name": "Taipei, Taiwan",
-				"count": 1,
+				"count": 2,
 				"country": "Taiwan",
 				"region": "East Asia & Pacific"
 			}
@@ -790,7 +777,7 @@
 			},
 			"properties": {
 				"name": "Osaka, Japan, osaka,japan, Osaka, JAPAN, Osaka,Japan, Osaka-shi, Osaka , Japan",
-				"count": 13,
+				"count": 14,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -933,7 +920,7 @@
 			},
 			"properties": {
 				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan, Saitama,Japan",
-				"count": 16,
+				"count": 18,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -998,7 +985,7 @@
 			},
 			"properties": {
 				"name": "Hiroshima, japan, Hiroshima, Japan, Hiroshima, Hiroshima Japan, Hiroshima,japan",
-				"count": 14,
+				"count": 15,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -1011,7 +998,7 @@
 			},
 			"properties": {
 				"name": "Singapore",
-				"count": 2,
+				"count": 4,
 				"country": "Singapore",
 				"region": "East Asia & Pacific"
 			}
@@ -2151,19 +2138,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-97.1071186, 32.7355816]
-			},
-			"properties": {
-				"name": "Arlington, United States",
-				"count": 1,
-				"country": "United States of America",
-				"region": "North America"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [36.8172812, -1.2890006]
 			},
 			"properties": {
@@ -2232,8 +2206,8 @@
 				"coordinates": [142.9521222, 43.4339536]
 			},
 			"properties": {
-				"name": "Hokkaido, Hokkaido,Japan",
-				"count": 3,
+				"name": "Hokkaido, Hokkaido,Japan, hokkaido,japan",
+				"count": 4,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -2398,19 +2372,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-121.9357918, 37.7021521]
-			},
-			"properties": {
-				"name": "Dublin, California",
-				"count": 1,
-				"country": "United States of America",
-				"region": "North America"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [113.969089, 22.5406641]
 			},
 			"properties": {
@@ -2493,7 +2454,7 @@
 			},
 			"properties": {
 				"name": "Fukuoka prefecture,Japan, Fukuoka, Fukuoka,Japan",
-				"count": 7,
+				"count": 8,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -2623,7 +2584,7 @@
 			},
 			"properties": {
 				"name": "Tottori",
-				"count": 4,
+				"count": 6,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -3116,8 +3077,8 @@
 				"coordinates": [-6.2605593, 53.3493795]
 			},
 			"properties": {
-				"name": "DUBLIN",
-				"count": 1,
+				"name": "DUBLIN, Dublin",
+				"count": 2,
 				"country": "Ireland",
 				"region": "Europe & Central Asia"
 			}
@@ -3198,6 +3159,58 @@
 				"count": 1,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [147.3281233, -42.8825088]
+			},
+			"properties": {
+				"name": "Hobart, Australia",
+				"count": 1,
+				"country": "Australia",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-86.2820081, 35.7730076]
+			},
+			"properties": {
+				"name": "Tennessee, USA",
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.102684, 44.4361414]
+			},
+			"properties": {
+				"name": "Bucharest",
+				"count": 1,
+				"country": "Romania",
+				"region": "Europe & Central Asia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-97.1071186, 32.7355816]
+			},
+			"properties": {
+				"name": "Arlington, United States",
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
 			}
 		}
 	]

@@ -1996,5 +1996,25 @@
     "lat": 39.9527237,
     "lon": -75.1635262,
     "display_name": "Philadelphia, Philadelphia County, Pennsylvania, United States"
+  },
+  "hokkaido,japan": {
+    "lat": 43.4339536,
+    "lon": 142.9521222,
+    "display_name": "北海道地方, 日本"
+  },
+  "Tennessee, USA": {
+    "lat": 35.7730076,
+    "lon": -86.2820081,
+    "display_name": "Tennessee, United States"
+  },
+  "Dublin": {
+    "lat": 53.3493795,
+    "lon": -6.2605593,
+    "display_name": "Dublin, County Dublin, Leinster, Éire / Ireland"
+  },
+  "Bucharest": {
+    "lat": 44.4361414,
+    "lon": 26.102684,
+    "display_name": "București, România"
   }
 }
