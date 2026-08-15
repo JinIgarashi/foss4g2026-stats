@@ -1,0 +1,1 @@
+var e=`https://jinigarashi.github.io/foss4g2026-stats`,t=`${e}/og-image.png`,n=`FOSS4G Hiroshima 2026`;export{n,e as r,t};
