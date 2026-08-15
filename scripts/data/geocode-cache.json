@@ -2016,5 +2016,35 @@
     "lat": 44.4361414,
     "lon": 26.102684,
     "display_name": "București, România"
+  },
+  "Miyazaki Prefecture, Japan": {
+    "lat": 32.097681,
+    "lon": 131.294542,
+    "display_name": "宮崎県, 日本"
+  },
+  "Chiba-ken, JAPAN": {
+    "lat": 35.549399,
+    "lon": 140.2647303,
+    "display_name": "千葉県, 日本"
+  },
+  "Fukuoka-ken, Japan": {
+    "lat": 33.6251241,
+    "lon": 130.6180016,
+    "display_name": "福岡県, 日本"
+  },
+  "Japan Tokyo": {
+    "lat": 35.6768601,
+    "lon": 139.7638947,
+    "display_name": "東京都, 日本"
+  },
+  "Washington, DC USA": {
+    "lat": 38.9298584,
+    "lon": -77.0333239,
+    "display_name": "DC USA, 3100, 14th Street Northwest, Columbia Heights, Ward 1, Washington, District of Columbia, 20010, United States"
+  },
+  "Hyogo": {
+    "lat": 34.914934,
+    "lon": 134.860666,
+    "display_name": "兵庫県, 日本"
   }
 }

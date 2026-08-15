@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-13T10:48:29.363Z",
+	"created_at": "2026-08-15T09:20:08.484Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -127,7 +127,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 146,
+				"count": 148,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -412,8 +412,8 @@
 				"coordinates": [134.860666, 34.914934]
 			},
 			"properties": {
-				"name": "Hyogo Japan, Hyogo, Japan, HYOGO",
-				"count": 5,
+				"name": "Hyogo Japan, Hyogo, Japan, HYOGO, Hyogo",
+				"count": 6,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -464,8 +464,8 @@
 				"coordinates": [140.2647303, 35.549399]
 			},
 			"properties": {
-				"name": "Chiba, Chiba, Japan, 千葉県, chiba/Japan, Chiba,Japan, Chiba Japan",
-				"count": 12,
+				"name": "Chiba, Chiba, Japan, 千葉県, chiba/Japan, Chiba,Japan, Chiba Japan, Chiba-ken, JAPAN",
+				"count": 13,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -477,8 +477,8 @@
 				"coordinates": [139.7638947, 35.6768601]
 			},
 			"properties": {
-				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan, TOKYO, Tokyo Japan",
-				"count": 71,
+				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan, TOKYO, Tokyo Japan, Japan Tokyo",
+				"count": 75,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -764,7 +764,7 @@
 			},
 			"properties": {
 				"name": "Sapporo, Japan, Hokkaido, Sapporo, Sapporo, Hokkaido",
-				"count": 7,
+				"count": 8,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -777,7 +777,7 @@
 			},
 			"properties": {
 				"name": "Osaka, Japan, osaka,japan, Osaka, JAPAN, Osaka,Japan, Osaka-shi, Osaka , Japan",
-				"count": 14,
+				"count": 15,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -920,7 +920,7 @@
 			},
 			"properties": {
 				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan, Saitama,Japan",
-				"count": 18,
+				"count": 19,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -1140,8 +1140,8 @@
 				"coordinates": [3.3941795, 6.4550575]
 			},
 			"properties": {
-				"name": "Lagos, Nigeria, Lagos",
-				"count": 2,
+				"name": "Lagos, Nigeria",
+				"count": 1,
 				"country": "Nigeria",
 				"region": "Sub-Saharan Africa"
 			}
@@ -1644,19 +1644,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [31.0601584, -17.8567035]
-			},
-			"properties": {
-				"name": "Harare, Zimbabwe",
-				"count": 1,
-				"country": "Zimbabwe",
-				"region": "Sub-Saharan Africa"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [15.9772795, 45.8130967]
 			},
 			"properties": {
@@ -2142,7 +2129,7 @@
 			},
 			"properties": {
 				"name": "Nairobi, Kenya",
-				"count": 1,
+				"count": 6,
 				"country": "Kenya",
 				"region": "Sub-Saharan Africa"
 			}
@@ -2453,8 +2440,8 @@
 				"coordinates": [130.6180016, 33.6251241]
 			},
 			"properties": {
-				"name": "Fukuoka prefecture,Japan, Fukuoka, Fukuoka,Japan",
-				"count": 8,
+				"name": "Fukuoka prefecture,Japan, Fukuoka, Fukuoka,Japan, Fukuoka-ken, Japan",
+				"count": 9,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -3208,6 +3195,32 @@
 			},
 			"properties": {
 				"name": "Arlington, United States",
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [131.294542, 32.097681]
+			},
+			"properties": {
+				"name": "Miyazaki Prefecture, Japan",
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-77.0333239, 38.9298584]
+			},
+			"properties": {
+				"name": "Washington, DC USA",
 				"count": 1,
 				"country": "United States of America",
 				"region": "North America"

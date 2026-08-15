@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-13T10:48:29.365Z",
+	"created_at": "2026-08-15T09:20:08.486Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -127,7 +127,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 72,
+				"count": 73,
 				"country": "France",
 				"region": "Europe & Central Asia"
 			}
@@ -218,7 +218,7 @@
 			},
 			"properties": {
 				"name": "United States",
-				"count": 39,
+				"count": 40,
 				"country": "United States of America",
 				"region": "North America"
 			}
@@ -257,7 +257,7 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 254,
+				"count": 265,
 				"country": "Japan",
 				"region": "East Asia & Pacific"
 			}
@@ -322,7 +322,7 @@
 			},
 			"properties": {
 				"name": "South Korea",
-				"count": 49,
+				"count": 50,
 				"country": "South Korea",
 				"region": "East Asia & Pacific"
 			}
@@ -452,7 +452,7 @@
 			},
 			"properties": {
 				"name": "Nigeria",
-				"count": 4,
+				"count": 3,
 				"country": "Nigeria",
 				"region": "Sub-Saharan Africa"
 			}
@@ -611,19 +611,6 @@
 				"count": 2,
 				"country": "Saudi Arabia",
 				"region": "Middle East & North Africa"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [29.7468414, -18.4554963]
-			},
-			"properties": {
-				"name": "Zimbabwe",
-				"count": 1,
-				"country": "Zimbabwe",
-				"region": "Sub-Saharan Africa"
 			}
 		},
 		{
@@ -790,7 +777,7 @@
 			},
 			"properties": {
 				"name": "Kenya",
-				"count": 1,
+				"count": 6,
 				"country": "Kenya",
 				"region": "Sub-Saharan Africa"
 			}
