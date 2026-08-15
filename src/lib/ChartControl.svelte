@@ -7,6 +7,8 @@
 	import * as ButtonGroup from '$lib/components/ui/button-group/index.js';
 	import * as Tabs from '$lib/components/ui/tabs/index.js';
 	import { Spinner } from '$lib/components/ui/spinner/index.js';
+	import { Switch } from '$lib/components/ui/switch/index.js';
+	import { Label } from '$lib/components/ui/label/index.js';
 	import { geoJsonToChartData, type GeoJSONFeature } from '$lib/chartUtils';
 	import * as Tooltip from '$lib/components/ui/tooltip/index.js';
 	import ChartView from '$lib/ChartView.svelte';
@@ -34,6 +36,7 @@
 
 	// UI state
 	let scopeType = $state<'all' | 'extent'>('all');
+	let excludeJapan = $state(false);
 	let drawerOpen = $state(false);
 	let isPreparing = $state(false);
 	let mapExtent = $state<[number, number, number, number] | null>(null);
@@ -81,6 +84,10 @@
 
 		if (scopeType === 'extent' && mapExtent) {
 			features = filterByExtent(features);
+		}
+
+		if (excludeJapan) {
+			features = features.filter((feature) => feature.properties.country !== 'Japan');
 		}
 
 		const chartData = geoJsonToChartData(features).map((item, index) => ({
@@ -213,6 +220,27 @@
 										Current extent
 									</Button>
 								</ButtonGroup.Root>
+							</div>
+						</div>
+
+						<!-- Exclude Japan Toggle -->
+						<div>
+							<div class="flex items-center gap-1">
+								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-gray-700">
+									Filter:
+								</p>
+								<Switch
+									id="exclude-japan"
+									checked={excludeJapan}
+									onCheckedChange={(checked: boolean) => {
+										excludeJapan = checked;
+										if (drawerOpen) void prepareChartData();
+									}}
+									class="cursor-pointer"
+								/>
+								<Label for="exclude-japan" class="cursor-pointer pl-1 text-sm text-gray-700">
+									Exclude Japanese attendees
+								</Label>
 							</div>
 						</div>
 					</Drawer.Description>
