@@ -1,5 +1,7 @@
+import { error } from '@sveltejs/kit';
 import nationalityDataRaw from '$lib/assets/nationality.geojson?raw';
 import residenceDataRaw from '$lib/assets/residence.geojson?raw';
+import { isLocale, LOCALES } from '$lib/i18n/locales';
 
 type LocationProperties = {
 	count: number;
@@ -15,6 +17,7 @@ type GeoJSONData = GeoJSON.FeatureCollection<GeoJSON.Point, LocationProperties> 
 type LayerStats = {
 	attendees: number;
 	locations: number;
+	/** Raw ISO timestamp — formatted client-side so it follows the active locale. */
 	createdAt: string;
 };
 
@@ -28,20 +31,18 @@ function calculateStats(data: GeoJSONData): LayerStats {
 	);
 	const locations = data.features.length;
 
-	let createdAt = '';
-	if (data.created_at) {
-		const d = new Date(data.created_at);
-		createdAt = d.toLocaleDateString('en-US', {
-			day: 'numeric',
-			month: 'long',
-			year: 'numeric'
-		});
-	}
-
-	return { attendees, locations, createdAt };
+	return { attendees, locations, createdAt: data.created_at ?? '' };
 }
 
-export async function load() {
+export function entries() {
+	return LOCALES.map((locale) => ({ lang: locale.code }));
+}
+
+export async function load({ params }) {
+	if (!isLocale(params.lang)) {
+		error(404, 'Unknown language');
+	}
+
 	const residenceStats = calculateStats(residenceData);
 	const nationalityStats = calculateStats(nationalityData);
 

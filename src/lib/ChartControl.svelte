@@ -13,6 +13,7 @@
 	import * as Tooltip from '$lib/components/ui/tooltip/index.js';
 	import ChartView from '$lib/ChartView.svelte';
 	import TableView from '$lib/TableView.svelte';
+	import { currentMessages } from '$lib/i18n';
 
 	type LayerType = 'residence' | 'nationality';
 
@@ -33,6 +34,8 @@
 		nationalityData,
 		activeLayer = $bindable<LayerType>('residence')
 	}: Props = $props();
+
+	let t = $derived(currentMessages());
 
 	// UI state
 	let scopeType = $state<'all' | 'extent'>('all');
@@ -141,7 +144,7 @@
 						</Button>
 					</Tooltip.Trigger>
 					<Tooltip.Content>
-						<p>Show attendee statistics chart</p>
+						<p>{t.chart.show}</p>
 					</Tooltip.Content>
 				</Tooltip.Root>
 			</Tooltip.Provider>
@@ -149,12 +152,12 @@
 		<Drawer.Content class="h-[85dvh] max-h-[85dvh] p-0">
 			<div class="flex h-full min-h-0 flex-col">
 				<Drawer.Header class="shrink-0">
-					<Drawer.Title>Attendee statistics</Drawer.Title>
+					<Drawer.Title>{t.chart.title}</Drawer.Title>
 					<Drawer.Description class="space-y-4">
 						{#if isPreparing}
 							<div class="flex items-center gap-2 text-sm text-gray-500">
 								<Spinner class="size-4" />
-								Preparing chart data...
+								{t.chart.preparingData}
 							</div>
 						{/if}
 
@@ -162,7 +165,7 @@
 						<div class="mt-4">
 							<div class="flex items-center gap-1">
 								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-gray-700">
-									Data type:
+									{t.chart.dataType}
 								</p>
 								<ButtonGroup.Root>
 									<Button
@@ -174,7 +177,7 @@
 										}}
 										class="cursor-pointer"
 									>
-										Residence
+										{t.chart.residence}
 									</Button>
 									<Button
 										variant={activeLayer === 'nationality' ? 'default' : 'outline'}
@@ -185,7 +188,7 @@
 										}}
 										class="cursor-pointer"
 									>
-										Nationality
+										{t.chart.nationality}
 									</Button>
 								</ButtonGroup.Root>
 							</div>
@@ -194,7 +197,9 @@
 						<!-- Scope Selector -->
 						<div>
 							<div class="flex items-center gap-1">
-								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-gray-700">Area:</p>
+								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-gray-700">
+									{t.chart.area}
+								</p>
 								<ButtonGroup.Root>
 									<Button
 										variant={scopeType === 'all' ? 'default' : 'outline'}
@@ -205,7 +210,7 @@
 										}}
 										class="cursor-pointer"
 									>
-										All
+										{t.chart.all}
 									</Button>
 									<Button
 										variant={scopeType === 'extent' ? 'default' : 'outline'}
@@ -217,7 +222,7 @@
 										}}
 										class="cursor-pointer"
 									>
-										Current extent
+										{t.chart.currentExtent}
 									</Button>
 								</ButtonGroup.Root>
 							</div>
@@ -227,7 +232,7 @@
 						<div>
 							<div class="flex items-center gap-1">
 								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-gray-700">
-									Filter:
+									{t.chart.filter}
 								</p>
 								<Switch
 									id="exclude-japan"
@@ -239,7 +244,7 @@
 									class="cursor-pointer"
 								/>
 								<Label for="exclude-japan" class="cursor-pointer pl-1 text-sm text-gray-700">
-									Exclude Japanese attendees
+									{t.chart.excludeJapan}
 								</Label>
 							</div>
 						</div>
@@ -252,14 +257,14 @@
 						<div class="flex h-full min-h-75 items-center justify-center">
 							<div class="flex items-center gap-2 text-sm text-gray-500">
 								<Spinner />
-								Preparing chart...
+								{t.chart.preparing}
 							</div>
 						</div>
 					{:else if preparedData.length > 0}
 						<Tabs.Root bind:value={viewMode} class="flex h-full min-h-0 w-full flex-col">
 							<Tabs.List class="grid w-full shrink-0 grid-cols-2">
-								<Tabs.Trigger value="chart" class="cursor-pointer">Chart</Tabs.Trigger>
-								<Tabs.Trigger value="table" class="cursor-pointer">Table</Tabs.Trigger>
+								<Tabs.Trigger value="chart" class="cursor-pointer">{t.chart.tabChart}</Tabs.Trigger>
+								<Tabs.Trigger value="table" class="cursor-pointer">{t.chart.tabTable}</Tabs.Trigger>
 							</Tabs.List>
 
 							<Tabs.Content value="chart" class="mt-3 min-h-0 flex-1">
@@ -272,7 +277,7 @@
 						</Tabs.Root>
 					{:else}
 						<div class="flex h-full min-h-75 items-center justify-center text-gray-500">
-							<p>No data available in this range</p>
+							<p>{t.chart.noData}</p>
 						</div>
 					{/if}
 				</div>

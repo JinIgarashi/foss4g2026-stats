@@ -1,5 +1,6 @@
 <script lang="ts">
 	import * as Table from '$lib/components/ui/table/index.js';
+	import { currentMessages } from '$lib/i18n';
 
 	type LayerType = 'residence' | 'nationality';
 	type SortKey = 'name' | 'country' | 'region' | 'count';
@@ -21,6 +22,11 @@
 
 	let { data, activeLayer }: Props = $props();
 
+	let t = $derived(currentMessages());
+	let nameHeader = $derived(
+		activeLayer === 'residence' ? t.table.headResidence : t.table.headNationality
+	);
+
 	let sortKey = $state<SortKey>('count');
 	let sortDirection = $state<SortDirection>('desc');
 
@@ -40,10 +46,10 @@
 	};
 
 	const getSortLabel = (key: SortKey) => {
-		if (key === 'count') return 'attendee count';
-		if (key === 'country') return 'country';
-		if (key === 'region') return 'region';
-		return 'name';
+		if (key === 'count') return t.table.sortKeyCount;
+		if (key === 'country') return t.table.sortKeyCountry;
+		if (key === 'region') return t.table.sortKeyRegion;
+		return t.table.sortKeyName;
 	};
 
 	let filteredData = $derived(data.filter((row) => row.name !== 'No answer'));
@@ -74,7 +80,7 @@
 
 <div class="flex h-full min-h-0 flex-col">
 	<p class="mb-2 shrink-0 text-xs text-gray-500">
-		Sorted by {getSortLabel(sortKey)} ({sortDirection}): {filteredData.length} rows
+		{t.table.sortedBy(getSortLabel(sortKey), sortDirection, filteredData.length)}
 	</p>
 	<div class="table-scroll min-h-0 flex-1 rounded-md border">
 		<Table.Root>
@@ -87,11 +93,7 @@
 							onclick={() => handleSort('name')}
 							class="inline-flex cursor-pointer items-center gap-1 text-left"
 						>
-							<span
-								>{activeLayer === 'residence' ? 'Residence' : 'Nationality'}{sortIndicator('name')
-									? ` ${sortIndicator('name')}`
-									: ''}</span
-							>
+							<span>{nameHeader}{sortIndicator('name') ? ` ${sortIndicator('name')}` : ''}</span>
 						</button>
 					</Table.Head>
 					<Table.Head class="sticky top-0 z-20 bg-white">
@@ -100,7 +102,11 @@
 							onclick={() => handleSort('count')}
 							class="inline-flex cursor-pointer items-center gap-1 text-left"
 						>
-							<span>Attendees{sortIndicator('count') ? ` ${sortIndicator('count')}` : ''}</span>
+							<span
+								>{t.table.headAttendees}{sortIndicator('count')
+									? ` ${sortIndicator('count')}`
+									: ''}</span
+							>
 						</button>
 					</Table.Head>
 					<Table.Head class="sticky top-0 z-20 bg-white">
@@ -109,7 +115,11 @@
 							onclick={() => handleSort('country')}
 							class="inline-flex cursor-pointer items-center gap-1 text-left"
 						>
-							<span>Country{sortIndicator('country') ? ` ${sortIndicator('country')}` : ''}</span>
+							<span
+								>{t.table.headCountry}{sortIndicator('country')
+									? ` ${sortIndicator('country')}`
+									: ''}</span
+							>
 						</button>
 					</Table.Head>
 					<Table.Head class="sticky top-0 z-20 bg-white">
@@ -118,7 +128,11 @@
 							onclick={() => handleSort('region')}
 							class="inline-flex cursor-pointer items-center gap-1 text-left"
 						>
-							<span>Region{sortIndicator('region') ? ` ${sortIndicator('region')}` : ''}</span>
+							<span
+								>{t.table.headRegion}{sortIndicator('region')
+									? ` ${sortIndicator('region')}`
+									: ''}</span
+							>
 						</button>
 					</Table.Head>
 				</Table.Row>
@@ -138,7 +152,7 @@
 	</div>
 	<div class="my-3 shrink-0 rounded-md border bg-gray-50 px-3 py-2 text-sm">
 		<div class="flex items-center justify-between">
-			<span class="font-medium text-slate-700">Total</span>
+			<span class="font-medium text-slate-700">{t.table.total}</span>
 			<span class="font-semibold text-slate-900">{totalAttendees}</span>
 		</div>
 	</div>
