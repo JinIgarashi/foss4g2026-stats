@@ -82,7 +82,7 @@
 				</Button>
 			</Card.Header>
 			<Card.Content>
-				<div class="flex items-center justify-between gap-3 text-sm text-gray-600">
+				<div class="flex items-center justify-between gap-3 text-sm text-muted-foreground">
 					<Label for="layer-residence" class="cursor-pointer">
 						<span>
 							<MapPinHouse size={14} />
@@ -97,7 +97,7 @@
 						}}
 					/>
 				</div>
-				<div class="mt-2 flex items-center justify-between gap-3 text-sm text-gray-600">
+				<div class="mt-2 flex items-center justify-between gap-3 text-sm text-muted-foreground">
 					<Label for="layer-nationality" class="cursor-pointer">
 						<span>
 							<MapPinned size={14} />
@@ -117,7 +117,7 @@
 				<Card.Footer class="text-left">
 					<div class="flex w-full items-start gap-2">
 						<div class="min-w-0">
-							<p class="text-xs text-gray-800">
+							<p class="text-xs text-foreground">
 								<UserRound size={14} class="inline-block align-[-2px]" />
 								<span class="font-semibold">
 									{t.layers.attendees(
@@ -134,7 +134,7 @@
 							</p>
 
 							{#if createdAtLabel}
-								<p class="text-xs text-gray-800">
+								<p class="text-xs text-foreground">
 									{t.layers.asOf(createdAtLabel)}
 								</p>
 							{/if}
@@ -169,7 +169,7 @@
 					<Button
 						variant="outline"
 						size="icon"
-						class="layer-toggle-btn cursor-pointer border-slate-200 bg-white/90 text-slate-900 shadow-sm backdrop-blur-sm"
+						class="map-ctrl-btn cursor-pointer shadow-sm backdrop-blur-sm"
 						onclick={() => (layerPanelOpen = true)}
 					>
 						<Layers />
@@ -182,10 +182,3 @@
 		</Tooltip.Provider>
 	{/if}
 </CustomControl>
-
-<style>
-	:global(.maplibregl-ctrl .layer-toggle-btn:hover) {
-		background-color: rgb(255 255 255) !important;
-		color: rgb(15 23 42) !important;
-	}
-</style>

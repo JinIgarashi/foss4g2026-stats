@@ -22,6 +22,6 @@
 	</noscript>
 </svelte:head>
 
-<div class="flex h-dvh w-full items-center justify-center bg-white">
+<div class="flex h-dvh w-full items-center justify-center bg-background">
 	<Spinner />
 </div>

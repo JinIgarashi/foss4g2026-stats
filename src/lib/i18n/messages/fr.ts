@@ -10,7 +10,13 @@ const fr: Messages = {
 		siteName: 'Statistiques des participants',
 		logoAlt: 'FOSS4G Hiroshima 2026',
 		github: 'Dépôt GitHub',
-		language: 'Changer de langue'
+		language: 'Changer de langue',
+		theme: 'Changer de thème'
+	},
+	theme: {
+		light: 'Clair',
+		dark: 'Sombre',
+		system: 'Système'
 	},
 	map: {
 		loading: 'Chargement…',

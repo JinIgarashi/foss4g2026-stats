@@ -8,7 +8,13 @@ const en = {
 		siteName: 'Attendee Statistics',
 		logoAlt: 'FOSS4G Hiroshima 2026',
 		github: 'GitHub Repository',
-		language: 'Change language'
+		language: 'Change language',
+		theme: 'Change theme'
+	},
+	theme: {
+		light: 'Light',
+		dark: 'Dark',
+		system: 'System'
 	},
 	map: {
 		loading: 'Loading...',

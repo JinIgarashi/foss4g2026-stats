@@ -9,7 +9,13 @@ const th: Messages = {
 		siteName: 'สถิติผู้เข้าร่วม',
 		logoAlt: 'FOSS4G Hiroshima 2026',
 		github: 'คลัง GitHub',
-		language: 'เปลี่ยนภาษา'
+		language: 'เปลี่ยนภาษา',
+		theme: 'เปลี่ยนธีม'
+	},
+	theme: {
+		light: 'สว่าง',
+		dark: 'มืด',
+		system: 'ตามระบบ'
 	},
 	map: {
 		loading: 'กำลังโหลด...',

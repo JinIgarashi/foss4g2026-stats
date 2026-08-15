@@ -79,15 +79,15 @@
 </script>
 
 <div class="flex h-full min-h-0 flex-col">
-	<p class="mb-2 shrink-0 text-xs text-gray-500">
+	<p class="mb-2 shrink-0 text-xs text-muted-foreground">
 		{t.table.sortedBy(getSortLabel(sortKey), sortDirection, filteredData.length)}
 	</p>
 	<div class="table-scroll min-h-0 flex-1 rounded-md border">
 		<Table.Root>
-			<Table.Header class="sticky top-0 z-20 bg-white">
+			<Table.Header class="sticky top-0 z-20 bg-background">
 				<Table.Row>
-					<Table.Head class="sticky top-0 z-20 w-16 bg-white text-right">#</Table.Head>
-					<Table.Head class="sticky top-0 z-20 bg-white">
+					<Table.Head class="sticky top-0 z-20 w-16 bg-background text-right">#</Table.Head>
+					<Table.Head class="sticky top-0 z-20 bg-background">
 						<button
 							type="button"
 							onclick={() => handleSort('name')}
@@ -96,7 +96,7 @@
 							<span>{nameHeader}{sortIndicator('name') ? ` ${sortIndicator('name')}` : ''}</span>
 						</button>
 					</Table.Head>
-					<Table.Head class="sticky top-0 z-20 bg-white">
+					<Table.Head class="sticky top-0 z-20 bg-background">
 						<button
 							type="button"
 							onclick={() => handleSort('count')}
@@ -109,7 +109,7 @@
 							>
 						</button>
 					</Table.Head>
-					<Table.Head class="sticky top-0 z-20 bg-white">
+					<Table.Head class="sticky top-0 z-20 bg-background">
 						<button
 							type="button"
 							onclick={() => handleSort('country')}
@@ -122,7 +122,7 @@
 							>
 						</button>
 					</Table.Head>
-					<Table.Head class="sticky top-0 z-20 bg-white">
+					<Table.Head class="sticky top-0 z-20 bg-background">
 						<button
 							type="button"
 							onclick={() => handleSort('region')}
@@ -140,7 +140,9 @@
 			<Table.Body>
 				{#each sortedTableData as row (row.id)}
 					<Table.Row>
-						<Table.Cell class="text-right font-mono text-xs text-gray-600">{row.rank}</Table.Cell>
+						<Table.Cell class="text-right font-mono text-xs text-muted-foreground"
+							>{row.rank}</Table.Cell
+						>
 						<Table.Cell class="max-w-[320px] truncate" title={row.name}>{row.name}</Table.Cell>
 						<Table.Cell class="font-semibold">{row.count}</Table.Cell>
 						<Table.Cell class="max-w-55 truncate" title={row.country}>{row.country}</Table.Cell>
@@ -150,10 +152,10 @@
 			</Table.Body>
 		</Table.Root>
 	</div>
-	<div class="my-3 shrink-0 rounded-md border bg-gray-50 px-3 py-2 text-sm">
+	<div class="my-3 shrink-0 rounded-md border bg-muted px-3 py-2 text-sm">
 		<div class="flex items-center justify-between">
-			<span class="font-medium text-slate-700">{t.table.total}</span>
-			<span class="font-semibold text-slate-900">{totalAttendees}</span>
+			<span class="font-medium text-muted-foreground">{t.table.total}</span>
+			<span class="font-semibold text-foreground">{totalAttendees}</span>
 		</div>
 	</div>
 </div>

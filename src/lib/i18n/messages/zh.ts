@@ -9,7 +9,13 @@ const zh: Messages = {
 		siteName: '参会者统计',
 		logoAlt: 'FOSS4G Hiroshima 2026',
 		github: 'GitHub 仓库',
-		language: '切换语言'
+		language: '切换语言',
+		theme: '切换主题'
+	},
+	theme: {
+		light: '浅色',
+		dark: '深色',
+		system: '跟随系统'
 	},
 	map: {
 		loading: '加载中…',
