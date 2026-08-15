@@ -7,22 +7,40 @@
 			content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
 		/>
 		<meta name="text-scale" content="scale" />
-		<link href="./_app/immutable/entry/start.OFMhv7zH.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/hnSvrKAh.js" rel="modulepreload">
+		<!-- Resolve the colour scheme before first paint; the site is prerendered, so
+		     this cannot happen on the server. Keep in sync with `$lib/theme.svelte.ts`. -->
+		<script>
+			(() => {
+				let stored = null;
+				try {
+					stored = localStorage.getItem('theme');
+				} catch {
+					// Blocked storage: fall back to the OS setting.
+				}
+				const dark =
+					stored === 'dark' ||
+					(stored !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+				document.documentElement.classList.toggle('dark', dark);
+				document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+			})();
+		</script>
+		<link href="./_app/immutable/entry/start.Bi-OA77u.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/FA0U8gYT.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/BVDRQUHZ.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DUhXWPbV.js" rel="modulepreload">
-		<link href="./_app/immutable/entry/app.BcbUWNOI.js" rel="modulepreload">
+		<link href="./_app/immutable/entry/app.C_6RHcXM.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/HclGiUj8.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/0.moOX2nWN.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/2.BBreUcjO.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/DbHyTy43.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/Bi_jzW1x.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/0.6OiImdPG.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CZEgQAMD.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/2.NdZRTcI7.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/C2g41fZm.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/xrYbf_jt.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/CGEkkbPF.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/3P_3CEqY.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BGrYkcn2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/CGND0q2V.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/4.CYhWwalv.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/bfdn4BFD.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/4.EuIaW1cE.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CuDjKTm5.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/CcGN5Hs2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/CpgJ-dfF.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DfOtEiOs.js" rel="modulepreload">
@@ -37,27 +55,27 @@
 		<link href="./_app/immutable/chunks/CCch3uox.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DV6Wezv9.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/BID1NNRh.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/Dir80tw4.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/RobXhXPM.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CWGoyh6B.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/RobXhXPM2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/Dfvzj6n2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DWf4NzZt.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/B6M3BTIM2.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BfhJ_Egv2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DkvYIueN2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/fr0aBIJ42.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/CmHOYJOS2.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/BK17hr1l2.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/DpR3nIdT2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/B5KRA4hC2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/BR2LaRms2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/D-K3lKI12.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/-7jmzOea2.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/DzcHlsgr2.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BWg2A04d2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DHyrc0Y-2.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/-sbU9M_I2.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/BvD6bmUc2.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/DNljoinc2.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/kjvmcqOU2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/D55tgtzm2.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/B5XbjTb12.js" rel="modulepreload">
-		<!--12qhfyh--><link rel="icon" href="/foss4g2026-stats/_app/immutable/assets/logo.CsuIv8wM.svg"/><!----><!--1vwc546--><meta name="description" content="แผนที่แบบโต้ตอบแสดงถิ่นที่อยู่และสัญชาติของผู้เข้าร่วมงาน FOSS4G Hiroshima 2026"/> <meta property="og:type" content="website"/> <meta property="og:title" content="FOSS4G Hiroshima 2026 - สถิติผู้เข้าร่วม"/> <meta property="og:description" content="แผนที่แบบโต้ตอบแสดงถิ่นที่อยู่และสัญชาติของผู้เข้าร่วมงาน FOSS4G Hiroshima 2026"/> <meta property="og:image" content="https://jinigarashi.github.io/foss4g2026-stats/logo.svg"/> <meta property="og:url" content="https://jinigarashi.github.io/foss4g2026-stats/th"/> <meta property="og:locale" content="th"/> <meta property="og:site_name" content="FOSS4G Hiroshima 2026"/> <meta name="twitter:card" content="summary"/> <meta name="twitter:title" content="FOSS4G Hiroshima 2026 - สถิติผู้เข้าร่วม"/> <meta name="twitter:description" content="แผนที่แบบโต้ตอบแสดงถิ่นที่อยู่และสัญชาติของผู้เข้าร่วมงาน FOSS4G Hiroshima 2026"/> <meta name="twitter:image" content="https://jinigarashi.github.io/foss4g2026-stats/logo.svg"/> <link rel="canonical" href="https://jinigarashi.github.io/foss4g2026-stats/th"/> <!--[--><link rel="alternate" hreflang="en" href="https://jinigarashi.github.io/foss4g2026-stats/en"/><link rel="alternate" hreflang="ja" href="https://jinigarashi.github.io/foss4g2026-stats/ja"/><link rel="alternate" hreflang="ko" href="https://jinigarashi.github.io/foss4g2026-stats/ko"/><link rel="alternate" hreflang="th" href="https://jinigarashi.github.io/foss4g2026-stats/th"/><link rel="alternate" hreflang="hi" href="https://jinigarashi.github.io/foss4g2026-stats/hi"/><link rel="alternate" hreflang="pt" href="https://jinigarashi.github.io/foss4g2026-stats/pt"/><link rel="alternate" hreflang="de" href="https://jinigarashi.github.io/foss4g2026-stats/de"/><link rel="alternate" hreflang="zh" href="https://jinigarashi.github.io/foss4g2026-stats/zh"/><link rel="alternate" hreflang="fr" href="https://jinigarashi.github.io/foss4g2026-stats/fr"/><link rel="alternate" hreflang="no" href="https://jinigarashi.github.io/foss4g2026-stats/no"/><link rel="alternate" hreflang="fil" href="https://jinigarashi.github.io/foss4g2026-stats/fil"/><link rel="alternate" hreflang="it" href="https://jinigarashi.github.io/foss4g2026-stats/it"/><link rel="alternate" hreflang="es" href="https://jinigarashi.github.io/foss4g2026-stats/es"/><!--]--> <link rel="alternate" hreflang="x-default" href="https://jinigarashi.github.io/foss4g2026-stats/"/><!----><title>FOSS4G Hiroshima 2026 - สถิติผู้เข้าร่วม</title>
-		<link href="./_app/immutable/assets/0.BEjERI21.css" rel="stylesheet">
+		<link href="./_app/immutable/chunks/B5XbjTb1.js" rel="modulepreload">
+		<!--12qhfyh--><link rel="icon" href="/foss4g2026-stats/_app/immutable/assets/logo.CsuIv8wM.svg"/><!----><!--1vwc546--><meta name="description" content="แผนที่แบบโต้ตอบแสดงถิ่นที่อยู่และสัญชาติของผู้เข้าร่วมงาน FOSS4G Hiroshima 2026"/> <meta property="og:type" content="website"/> <meta property="og:title" content="FOSS4G Hiroshima 2026 - สถิติผู้เข้าร่วม"/> <meta property="og:description" content="แผนที่แบบโต้ตอบแสดงถิ่นที่อยู่และสัญชาติของผู้เข้าร่วมงาน FOSS4G Hiroshima 2026"/> <meta property="og:image" content="https://jinigarashi.github.io/foss4g2026-stats/og-image.png"/> <meta property="og:image:type" content="image/png"/> <meta property="og:image:width" content="1200"/> <meta property="og:image:height" content="630"/> <meta property="og:image:alt" content="FOSS4G Hiroshima 2026"/> <meta property="og:url" content="https://jinigarashi.github.io/foss4g2026-stats/th"/> <meta property="og:locale" content="th"/> <meta property="og:site_name" content="FOSS4G Hiroshima 2026"/> <meta name="twitter:card" content="summary_large_image"/> <meta name="twitter:title" content="FOSS4G Hiroshima 2026 - สถิติผู้เข้าร่วม"/> <meta name="twitter:description" content="แผนที่แบบโต้ตอบแสดงถิ่นที่อยู่และสัญชาติของผู้เข้าร่วมงาน FOSS4G Hiroshima 2026"/> <meta name="twitter:image" content="https://jinigarashi.github.io/foss4g2026-stats/og-image.png"/> <meta name="twitter:image:alt" content="FOSS4G Hiroshima 2026"/> <link rel="canonical" href="https://jinigarashi.github.io/foss4g2026-stats/th"/> <!--[--><link rel="alternate" hreflang="en" href="https://jinigarashi.github.io/foss4g2026-stats/en"/><link rel="alternate" hreflang="ja" href="https://jinigarashi.github.io/foss4g2026-stats/ja"/><link rel="alternate" hreflang="ko" href="https://jinigarashi.github.io/foss4g2026-stats/ko"/><link rel="alternate" hreflang="th" href="https://jinigarashi.github.io/foss4g2026-stats/th"/><link rel="alternate" hreflang="hi" href="https://jinigarashi.github.io/foss4g2026-stats/hi"/><link rel="alternate" hreflang="pt" href="https://jinigarashi.github.io/foss4g2026-stats/pt"/><link rel="alternate" hreflang="de" href="https://jinigarashi.github.io/foss4g2026-stats/de"/><link rel="alternate" hreflang="zh" href="https://jinigarashi.github.io/foss4g2026-stats/zh"/><link rel="alternate" hreflang="fr" href="https://jinigarashi.github.io/foss4g2026-stats/fr"/><link rel="alternate" hreflang="no" href="https://jinigarashi.github.io/foss4g2026-stats/no"/><link rel="alternate" hreflang="fil" href="https://jinigarashi.github.io/foss4g2026-stats/fil"/><link rel="alternate" hreflang="it" href="https://jinigarashi.github.io/foss4g2026-stats/it"/><link rel="alternate" hreflang="es" href="https://jinigarashi.github.io/foss4g2026-stats/es"/><!--]--> <link rel="alternate" hreflang="x-default" href="https://jinigarashi.github.io/foss4g2026-stats/"/><!----><title>FOSS4G Hiroshima 2026 - สถิติผู้เข้าร่วม</title>
+		<link href="./_app/immutable/assets/0.D4tquMOs.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Group.C--nJMLw.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Text.j9l35qB0.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Tooltip.Ckve1IX3.css" rel="stylesheet">
@@ -65,7 +83,7 @@
 		<link href="./_app/immutable/assets/Rect.CtRaGMmQ.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Text.fkmsECm9.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Circle.C5MKzgk2.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/4.CTRvJpgD.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/4.IORY19eh.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Voronoi.ce7atosu.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/ChartAnnotations.CPxIG7Mw.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Labels.BxZ4NUVz.css" rel="stylesheet">
@@ -73,11 +91,11 @@
 		<link href="./_app/immutable/assets/DefaultTooltip.Ckzg-0XN.css" rel="stylesheet">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents"><!--[--><!--[0--><!--[--><!--[0--><!--[--><div class="flex h-dvh flex-col"><header class="flex items-center gap-3 border-b border-gray-200 bg-white px-4 py-2"><a href="https://2026.foss4g.org" target="_blank" rel="noopener noreferrer"><img src="/foss4g2026-stats/_app/immutable/assets/logo-with-title.C-NjRHUR.svg" alt="FOSS4G Hiroshima 2026" class="h-10"/></a> <p class="font-semibold">สถิติผู้เข้าร่วม</p> <!--[--><!--[--><!--[--><!--[--><!--$s1--><!--[-1--><button data-slot="dropdown-menu-trigger" class="focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:aria-invalid:border-destructive/50 border border-transparent bg-clip-padding text-sm font-medium focus-visible:ring-3 active:not-aria-[haspopup]:translate-y-px aria-invalid:ring-3 [&amp;_svg:not([class*='size-'])]:size-4 group/button inline-flex shrink-0 items-center justify-center whitespace-nowrap transition-all outline-none select-none disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 hover:bg-muted hover:text-foreground dark:hover:bg-muted/50 aria-expanded:bg-muted aria-expanded:text-foreground h-8 gap-1 rounded-[min(var(--radius-md),10px)] px-2.5 in-data-[slot=button-group]:rounded-md has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 cursor-pointer gap-1 ml-auto" aria-label="เปลี่ยนภาษา" id="bits-s1" aria-haspopup="menu" aria-expanded="false" data-state="closed" data-dropdown-menu-trigger="" type="button"><span class="fi fi-th rounded-xs text-xl" aria-hidden="true"></span> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide-icon lucide lucide-chevron-down opacity-60"><!--[--><!----><path d="m6 9 6 6 6-6"><!----></path><!----><!--]--><!----></svg><!----><!----></button><!--]--><!----><!--]--><!--]--> <!--[--><!--[--><!--[-1--><!--]--><!--]--><!--]--><!----><!----><!--]--><!--]--><!----> <a href="https://github.com/JinIgarashi/foss4g2026-stats" target="_blank" rel="noopener noreferrer" aria-label="คลัง GitHub" class="inline-flex h-9 w-9 items-center justify-center rounded-md text-gray-600 transition-colors hover:bg-gray-100 hover:text-black"><span aria-hidden="true" class="inline-flex h-6 w-6 [&amp;>svg]:h-full [&amp;>svg]:w-full [&amp;>svg]:fill-current"><!----><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg><!----></span></a></header> <main class="relative flex-1"><!--[--><!--[0--><div class="flex h-full w-full items-center justify-center bg-white"><div class="flex flex-col items-center gap-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="status" aria-label="Loading" class="lucide-icon lucide size-4 animate-spin"><!--[--><!----><path d="M12 2v4"><!----></path><!----><!----><path d="m16.2 7.8 2.9-2.9"><!----></path><!----><!----><path d="M18 12h4"><!----></path><!----><!----><path d="m16.2 16.2 2.9 2.9"><!----></path><!----><!----><path d="M12 18v4"><!----></path><!----><!----><path d="m4.9 19.1 2.9-2.9"><!----></path><!----><!----><path d="M2 12h4"><!----></path><!----><!----><path d="m4.9 4.9 2.9 2.9"><!----></path><!----><!--]--><!----></svg><!----> <p class="text-sm text-gray-600">กำลังโหลด...</p></div></div><!--]--> <div class="space-shell h-full w-full hidden svelte-1mfgu1t"><div class="space-stars svelte-1mfgu1t" aria-hidden="true"></div> <div class="space-map h-full w-full"><!--[-1--><!--]--></div><!----></div><!----><!--]--><!----></main></div><!--]--><!--]--><!----><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
+		<div style="display: contents"><!--[--><!--[0--><!--[--><!--[0--><!--[--><div class="flex h-dvh flex-col"><header class="flex items-center gap-3 border-b border-border bg-background px-4 py-2"><a href="https://2026.foss4g.org" target="_blank" rel="noopener noreferrer"><span class="dark:hidden"><img src="/foss4g2026-stats/_app/immutable/assets/logo-with-title.C-NjRHUR.svg" alt="FOSS4G Hiroshima 2026" class="h-10"/></span> <span class="hidden dark:block"><img src="/foss4g2026-stats/_app/immutable/assets/logo-with-title-dark.CnKuDy96.svg" alt="FOSS4G Hiroshima 2026" class="h-10"/></span></a> <p class="hidden font-semibold sm:block">สถิติผู้เข้าร่วม</p> <div class="ml-auto flex items-center"><!--[--><!--[--><!--[--><!--[--><!--$s1--><!--[-1--><button data-slot="dropdown-menu-trigger" class="focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:aria-invalid:border-destructive/50 border border-transparent bg-clip-padding text-sm font-medium focus-visible:ring-3 active:not-aria-[haspopup]:translate-y-px aria-invalid:ring-3 [&amp;_svg:not([class*='size-'])]:size-4 group/button inline-flex shrink-0 items-center justify-center whitespace-nowrap transition-all outline-none select-none disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 hover:bg-muted hover:text-foreground dark:hover:bg-muted/50 aria-expanded:bg-muted aria-expanded:text-foreground h-8 gap-1 rounded-[min(var(--radius-md),10px)] px-2.5 in-data-[slot=button-group]:rounded-md has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 cursor-pointer gap-1 " aria-label="เปลี่ยนธีม" id="bits-s1" aria-haspopup="menu" aria-expanded="false" data-state="closed" data-dropdown-menu-trigger="" type="button"><!--[--><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide-icon lucide lucide-sun"><!--[--><!----><circle cx="12" cy="12" r="4"><!----></circle><!----><!----><path d="M12 2v2"><!----></path><!----><!----><path d="M12 20v2"><!----></path><!----><!----><path d="m4.93 4.93 1.41 1.41"><!----></path><!----><!----><path d="m17.66 17.66 1.41 1.41"><!----></path><!----><!----><path d="M2 12h2"><!----></path><!----><!----><path d="M20 12h2"><!----></path><!----><!----><path d="m6.34 17.66-1.41 1.41"><!----></path><!----><!----><path d="m19.07 4.93-1.41 1.41"><!----></path><!----><!--]--><!----></svg><!--]--> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide-icon lucide lucide-chevron-down opacity-60"><!--[--><!----><path d="m6 9 6 6 6-6"><!----></path><!----><!--]--><!----></svg><!----><!----></button><!--]--><!----><!--]--><!--]--> <!--[--><!--[--><!--[-1--><!--]--><!--]--><!--]--><!----><!----><!--]--><!--]--><!----> <!--[--><!--[--><!--[--><!--[--><!--$s2--><!--[-1--><button data-slot="dropdown-menu-trigger" class="focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:aria-invalid:border-destructive/50 border border-transparent bg-clip-padding text-sm font-medium focus-visible:ring-3 active:not-aria-[haspopup]:translate-y-px aria-invalid:ring-3 [&amp;_svg:not([class*='size-'])]:size-4 group/button inline-flex shrink-0 items-center justify-center whitespace-nowrap transition-all outline-none select-none disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 hover:bg-muted hover:text-foreground dark:hover:bg-muted/50 aria-expanded:bg-muted aria-expanded:text-foreground h-8 gap-1 rounded-[min(var(--radius-md),10px)] px-2.5 in-data-[slot=button-group]:rounded-md has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 cursor-pointer gap-1 " aria-label="เปลี่ยนภาษา" id="bits-s2" aria-haspopup="menu" aria-expanded="false" data-state="closed" data-dropdown-menu-trigger="" type="button"><span class="fi fi-th rounded-xs text-xl" aria-hidden="true"></span> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide-icon lucide lucide-chevron-down opacity-60"><!--[--><!----><path d="m6 9 6 6 6-6"><!----></path><!----><!--]--><!----></svg><!----><!----></button><!--]--><!----><!--]--><!--]--> <!--[--><!--[--><!--[-1--><!--]--><!--]--><!--]--><!----><!----><!--]--><!--]--><!----> <a href="https://github.com/JinIgarashi/foss4g2026-stats" target="_blank" rel="noopener noreferrer" aria-label="คลัง GitHub" class="inline-flex h-9 w-9 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"><span aria-hidden="true" class="inline-flex h-6 w-6 [&amp;>svg]:h-full [&amp;>svg]:w-full [&amp;>svg]:fill-current"><!----><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg><!----></span></a></div></header> <main class="relative flex-1"><!--[--><!--[0--><div class="flex h-full w-full items-center justify-center bg-background"><div class="flex flex-col items-center gap-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="status" aria-label="Loading" class="lucide-icon lucide size-4 animate-spin"><!--[--><!----><path d="M12 2v4"><!----></path><!----><!----><path d="m16.2 7.8 2.9-2.9"><!----></path><!----><!----><path d="M18 12h4"><!----></path><!----><!----><path d="m16.2 16.2 2.9 2.9"><!----></path><!----><!----><path d="M12 18v4"><!----></path><!----><!----><path d="m4.9 19.1 2.9-2.9"><!----></path><!----><!----><path d="M2 12h4"><!----></path><!----><!----><path d="m4.9 4.9 2.9 2.9"><!----></path><!----><!--]--><!----></svg><!----> <p class="text-sm text-muted-foreground">กำลังโหลด...</p></div></div><!--]--> <div class="space-shell h-full w-full hidden svelte-1mfgu1t"><div class="space-stars svelte-1mfgu1t" aria-hidden="true"></div> <div class="space-map h-full w-full"><!--[-1--><!--]--></div><!----></div><!----><!--]--><!----></main></div><!--]--><!--]--><!----><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_15fjbgf = {
+					__sveltekit_t023nj = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						assets: "/foss4g2026-stats"
 					};
@@ -85,8 +103,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.OFMhv7zH.js"),
-						import("./_app/immutable/entry/app.BcbUWNOI.js")
+						import("./_app/immutable/entry/start.Bi-OA77u.js"),
+						import("./_app/immutable/entry/app.C_6RHcXM.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2, 4],

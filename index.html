@@ -7,28 +7,46 @@
 			content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
 		/>
 		<meta name="text-scale" content="scale" />
-		<link href="./_app/immutable/entry/start.OFMhv7zH.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/hnSvrKAh.js" rel="modulepreload">
+		<!-- Resolve the colour scheme before first paint; the site is prerendered, so
+		     this cannot happen on the server. Keep in sync with `$lib/theme.svelte.ts`. -->
+		<script>
+			(() => {
+				let stored = null;
+				try {
+					stored = localStorage.getItem('theme');
+				} catch {
+					// Blocked storage: fall back to the OS setting.
+				}
+				const dark =
+					stored === 'dark' ||
+					(stored !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+				document.documentElement.classList.toggle('dark', dark);
+				document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+			})();
+		</script>
+		<link href="./_app/immutable/entry/start.Bi-OA77u.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/FA0U8gYT.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/BVDRQUHZ.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DUhXWPbV.js" rel="modulepreload">
-		<link href="./_app/immutable/entry/app.BcbUWNOI.js" rel="modulepreload">
+		<link href="./_app/immutable/entry/app.C_6RHcXM.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/HclGiUj8.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/0.moOX2nWN.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/3.eRUrtStj.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/Bi_jzW1x.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/DbHyTy43.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/0.6OiImdPG.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CZEgQAMD.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/3.SKxvtLO6.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/xrYbf_jt.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/C2g41fZm.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/CGEkkbPF.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/bfdn4BFD.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CuDjKTm5.js" rel="modulepreload">
 		<!--12qhfyh--><link rel="icon" href="/foss4g2026-stats/_app/immutable/assets/logo.CsuIv8wM.svg"/><!----><!--1uha8ag--><noscript><meta http-equiv="refresh" content="0; url=./en"/></noscript><!---->
-		<link href="./_app/immutable/assets/0.BEjERI21.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/0.D4tquMOs.css" rel="stylesheet">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents"><!--[--><!--[0--><!--[--><!--[-1--><!--[--><div class="flex h-dvh w-full items-center justify-center bg-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="status" aria-label="Loading" class="lucide-icon lucide size-4 animate-spin"><!--[--><!----><path d="M12 2v4"><!----></path><!----><!----><path d="m16.2 7.8 2.9-2.9"><!----></path><!----><!----><path d="M18 12h4"><!----></path><!----><!----><path d="m16.2 16.2 2.9 2.9"><!----></path><!----><!----><path d="M12 18v4"><!----></path><!----><!----><path d="m4.9 19.1 2.9-2.9"><!----></path><!----><!----><path d="M2 12h4"><!----></path><!----><!----><path d="m4.9 4.9 2.9 2.9"><!----></path><!----><!--]--><!----></svg><!----></div><!--]--><!--]--><!----><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
+		<div style="display: contents"><!--[--><!--[0--><!--[--><!--[-1--><!--[--><div class="flex h-dvh w-full items-center justify-center bg-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="status" aria-label="Loading" class="lucide-icon lucide size-4 animate-spin"><!--[--><!----><path d="M12 2v4"><!----></path><!----><!----><path d="m16.2 7.8 2.9-2.9"><!----></path><!----><!----><path d="M18 12h4"><!----></path><!----><!----><path d="m16.2 16.2 2.9 2.9"><!----></path><!----><!----><path d="M12 18v4"><!----></path><!----><!----><path d="m4.9 19.1 2.9-2.9"><!----></path><!----><!----><path d="M2 12h4"><!----></path><!----><!----><path d="m4.9 4.9 2.9 2.9"><!----></path><!----><!--]--><!----></svg><!----></div><!--]--><!--]--><!----><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_15fjbgf = {
+					__sveltekit_t023nj = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						assets: "/foss4g2026-stats"
 					};
@@ -36,8 +54,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.OFMhv7zH.js"),
-						import("./_app/immutable/entry/app.BcbUWNOI.js")
+						import("./_app/immutable/entry/start.Bi-OA77u.js"),
+						import("./_app/immutable/entry/app.C_6RHcXM.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 3],
