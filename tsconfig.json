@@ -2,6 +2,10 @@
 	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
 		"rewriteRelativeImportExtensions": true,
+		// The Svelte TS plugin types `.svelte` imports through generated
+		// `*.d.svelte.ts` declarations; TS 5+ only accepts that resolution with
+		// this flag, otherwise the editor reports TS2732 on every component import.
+		"allowArbitraryExtensions": true,
 		"allowJs": true,
 		"checkJs": true,
 		"esModuleInterop": true,

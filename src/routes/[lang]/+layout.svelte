@@ -5,13 +5,12 @@
 	import LanguageSwitcher from '$lib/LanguageSwitcher.svelte';
 	import ThemeSwitcher from '$lib/ThemeSwitcher.svelte';
 	import { currentLocale, currentMessages, LOCALES } from '$lib/i18n';
+	import { OG_IMAGE, OG_SITE_NAME, SITE_URL } from '$lib/seo';
 
 	let { children } = $props();
 
-	const siteUrl = 'https://jinigarashi.github.io/foss4g2026-stats';
-	// SVG is not accepted as an OG image by most crawlers, so this is a PNG
-	// rendered from `logo-compact.svg` onto the 1200x630 card canvas.
-	const ogImage = `${siteUrl}/og-image.png`;
+	const siteUrl = SITE_URL;
+	const ogImage = OG_IMAGE;
 
 	let locale = $derived(currentLocale());
 	let t = $derived(currentMessages());
@@ -39,7 +38,7 @@
 	<meta property="og:image:alt" content={t.header.logoAlt} />
 	<meta property="og:url" content={pageUrl} />
 	<meta property="og:locale" content={locale} />
-	<meta property="og:site_name" content="FOSS4G Hiroshima 2026" />
+	<meta property="og:site_name" content={OG_SITE_NAME} />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
