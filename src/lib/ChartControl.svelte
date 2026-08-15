@@ -138,7 +138,7 @@
 						<Button
 							variant="outline"
 							size="icon"
-							class="layer-toggle-btn cursor-pointer border-slate-200 bg-white/90 text-slate-900 shadow-sm backdrop-blur-sm hover:bg-white hover:text-slate-900"
+							class="map-ctrl-btn cursor-pointer shadow-sm backdrop-blur-sm"
 						>
 							<ChartColumn />
 						</Button>
@@ -155,7 +155,7 @@
 					<Drawer.Title>{t.chart.title}</Drawer.Title>
 					<Drawer.Description class="space-y-4">
 						{#if isPreparing}
-							<div class="flex items-center gap-2 text-sm text-gray-500">
+							<div class="flex items-center gap-2 text-sm text-muted-foreground">
 								<Spinner class="size-4" />
 								{t.chart.preparingData}
 							</div>
@@ -164,7 +164,7 @@
 						<!-- Chart Type Selector -->
 						<div class="mt-4">
 							<div class="flex items-center gap-1">
-								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-gray-700">
+								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-foreground">
 									{t.chart.dataType}
 								</p>
 								<ButtonGroup.Root>
@@ -197,7 +197,7 @@
 						<!-- Scope Selector -->
 						<div>
 							<div class="flex items-center gap-1">
-								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-gray-700">
+								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-foreground">
 									{t.chart.area}
 								</p>
 								<ButtonGroup.Root>
@@ -231,7 +231,7 @@
 						<!-- Exclude Japan Toggle -->
 						<div>
 							<div class="flex items-center gap-1">
-								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-gray-700">
+								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-foreground">
 									{t.chart.filter}
 								</p>
 								<Switch
@@ -243,7 +243,7 @@
 									}}
 									class="cursor-pointer"
 								/>
-								<Label for="exclude-japan" class="cursor-pointer pl-1 text-sm text-gray-700">
+								<Label for="exclude-japan" class="cursor-pointer pl-1 text-sm text-foreground">
 									{t.chart.excludeJapan}
 								</Label>
 							</div>
@@ -255,7 +255,7 @@
 				<div class="min-h-0 flex-1 px-4">
 					{#if isPreparing}
 						<div class="flex h-full min-h-75 items-center justify-center">
-							<div class="flex items-center gap-2 text-sm text-gray-500">
+							<div class="flex items-center gap-2 text-sm text-muted-foreground">
 								<Spinner />
 								{t.chart.preparing}
 							</div>
@@ -276,7 +276,7 @@
 							</Tabs.Content>
 						</Tabs.Root>
 					{:else}
-						<div class="flex h-full min-h-75 items-center justify-center text-gray-500">
+						<div class="flex h-full min-h-75 items-center justify-center text-muted-foreground">
 							<p>{t.chart.noData}</p>
 						</div>
 					{/if}
@@ -285,10 +285,3 @@
 		</Drawer.Content>
 	</Drawer.Root>
 </CustomControl>
-
-<style>
-	:global(.maplibregl-ctrl .layer-toggle-btn:hover) {
-		background-color: rgb(255 255 255) !important;
-		color: rgb(15 23 42) !important;
-	}
-</style>

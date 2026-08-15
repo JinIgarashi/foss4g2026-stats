@@ -10,7 +10,13 @@ const hi: Messages = {
 		siteName: 'प्रतिभागी सांख्यिकी',
 		logoAlt: 'FOSS4G Hiroshima 2026',
 		github: 'GitHub रिपॉज़िटरी',
-		language: 'भाषा बदलें'
+		language: 'भाषा बदलें',
+		theme: 'थीम बदलें'
+	},
+	theme: {
+		light: 'लाइट',
+		dark: 'डार्क',
+		system: 'सिस्टम'
 	},
 	map: {
 		loading: 'लोड हो रहा है...',

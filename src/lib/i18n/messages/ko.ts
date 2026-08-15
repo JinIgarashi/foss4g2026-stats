@@ -10,7 +10,13 @@ const ko: Messages = {
 		siteName: '참가자 통계',
 		logoAlt: 'FOSS4G Hiroshima 2026',
 		github: 'GitHub 저장소',
-		language: '언어 변경'
+		language: '언어 변경',
+		theme: '테마 변경'
+	},
+	theme: {
+		light: '라이트',
+		dark: '다크',
+		system: '시스템'
 	},
 	map: {
 		loading: '불러오는 중...',

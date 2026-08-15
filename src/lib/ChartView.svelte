@@ -154,7 +154,7 @@
 		</Card.Header>
 		<Card.Content class="min-h-0 flex-1 px-4">
 			<div
-				class="chart-scroll-x h-full rounded-md border border-slate-100 bg-white/60"
+				class="chart-scroll-x h-full rounded-md border border-border bg-card/60"
 				data-vaul-no-drag
 				role="presentation"
 				onpointerdown={(e) => e.stopPropagation()}
@@ -162,10 +162,12 @@
 				<div class="relative h-full" style={`min-width: ${chartCanvasMinWidth}px;`}>
 					{#if selectedBar}
 						<div
-							class="absolute top-2 right-2 z-20 rounded-md border bg-white/95 p-3 text-xs shadow-md backdrop-blur-sm"
+							class="absolute top-2 right-2 z-20 rounded-md border bg-popover/95 p-3 text-xs shadow-md backdrop-blur-sm"
 						>
-							<div class="mb-1 font-semibold text-slate-800">{selectedBar.name}</div>
-							<div class="text-slate-600">{t.chart.selectedAttendees(selectedBar.count)}</div>
+							<div class="mb-1 font-semibold text-foreground">{selectedBar.name}</div>
+							<div class="text-muted-foreground">
+								{t.chart.selectedAttendees(selectedBar.count)}
+							</div>
 						</div>
 					{/if}
 

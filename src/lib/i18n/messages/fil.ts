@@ -10,7 +10,13 @@ const fil: Messages = {
 		siteName: 'Estadistika ng mga Dumalo',
 		logoAlt: 'FOSS4G Hiroshima 2026',
 		github: 'GitHub na Repositoryo',
-		language: 'Palitan ang wika'
+		language: 'Palitan ang wika',
+		theme: 'Palitan ang tema'
+	},
+	theme: {
+		light: 'Maliwanag',
+		dark: 'Madilim',
+		system: 'Sistema'
 	},
 	map: {
 		loading: 'Naglo-load…',

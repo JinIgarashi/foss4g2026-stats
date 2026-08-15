@@ -83,10 +83,10 @@
 </script>
 
 {#if !isMapLoaded}
-	<div class="flex h-full w-full items-center justify-center bg-white">
+	<div class="flex h-full w-full items-center justify-center bg-background">
 		<div class="flex flex-col items-center gap-4">
 			<Spinner />
-			<p class="text-sm text-gray-600">{t.map.loading}</p>
+			<p class="text-sm text-muted-foreground">{t.map.loading}</p>
 		</div>
 	</div>
 {/if}

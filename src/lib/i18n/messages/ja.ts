@@ -10,7 +10,13 @@ const ja: Messages = {
 		siteName: '参加者統計',
 		logoAlt: 'FOSS4G Hiroshima 2026',
 		github: 'GitHub リポジトリ',
-		language: '言語を変更'
+		language: '言語を変更',
+		theme: 'テーマを変更'
+	},
+	theme: {
+		light: 'ライト',
+		dark: 'ダーク',
+		system: 'システム'
 	},
 	map: {
 		loading: '読み込み中...',
