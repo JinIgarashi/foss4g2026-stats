@@ -9,7 +9,9 @@
 	let { children } = $props();
 
 	const siteUrl = 'https://jinigarashi.github.io/foss4g2026-stats';
-	const ogImage = `${siteUrl}/logo.svg`;
+	// SVG is not accepted as an OG image by most crawlers, so this is a PNG
+	// rendered from `logo-compact.svg` onto the 1200x630 card canvas.
+	const ogImage = `${siteUrl}/og-image.png`;
 
 	let locale = $derived(currentLocale());
 	let t = $derived(currentMessages());
@@ -31,15 +33,20 @@
 	<meta property="og:title" content={t.meta.title} />
 	<meta property="og:description" content={t.meta.description} />
 	<meta property="og:image" content={ogImage} />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:alt" content={t.header.logoAlt} />
 	<meta property="og:url" content={pageUrl} />
 	<meta property="og:locale" content={locale} />
 	<meta property="og:site_name" content="FOSS4G Hiroshima 2026" />
 
 	<!-- Twitter Card -->
-	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={t.meta.title} />
 	<meta name="twitter:description" content={t.meta.description} />
 	<meta name="twitter:image" content={ogImage} />
+	<meta name="twitter:image:alt" content={t.header.logoAlt} />
 
 	<link rel="canonical" href={pageUrl} />
 	{#each LOCALES as alternate (alternate.code)}
