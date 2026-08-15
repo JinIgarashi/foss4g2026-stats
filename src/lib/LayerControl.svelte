@@ -14,6 +14,7 @@
 	import * as Tooltip from '$lib/components/ui/tooltip/index.js';
 	import Button from './components/ui/button/button.svelte';
 	import { onMount } from 'svelte';
+	import { currentLocaleDefinition, currentMessages } from '$lib/i18n';
 
 	type LayerType = 'residence' | 'nationality';
 	type LayerStats = {
@@ -38,6 +39,19 @@
 		activeLayer = layer;
 	};
 
+	let t = $derived(currentMessages());
+	let localeDef = $derived(currentLocaleDefinition());
+
+	// `stats.createdAt` is a raw ISO timestamp so it can be formatted per locale here.
+	let createdAtLabel = $derived.by(() => {
+		if (!stats.createdAt) return '';
+		return new Date(stats.createdAt).toLocaleDateString(localeDef.dateLocale, {
+			day: 'numeric',
+			month: 'long',
+			year: 'numeric'
+		});
+	});
+
 	let layerPanelOpen = $state(false);
 	let infoOpen = $state(false);
 	let infoTriggerId = $state<string | null>(null);
@@ -56,12 +70,12 @@
 	{#if layerPanelOpen}
 		<Card.Root class="w-80 py-4">
 			<Card.Header class="flex flex-row items-center justify-between">
-				<Card.Title><Layers size={16} class="mr-2 inline-block" />Layers</Card.Title>
+				<Card.Title><Layers size={16} class="mr-2 inline-block" />{t.layers.title}</Card.Title>
 				<Button
 					variant="ghost"
 					size="icon"
 					class="cursor-pointer"
-					aria-label="Close layer panel"
+					aria-label={t.layers.close}
 					onclick={() => (layerPanelOpen = false)}
 				>
 					<X size={16} />
@@ -73,7 +87,7 @@
 						<span>
 							<MapPinHouse size={14} />
 						</span>
-						Where attendees come from
+						{t.layers.residence}
 					</Label>
 					<Switch
 						id="layer-residence"
@@ -88,7 +102,7 @@
 						<span>
 							<MapPinned size={14} />
 						</span>
-						What nationality attendees have
+						{t.layers.nationality}
 					</Label>
 					<Switch
 						id="layer-nationality"
@@ -104,24 +118,24 @@
 					<div class="flex w-full items-start gap-2">
 						<div class="min-w-0">
 							<p class="text-xs text-gray-800">
-								<span class="font-semibold">
-									{activeLayer === 'residence'
-										? stats.residenceAttendees
-										: stats.nationalityAttendees}
-								</span>
-								attendees
 								<UserRound size={14} class="inline-block align-[-2px]" />
-								from
 								<span class="font-semibold">
-									{activeLayer === 'residence' ? stats.residenceLocations : stats.nationalityCount}
+									{t.layers.attendees(
+										activeLayer === 'residence'
+											? stats.residenceAttendees
+											: stats.nationalityAttendees
+									)}
 								</span>
-								{activeLayer === 'residence' ? 'locations' : 'nationalities'}
 								<Flag size={14} class="inline-block align-[-2px]" />
+								{t.layers.places(
+									activeLayer === 'residence' ? stats.residenceLocations : stats.nationalityCount,
+									activeLayer
+								)}
 							</p>
 
-							{#if stats.createdAt}
+							{#if createdAtLabel}
 								<p class="text-xs text-gray-800">
-									As of {stats.createdAt}
+									{t.layers.asOf(createdAtLabel)}
 								</p>
 							{/if}
 						</div>
@@ -134,16 +148,13 @@
 								<Tooltip.Trigger
 									id="layer-info"
 									class={buttonVariants({ variant: 'ghost', size: 'icon' }) + ' ml-auto shrink-0'}
-									aria-label="About attendee data"
+									aria-label={t.layers.about}
 									onclick={openInfo}
 								>
 									<Info />
 								</Tooltip.Trigger>
 								<Tooltip.Content class="max-w-64 text-xs leading-relaxed">
-									<p>
-										This data is based on registered attendee's answers to optional questions about
-										their City and Country and Nationality.
-									</p>
+									<p>{t.layers.aboutText}</p>
 								</Tooltip.Content>
 							</Tooltip.Root>
 						</Tooltip.Provider>
@@ -165,7 +176,7 @@
 					</Button>
 				</Tooltip.Trigger>
 				<Tooltip.Content>
-					<p>Show layer control</p>
+					<p>{t.layers.show}</p>
 				</Tooltip.Content>
 			</Tooltip.Root>
 		</Tooltip.Provider>

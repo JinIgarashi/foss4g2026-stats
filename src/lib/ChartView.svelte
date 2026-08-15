@@ -2,6 +2,7 @@
 	import { Arc, BarChart, PieChart, Text } from 'layerchart';
 	import * as Chart from '$lib/components/ui/chart/index.js';
 	import * as Card from '$lib/components/ui/card/index.js';
+	import { currentMessages } from '$lib/i18n';
 
 	type LayerType = 'residence' | 'nationality';
 
@@ -22,6 +23,10 @@
 
 	let { data, activeLayer, topN = 20 }: Props = $props();
 
+	let t = $derived(currentMessages());
+	/** Label of the dimension on the X axis / bar chart title. */
+	let kindLabel = $derived(activeLayer === 'residence' ? t.chart.residence : t.chart.nationality);
+
 	let selectedBar = $state<{ name: string; count: number } | null>(null);
 	type PieDatum = {
 		key: string;
@@ -30,12 +35,12 @@
 		color: string;
 	};
 
-	const barChartConfig = {
+	let barChartConfig = $derived({
 		count: {
-			label: 'Attendees',
+			label: t.chart.attendeesLabel,
 			color: '#2563eb'
 		}
-	} satisfies Chart.ChartConfig;
+	} satisfies Chart.ChartConfig);
 
 	const othersSliceColor = 'oklch(87.2% 0.01 258.338)';
 	const spectralPalette = [
@@ -80,7 +85,7 @@
 			.sort((a, b) => b.value - a.value);
 
 		const maxSlices = options?.maxSlices;
-		const othersLabel = options?.othersLabel ?? 'Others';
+		const othersLabel = options?.othersLabel ?? t.chart.others;
 		let collapsed = sorted;
 		if (maxSlices && sorted.length > maxSlices) {
 			const head = sorted.slice(0, maxSlices - 1);
@@ -98,7 +103,7 @@
 	};
 
 	const toPieChartConfig = (pieData: PieDatum[]): Chart.ChartConfig => ({
-		value: { label: 'Attendees' },
+		value: { label: t.chart.attendeesLabel },
 		...Object.fromEntries(
 			pieData.map((item) => [item.key, { label: item.label, color: item.color }])
 		)
@@ -128,7 +133,7 @@
 	let chartCanvasMinWidth = $derived(Math.max(preparedChartData.length * 56, 640));
 	let showCountryPie = $derived(activeLayer === 'residence');
 	let countryPieData = $derived(
-		aggregatePieData(filteredData, 'country', { maxSlices: 11, othersLabel: 'Others' })
+		aggregatePieData(filteredData, 'country', { maxSlices: 11, othersLabel: t.chart.others })
 	);
 	let regionPieData = $derived(aggregatePieData(filteredData, 'region'));
 	let countryPieTotal = $derived(countryPieData.reduce((sum, item) => sum + item.value, 0));
@@ -144,11 +149,8 @@
 		class={`chart-blue-bars flex min-h-90 min-w-0 flex-col py-4 lg:row-span-2 lg:min-h-0 ${showCountryPie ? 'md:col-span-2 lg:col-auto' : ''}`}
 	>
 		<Card.Header class="px-4">
-			<Card.Title>Top {topN} {activeLayer === 'residence' ? 'Residence' : 'Nationality'}</Card.Title
-			>
-			<Card.Description>
-				X-axis: {activeLayer === 'residence' ? 'Residence' : 'Nationality'}
-			</Card.Description>
+			<Card.Title>{t.chart.topN(topN, kindLabel)}</Card.Title>
+			<Card.Description>{t.chart.xAxis(kindLabel)}</Card.Description>
 		</Card.Header>
 		<Card.Content class="min-h-0 flex-1 px-4">
 			<div
@@ -163,7 +165,7 @@
 							class="absolute top-2 right-2 z-20 rounded-md border bg-white/95 p-3 text-xs shadow-md backdrop-blur-sm"
 						>
 							<div class="mb-1 font-semibold text-slate-800">{selectedBar.name}</div>
-							<div class="text-slate-600">Attendees: {selectedBar.count}</div>
+							<div class="text-slate-600">{t.chart.selectedAttendees(selectedBar.count)}</div>
 						</div>
 					{/if}
 
@@ -218,8 +220,8 @@
 	{#if showCountryPie}
 		<Card.Root class="flex min-h-70 min-w-0 flex-col py-4 lg:min-h-0">
 			<Card.Header class="px-4">
-				<Card.Title>By country (Top 10)</Card.Title>
-				<Card.Description>Attendee share</Card.Description>
+				<Card.Title>{t.chart.byCountry(10)}</Card.Title>
+				<Card.Description>{t.chart.share}</Card.Description>
 			</Card.Header>
 			<Card.Content class="min-h-0 flex-1 px-4">
 				<div class="pie-layout h-full max-h-70">
@@ -228,7 +230,7 @@
 							<div class="pie-legend-item" title={item.label}>
 								<span class="pie-legend-swatch" style={`background-color: ${item.color};`}></span>
 								<span class="pie-legend-label"
-									>{item.label} ({item.value.toLocaleString()} attendees, {formatPercent(
+									>{item.label} ({t.chart.attendeesCount(item.value.toLocaleString())}, {formatPercent(
 										countryPieTotal > 0 ? item.value / countryPieTotal : 0
 									)})</span
 								>
@@ -267,7 +269,7 @@
 												></span>
 											</div>
 											<div class="font-mono font-medium text-foreground tabular-nums">
-												{attendeeCount.toLocaleString()} attendees
+												{t.chart.attendeesCount(attendeeCount.toLocaleString())}
 											</div>
 											<div class="font-mono text-muted-foreground tabular-nums">
 												{formatPercent(ratio)}
@@ -304,8 +306,8 @@
 		class={`flex min-h-70 min-w-0 flex-col py-4 lg:min-h-0 ${showCountryPie ? '' : 'lg:row-span-2'}`}
 	>
 		<Card.Header class="px-4">
-			<Card.Title>By region</Card.Title>
-			<Card.Description>Attendee share</Card.Description>
+			<Card.Title>{t.chart.byRegion}</Card.Title>
+			<Card.Description>{t.chart.share}</Card.Description>
 		</Card.Header>
 		<Card.Content class="min-h-0 flex-1 px-4">
 			<div class="pie-layout h-full max-h-70">
@@ -314,7 +316,7 @@
 						<div class="pie-legend-item" title={item.label}>
 							<span class="pie-legend-swatch" style={`background-color: ${item.color};`}></span>
 							<span class="pie-legend-label"
-								>{item.label} ({item.value.toLocaleString()} attendees, {formatPercent(
+								>{item.label} ({t.chart.attendeesCount(item.value.toLocaleString())}, {formatPercent(
 									regionPieTotal > 0 ? item.value / regionPieTotal : 0
 								)})</span
 							>
@@ -353,7 +355,7 @@
 											></span>
 										</div>
 										<div class="font-mono font-medium text-foreground tabular-nums">
-											{attendeeCount.toLocaleString()} attendees
+											{t.chart.attendeesCount(attendeeCount.toLocaleString())}
 										</div>
 										<div class="font-mono text-muted-foreground tabular-nums">
 											{formatPercent(ratio)}
