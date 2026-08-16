@@ -17,6 +17,15 @@ const zh: Messages = {
 		dark: '深色',
 		system: '跟随系统'
 	},
+	language: {
+		title: '选择语言',
+		description: '语言按以该语言为官方语言的国籍参加者人数从多到少排列。可按语言或国家名称搜索。',
+		search: '搜索语言',
+		searchPlaceholder: '语言或国家…',
+		noResults: '没有符合搜索条件的语言',
+		resultCount: (n) => `共 ${n} 种语言`,
+		attendees: (n) => `${n} 位参加者`
+	},
 	map: {
 		loading: '加载中…',
 		venueName: 'FOSS4G 2026 会场',

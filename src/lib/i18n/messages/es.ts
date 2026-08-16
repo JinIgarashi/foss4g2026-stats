@@ -18,6 +18,16 @@ const es: Messages = {
 		dark: 'Oscuro',
 		system: 'Sistema'
 	},
+	language: {
+		title: 'Elige tu idioma',
+		description:
+			'Los idiomas están ordenados según cuántos asistentes tienen una nacionalidad en la que el idioma es oficial. Busca por idioma o país.',
+		search: 'Buscar idiomas',
+		searchPlaceholder: 'Idioma o país…',
+		noResults: 'Ningún idioma coincide con tu búsqueda',
+		resultCount: (n) => `${n} idioma${n === 1 ? '' : 's'} disponible${n === 1 ? '' : 's'}`,
+		attendees: (n) => `${n} asistentes`
+	},
 	map: {
 		loading: 'Cargando…',
 		venueName: 'Sede del FOSS4G 2026',

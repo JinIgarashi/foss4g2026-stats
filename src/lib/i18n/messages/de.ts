@@ -18,6 +18,16 @@ const de: Messages = {
 		dark: 'Dunkel',
 		system: 'System'
 	},
+	language: {
+		title: 'Sprache wählen',
+		description:
+			'Die Sprachen sind danach sortiert, wie viele Teilnehmende eine Staatsangehörigkeit haben, in der die Sprache Amtssprache ist. Nach Sprache oder Land suchen.',
+		search: 'Sprachen suchen',
+		searchPlaceholder: 'Sprache oder Land…',
+		noResults: 'Keine Sprache entspricht Ihrer Suche',
+		resultCount: (n) => `${n} Sprache${n === 1 ? '' : 'n'} verfügbar`,
+		attendees: (n) => `${n} Teilnehmende`
+	},
 	map: {
 		loading: 'Wird geladen …',
 		venueName: 'Veranstaltungsort FOSS4G 2026',

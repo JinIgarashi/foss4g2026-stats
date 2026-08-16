@@ -18,6 +18,16 @@ const ja: Messages = {
 		dark: 'ダーク',
 		system: 'システム'
 	},
+	language: {
+		title: '言語を選択',
+		description:
+			'参加者の国籍で公用語となっている言語の多い順に並んでいます。言語名または国名で検索できます。',
+		search: '言語を検索',
+		searchPlaceholder: '言語名または国名…',
+		noResults: '検索条件に一致する言語がありません',
+		resultCount: (n) => `${n} 言語を表示中`,
+		attendees: (n) => `${n} 名の参加者`
+	},
 	map: {
 		loading: '読み込み中...',
 		venueName: 'FOSS4G 2026 会場',

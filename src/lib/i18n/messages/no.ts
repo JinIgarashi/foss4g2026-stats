@@ -18,6 +18,16 @@ const no: Messages = {
 		dark: 'Mørk',
 		system: 'System'
 	},
+	language: {
+		title: 'Velg språk',
+		description:
+			'Språkene er sortert etter hvor mange deltakere som har en nasjonalitet der språket er offisielt. Søk på språk eller land.',
+		search: 'Søk etter språk',
+		searchPlaceholder: 'Språk eller land…',
+		noResults: 'Ingen språk samsvarer med søket',
+		resultCount: (n) => `${n} språk tilgjengelig`,
+		attendees: (n) => `${n} deltakere`
+	},
 	map: {
 		loading: 'Laster …',
 		venueName: 'Konferansested FOSS4G 2026',

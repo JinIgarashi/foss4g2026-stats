@@ -18,6 +18,16 @@ const fil: Messages = {
 		dark: 'Madilim',
 		system: 'Sistema'
 	},
+	language: {
+		title: 'Piliin ang iyong wika',
+		description:
+			'Nakaayos ang mga wika ayon sa dami ng dumalo na may nasyonalidad kung saan opisyal ang wikang iyon. Maghanap ayon sa wika o bansa.',
+		search: 'Maghanap ng wika',
+		searchPlaceholder: 'Wika o bansa…',
+		noResults: 'Walang wikang tumutugma sa iyong paghahanap',
+		resultCount: (n) => `${n} wika ang available`,
+		attendees: (n) => `${n} dumalo`
+	},
 	map: {
 		loading: 'Naglo-load…',
 		venueName: 'Lugar ng FOSS4G 2026',

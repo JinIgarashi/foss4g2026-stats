@@ -66,11 +66,14 @@
 	});
 </script>
 
+<!-- Map control corners stay physical even in RTL: MapLibre does not mirror
+     them, and map chrome conventionally keeps its position. Only the content
+     inside the panel uses logical properties. -->
 <CustomControl position="top-left" group={false}>
 	{#if layerPanelOpen}
 		<Card.Root class="w-80 py-4">
 			<Card.Header class="flex flex-row items-center justify-between">
-				<Card.Title><Layers size={16} class="mr-2 inline-block" />{t.layers.title}</Card.Title>
+				<Card.Title><Layers size={16} class="me-2 inline-block" />{t.layers.title}</Card.Title>
 				<Button
 					variant="ghost"
 					size="icon"
@@ -114,7 +117,7 @@
 				</div>
 			</Card.Content>
 			{#if layersReady}
-				<Card.Footer class="text-left">
+				<Card.Footer class="text-start">
 					<div class="flex w-full items-start gap-2">
 						<div class="min-w-0">
 							<p class="text-xs text-foreground">
@@ -147,7 +150,7 @@
 							>
 								<Tooltip.Trigger
 									id="layer-info"
-									class={buttonVariants({ variant: 'ghost', size: 'icon' }) + ' ml-auto shrink-0'}
+									class={buttonVariants({ variant: 'ghost', size: 'icon' }) + ' ms-auto shrink-0'}
 									aria-label={t.layers.about}
 									onclick={openInfo}
 								>

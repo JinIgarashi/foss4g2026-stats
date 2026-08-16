@@ -2,24 +2,32 @@
 	import logo from '$lib/assets/logo-with-title.svg';
 	import logoDark from '$lib/assets/logo-with-title-dark.svg';
 	import siGithub from 'simple-icons/icons/github.svg?raw';
-	import LanguageSwitcher from '$lib/LanguageSwitcher.svelte';
+	import LanguageDialog from '$lib/LanguageDialog.svelte';
 	import ThemeSwitcher from '$lib/ThemeSwitcher.svelte';
-	import { currentLocale, currentMessages, LOCALES } from '$lib/i18n';
+	import {
+		currentLocale,
+		currentMessages,
+		getLocaleDefinition,
+		localeTag,
+		LOCALES
+	} from '$lib/i18n';
 	import { OG_IMAGE, OG_SITE_NAME, SITE_URL } from '$lib/seo';
 
-	let { children } = $props();
+	let { children, data } = $props();
 
 	const siteUrl = SITE_URL;
 	const ogImage = OG_IMAGE;
 
 	let locale = $derived(currentLocale());
+	let definition = $derived(getLocaleDefinition(locale));
 	let t = $derived(currentMessages());
 	let pageUrl = $derived(`${siteUrl}/${locale}`);
 
-	// `hooks.server.ts` bakes `lang` into the prerendered HTML; keep it in sync
-	// when the visitor switches language client-side.
+	// `hooks.server.ts` bakes `lang`/`dir` into the prerendered HTML; keep them in
+	// sync when the visitor switches language client-side.
 	$effect(() => {
-		document.documentElement.lang = locale;
+		document.documentElement.lang = localeTag(definition);
+		document.documentElement.dir = definition.dir;
 	});
 </script>
 
@@ -37,7 +45,8 @@
 	<meta property="og:image:height" content="630" />
 	<meta property="og:image:alt" content={t.header.logoAlt} />
 	<meta property="og:url" content={pageUrl} />
-	<meta property="og:locale" content={locale} />
+	<!-- Open Graph wants the underscore form, e.g. `zh_Hant`. -->
+	<meta property="og:locale" content={localeTag(definition).replace('-', '_')} />
 	<meta property="og:site_name" content={OG_SITE_NAME} />
 
 	<!-- Twitter Card -->
@@ -49,13 +58,17 @@
 
 	<link rel="canonical" href={pageUrl} />
 	{#each LOCALES as alternate (alternate.code)}
-		<link rel="alternate" hreflang={alternate.code} href={`${siteUrl}/${alternate.code}`} />
+		<link rel="alternate" hreflang={localeTag(alternate)} href={`${siteUrl}/${alternate.code}`} />
 	{/each}
 	<link rel="alternate" hreflang="x-default" href={`${siteUrl}/`} />
 </svelte:head>
 
 <div class="flex h-dvh flex-col">
-	<header class="flex items-center gap-3 border-b border-border bg-background px-4 py-2">
+	<!-- `dir="ltr"` even under an RTL locale: the header is brand chrome, and the
+	     logo lockup is a fixed left-hand mark. Mirroring it would move the logo to
+	     the right and the controls to the left, which reads as a different site.
+	     The site name inside still renders right-to-left — bidi handles the run. -->
+	<header dir="ltr" class="flex items-center gap-3 border-b border-border bg-background px-4 py-2">
 		<a href="https://2026.foss4g.org" target="_blank" rel="noopener noreferrer">
 			<!-- Four lockups, one visible at a time: the wrapper picks the colour (the
 			     default artwork is near-black, dark mode needs the white one) and the
@@ -69,9 +82,9 @@
 		</a>
 		<!-- Hidden on phones: some locales are long enough to squeeze the logo. -->
 		<p class="hidden font-semibold sm:block">{t.header.siteName}</p>
-		<div class="ml-auto flex items-center">
+		<div class="ms-auto flex items-center">
 			<ThemeSwitcher />
-			<LanguageSwitcher />
+			<LanguageDialog counts={data.languageCounts} />
 			<a
 				href="https://github.com/JinIgarashi/foss4g2026-stats"
 				target="_blank"
