@@ -87,6 +87,15 @@ const fil: Messages = {
 		headCountry: 'Bansa',
 		headRegion: 'Rehiyon',
 		total: 'Kabuuan'
+	},
+	region: {
+		eastAsiaPacific: 'Silangang Asya at Pasipiko',
+		europeCentralAsia: 'Europa at Gitnang Asya',
+		latinAmericaCaribbean: 'Latin America at Caribbean',
+		middleEastNorthAfrica: 'Gitnang Silangan at Hilagang Aprika',
+		northAmerica: 'Hilagang Amerika',
+		southAsia: 'Timog Asya',
+		subSaharanAfrica: 'Aprikang Sub-Sahara'
 	}
 };
 

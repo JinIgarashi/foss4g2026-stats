@@ -91,6 +91,15 @@ const ur: Messages = {
 		headCountry: 'ملک',
 		headRegion: 'خطہ',
 		total: 'کل'
+	},
+	region: {
+		eastAsiaPacific: 'مشرقی ایشیا اور بحرالکاہل',
+		europeCentralAsia: 'یورپ اور وسطی ایشیا',
+		latinAmericaCaribbean: 'لاطینی امریکہ اور کیریبین',
+		middleEastNorthAfrica: 'مشرق وسطیٰ اور شمالی افریقہ',
+		northAmerica: 'شمالی امریکہ',
+		southAsia: 'جنوبی ایشیا',
+		subSaharanAfrica: 'سب صحارا افریقہ'
 	}
 };
 

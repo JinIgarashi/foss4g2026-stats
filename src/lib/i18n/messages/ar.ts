@@ -121,6 +121,15 @@ const ar: Messages = {
 		headCountry: 'البلد',
 		headRegion: 'المنطقة',
 		total: 'الإجمالي'
+	},
+	region: {
+		eastAsiaPacific: 'شرق آسيا والمحيط الهادئ',
+		europeCentralAsia: 'أوروبا وآسيا الوسطى',
+		latinAmericaCaribbean: 'أمريكا اللاتينية والبحر الكاريبي',
+		middleEastNorthAfrica: 'الشرق الأوسط وشمال أفريقيا',
+		northAmerica: 'أمريكا الشمالية',
+		southAsia: 'جنوب آسيا',
+		subSaharanAfrica: 'أفريقيا جنوب الصحراء الكبرى'
 	}
 };
 

@@ -101,6 +101,15 @@ const sl: Messages = {
 		headCountry: 'Država',
 		headRegion: 'Regija',
 		total: 'Skupaj'
+	},
+	region: {
+		eastAsiaPacific: 'Vzhodna Azija in Pacifik',
+		europeCentralAsia: 'Evropa in Srednja Azija',
+		latinAmericaCaribbean: 'Latinska Amerika in Karibi',
+		middleEastNorthAfrica: 'Bližnji vzhod in Severna Afrika',
+		northAmerica: 'Severna Amerika',
+		southAsia: 'Južna Azija',
+		subSaharanAfrica: 'Podsaharska Afrika'
 	}
 };
 

@@ -87,6 +87,15 @@ const vi: Messages = {
 		headCountry: 'Quốc gia',
 		headRegion: 'Vùng',
 		total: 'Tổng'
+	},
+	region: {
+		eastAsiaPacific: 'Đông Á và Thái Bình Dương',
+		europeCentralAsia: 'Châu Âu và Trung Á',
+		latinAmericaCaribbean: 'Mỹ Latinh và Caribe',
+		middleEastNorthAfrica: 'Trung Đông và Bắc Phi',
+		northAmerica: 'Bắc Mỹ',
+		southAsia: 'Nam Á',
+		subSaharanAfrica: 'Châu Phi cận Sahara'
 	}
 };
 

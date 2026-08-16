@@ -7,6 +7,8 @@ export type LocationProperties = {
 	name?: string;
 	country?: string;
 	region?: string;
+	/** ISO 3166-1 alpha-2 of `country`, used to localize it via `Intl.DisplayNames`. */
+	iso?: string;
 };
 
 export type GeoJSONFeature = GeoJSON.Feature<GeoJSON.Point, LocationProperties & { name: string }>;
@@ -16,6 +18,23 @@ export interface ChartData {
 	count: number;
 	country: string;
 	region: string;
+	iso?: string;
+}
+
+/**
+ * A row as the chart and the table consume it.
+ *
+ * The raw English values are kept alongside the localized ones: filters
+ * (`No answer`, `Japan`) and the pie-chart grouping keys must stay stable
+ * across languages, so only the `*Label` fields are ever displayed.
+ */
+export interface ChartRow extends ChartData {
+	id: string;
+	rank: number;
+	/** Residence: the raw name, trimmed to the part before the first comma. Nationality: localized. */
+	nameLabel: string;
+	countryLabel: string;
+	regionLabel: string;
 }
 
 /**
@@ -29,7 +48,8 @@ export function geoJsonToChartData(features: GeoJSONFeature[]): ChartData[] {
 			name: feature.properties.name || 'Unknown',
 			count: feature.properties.count || 0,
 			country: feature.properties.country || '-',
-			region: feature.properties.region || '-'
+			region: feature.properties.region || '-',
+			iso: feature.properties.iso
 		}))
 		.sort((a, b) => b.count - a.count);
 }

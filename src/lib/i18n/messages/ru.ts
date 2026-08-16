@@ -99,6 +99,15 @@ const ru: Messages = {
 		headCountry: 'Страна',
 		headRegion: 'Регион',
 		total: 'Итого'
+	},
+	region: {
+		eastAsiaPacific: 'Восточная Азия и Тихоокеанский регион',
+		europeCentralAsia: 'Европа и Центральная Азия',
+		latinAmericaCaribbean: 'Латинская Америка и Карибский бассейн',
+		middleEastNorthAfrica: 'Ближний Восток и Северная Африка',
+		northAmerica: 'Северная Америка',
+		southAsia: 'Южная Азия',
+		subSaharanAfrica: 'Африка к югу от Сахары'
 	}
 };
 

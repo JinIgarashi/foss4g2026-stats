@@ -87,6 +87,15 @@ const nl: Messages = {
 		headCountry: 'Land',
 		headRegion: 'Regio',
 		total: 'Totaal'
+	},
+	region: {
+		eastAsiaPacific: 'Oost-Azië en de Stille Oceaan',
+		europeCentralAsia: 'Europa en Centraal-Azië',
+		latinAmericaCaribbean: 'Latijns-Amerika en de Caraïben',
+		middleEastNorthAfrica: 'Midden-Oosten en Noord-Afrika',
+		northAmerica: 'Noord-Amerika',
+		southAsia: 'Zuid-Azië',
+		subSaharanAfrica: 'Afrika ten zuiden van de Sahara'
 	}
 };
 

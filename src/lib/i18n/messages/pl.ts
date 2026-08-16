@@ -99,6 +99,15 @@ const pl: Messages = {
 		headCountry: 'Kraj',
 		headRegion: 'Region',
 		total: 'Razem'
+	},
+	region: {
+		eastAsiaPacific: 'Azja Wschodnia i Pacyfik',
+		europeCentralAsia: 'Europa i Azja Środkowa',
+		latinAmericaCaribbean: 'Ameryka Łacińska i Karaiby',
+		middleEastNorthAfrica: 'Bliski Wschód i Afryka Północna',
+		northAmerica: 'Ameryka Północna',
+		southAsia: 'Azja Południowa',
+		subSaharanAfrica: 'Afryka Subsaharyjska'
 	}
 };
 

@@ -26,13 +26,14 @@ interface GeoCache {
 interface GeoJSONFeature {
 	type: 'Feature';
 	geometry: { type: 'Point'; coordinates: [number, number] };
-	properties: { name: string; count: number; country?: string; region?: string };
+	properties: { name: string; count: number; country?: string; region?: string; iso?: string };
 }
 
 interface PointCountryRegionRow {
 	feature_index: number;
 	country: string | null;
 	region: string | null;
+	iso: string | null;
 }
 
 function escapeSqlString(input: string): string {
@@ -112,6 +113,9 @@ async function enrichGeoJsonWithCountryAndRegion(features: GeoJSONFeature[]): Pr
 		await runSql(conn, `INSERT INTO points VALUES ${pointRows};`);
 
 		const parquetPath = escapeSqlString(COUNTRIES_PARQUET_FILE);
+		// ISO_A2_EH rather than ISO_A2: the latter is '-99' for France and Norway.
+		// The code feeds Intl.DisplayNames({ type: 'region' }) in the UI, so country
+		// names never have to be hand-translated.
 		const pointCountryRegion = await allSql<PointCountryRegionRow>(
 			conn,
 			`
@@ -119,6 +123,7 @@ async function enrichGeoJsonWithCountryAndRegion(features: GeoJSONFeature[]): Pr
 					SELECT
 						NAME,
 						REGION_WB,
+						ISO_A2_EH,
 						CASE
 							WHEN TRY_CAST(geometry AS GEOMETRY) IS NOT NULL THEN TRY_CAST(geometry AS GEOMETRY)
 							ELSE ST_GeomFromWKB(CAST(geometry AS BLOB))
@@ -130,6 +135,7 @@ async function enrichGeoJsonWithCountryAndRegion(features: GeoJSONFeature[]): Pr
 						p.feature_index,
 						c.NAME AS country,
 						c.REGION_WB AS region,
+						c.ISO_A2_EH AS iso,
 						1 AS match_priority,
 						CASE
 							WHEN lower(p.name) LIKE '%' || lower(c.NAME) || '%' THEN 0
@@ -145,6 +151,7 @@ async function enrichGeoJsonWithCountryAndRegion(features: GeoJSONFeature[]): Pr
 						p.feature_index,
 						c.NAME AS country,
 						c.REGION_WB AS region,
+						c.ISO_A2_EH AS iso,
 						2 AS match_priority,
 						CASE
 							WHEN lower(p.name) LIKE '%' || lower(c.NAME) || '%' THEN 0
@@ -170,6 +177,7 @@ async function enrichGeoJsonWithCountryAndRegion(features: GeoJSONFeature[]): Pr
 						p.feature_index,
 						cm.country,
 						cm.region,
+						cm.iso,
 						ROW_NUMBER() OVER (
 							PARTITION BY p.feature_index
 							ORDER BY cm.match_priority, cm.name_bias, cm.centroid_distance, cm.area
@@ -177,7 +185,7 @@ async function enrichGeoJsonWithCountryAndRegion(features: GeoJSONFeature[]): Pr
 					FROM points p
 					LEFT JOIN candidate_matches cm ON p.feature_index = cm.feature_index
 				)
-				SELECT feature_index, country, region
+				SELECT feature_index, country, region, iso
 				FROM ranked_matches
 				WHERE rank_in_match = 1 OR rank_in_match IS NULL
 				ORDER BY feature_index;
@@ -193,6 +201,10 @@ async function enrichGeoJsonWithCountryAndRegion(features: GeoJSONFeature[]): Pr
 			}
 			if (row.region) {
 				feature.properties.region = row.region;
+			}
+			// Natural Earth uses '-99' for entities without an ISO code.
+			if (row.iso && row.iso !== '-99') {
+				feature.properties.iso = row.iso;
 			}
 		}
 	} finally {

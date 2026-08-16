@@ -9,23 +9,25 @@
 	import { Spinner } from '$lib/components/ui/spinner/index.js';
 	import { Switch } from '$lib/components/ui/switch/index.js';
 	import { Label } from '$lib/components/ui/label/index.js';
-	import { geoJsonToChartData, type GeoJSONFeature } from '$lib/chartUtils';
+	import {
+		geoJsonToChartData,
+		type ChartRow,
+		type GeoJSONFeature,
+		type LocationProperties
+	} from '$lib/chartUtils';
 	import * as Tooltip from '$lib/components/ui/tooltip/index.js';
 	import ChartView from '$lib/ChartView.svelte';
 	import TableView from '$lib/TableView.svelte';
-	import { currentMessages } from '$lib/i18n';
+	import { currentLocale, currentMessages } from '$lib/i18n';
+	import { localizeCountry } from '$lib/i18n/display-names';
+	import { localizeRegion } from '$lib/i18n/regions';
+	import { NATIONALITY_LANGUAGES } from '$lib/i18n/nationality-languages';
 
 	type LayerType = 'residence' | 'nationality';
 
 	interface Props {
-		residenceData?: GeoJSON.FeatureCollection<
-			GeoJSON.Point,
-			{ count: number; name?: string; country?: string; region?: string }
-		>;
-		nationalityData?: GeoJSON.FeatureCollection<
-			GeoJSON.Point,
-			{ count: number; name?: string; country?: string; region?: string }
-		>;
+		residenceData?: GeoJSON.FeatureCollection<GeoJSON.Point, LocationProperties>;
+		nationalityData?: GeoJSON.FeatureCollection<GeoJSON.Point, LocationProperties>;
 		activeLayer?: LayerType;
 	}
 
@@ -36,6 +38,7 @@
 	}: Props = $props();
 
 	let t = $derived(currentMessages());
+	let locale = $derived(currentLocale());
 
 	// UI state
 	let scopeType = $state<'all' | 'extent'>('all');
@@ -43,9 +46,7 @@
 	let drawerOpen = $state(false);
 	let isPreparing = $state(false);
 	let mapExtent = $state<[number, number, number, number] | null>(null);
-	let preparedData = $state<
-		{ id: string; rank: number; name: string; count: number; country: string; region: string }[]
-	>([]);
+	let preparedData = $state<ChartRow[]>([]);
 	let viewMode = $state<'chart' | 'table'>('chart');
 
 	const mapCtx = getMapContext();
@@ -93,11 +94,13 @@
 			features = features.filter((feature) => feature.properties.country !== 'Japan');
 		}
 
-		const chartData = geoJsonToChartData(features).map((item, index) => ({
+		const chartData: ChartRow[] = geoJsonToChartData(features).map((item, index) => ({
+			...item,
 			id: `${item.name}:${index}`,
 			rank: index + 1,
-			...item,
-			name: formatDisplayLabel(item.name)
+			nameLabel: formatDisplayLabel(item.name, item.iso),
+			countryLabel: localizeCountry(item.iso, item.country, locale),
+			regionLabel: localizeRegion(item.region, t)
 		}));
 
 		return chartData;
@@ -119,13 +122,30 @@
 
 	$effect(() => {
 		if (!drawerOpen) return;
+		// `locale` is read here rather than only inside the async body, whose reads
+		// happen after `await tick()` and so are not tracked.
+		void locale;
 		void prepareChartData();
 	});
 
-	const formatDisplayLabel = (raw: string) => {
+	/**
+	 * The display label for the first column.
+	 *
+	 * Residence is free text ("Bansud, Philippines", "Perth, Australia, Perth"),
+	 * so it is only trimmed to the part before the first comma — never
+	 * translated. Nationality is effectively a country list, so it is localized
+	 * from its ISO code, preferring the hand-maintained one in
+	 * `NATIONALITY_LANGUAGES` over the code derived from the point: `No answer`
+	 * sits at Null Island and is tagged `France` / `FR` by the spatial join.
+	 */
+	const formatDisplayLabel = (raw: string, iso: string | undefined) => {
 		const normalized = String(raw ?? '').trim();
-		if (activeLayer !== 'residence') return normalized;
-		return normalized.split(',')[0]?.trim() ?? normalized;
+		if (activeLayer === 'residence') return normalized.split(',')[0]?.trim() ?? normalized;
+
+		const entry = NATIONALITY_LANGUAGES[normalized as keyof typeof NATIONALITY_LANGUAGES];
+		if (!entry) return normalized;
+
+		return localizeCountry(entry.iso ?? iso, normalized, locale);
 	};
 </script>
 

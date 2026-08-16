@@ -92,6 +92,15 @@ const fa: Messages = {
 		headCountry: 'کشور',
 		headRegion: 'منطقه',
 		total: 'مجموع'
+	},
+	region: {
+		eastAsiaPacific: 'آسیای شرقی و اقیانوسیه',
+		europeCentralAsia: 'اروپا و آسیای مرکزی',
+		latinAmericaCaribbean: 'آمریکای لاتین و کارائیب',
+		middleEastNorthAfrica: 'خاورمیانه و شمال آفریقا',
+		northAmerica: 'آمریکای شمالی',
+		southAsia: 'جنوب آسیا',
+		subSaharanAfrica: 'آفریقای زیرصحرا'
 	}
 };
 

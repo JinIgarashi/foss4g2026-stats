@@ -12,7 +12,8 @@
 				"name": "Bansud, Philippines",
 				"count": 1,
 				"country": "Philippines",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "PH"
 			}
 		},
 		{
@@ -25,7 +26,8 @@
 				"name": "Quezon City, Philippines",
 				"count": 3,
 				"country": "Philippines",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "PH"
 			}
 		},
 		{
@@ -38,7 +40,8 @@
 				"name": "Caucaia, Brazil",
 				"count": 1,
 				"country": "Brazil",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "BR"
 			}
 		},
 		{
@@ -51,7 +54,8 @@
 				"name": "Hsinchu",
 				"count": 1,
 				"country": "Taiwan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "TW"
 			}
 		},
 		{
@@ -64,7 +68,8 @@
 				"name": "Melbourne, Australia",
 				"count": 8,
 				"country": "Australia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "AU"
 			}
 		},
 		{
@@ -77,7 +82,8 @@
 				"name": "Perth, Australia, Perth",
 				"count": 4,
 				"country": "Australia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "AU"
 			}
 		},
 		{
@@ -90,7 +96,8 @@
 				"name": "Kuala Lumpur, Malaysia",
 				"count": 1,
 				"country": "Malaysia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "MY"
 			}
 		},
 		{
@@ -103,7 +110,8 @@
 				"name": "Sibiu",
 				"count": 1,
 				"country": "Romania",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "RO"
 			}
 		},
 		{
@@ -116,7 +124,8 @@
 				"name": "Prague",
 				"count": 1,
 				"country": "Czechia",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "CZ"
 			}
 		},
 		{
@@ -129,7 +138,8 @@
 				"name": "No answer",
 				"count": 148,
 				"country": "France",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "FR"
 			}
 		},
 		{
@@ -142,7 +152,8 @@
 				"name": "Fremantle, Australia",
 				"count": 2,
 				"country": "Australia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "AU"
 			}
 		},
 		{
@@ -155,7 +166,8 @@
 				"name": "London, London, UK",
 				"count": 2,
 				"country": "United Kingdom",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "GB"
 			}
 		},
 		{
@@ -168,7 +180,8 @@
 				"name": "Balaruc les bains, FRANCE",
 				"count": 1,
 				"country": "France",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "FR"
 			}
 		},
 		{
@@ -181,7 +194,8 @@
 				"name": "Copenhagen, Denmark",
 				"count": 1,
 				"country": "Denmark",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "DK"
 			}
 		},
 		{
@@ -194,7 +208,8 @@
 				"name": "Warsaw, Poland, Warszawa, Warsaw",
 				"count": 4,
 				"country": "Poland",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "PL"
 			}
 		},
 		{
@@ -207,7 +222,8 @@
 				"name": "Vienna, Austria",
 				"count": 2,
 				"country": "Austria",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "AT"
 			}
 		},
 		{
@@ -220,7 +236,8 @@
 				"name": "Heidelberg, Heidelberg, Germany",
 				"count": 2,
 				"country": "Germany",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "DE"
 			}
 		},
 		{
@@ -233,7 +250,8 @@
 				"name": "Železniki, Slovenia",
 				"count": 1,
 				"country": "Slovenia",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "SI"
 			}
 		},
 		{
@@ -246,7 +264,8 @@
 				"name": "Bruxelles, Brussels, Belgium",
 				"count": 2,
 				"country": "Belgium",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "BE"
 			}
 		},
 		{
@@ -259,7 +278,8 @@
 				"name": "Bristol, UK",
 				"count": 1,
 				"country": "United Kingdom",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "GB"
 			}
 		},
 		{
@@ -272,7 +292,8 @@
 				"name": "Jackson, New Hampshire, USA",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -285,7 +306,8 @@
 				"name": "Berlin, Germany",
 				"count": 7,
 				"country": "Germany",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "DE"
 			}
 		},
 		{
@@ -298,7 +320,8 @@
 				"name": "New York, USA, New York, NY, New York City, United States",
 				"count": 3,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -311,7 +334,8 @@
 				"name": "Denver, Colorado",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -324,7 +348,8 @@
 				"name": "Fairbanks, Alaska, Fairbanks, USA, Fairbanks, United States of America",
 				"count": 3,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -337,7 +362,8 @@
 				"name": "和歌山県",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -350,7 +376,8 @@
 				"name": "Iowa City, Iowa, USA",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -363,7 +390,8 @@
 				"name": "Bend, Oregon",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -376,7 +404,8 @@
 				"name": "Philadelphia, US, Philadelphia, USA",
 				"count": 2,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -389,7 +418,8 @@
 				"name": "Ottawa, Canada",
 				"count": 4,
 				"country": "Canada",
-				"region": "North America"
+				"region": "North America",
+				"iso": "CA"
 			}
 		},
 		{
@@ -402,7 +432,8 @@
 				"name": "Vancouver, Canada",
 				"count": 1,
 				"country": "Canada",
-				"region": "North America"
+				"region": "North America",
+				"iso": "CA"
 			}
 		},
 		{
@@ -415,7 +446,8 @@
 				"name": "Hyogo Japan, Hyogo, Japan, HYOGO, Hyogo",
 				"count": 6,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -428,7 +460,8 @@
 				"name": "Kagoshima, Japan, Kagoshima",
 				"count": 2,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -441,7 +474,8 @@
 				"name": "Cairo, Egypt",
 				"count": 1,
 				"country": "Egypt",
-				"region": "Middle East & North Africa"
+				"region": "Middle East & North Africa",
+				"iso": "EG"
 			}
 		},
 		{
@@ -454,7 +488,8 @@
 				"name": "Gonzalez Catan, Buenos Aires",
 				"count": 1,
 				"country": "Argentina",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "AR"
 			}
 		},
 		{
@@ -467,7 +502,8 @@
 				"name": "Chiba, Chiba, Japan, 千葉県, chiba/Japan, Chiba,Japan, Chiba Japan, Chiba-ken, JAPAN",
 				"count": 13,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -480,7 +516,8 @@
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan, TOKYO, Tokyo Japan, Japan Tokyo",
 				"count": 75,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -493,7 +530,8 @@
 				"name": "Buzău, România",
 				"count": 2,
 				"country": "Romania",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "RO"
 			}
 		},
 		{
@@ -506,7 +544,8 @@
 				"name": "Bærum, Norway",
 				"count": 1,
 				"country": "Norway",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NO"
 			}
 		},
 		{
@@ -519,7 +558,8 @@
 				"name": "Jevnaker, Norway",
 				"count": 1,
 				"country": "Norway",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NO"
 			}
 		},
 		{
@@ -532,7 +572,8 @@
 				"name": "Oslo, Norway, Oslo",
 				"count": 4,
 				"country": "Norway",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NO"
 			}
 		},
 		{
@@ -545,7 +586,8 @@
 				"name": "Bangkok, Thailand, Bangkok,Thailand, Bankok, Thailand, Bangkok",
 				"count": 9,
 				"country": "Thailand",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "TH"
 			}
 		},
 		{
@@ -558,7 +600,8 @@
 				"name": "Wheal Rose, Cornwall",
 				"count": 1,
 				"country": "United Kingdom",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "GB"
 			}
 		},
 		{
@@ -571,7 +614,8 @@
 				"name": "Birmingham, UK",
 				"count": 1,
 				"country": "United Kingdom",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "GB"
 			}
 		},
 		{
@@ -584,7 +628,8 @@
 				"name": "Paris, France",
 				"count": 2,
 				"country": "France",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "FR"
 			}
 		},
 		{
@@ -597,7 +642,8 @@
 				"name": "Ellensburg, USA",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -610,7 +656,8 @@
 				"name": "Taipei, Taiwan",
 				"count": 2,
 				"country": "Taiwan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "TW"
 			}
 		},
 		{
@@ -623,7 +670,8 @@
 				"name": "Gouda, The Netherlands",
 				"count": 1,
 				"country": "Netherlands",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NL"
 			}
 		},
 		{
@@ -636,7 +684,8 @@
 				"name": "Taguig City, Philippines",
 				"count": 1,
 				"country": "Philippines",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "PH"
 			}
 		},
 		{
@@ -649,7 +698,8 @@
 				"name": "Ljubljana, Slovenia, Ljubljana",
 				"count": 8,
 				"country": "Slovenia",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "SI"
 			}
 		},
 		{
@@ -662,7 +712,8 @@
 				"name": "Münster, Germany",
 				"count": 1,
 				"country": "Germany",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "DE"
 			}
 		},
 		{
@@ -675,7 +726,8 @@
 				"name": "KOLSÅS",
 				"count": 1,
 				"country": "Norway",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NO"
 			}
 		},
 		{
@@ -688,7 +740,8 @@
 				"name": "Tartu, Estonia",
 				"count": 4,
 				"country": "Estonia",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "EE"
 			}
 		},
 		{
@@ -701,7 +754,8 @@
 				"name": "Toronto, Canada",
 				"count": 2,
 				"country": "Canada",
-				"region": "North America"
+				"region": "North America",
+				"iso": "CA"
 			}
 		},
 		{
@@ -714,7 +768,8 @@
 				"name": "Lisbon, Portugal",
 				"count": 5,
 				"country": "Portugal",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "PT"
 			}
 		},
 		{
@@ -727,7 +782,8 @@
 				"name": "Zanzibar",
 				"count": 1,
 				"country": "Tanzania",
-				"region": "Sub-Saharan Africa"
+				"region": "Sub-Saharan Africa",
+				"iso": "TZ"
 			}
 		},
 		{
@@ -740,7 +796,8 @@
 				"name": "Victoria, Canada",
 				"count": 1,
 				"country": "Canada",
-				"region": "North America"
+				"region": "North America",
+				"iso": "CA"
 			}
 		},
 		{
@@ -753,7 +810,8 @@
 				"name": "Kobe, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -766,7 +824,8 @@
 				"name": "Sapporo, Japan, Hokkaido, Sapporo, Sapporo, Hokkaido",
 				"count": 8,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -779,7 +838,8 @@
 				"name": "Osaka, Japan, osaka,japan, Osaka, JAPAN, Osaka,Japan, Osaka-shi, Osaka , Japan",
 				"count": 15,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -792,7 +852,8 @@
 				"name": "Ishikawa Prefecture, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -805,7 +866,8 @@
 				"name": "Buffalo, New York State, United States, Buffalo, USA",
 				"count": 2,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -818,7 +880,8 @@
 				"name": "Laax",
 				"count": 1,
 				"country": "Switzerland",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "CH"
 			}
 		},
 		{
@@ -831,7 +894,8 @@
 				"name": "Littleport, UK",
 				"count": 1,
 				"country": "United Kingdom",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "GB"
 			}
 		},
 		{
@@ -844,7 +908,8 @@
 				"name": "Whanganui, New Zealand",
 				"count": 1,
 				"country": "New Zealand",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "NZ"
 			}
 		},
 		{
@@ -857,7 +922,8 @@
 				"name": "Wageningen",
 				"count": 1,
 				"country": "Netherlands",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NL"
 			}
 		},
 		{
@@ -870,7 +936,8 @@
 				"name": "Seoul, South Korea, Seoul, Seoul, Korea",
 				"count": 12,
 				"country": "South Korea",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "KR"
 			}
 		},
 		{
@@ -883,7 +950,8 @@
 				"name": "Asuncion, Paraguay, Asunción, Paraguay",
 				"count": 2,
 				"country": "Paraguay",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "PY"
 			}
 		},
 		{
@@ -896,7 +964,8 @@
 				"name": "Kamagawa, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -909,7 +978,8 @@
 				"name": "Seongnam city, South Korea, Seongnam, South Korea",
 				"count": 2,
 				"country": "South Korea",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "KR"
 			}
 		},
 		{
@@ -922,7 +992,8 @@
 				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan, Saitama,Japan",
 				"count": 19,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -935,7 +1006,8 @@
 				"name": "JAPAN, Japan",
 				"count": 3,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -948,7 +1020,8 @@
 				"name": "Canada",
 				"count": 1,
 				"country": "Canada",
-				"region": "North America"
+				"region": "North America",
+				"iso": "CA"
 			}
 		},
 		{
@@ -961,7 +1034,8 @@
 				"name": "Kashipur, India",
 				"count": 1,
 				"country": "India",
-				"region": "South Asia"
+				"region": "South Asia",
+				"iso": "IN"
 			}
 		},
 		{
@@ -974,7 +1048,8 @@
 				"name": "Aichi, Japan, aichi",
 				"count": 5,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -987,7 +1062,8 @@
 				"name": "Hiroshima, japan, Hiroshima, Japan, Hiroshima, Hiroshima Japan, Hiroshima,japan",
 				"count": 15,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -1000,7 +1076,8 @@
 				"name": "Singapore",
 				"count": 4,
 				"country": "Singapore",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "SG"
 			}
 		},
 		{
@@ -1013,7 +1090,8 @@
 				"name": "Neuchâtel, Switzerland",
 				"count": 1,
 				"country": "Switzerland",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "CH"
 			}
 		},
 		{
@@ -1026,7 +1104,8 @@
 				"name": "Canberra City, Canberra",
 				"count": 2,
 				"country": "Australia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "AU"
 			}
 		},
 		{
@@ -1039,7 +1118,8 @@
 				"name": "Montpellier, France, Montpellier",
 				"count": 2,
 				"country": "France",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "FR"
 			}
 		},
 		{
@@ -1052,7 +1132,8 @@
 				"name": "Nagano, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -1065,7 +1146,8 @@
 				"name": "Toyo",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -1078,7 +1160,8 @@
 				"name": "Toulouse, France",
 				"count": 2,
 				"country": "France",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "FR"
 			}
 		},
 		{
@@ -1091,7 +1174,8 @@
 				"name": "Fornebu, Norway",
 				"count": 1,
 				"country": "Norway",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NO"
 			}
 		},
 		{
@@ -1104,7 +1188,8 @@
 				"name": "KhonKaen Thailand",
 				"count": 2,
 				"country": "Thailand",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "TH"
 			}
 		},
 		{
@@ -1117,7 +1202,8 @@
 				"name": "Ubon Ratchathani, Thailand",
 				"count": 1,
 				"country": "Thailand",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "TH"
 			}
 		},
 		{
@@ -1130,7 +1216,8 @@
 				"name": "gunma",
 				"count": 2,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -1143,7 +1230,8 @@
 				"name": "Lagos, Nigeria",
 				"count": 1,
 				"country": "Nigeria",
-				"region": "Sub-Saharan Africa"
+				"region": "Sub-Saharan Africa",
+				"iso": "NG"
 			}
 		},
 		{
@@ -1156,7 +1244,8 @@
 				"name": "Zaandijk, The Netherlands",
 				"count": 1,
 				"country": "Netherlands",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NL"
 			}
 		},
 		{
@@ -1169,7 +1258,8 @@
 				"name": "Delhi, India",
 				"count": 2,
 				"country": "India",
-				"region": "South Asia"
+				"region": "South Asia",
+				"iso": "IN"
 			}
 		},
 		{
@@ -1182,7 +1272,8 @@
 				"name": "Okayama,Japan, Okayama, Japan",
 				"count": 4,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -1195,7 +1286,8 @@
 				"name": "Oita, JAPAN",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -1208,7 +1300,8 @@
 				"name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa, 神奈川県, Kanagawa Prefecture",
 				"count": 18,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -1221,7 +1314,8 @@
 				"name": "France",
 				"count": 1,
 				"country": "France",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "FR"
 			}
 		},
 		{
@@ -1234,7 +1328,8 @@
 				"name": "Barcelona, Spain",
 				"count": 3,
 				"country": "Spain",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "ES"
 			}
 		},
 		{
@@ -1247,7 +1342,8 @@
 				"name": "Pato Branco - Brazil, Pato Branco, Brazil",
 				"count": 2,
 				"country": "Brazil",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "BR"
 			}
 		},
 		{
@@ -1260,7 +1356,8 @@
 				"name": "Hilo, United States, Hilo, USA",
 				"count": 2,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -1273,7 +1370,8 @@
 				"name": "São Paulo, Brazil, São Paulo, Sao Paulo - Brazil",
 				"count": 4,
 				"country": "Brazil",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "BR"
 			}
 		},
 		{
@@ -1286,7 +1384,8 @@
 				"name": "Kingston, Jamaica",
 				"count": 1,
 				"country": "Jamaica",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "JM"
 			}
 		},
 		{
@@ -1299,7 +1398,8 @@
 				"name": "Enschede, The Netherlands, Enschede, Netherlands",
 				"count": 2,
 				"country": "Netherlands",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NL"
 			}
 		},
 		{
@@ -1312,7 +1412,8 @@
 				"name": "Varaždin",
 				"count": 1,
 				"country": "Croatia",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "HR"
 			}
 		},
 		{
@@ -1325,7 +1426,8 @@
 				"name": "The United States",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -1338,7 +1440,8 @@
 				"name": "Thailand",
 				"count": 2,
 				"country": "Thailand",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "TH"
 			}
 		},
 		{
@@ -1351,7 +1454,8 @@
 				"name": "Mueang Phitsanulok, Thailand",
 				"count": 1,
 				"country": "Thailand",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "TH"
 			}
 		},
 		{
@@ -1364,7 +1468,8 @@
 				"name": "Mueang Phitsanulok",
 				"count": 1,
 				"country": "Thailand",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "TH"
 			}
 		},
 		{
@@ -1377,7 +1482,8 @@
 				"name": "Helsinki, Finland",
 				"count": 1,
 				"country": "Finland",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "FI"
 			}
 		},
 		{
@@ -1390,7 +1496,8 @@
 				"name": "Presov, Slovakia",
 				"count": 1,
 				"country": "Slovakia",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "SK"
 			}
 		},
 		{
@@ -1403,7 +1510,8 @@
 				"name": "Glasgow, Scotland",
 				"count": 1,
 				"country": "United Kingdom",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "GB"
 			}
 		},
 		{
@@ -1416,7 +1524,8 @@
 				"name": "Marikina, Philippines",
 				"count": 1,
 				"country": "Philippines",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "PH"
 			}
 		},
 		{
@@ -1429,7 +1538,8 @@
 				"name": "Broomfield, Colorado, USA",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -1442,7 +1552,8 @@
 				"name": "San Francisco, USA, San Francisco, California",
 				"count": 2,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -1455,7 +1566,8 @@
 				"name": "Bulacan, Philippines",
 				"count": 1,
 				"country": "Philippines",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "PH"
 			}
 		},
 		{
@@ -1468,7 +1580,8 @@
 				"name": "Leipzig, Germany",
 				"count": 2,
 				"country": "Germany",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "DE"
 			}
 		},
 		{
@@ -1481,7 +1594,8 @@
 				"name": "Gauting",
 				"count": 1,
 				"country": "Germany",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "DE"
 			}
 		},
 		{
@@ -1494,7 +1608,8 @@
 				"name": "Zürich, Switzerland, Zurich, Switzerland",
 				"count": 2,
 				"country": "Switzerland",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "CH"
 			}
 		},
 		{
@@ -1507,7 +1622,8 @@
 				"name": "Reykjavik, Iceland, Reykjavík, Iceland",
 				"count": 2,
 				"country": "Iceland",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "IS"
 			}
 		},
 		{
@@ -1520,7 +1636,8 @@
 				"name": "Christchurch, New Zealand",
 				"count": 5,
 				"country": "New Zealand",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "NZ"
 			}
 		},
 		{
@@ -1533,7 +1650,8 @@
 				"name": "Dili",
 				"count": 2,
 				"country": "Timor-Leste",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "TL"
 			}
 		},
 		{
@@ -1546,7 +1664,8 @@
 				"name": "Bangalore, India, Bengaluru, India",
 				"count": 6,
 				"country": "India",
-				"region": "South Asia"
+				"region": "South Asia",
+				"iso": "IN"
 			}
 		},
 		{
@@ -1559,7 +1678,8 @@
 				"name": "Vancouver, France",
 				"count": 1,
 				"country": "France",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "FR"
 			}
 		},
 		{
@@ -1572,7 +1692,8 @@
 				"name": "Brno, Czechia",
 				"count": 1,
 				"country": "Czechia",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "CZ"
 			}
 		},
 		{
@@ -1585,7 +1706,8 @@
 				"name": "Tallinn, Estonia",
 				"count": 1,
 				"country": "Estonia",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "EE"
 			}
 		},
 		{
@@ -1598,7 +1720,8 @@
 				"name": "Sargans, Switzerland",
 				"count": 1,
 				"country": "Switzerland",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "CH"
 			}
 		},
 		{
@@ -1611,7 +1734,8 @@
 				"name": "Milan, Italy",
 				"count": 2,
 				"country": "Italy",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "IT"
 			}
 		},
 		{
@@ -1624,7 +1748,8 @@
 				"name": "Riyadh, Riyadh, Kingdom of Saudi Arabia, Riyadh, Saudi Arabia",
 				"count": 3,
 				"country": "Saudi Arabia",
-				"region": "Middle East & North Africa"
+				"region": "Middle East & North Africa",
+				"iso": "SA"
 			}
 		},
 		{
@@ -1637,7 +1762,8 @@
 				"name": "Los Angeles, United States of America",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -1650,7 +1776,8 @@
 				"name": "Zagreb, Croatia, Zagreb",
 				"count": 5,
 				"country": "Croatia",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "HR"
 			}
 		},
 		{
@@ -1663,7 +1790,8 @@
 				"name": "Port Harcourt,Nigeria",
 				"count": 1,
 				"country": "Nigeria",
-				"region": "Sub-Saharan Africa"
+				"region": "Sub-Saharan Africa",
+				"iso": "NG"
 			}
 		},
 		{
@@ -1676,7 +1804,8 @@
 				"name": "Lyon, France",
 				"count": 1,
 				"country": "France",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "FR"
 			}
 		},
 		{
@@ -1689,7 +1818,8 @@
 				"name": "Oxford, United Kingdom",
 				"count": 1,
 				"country": "United Kingdom",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "GB"
 			}
 		},
 		{
@@ -1702,7 +1832,8 @@
 				"name": "Pretoria, South Africa",
 				"count": 2,
 				"country": "South Africa",
-				"region": "Sub-Saharan Africa"
+				"region": "Sub-Saharan Africa",
+				"iso": "ZA"
 			}
 		},
 		{
@@ -1715,7 +1846,8 @@
 				"name": "Aveiro, Portugal",
 				"count": 1,
 				"country": "Portugal",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "PT"
 			}
 		},
 		{
@@ -1728,7 +1860,8 @@
 				"name": "Seattle, USA",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -1741,7 +1874,8 @@
 				"name": "Boston, United States",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -1754,7 +1888,8 @@
 				"name": "Okinawa, Japan, Okinawa",
 				"count": 2,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -1767,7 +1902,8 @@
 				"name": "Suva, Suva, Fiji",
 				"count": 4,
 				"country": "Fiji",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "FJ"
 			}
 		},
 		{
@@ -1780,7 +1916,8 @@
 				"name": "Tsukuba, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -1793,7 +1930,8 @@
 				"name": "Gyeonggi-do, Korea",
 				"count": 1,
 				"country": "South Korea",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "KR"
 			}
 		},
 		{
@@ -1806,7 +1944,8 @@
 				"name": "Brighton-le-sands",
 				"count": 1,
 				"country": "Australia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "AU"
 			}
 		},
 		{
@@ -1819,7 +1958,8 @@
 				"name": "İstanbul, Türkiye, Istanbul, Türkiye",
 				"count": 2,
 				"country": "Turkey",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "TR"
 			}
 		},
 		{
@@ -1832,7 +1972,8 @@
 				"name": "Hyderabad, India, hyderabad",
 				"count": 3,
 				"country": "India",
-				"region": "South Asia"
+				"region": "South Asia",
+				"iso": "IN"
 			}
 		},
 		{
@@ -1845,7 +1986,8 @@
 				"name": "Selangor, Malaysia",
 				"count": 1,
 				"country": "Malaysia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "MY"
 			}
 		},
 		{
@@ -1858,7 +2000,8 @@
 				"name": "Flintevej 35",
 				"count": 1,
 				"country": "Denmark",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "DK"
 			}
 		},
 		{
@@ -1871,7 +2014,8 @@
 				"name": "Sejong, Republic of Korea",
 				"count": 1,
 				"country": "South Korea",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "KR"
 			}
 		},
 		{
@@ -1884,7 +2028,8 @@
 				"name": "Valencia, Spain",
 				"count": 1,
 				"country": "Spain",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "ES"
 			}
 		},
 		{
@@ -1897,7 +2042,8 @@
 				"name": "Uithoorn, Netherlands",
 				"count": 1,
 				"country": "Netherlands",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NL"
 			}
 		},
 		{
@@ -1910,7 +2056,8 @@
 				"name": "Würzburg, Germany",
 				"count": 1,
 				"country": "Germany",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "DE"
 			}
 		},
 		{
@@ -1923,7 +2070,8 @@
 				"name": "Billesholm, Sweden",
 				"count": 1,
 				"country": "Sweden",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "SE"
 			}
 		},
 		{
@@ -1936,7 +2084,8 @@
 				"name": "Nelson, Canada",
 				"count": 1,
 				"country": "Canada",
-				"region": "North America"
+				"region": "North America",
+				"iso": "CA"
 			}
 		},
 		{
@@ -1949,7 +2098,8 @@
 				"name": "Colorado, USA",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -1962,7 +2112,8 @@
 				"name": "Kathmandu",
 				"count": 1,
 				"country": "Nepal",
-				"region": "South Asia"
+				"region": "South Asia",
+				"iso": "NP"
 			}
 		},
 		{
@@ -1975,7 +2126,8 @@
 				"name": "Mumbai, India",
 				"count": 1,
 				"country": "India",
-				"region": "South Asia"
+				"region": "South Asia",
+				"iso": "IN"
 			}
 		},
 		{
@@ -1988,7 +2140,8 @@
 				"name": "PETALING JAYA",
 				"count": 1,
 				"country": "Malaysia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "MY"
 			}
 		},
 		{
@@ -2001,7 +2154,8 @@
 				"name": "Novisad, Servia",
 				"count": 1,
 				"country": "Serbia",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "RS"
 			}
 		},
 		{
@@ -2014,7 +2168,8 @@
 				"name": "Sydney, Australia",
 				"count": 1,
 				"country": "Australia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "AU"
 			}
 		},
 		{
@@ -2027,7 +2182,8 @@
 				"name": "Mashiko, Tochigi, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2040,7 +2196,8 @@
 				"name": "Malawi, Zomba, Zomba, Malawi",
 				"count": 2,
 				"country": "Malawi",
-				"region": "Sub-Saharan Africa"
+				"region": "Sub-Saharan Africa",
+				"iso": "MW"
 			}
 		},
 		{
@@ -2053,7 +2210,8 @@
 				"name": "Yogyakarta, Indonesia",
 				"count": 1,
 				"country": "Indonesia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "ID"
 			}
 		},
 		{
@@ -2066,7 +2224,8 @@
 				"name": "Liverpool, United Kingdom",
 				"count": 1,
 				"country": "United Kingdom",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "GB"
 			}
 		},
 		{
@@ -2079,7 +2238,8 @@
 				"name": "Hokkaido, Nagano",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2092,7 +2252,8 @@
 				"name": "Hokkaido, Japan",
 				"count": 6,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2105,7 +2266,8 @@
 				"name": "kinshasa",
 				"count": 1,
 				"country": "Dem. Rep. Congo",
-				"region": "Sub-Saharan Africa"
+				"region": "Sub-Saharan Africa",
+				"iso": "CD"
 			}
 		},
 		{
@@ -2118,7 +2280,8 @@
 				"name": "Nara, Japan",
 				"count": 2,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2131,7 +2294,8 @@
 				"name": "Nairobi, Kenya",
 				"count": 6,
 				"country": "Kenya",
-				"region": "Sub-Saharan Africa"
+				"region": "Sub-Saharan Africa",
+				"iso": "KE"
 			}
 		},
 		{
@@ -2144,7 +2308,8 @@
 				"name": "Anyang, South Korea",
 				"count": 1,
 				"country": "South Korea",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "KR"
 			}
 		},
 		{
@@ -2157,7 +2322,8 @@
 				"name": "Ito, Shizuoka, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2170,7 +2336,8 @@
 				"name": "dhulikhel",
 				"count": 1,
 				"country": "Nepal",
-				"region": "South Asia"
+				"region": "South Asia",
+				"iso": "NP"
 			}
 		},
 		{
@@ -2183,7 +2350,8 @@
 				"name": "Port Hedland, Australia",
 				"count": 2,
 				"country": "Australia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "AU"
 			}
 		},
 		{
@@ -2196,7 +2364,8 @@
 				"name": "Hokkaido, Hokkaido,Japan, hokkaido,japan",
 				"count": 4,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2209,7 +2378,8 @@
 				"name": "Purworejo, Indonesia",
 				"count": 1,
 				"country": "Indonesia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "ID"
 			}
 		},
 		{
@@ -2222,7 +2392,8 @@
 				"name": "Niigata, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2235,7 +2406,8 @@
 				"name": "Noumea",
 				"count": 1,
 				"country": "New Caledonia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "NC"
 			}
 		},
 		{
@@ -2248,7 +2420,8 @@
 				"name": "千葉県柏市",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2261,7 +2434,8 @@
 				"name": "Müncheberg",
 				"count": 1,
 				"country": "Germany",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "DE"
 			}
 		},
 		{
@@ -2274,7 +2448,8 @@
 				"name": "Porto Alegre, Brazil",
 				"count": 1,
 				"country": "Brazil",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "BR"
 			}
 		},
 		{
@@ -2287,7 +2462,8 @@
 				"name": "Nova Iguaçu",
 				"count": 1,
 				"country": "Brazil",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "BR"
 			}
 		},
 		{
@@ -2300,7 +2476,8 @@
 				"name": "Florianópolis/ SC, Florianópolis/Santa Catarina",
 				"count": 2,
 				"country": "Brazil",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "BR"
 			}
 		},
 		{
@@ -2313,7 +2490,8 @@
 				"name": "SKUI, Norway",
 				"count": 1,
 				"country": "Norway",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NO"
 			}
 		},
 		{
@@ -2326,7 +2504,8 @@
 				"name": "Yokohama,Japan, Yokohama, Japan, Yokohama",
 				"count": 4,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2339,7 +2518,8 @@
 				"name": "Italy",
 				"count": 2,
 				"country": "Italy",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "IT"
 			}
 		},
 		{
@@ -2352,7 +2532,8 @@
 				"name": "Fukutsu",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2365,7 +2546,8 @@
 				"name": "Kumamoto Japan",
 				"count": 1,
 				"country": "China",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "CN"
 			}
 		},
 		{
@@ -2378,7 +2560,8 @@
 				"name": "Hanover, NH, USA",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -2391,7 +2574,8 @@
 				"name": "Broome, Australia",
 				"count": 1,
 				"country": "Australia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "AU"
 			}
 		},
 		{
@@ -2404,7 +2588,8 @@
 				"name": "Roma",
 				"count": 1,
 				"country": "Italy",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "IT"
 			}
 		},
 		{
@@ -2417,7 +2602,8 @@
 				"name": "São José dos Campos, Brasil",
 				"count": 1,
 				"country": "Brazil",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "BR"
 			}
 		},
 		{
@@ -2430,7 +2616,8 @@
 				"name": "Belgrade, Serbia",
 				"count": 1,
 				"country": "Serbia",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "RS"
 			}
 		},
 		{
@@ -2443,7 +2630,8 @@
 				"name": "Fukuoka prefecture,Japan, Fukuoka, Fukuoka,Japan, Fukuoka-ken, Japan",
 				"count": 9,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2456,7 +2644,8 @@
 				"name": "Naucalpan, edo de Mexico",
 				"count": 1,
 				"country": "Mexico",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "MX"
 			}
 		},
 		{
@@ -2469,7 +2658,8 @@
 				"name": "Kumamoto,Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2482,7 +2672,8 @@
 				"name": "Springfield, Illinois",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -2495,7 +2686,8 @@
 				"name": "Izumi City, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2508,7 +2700,8 @@
 				"name": "Kyoto,Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2521,7 +2714,8 @@
 				"name": "Brooklyn, New York",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -2534,7 +2728,8 @@
 				"name": "Utrecht, the Netherlands",
 				"count": 1,
 				"country": "Netherlands",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NL"
 			}
 		},
 		{
@@ -2547,7 +2742,8 @@
 				"name": "BUSAN, Busan, South Korea, BUSAN, SOUTH KOREA",
 				"count": 5,
 				"country": "South Korea",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "KR"
 			}
 		},
 		{
@@ -2560,7 +2756,8 @@
 				"name": "Delft, Netherlands",
 				"count": 1,
 				"country": "Netherlands",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NL"
 			}
 		},
 		{
@@ -2573,7 +2770,8 @@
 				"name": "Tottori",
 				"count": 6,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2586,7 +2784,8 @@
 				"name": "Esch-sur-Alzette, Luxembourg",
 				"count": 1,
 				"country": "Luxembourg",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "LU"
 			}
 		},
 		{
@@ -2599,7 +2798,8 @@
 				"name": "Semarang, Indonesia",
 				"count": 1,
 				"country": "Indonesia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "ID"
 			}
 		},
 		{
@@ -2612,7 +2812,8 @@
 				"name": "SHAH ALAM, MALAYSIA, Shah Alam, Malaysia, Shah Alam, Selangor",
 				"count": 3,
 				"country": "Malaysia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "MY"
 			}
 		},
 		{
@@ -2625,7 +2826,8 @@
 				"name": "Lund, Sweden",
 				"count": 1,
 				"country": "Sweden",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "SE"
 			}
 		},
 		{
@@ -2638,7 +2840,8 @@
 				"name": "Canmore, Canada",
 				"count": 1,
 				"country": "Canada",
-				"region": "North America"
+				"region": "North America",
+				"iso": "CA"
 			}
 		},
 		{
@@ -2651,7 +2854,8 @@
 				"name": "Gimhae",
 				"count": 1,
 				"country": "South Korea",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "KR"
 			}
 		},
 		{
@@ -2664,7 +2868,8 @@
 				"name": "Muscat, Oman",
 				"count": 1,
 				"country": "Oman",
-				"region": "Middle East & North Africa"
+				"region": "Middle East & North Africa",
+				"iso": "OM"
 			}
 		},
 		{
@@ -2677,7 +2882,8 @@
 				"name": "Giza, Egypt",
 				"count": 1,
 				"country": "Egypt",
-				"region": "Middle East & North Africa"
+				"region": "Middle East & North Africa",
+				"iso": "EG"
 			}
 		},
 		{
@@ -2690,7 +2896,8 @@
 				"name": "Dehradun, Uttarakhand",
 				"count": 1,
 				"country": "India",
-				"region": "South Asia"
+				"region": "South Asia",
+				"iso": "IN"
 			}
 		},
 		{
@@ -2703,7 +2910,8 @@
 				"name": "Bogor, Indonesia",
 				"count": 1,
 				"country": "Indonesia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "ID"
 			}
 		},
 		{
@@ -2716,7 +2924,8 @@
 				"name": "Lahore, Pakistan",
 				"count": 1,
 				"country": "Pakistan",
-				"region": "South Asia"
+				"region": "South Asia",
+				"iso": "PK"
 			}
 		},
 		{
@@ -2729,7 +2938,8 @@
 				"name": "Jakarta, Indonesia",
 				"count": 1,
 				"country": "Indonesia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "ID"
 			}
 		},
 		{
@@ -2742,7 +2952,8 @@
 				"name": "Shanghai",
 				"count": 1,
 				"country": "China",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "CN"
 			}
 		},
 		{
@@ -2755,7 +2966,8 @@
 				"name": "Arusha, Tanzania",
 				"count": 1,
 				"country": "Tanzania",
-				"region": "Sub-Saharan Africa"
+				"region": "Sub-Saharan Africa",
+				"iso": "TZ"
 			}
 		},
 		{
@@ -2768,7 +2980,8 @@
 				"name": "Bremen, Germany",
 				"count": 1,
 				"country": "Germany",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "DE"
 			}
 		},
 		{
@@ -2781,7 +2994,8 @@
 				"name": "Nanded, India",
 				"count": 1,
 				"country": "India",
-				"region": "South Asia"
+				"region": "South Asia",
+				"iso": "IN"
 			}
 		},
 		{
@@ -2794,7 +3008,8 @@
 				"name": "Ibaraki,  Japan",
 				"count": 2,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2807,7 +3022,8 @@
 				"name": "Khlong Nueng, Khlong Luang, Pathum Thani, Thailand",
 				"count": 1,
 				"country": "Thailand",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "TH"
 			}
 		},
 		{
@@ -2820,7 +3036,8 @@
 				"name": "Shizuoka, JAPAN, Shizuoka,Japan, Shizuoka",
 				"count": 3,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2833,7 +3050,8 @@
 				"name": "Ontario, Canada",
 				"count": 1,
 				"country": "Canada",
-				"region": "North America"
+				"region": "North America",
+				"iso": "CA"
 			}
 		},
 		{
@@ -2846,7 +3064,8 @@
 				"name": "Yamanashi, JAPAN",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2859,7 +3078,8 @@
 				"name": "Toruń, Poland",
 				"count": 1,
 				"country": "Poland",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "PL"
 			}
 		},
 		{
@@ -2872,7 +3092,8 @@
 				"name": "Miyagi,japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2885,7 +3106,8 @@
 				"name": "Iwate, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2898,7 +3120,8 @@
 				"name": "morioka,japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2911,7 +3134,8 @@
 				"name": "Tochigi Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2924,7 +3148,8 @@
 				"name": "Nara",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -2937,7 +3162,8 @@
 				"name": "福井県",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2950,7 +3176,8 @@
 				"name": "Incheon, Republic of Korea",
 				"count": 1,
 				"country": "South Korea",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "KR"
 			}
 		},
 		{
@@ -2963,7 +3190,8 @@
 				"name": "Kochi, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -2976,7 +3204,8 @@
 				"name": "Daejeon, Republic of Korea, Daejeon, South Korea",
 				"count": 4,
 				"country": "South Korea",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "KR"
 			}
 		},
 		{
@@ -2989,7 +3218,8 @@
 				"name": "Brasília",
 				"count": 1,
 				"country": "Brazil",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "BR"
 			}
 		},
 		{
@@ -3002,7 +3232,8 @@
 				"name": "Trondheim",
 				"count": 1,
 				"country": "Norway",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "NO"
 			}
 		},
 		{
@@ -3015,7 +3246,8 @@
 				"name": "Manila, Philippines",
 				"count": 1,
 				"country": "Philippines",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "PH"
 			}
 		},
 		{
@@ -3028,7 +3260,8 @@
 				"name": "Nagasaki,Japan, Nagasaki, Japan",
 				"count": 2,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -3041,7 +3274,8 @@
 				"name": "Potsdam, Germany",
 				"count": 1,
 				"country": "Germany",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "DE"
 			}
 		},
 		{
@@ -3054,7 +3288,8 @@
 				"name": "Kawasaki, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -3067,7 +3302,8 @@
 				"name": "DUBLIN, Dublin",
 				"count": 2,
 				"country": "Ireland",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "IE"
 			}
 		},
 		{
@@ -3080,7 +3316,8 @@
 				"name": "Bilbao, Spain",
 				"count": 1,
 				"country": "Spain",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "ES"
 			}
 		},
 		{
@@ -3093,7 +3330,8 @@
 				"name": "St Louis, MO, USA",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -3106,7 +3344,8 @@
 				"name": "Morelia, Michoacan; Mexico",
 				"count": 1,
 				"country": "Mexico",
-				"region": "Latin America & Caribbean"
+				"region": "Latin America & Caribbean",
+				"iso": "MX"
 			}
 		},
 		{
@@ -3119,7 +3358,8 @@
 				"name": "Kanzaki City, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -3132,7 +3372,8 @@
 				"name": "Okinawa City, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -3145,7 +3386,8 @@
 				"name": "Tottori.pref",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -3158,7 +3400,8 @@
 				"name": "Hobart, Australia",
 				"count": 1,
 				"country": "Australia",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "AU"
 			}
 		},
 		{
@@ -3171,7 +3414,8 @@
 				"name": "Tennessee, USA",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -3184,7 +3428,8 @@
 				"name": "Bucharest",
 				"count": 1,
 				"country": "Romania",
-				"region": "Europe & Central Asia"
+				"region": "Europe & Central Asia",
+				"iso": "RO"
 			}
 		},
 		{
@@ -3197,7 +3442,8 @@
 				"name": "Arlington, United States",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		},
 		{
@@ -3210,7 +3456,8 @@
 				"name": "Miyazaki Prefecture, Japan",
 				"count": 1,
 				"country": "Japan",
-				"region": "East Asia & Pacific"
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		},
 		{
@@ -3223,7 +3470,8 @@
 				"name": "Washington, DC USA",
 				"count": 1,
 				"country": "United States of America",
-				"region": "North America"
+				"region": "North America",
+				"iso": "US"
 			}
 		}
 	]

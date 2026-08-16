@@ -87,6 +87,15 @@ const ko: Messages = {
 		headCountry: '국가',
 		headRegion: '지역',
 		total: '합계'
+	},
+	region: {
+		eastAsiaPacific: '동아시아 및 태평양',
+		europeCentralAsia: '유럽 및 중앙아시아',
+		latinAmericaCaribbean: '중남미 및 카리브해',
+		middleEastNorthAfrica: '중동 및 북아프리카',
+		northAmerica: '북미',
+		southAsia: '남아시아',
+		subSaharanAfrica: '사하라 이남 아프리카'
 	}
 };
 

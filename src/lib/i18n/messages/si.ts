@@ -87,6 +87,15 @@ const si: Messages = {
 		headCountry: 'රට',
 		headRegion: 'කලාපය',
 		total: 'එකතුව'
+	},
+	region: {
+		eastAsiaPacific: 'නැගෙනහිර ආසියාව සහ පැසිෆික්',
+		europeCentralAsia: 'යුරෝපය සහ මධ්‍යම ආසියාව',
+		latinAmericaCaribbean: 'ලතින් ඇමරිකාව සහ කැරිබියන්',
+		middleEastNorthAfrica: 'මැදපෙරදිග සහ උතුරු අප්‍රිකාව',
+		northAmerica: 'උතුරු ඇමරිකාව',
+		southAsia: 'දකුණු ආසියාව',
+		subSaharanAfrica: 'උප-සහරා අප්‍රිකාව'
 	}
 };
 
