@@ -19,6 +19,7 @@ const it: Messages = {
 		system: 'Sistema'
 	},
 	language: {
+		contribute: 'Contribuisci a migliorare la qualità della traduzione',
 		title: 'Scegli la lingua',
 		description:
 			'Le lingue sono ordinate in base al numero di partecipanti la cui nazionalità ha quella lingua come ufficiale. Cerca per lingua o per paese.',

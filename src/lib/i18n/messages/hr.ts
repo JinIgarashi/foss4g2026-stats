@@ -26,6 +26,7 @@ const hr: Messages = {
 		system: 'Sustav'
 	},
 	language: {
+		contribute: 'Doprinesite poboljšanju kvalitete prijevoda',
 		title: 'Odaberite jezik',
 		description:
 			'Jezici su poredani prema broju sudionika s državljanstvom u kojem je taj jezik službeni. Pretražujte po nazivu jezika ili države.',

@@ -19,6 +19,7 @@ const et: Messages = {
 		system: 'Süsteemi oma'
 	},
 	language: {
+		contribute: 'Aita parandada tõlke kvaliteeti',
 		title: 'Vali keel',
 		description:
 			'Keeled on järjestatud selle järgi, kui paljudel osalejatel on kodakondsus, kus see keel on ametlik. Otsi keele või riigi nime järgi.',

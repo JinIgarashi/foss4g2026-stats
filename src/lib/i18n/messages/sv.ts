@@ -19,6 +19,7 @@ const sv: Messages = {
 		system: 'System'
 	},
 	language: {
+		contribute: 'Bidra till att förbättra översättningskvaliteten',
 		title: 'Välj språk',
 		description:
 			'Språken är sorterade efter hur många deltagare som har en nationalitet där språket är officiellt. Sök på språk eller land.',

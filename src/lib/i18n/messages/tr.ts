@@ -19,6 +19,7 @@ const tr: Messages = {
 		system: 'Sistem'
 	},
 	language: {
+		contribute: 'Çeviri kalitesinin iyileştirilmesine katkıda bulunun',
 		title: 'Dilinizi seçin',
 		description:
 			'Diller, o dilin resmî olduğu bir uyruğa sahip katılımcı sayısına göre sıralanmıştır. Dil veya ülke adına göre arayın.',

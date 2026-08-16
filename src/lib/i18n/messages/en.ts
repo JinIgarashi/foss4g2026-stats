@@ -17,6 +17,8 @@ const en = {
 		system: 'System'
 	},
 	language: {
+		/** Map control linking to the GitHub editor for this locale's message file. */
+		contribute: 'Contribute to improving translation quality',
 		title: 'Choose your language',
 		/** Shown under the title: explains both the ordering and the count badges. */
 		description:

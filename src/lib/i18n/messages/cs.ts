@@ -28,6 +28,7 @@ const cs: Messages = {
 		system: 'Systémový'
 	},
 	language: {
+		contribute: 'Pomozte zlepšit kvalitu překladu',
 		title: 'Vyberte jazyk',
 		description:
 			'Jazyky jsou seřazeny podle počtu účastníků s národností, v níž je daný jazyk úřední. Hledejte podle názvu jazyka nebo země.',

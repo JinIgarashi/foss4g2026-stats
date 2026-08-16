@@ -19,6 +19,7 @@ const sq: Messages = {
 		system: 'Sistemi'
 	},
 	language: {
+		contribute: 'Kontribuoni për të përmirësuar cilësinë e përkthimit',
 		title: 'Zgjidhni gjuhën tuaj',
 		description:
 			'Gjuhët janë renditur sipas numrit të pjesëmarrësve që kanë një shtetësi ku ajo gjuhë është zyrtare. Kërkoni sipas emrit të gjuhës ose të shtetit.',

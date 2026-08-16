@@ -19,6 +19,7 @@ const sw: Messages = {
 		system: 'Mfumo'
 	},
 	language: {
+		contribute: 'Changia kuboresha ubora wa tafsiri',
 		title: 'Chagua lugha yako',
 		description:
 			'Lugha zimepangwa kulingana na idadi ya washiriki wenye uraia wa nchi ambazo lugha hiyo ni rasmi. Tafuta kwa jina la lugha au nchi.',

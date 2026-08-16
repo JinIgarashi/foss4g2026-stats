@@ -19,6 +19,7 @@ const ko: Messages = {
 		system: '시스템'
 	},
 	language: {
+		contribute: '번역 품질 개선에 기여하기',
 		title: '언어 선택',
 		description:
 			'해당 언어를 공용어로 하는 국적의 참가자 수가 많은 순으로 정렬되어 있습니다. 언어명 또는 국가명으로 검색할 수 있습니다.',

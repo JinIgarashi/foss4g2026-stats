@@ -19,6 +19,7 @@ const ms: Messages = {
 		system: 'Sistem'
 	},
 	language: {
+		contribute: 'Sumbang untuk menambah baik kualiti terjemahan',
 		title: 'Pilih bahasa anda',
 		description:
 			'Bahasa disusun mengikut bilangan peserta yang berkewarganegaraan negara yang menjadikan bahasa itu bahasa rasmi. Cari mengikut nama bahasa atau negara.',

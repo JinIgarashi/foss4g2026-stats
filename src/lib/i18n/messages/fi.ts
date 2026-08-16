@@ -19,6 +19,7 @@ const fi: Messages = {
 		system: 'Järjestelmä'
 	},
 	language: {
+		contribute: 'Auta parantamaan käännöksen laatua',
 		title: 'Valitse kieli',
 		description:
 			'Kielet on järjestetty sen mukaan, kuinka monella osallistujalla on kansalaisuus, jossa kieli on virallinen. Hae kielen tai maan nimellä.',

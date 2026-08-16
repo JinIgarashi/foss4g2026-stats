@@ -19,6 +19,7 @@ const fil: Messages = {
 		system: 'Sistema'
 	},
 	language: {
+		contribute: 'Tumulong sa pagpapabuti ng kalidad ng pagsasalin',
 		title: 'Piliin ang iyong wika',
 		description:
 			'Nakaayos ang mga wika ayon sa dami ng dumalo na may nasyonalidad kung saan opisyal ang wikang iyon. Maghanap ayon sa wika o bansa.',

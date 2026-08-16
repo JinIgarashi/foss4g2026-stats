@@ -19,6 +19,7 @@ const vi: Messages = {
 		system: 'Hệ thống'
 	},
 	language: {
+		contribute: 'Đóng góp cải thiện chất lượng bản dịch',
 		title: 'Chọn ngôn ngữ của bạn',
 		description:
 			'Các ngôn ngữ được sắp xếp theo số người tham dự mang quốc tịch có ngôn ngữ đó là ngôn ngữ chính thức. Tìm theo tên ngôn ngữ hoặc quốc gia.',

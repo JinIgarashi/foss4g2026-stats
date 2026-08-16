@@ -19,6 +19,7 @@ const nl: Messages = {
 		system: 'Systeem'
 	},
 	language: {
+		contribute: 'Draag bij aan een betere vertaalkwaliteit',
 		title: 'Kies je taal',
 		description:
 			'De talen zijn gesorteerd op het aantal deelnemers met een nationaliteit waarin de taal een officiële taal is. Zoek op taal- of landnaam.',

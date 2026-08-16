@@ -18,6 +18,7 @@ const zhHant: Messages = {
 		system: '跟隨系統'
 	},
 	language: {
+		contribute: '參與改進翻譯品質',
 		title: '選擇語言',
 		description: '語言依以該語言為官方語言的國籍與會者人數由多至少排列。可依語言或國家名稱搜尋。',
 		search: '搜尋語言',

@@ -19,6 +19,7 @@ const ja: Messages = {
 		system: 'システム'
 	},
 	language: {
+		contribute: '翻訳の品質向上に貢献する',
 		title: '言語を選択',
 		description:
 			'参加者の国籍で公用語となっている言語の多い順に並んでいます。言語名または国名で検索できます。',

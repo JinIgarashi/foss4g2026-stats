@@ -19,6 +19,7 @@ const da: Messages = {
 		system: 'System'
 	},
 	language: {
+		contribute: 'Bidrag til at forbedre oversættelseskvaliteten',
 		title: 'Vælg dit sprog',
 		description:
 			'Sprogene er sorteret efter, hvor mange deltagere der har en nationalitet, hvor sproget er officielt. Søg på sprog eller land.',

@@ -18,6 +18,7 @@ const zh: Messages = {
 		system: '跟随系统'
 	},
 	language: {
+		contribute: '参与改进翻译质量',
 		title: '选择语言',
 		description: '语言按以该语言为官方语言的国籍参加者人数从多到少排列。可按语言或国家名称搜索。',
 		search: '搜索语言',

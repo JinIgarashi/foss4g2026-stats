@@ -19,6 +19,7 @@ const id: Messages = {
 		system: 'Sistem'
 	},
 	language: {
+		contribute: 'Bantu tingkatkan kualitas terjemahan',
 		title: 'Pilih bahasa Anda',
 		description:
 			'Bahasa diurutkan berdasarkan jumlah peserta yang berkewarganegaraan negara tempat bahasa tersebut menjadi bahasa resmi. Cari berdasarkan nama bahasa atau negara.',

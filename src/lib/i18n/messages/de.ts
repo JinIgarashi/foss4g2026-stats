@@ -19,6 +19,7 @@ const de: Messages = {
 		system: 'System'
 	},
 	language: {
+		contribute: 'Zur Verbesserung der Übersetzungsqualität beitragen',
 		title: 'Sprache wählen',
 		description:
 			'Die Sprachen sind danach sortiert, wie viele Teilnehmende eine Staatsangehörigkeit haben, in der die Sprache Amtssprache ist. Nach Sprache oder Land suchen.',

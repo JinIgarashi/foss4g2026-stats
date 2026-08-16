@@ -188,6 +188,15 @@ The general lesson from (3): **SVG `text-anchor: start` / `end` follow the inher
 - The hash is re-read from `location` when the dialog opens: MapLibre's hash control rewrites the fragment through the History API without telling SvelteKit, so `page.url.hash` goes stale as soon as the visitor pans.
 - The count badge is formatted with `Intl.NumberFormat` and labelled by `t.language.attendees(n)` in both `title` and an sr-only span.
 
+### The "contribute a translation" map control
+
+`[lang]/+page.svelte` renders a `CustomControl position="bottom-left"` labelled `t.language.contribute`, linking to `messagesEditUrl(locale)` from `$lib/i18n` — GitHub's editor for that locale's message file (`REPO_URL/edit/main/src/lib/i18n/messages/<code>.ts`). GitHub forks the repo for the visitor and opens a pull request on save, so a translator needs nothing but an account.
+
+Two things to know if you touch it:
+
+- **MapLibre prepends into its bottom corners**, so the _last_ control declared for `bottom-left` is the one that renders on top. The contribute button is declared after the register button for that reason.
+- The link relies on locale codes being lowercase and matching filenames exactly (§2), which is what makes `zh-hant` resolve to `zh-hant.ts`.
+
 ---
 
 ## 9. Common mistakes

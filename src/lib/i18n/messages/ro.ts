@@ -26,6 +26,7 @@ const ro: Messages = {
 		system: 'Sistem'
 	},
 	language: {
+		contribute: 'Contribuie la îmbunătățirea calității traducerii',
 		title: 'Alege limba',
 		description:
 			'Limbile sunt ordonate după numărul de participanți care au o cetățenie în care limba respectivă este oficială. Caută după numele limbii sau al țării.',

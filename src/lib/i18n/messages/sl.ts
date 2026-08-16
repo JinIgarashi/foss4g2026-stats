@@ -33,6 +33,7 @@ const sl: Messages = {
 		system: 'Sistemska'
 	},
 	language: {
+		contribute: 'Prispevajte k izboljšanju kakovosti prevoda',
 		title: 'Izberite jezik',
 		description:
 			'Jeziki so razvrščeni po številu udeležencev z državljanstvom, v katerem je ta jezik uraden. Iščite po imenu jezika ali države.',

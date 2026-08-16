@@ -26,6 +26,7 @@ const pl: Messages = {
 		system: 'Systemowy'
 	},
 	language: {
+		contribute: 'Pomóż poprawić jakość tłumaczenia',
 		title: 'Wybierz język',
 		description:
 			'Języki są uporządkowane według liczby uczestników posiadających narodowość, w której dany język jest urzędowy. Szukaj według nazwy języka lub kraju.',
