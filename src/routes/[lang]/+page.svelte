@@ -26,7 +26,13 @@
 	import Button from '@/components/ui/button/button.svelte';
 	import ChartControl from '@/ChartControl.svelte';
 	import MapExportControl from '$lib/MapExportControl.svelte';
-	import { currentLocaleDefinition, currentMessages } from '$lib/i18n';
+	import Languages from '@lucide/svelte/icons/languages';
+	import {
+		currentLocale,
+		currentLocaleDefinition,
+		currentMessages,
+		messagesEditUrl
+	} from '$lib/i18n';
 
 	let {
 		data
@@ -38,6 +44,7 @@
 
 	let t = $derived(currentMessages());
 	let localeDef = $derived(currentLocaleDefinition());
+	let editUrl = $derived(messagesEditUrl(currentLocale()));
 
 	// Held back until mounted so the server and first client render agree.
 	let mounted = $state(false);
@@ -149,6 +156,23 @@
 			>
 				<img src={logoSvg} alt="" class="h-5 w-5 brightness-0 invert" />
 				{t.map.register}
+			</Button>
+		</CustomControl>
+
+		<!-- Opens GitHub's editor for this locale's message file. Declared *after*
+		     the register button because MapLibre prepends into its bottom corners,
+		     so the last control declared is the one that ends up on top. -->
+		<CustomControl position="bottom-left" group={false}>
+			<Button
+				variant="outline"
+				size="sm"
+				href={editUrl}
+				target="_blank"
+				rel="noopener noreferrer"
+				class="map-ctrl-btn flex! items-center gap-2 text-xs shadow-sm backdrop-blur-sm"
+			>
+				<Languages size={14} />
+				{t.language.contribute}
 			</Button>
 		</CustomControl>
 

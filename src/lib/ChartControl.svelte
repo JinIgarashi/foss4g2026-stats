@@ -164,7 +164,7 @@
 						<!-- Chart Type Selector -->
 						<div class="mt-4">
 							<div class="flex items-center gap-1">
-								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-foreground">
+								<p class="w-20 shrink-0 pe-1 text-end text-sm font-medium text-foreground">
 									{t.chart.dataType}
 								</p>
 								<ButtonGroup.Root>
@@ -197,7 +197,7 @@
 						<!-- Scope Selector -->
 						<div>
 							<div class="flex items-center gap-1">
-								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-foreground">
+								<p class="w-20 shrink-0 pe-1 text-end text-sm font-medium text-foreground">
 									{t.chart.area}
 								</p>
 								<ButtonGroup.Root>
@@ -231,7 +231,7 @@
 						<!-- Exclude Japan Toggle -->
 						<div>
 							<div class="flex items-center gap-1">
-								<p class="w-20 shrink-0 pr-1 text-right text-sm font-medium text-foreground">
+								<p class="w-20 shrink-0 pe-1 text-end text-sm font-medium text-foreground">
 									{t.chart.filter}
 								</p>
 								<Switch
@@ -243,7 +243,7 @@
 									}}
 									class="cursor-pointer"
 								/>
-								<Label for="exclude-japan" class="cursor-pointer pl-1 text-sm text-foreground">
+								<Label for="exclude-japan" class="cursor-pointer ps-1 text-sm text-foreground">
 									{t.chart.excludeJapan}
 								</Label>
 							</div>

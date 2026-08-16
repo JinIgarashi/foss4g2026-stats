@@ -143,7 +143,7 @@
 </script>
 
 <div
-	class={`chart-layout grid h-full min-h-0 grid-cols-1 gap-3 overflow-y-auto pr-1 pb-1 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] lg:grid-rows-2 lg:overflow-hidden lg:pr-0 lg:pb-0 ${showCountryPie ? 'md:grid-cols-2' : ''}`}
+	class={`chart-layout grid h-full min-h-0 grid-cols-1 gap-3 overflow-y-auto pe-1 pb-1 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] lg:grid-rows-2 lg:overflow-hidden lg:pe-0 lg:pb-0 ${showCountryPie ? 'md:grid-cols-2' : ''}`}
 >
 	<Card.Root
 		class={`chart-blue-bars flex min-h-90 min-w-0 flex-col py-4 lg:row-span-2 lg:min-h-0 ${showCountryPie ? 'md:col-span-2 lg:col-auto' : ''}`}
@@ -153,7 +153,12 @@
 			<Card.Description>{t.chart.xAxis(kindLabel)}</Card.Description>
 		</Card.Header>
 		<Card.Content class="min-h-0 flex-1 px-4">
+			<!-- `dir="ltr"` even under an RTL locale: the plot is a left-to-right
+			     coordinate system, and the rotated X tick labels are anchored with
+			     `text-anchor: start`, which SVG resolves to the *right* edge in RTL —
+			     that flings every label back over the bars. -->
 			<div
+				dir="ltr"
 				class="chart-scroll-x h-full rounded-md border border-border bg-card/60"
 				data-vaul-no-drag
 				role="presentation"
@@ -162,7 +167,7 @@
 				<div class="relative h-full" style={`min-width: ${chartCanvasMinWidth}px;`}>
 					{#if selectedBar}
 						<div
-							class="absolute top-2 right-2 z-20 rounded-md border bg-popover/95 p-3 text-xs shadow-md backdrop-blur-sm"
+							class="absolute end-2 top-2 z-20 rounded-md border bg-popover/95 p-3 text-xs shadow-md backdrop-blur-sm"
 						>
 							<div class="mb-1 font-semibold text-foreground">{selectedBar.name}</div>
 							<div class="text-muted-foreground">

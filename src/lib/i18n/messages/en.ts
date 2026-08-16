@@ -16,6 +16,20 @@ const en = {
 		dark: 'Dark',
 		system: 'System'
 	},
+	language: {
+		/** Map control linking to the GitHub editor for this locale's message file. */
+		contribute: 'Contribute to improving translation quality',
+		title: 'Choose your language',
+		/** Shown under the title: explains both the ordering and the count badges. */
+		description:
+			'Languages are ordered by how many attendees hold a nationality where the language is official. Search by language or country name.',
+		search: 'Search languages',
+		searchPlaceholder: 'Language or country…',
+		noResults: 'No language matches your search',
+		resultCount: (n: number) => `${n} languages available`,
+		/** Label of the attendee-count badge on each row. */
+		attendees: (n: number) => `${n} attendees`
+	},
 	map: {
 		loading: 'Loading...',
 		venueName: 'FOSS4G 2026 Venue',

@@ -1,4 +1,5 @@
 import { page } from '$app/state';
+import { REPO_URL } from '$lib/seo';
 import { messages, type Messages } from './messages';
 import { DEFAULT_LOCALE, getLocaleDefinition, isLocale, type Locale } from './locales';
 
@@ -27,4 +28,14 @@ export function currentMessages(): Messages {
 /** Definition (flag, date locale, basemap language) for the active locale. */
 export function currentLocaleDefinition() {
 	return getLocaleDefinition(currentLocale());
+}
+
+/**
+ * GitHub's editor for a locale's message file. Locale codes are lowercase and
+ * match the filenames exactly, so `zh-hant` resolves to `zh-hant.ts`. GitHub
+ * forks the repository for the visitor and opens a pull request on save, so a
+ * translator needs nothing but an account.
+ */
+export function messagesEditUrl(locale: Locale): string {
+	return `${REPO_URL}/edit/main/src/lib/i18n/messages/${locale}.ts`;
 }

@@ -86,12 +86,12 @@
 		<Table.Root>
 			<Table.Header class="sticky top-0 z-20 bg-background">
 				<Table.Row>
-					<Table.Head class="sticky top-0 z-20 w-16 bg-background text-right">#</Table.Head>
+					<Table.Head class="sticky top-0 z-20 w-16 bg-background text-end">#</Table.Head>
 					<Table.Head class="sticky top-0 z-20 bg-background">
 						<button
 							type="button"
 							onclick={() => handleSort('name')}
-							class="inline-flex cursor-pointer items-center gap-1 text-left"
+							class="inline-flex cursor-pointer items-center gap-1 text-start"
 						>
 							<span>{nameHeader}{sortIndicator('name') ? ` ${sortIndicator('name')}` : ''}</span>
 						</button>
@@ -100,7 +100,7 @@
 						<button
 							type="button"
 							onclick={() => handleSort('count')}
-							class="inline-flex cursor-pointer items-center gap-1 text-left"
+							class="inline-flex cursor-pointer items-center gap-1 text-start"
 						>
 							<span
 								>{t.table.headAttendees}{sortIndicator('count')
@@ -113,7 +113,7 @@
 						<button
 							type="button"
 							onclick={() => handleSort('country')}
-							class="inline-flex cursor-pointer items-center gap-1 text-left"
+							class="inline-flex cursor-pointer items-center gap-1 text-start"
 						>
 							<span
 								>{t.table.headCountry}{sortIndicator('country')
@@ -126,7 +126,7 @@
 						<button
 							type="button"
 							onclick={() => handleSort('region')}
-							class="inline-flex cursor-pointer items-center gap-1 text-left"
+							class="inline-flex cursor-pointer items-center gap-1 text-start"
 						>
 							<span
 								>{t.table.headRegion}{sortIndicator('region')
@@ -140,7 +140,7 @@
 			<Table.Body>
 				{#each sortedTableData as row (row.id)}
 					<Table.Row>
-						<Table.Cell class="text-right font-mono text-xs text-muted-foreground"
+						<Table.Cell class="text-end font-mono text-xs text-muted-foreground"
 							>{row.rank}</Table.Cell
 						>
 						<Table.Cell class="max-w-[320px] truncate" title={row.name}>{row.name}</Table.Cell>

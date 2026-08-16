@@ -18,6 +18,17 @@ const ko: Messages = {
 		dark: '다크',
 		system: '시스템'
 	},
+	language: {
+		contribute: '번역 품질 개선에 기여하기',
+		title: '언어 선택',
+		description:
+			'해당 언어를 공용어로 하는 국적의 참가자 수가 많은 순으로 정렬되어 있습니다. 언어명 또는 국가명으로 검색할 수 있습니다.',
+		search: '언어 검색',
+		searchPlaceholder: '언어 또는 국가…',
+		noResults: '검색 조건에 맞는 언어가 없습니다',
+		resultCount: (n) => `${n}개 언어 사용 가능`,
+		attendees: (n) => `참가자 ${n}명`
+	},
 	map: {
 		loading: '불러오는 중...',
 		venueName: 'FOSS4G 2026 행사장',

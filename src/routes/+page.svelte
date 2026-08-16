@@ -3,7 +3,13 @@
 	import { goto } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import { Spinner } from '$lib/components/ui/spinner/index.js';
-	import { DEFAULT_LOCALE, LOCALE_STORAGE_KEY, LOCALES, resolvePreferredLocale } from '$lib/i18n';
+	import {
+		DEFAULT_LOCALE,
+		LOCALE_STORAGE_KEY,
+		LOCALES,
+		localeTag,
+		resolvePreferredLocale
+	} from '$lib/i18n';
 	import { messages } from '$lib/i18n/messages';
 	import { OG_IMAGE, OG_SITE_NAME, SITE_URL } from '$lib/seo';
 
@@ -50,7 +56,7 @@
 
 	<link rel="canonical" href={rootUrl} />
 	{#each LOCALES as alternate (alternate.code)}
-		<link rel="alternate" hreflang={alternate.code} href={`${SITE_URL}/${alternate.code}`} />
+		<link rel="alternate" hreflang={localeTag(alternate)} href={`${SITE_URL}/${alternate.code}`} />
 	{/each}
 	<link rel="alternate" hreflang="x-default" href={rootUrl} />
 
