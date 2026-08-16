@@ -96,6 +96,15 @@ const sk: Messages = {
 		headCountry: 'Krajina',
 		headRegion: 'Región',
 		total: 'Spolu'
+	},
+	region: {
+		eastAsiaPacific: 'Východná Ázia a Tichomorie',
+		europeCentralAsia: 'Európa a Stredná Ázia',
+		latinAmericaCaribbean: 'Latinská Amerika a Karibik',
+		middleEastNorthAfrica: 'Blízky východ a severná Afrika',
+		northAmerica: 'Severná Amerika',
+		southAsia: 'Južná Ázia',
+		subSaharanAfrica: 'Subsaharská Afrika'
 	}
 };
 

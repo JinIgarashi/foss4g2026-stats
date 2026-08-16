@@ -94,6 +94,15 @@ const hr: Messages = {
 		headCountry: 'Država',
 		headRegion: 'Regija',
 		total: 'Ukupno'
+	},
+	region: {
+		eastAsiaPacific: 'Istočna Azija i Pacifik',
+		europeCentralAsia: 'Europa i središnja Azija',
+		latinAmericaCaribbean: 'Latinska Amerika i Karibi',
+		middleEastNorthAfrica: 'Bliski istok i sjeverna Afrika',
+		northAmerica: 'Sjeverna Amerika',
+		southAsia: 'Južna Azija',
+		subSaharanAfrica: 'Podsaharska Afrika'
 	}
 };
 

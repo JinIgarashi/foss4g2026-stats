@@ -87,6 +87,15 @@ const ne: Messages = {
 		headCountry: 'देश',
 		headRegion: 'क्षेत्र',
 		total: 'जम्मा'
+	},
+	region: {
+		eastAsiaPacific: 'पूर्वी एसिया र प्रशान्त',
+		europeCentralAsia: 'युरोप र मध्य एसिया',
+		latinAmericaCaribbean: 'ल्याटिन अमेरिका र क्यारिबियन',
+		middleEastNorthAfrica: 'मध्यपूर्व र उत्तर अफ्रिका',
+		northAmerica: 'उत्तर अमेरिका',
+		southAsia: 'दक्षिण एसिया',
+		subSaharanAfrica: 'उप-सहारा अफ्रिका'
 	}
 };
 

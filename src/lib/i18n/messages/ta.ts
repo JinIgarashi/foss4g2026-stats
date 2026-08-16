@@ -88,6 +88,15 @@ const ta: Messages = {
 		headCountry: 'நாடு',
 		headRegion: 'பிராந்தியம்',
 		total: 'மொத்தம்'
+	},
+	region: {
+		eastAsiaPacific: 'கிழக்காசியா மற்றும் பசிபிக்',
+		europeCentralAsia: 'ஐரோப்பா மற்றும் மத்திய ஆசியா',
+		latinAmericaCaribbean: 'லத்தீன் அமெரிக்கா மற்றும் கரீபியன்',
+		middleEastNorthAfrica: 'மத்திய கிழக்கு மற்றும் வட ஆப்பிரிக்கா',
+		northAmerica: 'வட அமெரிக்கா',
+		southAsia: 'தெற்காசியா',
+		subSaharanAfrica: 'சஹாராவுக்கு அப்பாலுள்ள ஆப்பிரிக்கா'
 	}
 };
 

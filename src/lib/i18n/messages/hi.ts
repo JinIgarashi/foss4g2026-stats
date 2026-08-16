@@ -87,6 +87,15 @@ const hi: Messages = {
 		headCountry: 'देश',
 		headRegion: 'क्षेत्र',
 		total: 'कुल'
+	},
+	region: {
+		eastAsiaPacific: 'पूर्वी एशिया और प्रशांत',
+		europeCentralAsia: 'यूरोप और मध्य एशिया',
+		latinAmericaCaribbean: 'लैटिन अमेरिका और कैरिबियन',
+		middleEastNorthAfrica: 'मध्य पूर्व और उत्तरी अफ़्रीका',
+		northAmerica: 'उत्तरी अमेरिका',
+		southAsia: 'दक्षिण एशिया',
+		subSaharanAfrica: 'उप-सहारा अफ़्रीका'
 	}
 };
 

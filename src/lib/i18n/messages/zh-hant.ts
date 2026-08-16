@@ -84,6 +84,15 @@ const zhHant: Messages = {
 		headCountry: '國家',
 		headRegion: '區域',
 		total: '總計'
+	},
+	region: {
+		eastAsiaPacific: '東亞與太平洋地區',
+		europeCentralAsia: '歐洲與中亞',
+		latinAmericaCaribbean: '拉丁美洲與加勒比海地區',
+		middleEastNorthAfrica: '中東與北非',
+		northAmerica: '北美洲',
+		southAsia: '南亞',
+		subSaharanAfrica: '撒哈拉以南非洲'
 	}
 };
 

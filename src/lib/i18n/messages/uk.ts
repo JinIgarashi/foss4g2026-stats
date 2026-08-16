@@ -99,6 +99,15 @@ const uk: Messages = {
 		headCountry: 'Країна',
 		headRegion: 'Регіон',
 		total: 'Разом'
+	},
+	region: {
+		eastAsiaPacific: 'Східна Азія та Тихоокеанський регіон',
+		europeCentralAsia: 'Європа та Центральна Азія',
+		latinAmericaCaribbean: 'Латинська Америка та Карибський басейн',
+		middleEastNorthAfrica: 'Близький Схід та Північна Африка',
+		northAmerica: 'Північна Америка',
+		southAsia: 'Південна Азія',
+		subSaharanAfrica: 'Африка на південь від Сахари'
 	}
 };
 

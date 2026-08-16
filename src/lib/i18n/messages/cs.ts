@@ -96,6 +96,15 @@ const cs: Messages = {
 		headCountry: 'Země',
 		headRegion: 'Region',
 		total: 'Celkem'
+	},
+	region: {
+		eastAsiaPacific: 'Východní Asie a Tichomoří',
+		europeCentralAsia: 'Evropa a Střední Asie',
+		latinAmericaCaribbean: 'Latinská Amerika a Karibik',
+		middleEastNorthAfrica: 'Blízký východ a severní Afrika',
+		northAmerica: 'Severní Amerika',
+		southAsia: 'Jižní Asie',
+		subSaharanAfrica: 'Subsaharská Afrika'
 	}
 };
 

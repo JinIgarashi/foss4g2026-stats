@@ -92,6 +92,20 @@ const en = {
 		headCountry: 'Country',
 		headRegion: 'Region',
 		total: 'Total'
+	},
+	/**
+	 * The seven World Bank regions carried in the GeoJSON. Country names come
+	 * from `Intl.DisplayNames` and are never hand-translated, but `Intl` has no
+	 * World-Bank-region API, so these are. See `$lib/i18n/regions.ts`.
+	 */
+	region: {
+		eastAsiaPacific: 'East Asia & Pacific',
+		europeCentralAsia: 'Europe & Central Asia',
+		latinAmericaCaribbean: 'Latin America & Caribbean',
+		middleEastNorthAfrica: 'Middle East & North Africa',
+		northAmerica: 'North America',
+		southAsia: 'South Asia',
+		subSaharanAfrica: 'Sub-Saharan Africa'
 	}
 };
 

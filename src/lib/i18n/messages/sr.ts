@@ -94,6 +94,15 @@ const sr: Messages = {
 		headCountry: 'Држава',
 		headRegion: 'Регион',
 		total: 'Укупно'
+	},
+	region: {
+		eastAsiaPacific: 'Источна Азија и Пацифик',
+		europeCentralAsia: 'Европа и Централна Азија',
+		latinAmericaCaribbean: 'Латинска Америка и Кариби',
+		middleEastNorthAfrica: 'Блиски исток и Северна Африка',
+		northAmerica: 'Северна Америка',
+		southAsia: 'Јужна Азија',
+		subSaharanAfrica: 'Подсахарска Африка'
 	}
 };
 

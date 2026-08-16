@@ -121,7 +121,7 @@ attendees: (n) => `${n} ${uchastnik(n)}`;
 - Policy:
   - A country with several widely-written official languages maps to **all of them**, and its attendee count is added to each (Canada → `en, fr`; Singapore → `en, zh, ms, ta`; Switzerland → `de, fr, it`)
   - **Long-tail languages are excluded** (Tetum, Guaraní, Lingala, Chichewa, Fijian, Samoan, Luxembourgish, Māori, Romansh) because we cannot vouch for a UI translation in them; those countries map to the lingua franca instead
-- `iso` exists so `Intl.DisplayNames({ type: 'region' })` can produce localized country names. **Never hand-translate country names.**
+- `iso` exists so `Intl.DisplayNames({ type: 'region' })` can produce localized country names. **Never hand-translate country names.** It is also what localizes the Nationality column in the stats table (§5a).
 
 ### After regenerating the GeoJSON
 
@@ -129,6 +129,37 @@ attendees: (n) => `${n} ${uchastnik(n)}`;
 
 ```
 [i18n] nationality.geojson has names missing from NATIONALITY_LANGUAGES: …
+```
+
+---
+
+## 5a. Localized geography in the stats chart and table
+
+Three of the four columns in `ChartControl` → `ChartView` / `TableView` are drawn from closed vocabularies and are localized; **Residence is not**, because it is free text the attendee typed.
+
+| column      | source                                  | localized via                                                       |
+| ----------- | --------------------------------------- | ------------------------------------------------------------------- |
+| Residence   | `residence.geojson` `properties.name`   | never — only trimmed to the part before the first comma             |
+| Nationality | `nationality.geojson` `properties.name` | `NATIONALITY_LANGUAGES[name].iso` → `Intl.DisplayNames`             |
+| Country     | Natural Earth `NAME`                    | `properties.iso` → `Intl.DisplayNames`                              |
+| Region      | Natural Earth `REGION_WB`               | the `region` message namespace — the one hand-translated vocabulary |
+
+**`properties.iso`** is emitted by `enrichGeoJsonWithCountryAndRegion()` from Natural Earth's **`ISO_A2_EH`** — not `ISO_A2`, which is `'-99'` for France and Norway. `'-99'` is dropped rather than written.
+
+`src/lib/i18n/display-names.ts` holds the memoized `Intl.DisplayNames` and `localizeCountry(iso, fallback, locale)`, which returns the English fallback whenever there is no code or `Intl` echoes the code back.
+
+`src/lib/i18n/regions.ts` maps the **seven** `REGION_WB` strings to message keys. `Intl` has no World-Bank-region API, so these really are hand-translated in all 40 files — the single exception to "never hand-translate geography".
+
+Two invariants worth keeping:
+
+- Rows carry **both** the raw value and a `*Label`. Every filter (`row.name !== 'No answer'`, `country !== 'Japan'`) and the pie-chart grouping key read the **raw** value, so buckets and row counts are identical in every language; only `*Label` is ever displayed.
+- Nationality falls back to the raw string when it has no `NATIONALITY_LANGUAGES` entry, rather than using the point-derived `iso`. `No answer` sits at Null Island, which the spatial join tags `France` / `FR`.
+
+`src/routes/[lang]/+page.server.ts` warns at prerender when either mapping has a gap:
+
+```
+[i18n] residence.geojson has countries without an ISO code, so they cannot be localized: …
+[i18n] nationality.geojson has regions missing from the `region` messages: …
 ```
 
 ---
@@ -171,7 +202,7 @@ All three are marked with a comment in the source. Do not "fix" them.
 
 1. **The site header** in `[lang]/+layout.svelte` carries an explicit `dir="ltr"`. It is brand chrome: the logo lockup is a fixed left-hand mark, and mirroring it would move the logo to the right and the theme/language/GitHub controls to the left, which reads as a different site. The Arabic site name inside still renders right-to-left — bidi handles the run. Everything below the header keeps the document direction, and the language dialog is portaled to `<body>`, so it stays RTL.
 2. **MapLibre control placement** (`CustomControl position="top-left"` and friends, in `LayerControl.svelte`, `ChartControl.svelte`, `MapExportControl.svelte`, `[lang]/+page.svelte`). MapLibre does not mirror control corners, and map chrome conventionally keeps its position. Only the content _inside_ those panels uses logical properties.
-3. **The bar-chart canvas** in `ChartView.svelte` carries an explicit `dir="ltr"`. The plot is a left-to-right coordinate system (Y axis on the left, categories running rightwards), and its rotated X tick labels are placed with `text-anchor: start`. **`text-anchor` is direction-sensitive**: under `dir="rtl"` SVG resolves `start` to the _right_ edge, which throws every rotated label back up over the bars. The labels themselves are city and country names from the GeoJSON, i.e. Latin script, so LTR is also correct for the text.
+3. **The bar-chart canvas** in `ChartView.svelte` carries an explicit `dir="ltr"`. The plot is a left-to-right coordinate system (Y axis on the left, categories running rightwards), and its rotated X tick labels are placed with `text-anchor: start`. **`text-anchor` is direction-sensitive**: under `dir="rtl"` SVG resolves `start` to the _right_ edge, which throws every rotated label back up over the bars. The reason is purely geometric: since §5a the labels can be Arabic or Devanagari, and bidi still lays each one out correctly inside the LTR canvas.
 
 The general lesson from (3): **SVG `text-anchor: start` / `end` follow the inherited direction.** Any new SVG that positions text with `start`/`end` needs either an explicit `dir` or a direction-independent anchor (`middle`).
 

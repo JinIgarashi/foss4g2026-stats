@@ -94,6 +94,15 @@ const ro: Messages = {
 		headCountry: 'Țară',
 		headRegion: 'Regiune',
 		total: 'Total'
+	},
+	region: {
+		eastAsiaPacific: 'Asia de Est și Pacific',
+		europeCentralAsia: 'Europa și Asia Centrală',
+		latinAmericaCaribbean: 'America Latină și Caraibe',
+		middleEastNorthAfrica: 'Orientul Mijlociu și Africa de Nord',
+		northAmerica: 'America de Nord',
+		southAsia: 'Asia de Sud',
+		subSaharanAfrica: 'Africa Subsahariană'
 	}
 };
 

@@ -87,6 +87,15 @@ const fi: Messages = {
 		headCountry: 'Maa',
 		headRegion: 'Alue',
 		total: 'Yhteensä'
+	},
+	region: {
+		eastAsiaPacific: 'Itä-Aasia ja Tyynenmeren alue',
+		europeCentralAsia: 'Eurooppa ja Keski-Aasia',
+		latinAmericaCaribbean: 'Latinalainen Amerikka ja Karibia',
+		middleEastNorthAfrica: 'Lähi-itä ja Pohjois-Afrikka',
+		northAmerica: 'Pohjois-Amerikka',
+		southAsia: 'Etelä-Aasia',
+		subSaharanAfrica: 'Saharan eteläpuolinen Afrikka'
 	}
 };
 

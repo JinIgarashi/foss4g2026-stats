@@ -2,18 +2,10 @@
 	import { Arc, BarChart, PieChart, Text } from 'layerchart';
 	import * as Chart from '$lib/components/ui/chart/index.js';
 	import * as Card from '$lib/components/ui/card/index.js';
+	import type { ChartRow } from '$lib/chartUtils';
 	import { currentMessages } from '$lib/i18n';
 
 	type LayerType = 'residence' | 'nationality';
-
-	interface ChartRow {
-		id: string;
-		rank: number;
-		name: string;
-		count: number;
-		country: string;
-		region: string;
-	}
 
 	interface Props {
 		data: ChartRow[];
@@ -68,20 +60,27 @@
 		return spectralPalette[index % spectralPalette.length];
 	};
 
+	/**
+	 * Slices are grouped by the *raw* English value so the buckets stay identical
+	 * in every language, then labelled with the localized one.
+	 */
 	const aggregatePieData = (
 		rows: ChartRow[],
 		key: 'country' | 'region',
 		options?: { maxSlices?: number; othersLabel?: string }
 	): PieDatum[] => {
+		const labelKey = key === 'country' ? 'countryLabel' : 'regionLabel';
 		const totals: Record<string, number> = {};
+		const labels: Record<string, string> = {};
 
 		for (const row of rows) {
 			const raw = String(row[key] ?? '-').trim() || '-';
 			totals[raw] = (totals[raw] ?? 0) + row.count;
+			labels[raw] ??= String(row[labelKey] ?? '').trim() || raw;
 		}
 
 		const sorted = Object.entries(totals)
-			.map(([label, value]) => ({ label, value }))
+			.map(([raw, value]) => ({ label: labels[raw] ?? raw, value }))
 			.sort((a, b) => b.value - a.value);
 
 		const maxSlices = options?.maxSlices;
@@ -109,16 +108,8 @@
 		)
 	});
 
-	const formatDisplayLabel = (raw: string) => {
-		const normalized = String(raw ?? '').trim();
-		if (activeLayer !== 'residence') return normalized;
-		return normalized.split(',')[0]?.trim() ?? normalized;
-	};
-
-	const formatAxisLabel = (raw: string) => {
-		const label = formatDisplayLabel(raw);
-		return label.slice(0, 14);
-	};
+	/** `ChartControl` has already trimmed and localized the label. */
+	const formatAxisLabel = (label: string) => String(label ?? '').slice(0, 14);
 
 	const formatPercent = (ratio: number) => {
 		if (!Number.isFinite(ratio) || ratio <= 0) return '0%';
@@ -128,6 +119,7 @@
 		return `${Math.round(percent)}%`;
 	};
 
+	// Filters on the raw name, not the localized label, so it holds in every language.
 	let filteredData = $derived(data.filter((row) => row.name !== 'No answer'));
 	let preparedChartData = $derived(filteredData.slice(0, topN));
 	let chartCanvasMinWidth = $derived(Math.max(preparedChartData.length * 56, 640));
@@ -153,10 +145,12 @@
 			<Card.Description>{t.chart.xAxis(kindLabel)}</Card.Description>
 		</Card.Header>
 		<Card.Content class="min-h-0 flex-1 px-4">
-			<!-- `dir="ltr"` even under an RTL locale: the plot is a left-to-right
-			     coordinate system, and the rotated X tick labels are anchored with
-			     `text-anchor: start`, which SVG resolves to the *right* edge in RTL —
-			     that flings every label back over the bars. -->
+			<!-- `dir="ltr"` even under an RTL locale, and even though the tick labels
+			     are now localized and may be Arabic or Hebrew script: the reason is
+			     geometric, not textual. The plot is a left-to-right coordinate system,
+			     and the rotated X tick labels are anchored with `text-anchor: start`,
+			     which SVG resolves to the *right* edge in RTL — that flings every
+			     label back over the bars. Bidi still lays out each label correctly. -->
 			<div
 				dir="ltr"
 				class="chart-scroll-x h-full rounded-md border border-border bg-card/60"
@@ -179,7 +173,7 @@
 					<Chart.Container config={barChartConfig} class="h-full min-h-0 w-full">
 						<BarChart
 							data={preparedChartData}
-							x="name"
+							x="nameLabel"
 							y="count"
 							axis={true}
 							padding={{ top: 20, right: 16, left: 52, bottom: 132 }}
@@ -190,9 +184,9 @@
 								touchEvents: 'pan-x'
 							}}
 							onBarClick={(_, detail) => {
-								const item = detail.data as { name?: string; count?: number };
+								const item = detail.data as { nameLabel?: string; count?: number };
 								selectedBar = {
-									name: formatDisplayLabel(String(item?.name ?? '-')),
+									name: String(item?.nameLabel ?? '-'),
 									count: Number(item?.count ?? 0)
 								};
 							}}
@@ -215,7 +209,7 @@
 							}}
 						>
 							{#snippet tooltip()}
-								<Chart.Tooltip labelKey="name" nameKey="name" color="#2563eb" />
+								<Chart.Tooltip labelKey="nameLabel" nameKey="nameLabel" color="#2563eb" />
 							{/snippet}
 						</BarChart>
 					</Chart.Container>

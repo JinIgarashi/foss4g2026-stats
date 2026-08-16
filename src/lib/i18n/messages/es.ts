@@ -87,6 +87,15 @@ const es: Messages = {
 		headCountry: 'País',
 		headRegion: 'Región',
 		total: 'Total'
+	},
+	region: {
+		eastAsiaPacific: 'Asia Oriental y el Pacífico',
+		europeCentralAsia: 'Europa y Asia Central',
+		latinAmericaCaribbean: 'América Latina y el Caribe',
+		middleEastNorthAfrica: 'Oriente Medio y Norte de África',
+		northAmerica: 'América del Norte',
+		southAsia: 'Asia Meridional',
+		subSaharanAfrica: 'África subsahariana'
 	}
 };
 

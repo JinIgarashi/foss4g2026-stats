@@ -87,6 +87,15 @@ const tr: Messages = {
 		headCountry: 'Ülke',
 		headRegion: 'Bölge',
 		total: 'Toplam'
+	},
+	region: {
+		eastAsiaPacific: 'Doğu Asya ve Pasifik',
+		europeCentralAsia: 'Avrupa ve Orta Asya',
+		latinAmericaCaribbean: 'Latin Amerika ve Karayipler',
+		middleEastNorthAfrica: 'Orta Doğu ve Kuzey Afrika',
+		northAmerica: 'Kuzey Amerika',
+		southAsia: 'Güney Asya',
+		subSaharanAfrica: 'Sahra Altı Afrika'
 	}
 };
 

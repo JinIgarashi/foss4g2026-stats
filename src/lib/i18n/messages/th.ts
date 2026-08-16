@@ -86,6 +86,15 @@ const th: Messages = {
 		headCountry: 'ประเทศ',
 		headRegion: 'ภูมิภาค',
 		total: 'รวม'
+	},
+	region: {
+		eastAsiaPacific: 'เอเชียตะวันออกและแปซิฟิก',
+		europeCentralAsia: 'ยุโรปและเอเชียกลาง',
+		latinAmericaCaribbean: 'ละตินอเมริกาและแคริบเบียน',
+		middleEastNorthAfrica: 'ตะวันออกกลางและแอฟริกาเหนือ',
+		northAmerica: 'อเมริกาเหนือ',
+		southAsia: 'เอเชียใต้',
+		subSaharanAfrica: 'แอฟริกาใต้สะฮารา'
 	}
 };
 

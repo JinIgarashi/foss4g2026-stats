@@ -87,6 +87,15 @@ const ms: Messages = {
 		headCountry: 'Negara',
 		headRegion: 'Rantau',
 		total: 'Jumlah'
+	},
+	region: {
+		eastAsiaPacific: 'Asia Timur dan Pasifik',
+		europeCentralAsia: 'Eropah dan Asia Tengah',
+		latinAmericaCaribbean: 'Amerika Latin dan Caribbean',
+		middleEastNorthAfrica: 'Timur Tengah dan Afrika Utara',
+		northAmerica: 'Amerika Utara',
+		southAsia: 'Asia Selatan',
+		subSaharanAfrica: 'Afrika Sub-Sahara'
 	}
 };
 

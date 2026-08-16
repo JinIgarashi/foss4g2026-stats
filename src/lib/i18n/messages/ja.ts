@@ -87,6 +87,15 @@ const ja: Messages = {
 		headCountry: '国',
 		headRegion: '地域',
 		total: '合計'
+	},
+	region: {
+		eastAsiaPacific: '東アジア・太平洋',
+		europeCentralAsia: 'ヨーロッパ・中央アジア',
+		latinAmericaCaribbean: 'ラテンアメリカ・カリブ海',
+		middleEastNorthAfrica: '中東・北アフリカ',
+		northAmerica: '北アメリカ',
+		southAsia: '南アジア',
+		subSaharanAfrica: 'サブサハラアフリカ'
 	}
 };
 

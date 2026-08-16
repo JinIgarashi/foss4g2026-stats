@@ -1,19 +1,11 @@
 <script lang="ts">
 	import * as Table from '$lib/components/ui/table/index.js';
-	import { currentMessages } from '$lib/i18n';
+	import type { ChartRow } from '$lib/chartUtils';
+	import { currentLocale, currentMessages, localeTag } from '$lib/i18n';
 
 	type LayerType = 'residence' | 'nationality';
 	type SortKey = 'name' | 'country' | 'region' | 'count';
 	type SortDirection = 'asc' | 'desc';
-
-	interface ChartRow {
-		id: string;
-		rank: number;
-		name: string;
-		count: number;
-		country: string;
-		region: string;
-	}
 
 	interface Props {
 		data: ChartRow[];
@@ -23,6 +15,8 @@
 	let { data, activeLayer }: Props = $props();
 
 	let t = $derived(currentMessages());
+	/** Text columns hold localized names, so they need the locale's collation. */
+	let collator = $derived(new Intl.Collator(localeTag(currentLocale())));
 	let nameHeader = $derived(
 		activeLayer === 'residence' ? t.table.headResidence : t.table.headNationality
 	);
@@ -52,6 +46,7 @@
 		return t.table.sortKeyName;
 	};
 
+	// Filters on the raw name, not the localized label, so it holds in every language.
 	let filteredData = $derived(data.filter((row) => row.name !== 'No answer'));
 
 	let sortedTableData = $derived(
@@ -60,19 +55,11 @@
 				return sortDirection === 'desc' ? b.count - a.count : a.count - b.count;
 			}
 
-			if (sortKey === 'country') {
-				return sortDirection === 'desc'
-					? b.country.localeCompare(a.country)
-					: a.country.localeCompare(b.country);
-			}
+			const field =
+				sortKey === 'country' ? 'countryLabel' : sortKey === 'region' ? 'regionLabel' : 'nameLabel';
+			const order = collator.compare(a[field], b[field]);
 
-			if (sortKey === 'region') {
-				return sortDirection === 'desc'
-					? b.region.localeCompare(a.region)
-					: a.region.localeCompare(b.region);
-			}
-
-			return sortDirection === 'desc' ? b.name.localeCompare(a.name) : a.name.localeCompare(b.name);
+			return sortDirection === 'desc' ? -order : order;
 		})
 	);
 	let totalAttendees = $derived(filteredData.reduce((sum, row) => sum + row.count, 0));
@@ -143,10 +130,16 @@
 						<Table.Cell class="text-end font-mono text-xs text-muted-foreground"
 							>{row.rank}</Table.Cell
 						>
-						<Table.Cell class="max-w-[320px] truncate" title={row.name}>{row.name}</Table.Cell>
+						<Table.Cell class="max-w-[320px] truncate" title={row.nameLabel}
+							>{row.nameLabel}</Table.Cell
+						>
 						<Table.Cell class="font-semibold">{row.count}</Table.Cell>
-						<Table.Cell class="max-w-55 truncate" title={row.country}>{row.country}</Table.Cell>
-						<Table.Cell class="max-w-55 truncate" title={row.region}>{row.region}</Table.Cell>
+						<Table.Cell class="max-w-55 truncate" title={row.countryLabel}
+							>{row.countryLabel}</Table.Cell
+						>
+						<Table.Cell class="max-w-55 truncate" title={row.regionLabel}
+							>{row.regionLabel}</Table.Cell
+						>
 					</Table.Row>
 				{/each}
 			</Table.Body>

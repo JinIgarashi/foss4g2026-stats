@@ -87,6 +87,15 @@ const sq: Messages = {
 		headCountry: 'Shteti',
 		headRegion: 'Rajoni',
 		total: 'Totali'
+	},
+	region: {
+		eastAsiaPacific: 'Azia Lindore dhe Paqësori',
+		europeCentralAsia: 'Evropa dhe Azia Qendrore',
+		latinAmericaCaribbean: 'Amerika Latine dhe Karaibet',
+		middleEastNorthAfrica: 'Lindja e Mesme dhe Afrika e Veriut',
+		northAmerica: 'Amerika e Veriut',
+		southAsia: 'Azia Jugore',
+		subSaharanAfrica: 'Afrika Nën-Sahariane'
 	}
 };
 

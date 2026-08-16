@@ -87,6 +87,15 @@ const id: Messages = {
 		headCountry: 'Negara',
 		headRegion: 'Kawasan',
 		total: 'Total'
+	},
+	region: {
+		eastAsiaPacific: 'Asia Timur dan Pasifik',
+		europeCentralAsia: 'Eropa dan Asia Tengah',
+		latinAmericaCaribbean: 'Amerika Latin dan Karibia',
+		middleEastNorthAfrica: 'Timur Tengah dan Afrika Utara',
+		northAmerica: 'Amerika Utara',
+		southAsia: 'Asia Selatan',
+		subSaharanAfrica: 'Afrika Sub-Sahara'
 	}
 };
 

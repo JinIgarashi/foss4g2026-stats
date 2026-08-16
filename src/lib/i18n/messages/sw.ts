@@ -87,6 +87,15 @@ const sw: Messages = {
 		headCountry: 'Nchi',
 		headRegion: 'Kanda',
 		total: 'Jumla'
+	},
+	region: {
+		eastAsiaPacific: 'Asia ya Mashariki na Pasifiki',
+		europeCentralAsia: 'Ulaya na Asia ya Kati',
+		latinAmericaCaribbean: 'Amerika ya Kusini na Karibiani',
+		middleEastNorthAfrica: 'Mashariki ya Kati na Afrika Kaskazini',
+		northAmerica: 'Amerika Kaskazini',
+		southAsia: 'Asia ya Kusini',
+		subSaharanAfrica: 'Afrika Kusini mwa Jangwa la Sahara'
 	}
 };
 

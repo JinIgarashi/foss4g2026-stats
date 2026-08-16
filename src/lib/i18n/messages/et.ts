@@ -87,6 +87,15 @@ const et: Messages = {
 		headCountry: 'Riik',
 		headRegion: 'Piirkond',
 		total: 'Kokku'
+	},
+	region: {
+		eastAsiaPacific: 'Ida-Aasia ja Vaikse ookeani piirkond',
+		europeCentralAsia: 'Euroopa ja Kesk-Aasia',
+		latinAmericaCaribbean: 'Ladina-Ameerika ja Kariibi piirkond',
+		middleEastNorthAfrica: 'Lähis-Ida ja Põhja-Aafrika',
+		northAmerica: 'Põhja-Ameerika',
+		southAsia: 'Lõuna-Aasia',
+		subSaharanAfrica: 'Sahara-tagune Aafrika'
 	}
 };
 
