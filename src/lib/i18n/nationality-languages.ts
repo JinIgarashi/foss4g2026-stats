@@ -89,7 +89,8 @@ export const NATIONALITY_LANGUAGES = {
 	Serbia: { iso: 'RS', languages: ['sr'] },
 	Iran: { iso: 'IR', languages: ['fa'] },
 	'Syrian Arab Republic': { iso: 'SY', languages: ['ar'] },
-	Samoa: { iso: 'WS', languages: ['en'] }
+	Samoa: { iso: 'WS', languages: ['en'] },
+	'United Arab Emirates': { iso: 'AE', languages: ['ar'] }
 } as const satisfies Record<string, NationalityEntry>;
 
 export type Nationality = keyof typeof NATIONALITY_LANGUAGES;

@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-15T09:20:08.484Z",
+	"created_at": "2026-08-18T07:29:44.900Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -136,7 +136,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 148,
+				"count": 152,
 				"country": "France",
 				"region": "Europe & Central Asia",
 				"iso": "FR"
@@ -514,7 +514,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan, TOKYO, Tokyo Japan, Japan Tokyo",
-				"count": 75,
+				"count": 79,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -584,7 +584,7 @@
 			},
 			"properties": {
 				"name": "Bangkok, Thailand, Bangkok,Thailand, Bankok, Thailand, Bangkok",
-				"count": 9,
+				"count": 10,
 				"country": "Thailand",
 				"region": "East Asia & Pacific",
 				"iso": "TH"
@@ -989,8 +989,8 @@
 				"coordinates": [139.4160114, 35.9754168]
 			},
 			"properties": {
-				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan, Saitama,Japan",
-				"count": 19,
+				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan, Saitama,Japan, Saitama, japan",
+				"count": 21,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -1784,20 +1784,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [7.0188527, 4.7676576]
-			},
-			"properties": {
-				"name": "Port Harcourt,Nigeria",
-				"count": 1,
-				"country": "Nigeria",
-				"region": "Sub-Saharan Africa",
-				"iso": "NG"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [4.8320114, 45.7578137]
 			},
 			"properties": {
@@ -1886,7 +1872,7 @@
 			},
 			"properties": {
 				"name": "Okinawa, Japan, Okinawa",
-				"count": 2,
+				"count": 3,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -2190,20 +2176,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [35.3268273, -15.3863208]
-			},
-			"properties": {
-				"name": "Malawi, Zomba, Zomba, Malawi",
-				"count": 2,
-				"country": "Malawi",
-				"region": "Sub-Saharan Africa",
-				"iso": "MW"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [110.3672845, -7.7953473]
 			},
 			"properties": {
@@ -2282,20 +2254,6 @@
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [36.8172812, -1.2890006]
-			},
-			"properties": {
-				"name": "Nairobi, Kenya",
-				"count": 6,
-				"country": "Kenya",
-				"region": "Sub-Saharan Africa",
-				"iso": "KE"
 			}
 		},
 		{
@@ -3034,7 +2992,7 @@
 			},
 			"properties": {
 				"name": "Shizuoka, JAPAN, Shizuoka,Japan, Shizuoka",
-				"count": 3,
+				"count": 4,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -3472,6 +3430,48 @@
 				"country": "United States of America",
 				"region": "North America",
 				"iso": "US"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [36.8172812, -1.2890006]
+			},
+			"properties": {
+				"name": "Nairobi, Kenya",
+				"count": 5,
+				"country": "Kenya",
+				"region": "Sub-Saharan Africa",
+				"iso": "KE"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-111.8889466, 40.7687251]
+			},
+			"properties": {
+				"name": "Osaka、Japan",
+				"count": 1,
+				"country": "United States of America",
+				"region": "North America",
+				"iso": "US"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [135.4278831, 34.7104181]
+			},
+			"properties": {
+				"name": "hyogoken japan",
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific",
+				"iso": "JP"
 			}
 		}
 	]

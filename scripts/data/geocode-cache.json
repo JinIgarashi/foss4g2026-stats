@@ -2046,5 +2046,25 @@
     "lat": 34.914934,
     "lon": 134.860666,
     "display_name": "兵庫県, 日本"
+  },
+  "Osaka、Japan": {
+    "lat": 40.7687251,
+    "lon": -111.8889466,
+    "display_name": "Osaka Japan, Regent Court, Crossroads Mall / ZCMI Center;Crossroads Mall / ZCMI Center, Downtown, Salt Lake City, Salt Lake County, Utah, 84133, United States"
+  },
+  "Saitama, japan": {
+    "lat": 35.9754168,
+    "lon": 139.4160114,
+    "display_name": "埼玉県, 日本"
+  },
+  "hyogoken japan": {
+    "lat": 34.7104181,
+    "lon": 135.4278831,
+    "display_name": "兵庫県松島水門, 尼崎市, 兵庫県, 日本"
+  },
+  "United Arab Emirates": {
+    "lat": 24.0002488,
+    "lon": 53.9994829,
+    "display_name": "الإمارات العربية المتحدة"
   }
 }
