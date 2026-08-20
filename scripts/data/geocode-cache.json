@@ -2066,5 +2066,46 @@
     "lat": 24.0002488,
     "lon": 53.9994829,
     "display_name": "الإمارات العربية المتحدة"
+  },
+  "Akranes, Iceland": {
+    "lat": 64.3170806,
+    "lon": -22.0833512,
+    "display_name": "Akraneskaupstaður, Vesturland, 300, Ísland"
+  },
+  "Ankara/Turkiye": {
+    "lat": 39.9207759,
+    "lon": 32.8540497,
+    "display_name": "Ankara, Çankaya, Ankara, İç Anadolu Bölgesi, 06420, Türkiye"
+  },
+  "Saitama-ken, Japan": {
+    "lat": 35.9754168,
+    "lon": 139.4160114,
+    "display_name": "埼玉県, 日本"
+  },
+  "Kawagoe, Japan": {
+    "lat": 35.9251145,
+    "lon": 139.4856927,
+    "display_name": "川越市, 埼玉県, 日本"
+  },
+  "Chuo Bldg. 7F, 5-4-20 Nishinakajima, Yodogawa-ku, Osaka-shi, Osaka": null,
+  "Kishiwada-city": {
+    "lat": 34.461434,
+    "lon": 135.395733,
+    "display_name": "市立岸和田市民病院, 第二阪和国道, 下松町一丁目, 岸和田市, 大阪府, 596-0822, 日本"
+  },
+  "Daegu, Republic of Korea": {
+    "lat": 35.8713,
+    "lon": 128.6018,
+    "display_name": "대구광역시, 대한민국"
+  },
+  "South Korea, Daegu": {
+    "lat": 35.8713,
+    "lon": 128.6018,
+    "display_name": "대구광역시, 대한민국"
+  },
+  "Iceland": {
+    "lat": 64.9841821,
+    "lon": -18.1059013,
+    "display_name": "Ísland"
   }
 }

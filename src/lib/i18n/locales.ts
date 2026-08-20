@@ -409,6 +409,15 @@ export const LOCALES = [
 		protomaps: 'uk',
 		exportLocal: 'uk',
 		dir: 'ltr'
+	},
+	{
+		code: 'is',
+		label: 'Íslenska',
+		flag: 'is',
+		dateLocale: 'is-IS',
+		protomaps: 'en',
+		exportLocal: 'en',
+		dir: 'ltr'
 	}
 ] as const satisfies readonly LocaleDefinition[];
 

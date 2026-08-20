@@ -39,11 +39,12 @@ import sk from './sk';
 import sq from './sq';
 import sr from './sr';
 import uk from './uk';
+import is from './is';
 
 export type { Messages };
 
 /**
- * Every locale is imported eagerly: 40 message objects are ~80 KB uncompressed,
+ * Every locale is imported eagerly: 41 message objects are ~80 KB uncompressed,
  * which is noise next to the map bundle, and keeping them synchronous is what
  * lets `currentMessages()` stay a plain function instead of a load-time
  * dependency. If that ever stops being true, turn the values into
@@ -89,5 +90,6 @@ export const messages: Record<Locale, Messages> = {
 	sk,
 	sq,
 	sr,
-	uk
+	uk,
+	is
 };

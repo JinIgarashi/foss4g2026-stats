@@ -144,7 +144,7 @@
 		class="flex max-h-[85dvh] flex-col gap-0 p-0 sm:max-w-2xl"
 		onOpenAutoFocus={(event) => {
 			// Land on the search box rather than the close button: searching is the
-			// whole point of the dialog once the list is 40 entries long.
+			// whole point of the dialog once the list is 41 entries long.
 			event.preventDefault();
 			searchElement?.focus();
 		}}

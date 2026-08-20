@@ -9,7 +9,7 @@ description: How this site does multi-language support — adding or removing lo
 
 - **No i18n library.** Everything is hand-rolled; TypeScript is what enforces correctness.
 - **The URL's `[lang]` is the single source of truth.** There is no locale store. Switching language is navigation via `<a href="/{code}">`, not a state change.
-- Every page is prerendered (`export const prerender = true` in `src/routes/+layout.ts`). **40 locales** today.
+- Every page is prerendered (`export const prerender = true` in `src/routes/+layout.ts`). **41 locales** today.
 - Main API (`src/lib/i18n/index.ts`):
   - `currentLocale()` — derived from `page.params.lang`
   - `currentMessages()` — messages for the active locale
@@ -28,7 +28,7 @@ description: How this site does multi-language support — adding or removing lo
 | --------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | `src/lib/i18n/locales.ts`               | `LOCALES`, the `Locale` type, `isLocale`/`getLocaleDefinition`/`localeTag`/`resolvePreferredLocale` |
 | `src/lib/i18n/messages/en.ts`           | **Source of truth for translations.** `export type Messages = typeof en`                            |
-| `src/lib/i18n/messages/<code>.ts`       | One file per language (40 of them)                                                                  |
+| `src/lib/i18n/messages/<code>.ts`       | One file per language (41 of them)                                                                  |
 | `src/lib/i18n/messages/index.ts`        | Explicit eager barrel, `Record<Locale, Messages>`                                                   |
 | `src/lib/i18n/nationality-languages.ts` | Nationality → language mapping plus the inverse indexes                                             |
 | `src/lib/i18n/plural.ts`                | `Intl.PluralRules` helper                                                                           |
@@ -148,7 +148,7 @@ Three of the four columns in `ChartControl` → `ChartView` / `TableView` are dr
 
 `src/lib/i18n/display-names.ts` holds the memoized `Intl.DisplayNames` and `localizeCountry(iso, fallback, locale)`, which returns the English fallback whenever there is no code or `Intl` echoes the code back.
 
-`src/lib/i18n/regions.ts` maps the **seven** `REGION_WB` strings to message keys. `Intl` has no World-Bank-region API, so these really are hand-translated in all 40 files — the single exception to "never hand-translate geography".
+`src/lib/i18n/regions.ts` maps the **seven** `REGION_WB` strings to message keys. `Intl` has no World-Bank-region API, so these really are hand-translated in all 41 files — the single exception to "never hand-translate geography".
 
 Two invariants worth keeping:
 
@@ -247,4 +247,4 @@ Two things to know if you touch it:
 pnpm check && pnpm lint && pnpm build
 ```
 
-`pnpm check` is the one gate for message-shape correctness. After `pnpm build`, confirm `build/` has a `<code>.html` and a `<code>/__data.json` for all 40 locales, and that `build/zh-hant.html` is all lowercase.
+`pnpm check` is the one gate for message-shape correctness. After `pnpm build`, confirm `build/` has a `<code>.html` and a `<code>/__data.json` for all 41 locales, and that `build/zh-hant.html` is all lowercase.

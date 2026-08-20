@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-18T07:29:44.900Z",
+	"created_at": "2026-08-20T21:13:22.328Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -80,7 +80,7 @@
 			},
 			"properties": {
 				"name": "Perth, Australia, Perth",
-				"count": 4,
+				"count": 5,
 				"country": "Australia",
 				"region": "East Asia & Pacific",
 				"iso": "AU"
@@ -136,7 +136,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 152,
+				"count": 153,
 				"country": "France",
 				"region": "Europe & Central Asia",
 				"iso": "FR"
@@ -444,7 +444,7 @@
 			},
 			"properties": {
 				"name": "Hyogo Japan, Hyogo, Japan, HYOGO, Hyogo",
-				"count": 6,
+				"count": 7,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -514,7 +514,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan, TOKYO, Tokyo Japan, Japan Tokyo",
-				"count": 79,
+				"count": 83,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -934,7 +934,7 @@
 			},
 			"properties": {
 				"name": "Seoul, South Korea, Seoul, Seoul, Korea",
-				"count": 12,
+				"count": 16,
 				"country": "South Korea",
 				"region": "East Asia & Pacific",
 				"iso": "KR"
@@ -989,8 +989,8 @@
 				"coordinates": [139.4160114, 35.9754168]
 			},
 			"properties": {
-				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan, Saitama,Japan, Saitama, japan",
-				"count": 21,
+				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan, Saitama,Japan, Saitama, japan, Saitama-ken, Japan",
+				"count": 25,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -1060,7 +1060,7 @@
 			},
 			"properties": {
 				"name": "Hiroshima, japan, Hiroshima, Japan, Hiroshima, Hiroshima Japan, Hiroshima,japan",
-				"count": 15,
+				"count": 16,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -1298,7 +1298,7 @@
 			},
 			"properties": {
 				"name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa, 神奈川県, Kanagawa Prefecture",
-				"count": 18,
+				"count": 19,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -1621,6 +1621,20 @@
 			"properties": {
 				"name": "Reykjavik, Iceland, Reykjavík, Iceland",
 				"count": 2,
+				"country": "Iceland",
+				"region": "Europe & Central Asia",
+				"iso": "IS"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-22.0833512, 64.3170806]
+			},
+			"properties": {
+				"name": "Akranes, Iceland",
+				"count": 1,
 				"country": "Iceland",
 				"region": "Europe & Central Asia",
 				"iso": "IS"
@@ -2754,7 +2768,7 @@
 			},
 			"properties": {
 				"name": "Semarang, Indonesia",
-				"count": 1,
+				"count": 2,
 				"country": "Indonesia",
 				"region": "East Asia & Pacific",
 				"iso": "ID"
@@ -2842,20 +2856,6 @@
 				"country": "Egypt",
 				"region": "Middle East & North Africa",
 				"iso": "EG"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [78.0436813, 30.3255646]
-			},
-			"properties": {
-				"name": "Dehradun, Uttarakhand",
-				"count": 1,
-				"country": "India",
-				"region": "South Asia",
-				"iso": "IN"
 			}
 		},
 		{
@@ -3472,6 +3472,62 @@
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [32.8540497, 39.9207759]
+			},
+			"properties": {
+				"name": "Ankara/Turkiye",
+				"count": 1,
+				"country": "Turkey",
+				"region": "Europe & Central Asia",
+				"iso": "TR"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [139.4856927, 35.9251145]
+			},
+			"properties": {
+				"name": "Kawagoe, Japan",
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific",
+				"iso": "JP"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [135.395733, 34.461434]
+			},
+			"properties": {
+				"name": "Kishiwada-city",
+				"count": 1,
+				"country": "Japan",
+				"region": "East Asia & Pacific",
+				"iso": "JP"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [128.6018, 35.8713]
+			},
+			"properties": {
+				"name": "Daegu, Republic of Korea, South Korea, Daegu",
+				"count": 2,
+				"country": "South Korea",
+				"region": "East Asia & Pacific",
+				"iso": "KR"
 			}
 		}
 	]
