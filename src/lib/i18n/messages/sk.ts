@@ -60,11 +60,8 @@ const sk: Messages = {
 	chart: {
 		show: 'Zobraziť graf štatistík účastníkov',
 		title: 'Štatistiky účastníkov',
-		preparingData: 'Pripravujú sa údaje grafu...',
 		preparing: 'Pripravuje sa graf...',
-		dataType: 'Typ údajov:',
-		area: 'Oblasť:',
-		filter: 'Filter:',
+		area: 'Oblasť',
 		residence: 'Bydlisko',
 		nationality: 'Národnosť',
 		all: 'Všetko',
@@ -81,7 +78,30 @@ const sk: Messages = {
 		attendeesLabel: 'Účastníci',
 		attendeesCount: (n) => `${n} účastníkov`,
 		selectedAttendees: (n) => `Účastníci: ${n}`,
-		others: 'Ostatné'
+		others: 'Ostatné',
+		editions: {
+			tab: 'Ročníky',
+			title: 'Účasť podľa ročníka',
+			splitDesc: 'Podiel registrácií',
+			inPersonOnly: 'Prezenčne',
+			includeOnline: 'Započítať online',
+			hostCountry: 'Hostiteľská krajina',
+			international: 'Zahraničie',
+			cancelled: 'Zrušené',
+			shareLabel: 'Podiel',
+			unknown: 'Nerozdelené',
+			noBreakdown: 'Pri niektorých ročníkoch chýbajú podrobné údaje.',
+			partialSplit: 'Rozdelenie pokrýva len časť celkového počtu',
+			source: 'Zdroj: ročné štatistiky FOSS4G',
+			table: {
+				edition: 'Ročník',
+				registrations: 'Registrovaní',
+				inPerson: 'Prezenčne',
+				online: 'Online',
+				hostShare: 'Podiel hostiteľa',
+				status: 'Stav'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

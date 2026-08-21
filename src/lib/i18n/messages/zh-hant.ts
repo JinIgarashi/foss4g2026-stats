@@ -48,11 +48,8 @@ const zhHant: Messages = {
 	chart: {
 		show: '顯示與會者統計圖表',
 		title: '與會者統計',
-		preparingData: '正在準備圖表資料...',
 		preparing: '正在準備圖表...',
-		dataType: '資料類型：',
-		area: '範圍：',
-		filter: '篩選：',
+		area: '範圍',
 		residence: '居住地',
 		nationality: '國籍',
 		all: '全部',
@@ -69,7 +66,30 @@ const zhHant: Messages = {
 		attendeesLabel: '與會者',
 		attendeesCount: (n) => `${n} 位`,
 		selectedAttendees: (n) => `與會者：${n}`,
-		others: '其他'
+		others: '其他',
+		editions: {
+			tab: '歷屆大會',
+			title: '各屆參會人數與組成',
+			splitDesc: '註冊人數比例',
+			inPersonOnly: '僅實體',
+			includeOnline: '含線上',
+			hostCountry: '主辦國',
+			international: '海外',
+			cancelled: '已取消',
+			shareLabel: '比例',
+			unknown: '無細項',
+			noBreakdown: '部分屆次沒有明細資料。',
+			partialSplit: '細項僅涵蓋總數的一部分',
+			source: '來源：FOSS4G 歷年統計資料',
+			table: {
+				edition: '大會',
+				registrations: '報名人數',
+				inPerson: '實體',
+				online: '線上',
+				hostShare: '主辦國比例',
+				status: '狀態'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

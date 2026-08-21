@@ -51,11 +51,8 @@ const ja: Messages = {
 	chart: {
 		show: '参加者統計のグラフを表示',
 		title: '参加者統計',
-		preparingData: 'グラフのデータを準備中...',
 		preparing: 'グラフを準備中...',
-		dataType: 'データ種別:',
-		area: '範囲:',
-		filter: 'フィルター:',
+		area: '範囲',
 		residence: '居住地',
 		nationality: '国籍',
 		all: 'すべて',
@@ -72,7 +69,30 @@ const ja: Messages = {
 		attendeesLabel: '参加者数',
 		attendeesCount: (n) => `${n} 名`,
 		selectedAttendees: (n) => `参加者数: ${n}`,
-		others: 'その他'
+		others: 'その他',
+		editions: {
+			tab: '歴代大会',
+			title: '大会別の参加者数と内訳',
+			splitDesc: '登録者の割合',
+			inPersonOnly: '対面のみ',
+			includeOnline: 'オンラインを含む',
+			hostCountry: '開催国',
+			international: '海外',
+			cancelled: '中止',
+			shareLabel: '割合',
+			unknown: '内訳不明',
+			noBreakdown: '一部の大会は内訳データがありません。',
+			partialSplit: '内訳が総数の一部しかカバーしていません',
+			source: '出典: FOSS4G 年次推移データ',
+			table: {
+				edition: '大会',
+				registrations: '登録者数',
+				inPerson: '対面',
+				online: 'オンライン',
+				hostShare: '開催国比率',
+				status: '状態'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

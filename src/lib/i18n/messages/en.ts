@@ -55,11 +55,8 @@ const en = {
 	chart: {
 		show: 'Show attendee statistics chart',
 		title: 'Attendee statistics',
-		preparingData: 'Preparing chart data...',
 		preparing: 'Preparing chart...',
-		dataType: 'Data type:',
-		area: 'Area:',
-		filter: 'Filter:',
+		area: 'Area',
 		residence: 'Residence',
 		nationality: 'Nationality',
 		all: 'All',
@@ -77,7 +74,32 @@ const en = {
 		attendeesLabel: 'Attendees',
 		attendeesCount: (n: string) => `${n} attendees`,
 		selectedAttendees: (n: number) => `Attendees: ${n}`,
-		others: 'Others'
+		others: 'Others',
+		/** The `Editions` section: historical FOSS4G registration figures, not map data. */
+		editions: {
+			tab: 'Editions',
+			title: 'Attendance by edition',
+			splitDesc: 'Share of registrations',
+			inPersonOnly: 'In person',
+			includeOnline: 'Include online',
+			hostCountry: 'Host country',
+			international: 'International',
+			cancelled: 'Cancelled',
+			shareLabel: 'Share',
+			/** Registrations the host/international split does not account for. */
+			unknown: 'Not broken down',
+			noBreakdown: 'Some editions have no breakdown data.',
+			partialSplit: 'Breakdown covers only part of the total',
+			source: 'Source: FOSS4G year-over-year metrics',
+			table: {
+				edition: 'Edition',
+				registrations: 'Registered',
+				inPerson: 'In person',
+				online: 'Online',
+				hostShare: 'Host share',
+				status: 'Status'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key: string, direction: 'asc' | 'desc', rows: number) =>

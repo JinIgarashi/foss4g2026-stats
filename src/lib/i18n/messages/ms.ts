@@ -51,11 +51,8 @@ const ms: Messages = {
 	chart: {
 		show: 'Tunjukkan carta statistik peserta',
 		title: 'Statistik peserta',
-		preparingData: 'Menyediakan data carta...',
 		preparing: 'Menyediakan carta...',
-		dataType: 'Jenis data:',
-		area: 'Kawasan:',
-		filter: 'Penapis:',
+		area: 'Kawasan',
 		residence: 'Tempat tinggal',
 		nationality: 'Kewarganegaraan',
 		all: 'Semua',
@@ -72,7 +69,30 @@ const ms: Messages = {
 		attendeesLabel: 'Peserta',
 		attendeesCount: (n) => `${n} peserta`,
 		selectedAttendees: (n) => `Peserta: ${n}`,
-		others: 'Lain-lain'
+		others: 'Lain-lain',
+		editions: {
+			tab: 'Edisi',
+			title: 'Kehadiran mengikut edisi',
+			splitDesc: 'Nisbah pendaftaran',
+			inPersonOnly: 'Bersemuka',
+			includeOnline: 'Sertakan dalam talian',
+			hostCountry: 'Negara tuan rumah',
+			international: 'Antarabangsa',
+			cancelled: 'Dibatalkan',
+			shareLabel: 'Bahagian',
+			unknown: 'Tidak diperinci',
+			noBreakdown: 'Sesetengah edisi tiada data terperinci.',
+			partialSplit: 'Pecahan hanya meliputi sebahagian daripada jumlah',
+			source: 'Sumber: statistik tahunan FOSS4G',
+			table: {
+				edition: 'Edisi',
+				registrations: 'Berdaftar',
+				inPerson: 'Bersemuka',
+				online: 'Dalam talian',
+				hostShare: 'Bahagian tuan rumah',
+				status: 'Status'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

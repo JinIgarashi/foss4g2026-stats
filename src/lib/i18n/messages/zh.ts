@@ -48,11 +48,8 @@ const zh: Messages = {
 	chart: {
 		show: '显示参会者统计图表',
 		title: '参会者统计',
-		preparingData: '正在准备图表数据…',
 		preparing: '正在准备图表…',
-		dataType: '数据类型：',
-		area: '范围：',
-		filter: '筛选：',
+		area: '范围',
 		residence: '居住地',
 		nationality: '国籍',
 		all: '全部',
@@ -69,7 +66,30 @@ const zh: Messages = {
 		attendeesLabel: '参会者',
 		attendeesCount: (n) => `${n} 人`,
 		selectedAttendees: (n) => `参会者：${n}`,
-		others: '其他'
+		others: '其他',
+		editions: {
+			tab: '历届大会',
+			title: '各届参会人数与构成',
+			splitDesc: '注册人数占比',
+			inPersonOnly: '仅线下',
+			includeOnline: '包含线上',
+			hostCountry: '主办国',
+			international: '海外',
+			cancelled: '已取消',
+			shareLabel: '比例',
+			unknown: '无细分',
+			noBreakdown: '部分届次没有明细数据。',
+			partialSplit: '细分仅涵盖总数的一部分',
+			source: '来源：FOSS4G 历年统计数据',
+			table: {
+				edition: '大会',
+				registrations: '报名人数',
+				inPerson: '线下',
+				online: '线上',
+				hostShare: '主办国比例',
+				status: '状态'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

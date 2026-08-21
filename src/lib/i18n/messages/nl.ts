@@ -51,11 +51,8 @@ const nl: Messages = {
 	chart: {
 		show: 'Grafiek met deelnemersstatistieken tonen',
 		title: 'Deelnemersstatistieken',
-		preparingData: 'Grafiekgegevens voorbereiden...',
 		preparing: 'Grafiek voorbereiden...',
-		dataType: 'Gegevenstype:',
-		area: 'Gebied:',
-		filter: 'Filter:',
+		area: 'Gebied',
 		residence: 'Woonplaats',
 		nationality: 'Nationaliteit',
 		all: 'Alles',
@@ -72,7 +69,30 @@ const nl: Messages = {
 		attendeesLabel: 'Deelnemers',
 		attendeesCount: (n) => `${n} deelnemers`,
 		selectedAttendees: (n) => `Deelnemers: ${n}`,
-		others: 'Overige'
+		others: 'Overige',
+		editions: {
+			tab: 'Edities',
+			title: 'Deelname per editie',
+			splitDesc: 'Aandeel inschrijvingen',
+			inPersonOnly: 'Fysiek',
+			includeOnline: 'Online meetellen',
+			hostCountry: 'Gastland',
+			international: 'Internationaal',
+			cancelled: 'Geannuleerd',
+			shareLabel: 'Aandeel',
+			unknown: 'Niet uitgesplitst',
+			noBreakdown: 'Van sommige edities zijn geen detailgegevens.',
+			partialSplit: 'De uitsplitsing dekt slechts een deel van het totaal',
+			source: 'Bron: FOSS4G-jaarcijfers',
+			table: {
+				edition: 'Editie',
+				registrations: 'Ingeschreven',
+				inPerson: 'Fysiek',
+				online: 'Online',
+				hostShare: 'Aandeel gastland',
+				status: 'Status'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

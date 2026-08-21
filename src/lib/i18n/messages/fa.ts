@@ -56,11 +56,8 @@ const fa: Messages = {
 	chart: {
 		show: 'نمایش نمودار آمار شرکت‌کنندگان',
 		title: 'آمار شرکت‌کنندگان',
-		preparingData: 'در حال آماده‌سازی داده‌های نمودار...',
 		preparing: 'در حال آماده‌سازی نمودار...',
-		dataType: 'نوع داده:',
-		area: 'محدوده:',
-		filter: 'فیلتر:',
+		area: 'محدوده',
 		residence: 'محل زندگی',
 		nationality: 'ملیت',
 		all: 'همه',
@@ -77,7 +74,30 @@ const fa: Messages = {
 		attendeesLabel: 'شرکت‌کنندگان',
 		attendeesCount: (n) => `${n} شرکت‌کننده`,
 		selectedAttendees: (n) => `شرکت‌کنندگان: ${n}`,
-		others: 'سایر'
+		others: 'سایر',
+		editions: {
+			tab: 'دوره‌های پیشین',
+			title: 'مشارکت بر پایهٔ دوره',
+			splitDesc: 'سهم ثبت‌نام‌ها',
+			inPersonOnly: 'حضوری',
+			includeOnline: 'احتساب آنلاین',
+			hostCountry: 'کشور میزبان',
+			international: 'بین‌المللی',
+			cancelled: 'لغو شد',
+			shareLabel: 'سهم',
+			unknown: 'تفکیک‌نشده',
+			noBreakdown: 'برخی دوره‌ها داده تفکیکی ندارند.',
+			partialSplit: 'تفکیک تنها بخشی از کل را پوشش می‌دهد',
+			source: 'منبع: آمار سالانهٔ FOSS4G',
+			table: {
+				edition: 'دوره',
+				registrations: 'ثبت‌نام‌شده',
+				inPerson: 'حضوری',
+				online: 'برخط',
+				hostShare: 'سهم کشور میزبان',
+				status: 'وضعیت'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

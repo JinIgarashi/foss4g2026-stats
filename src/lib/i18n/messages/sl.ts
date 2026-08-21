@@ -65,11 +65,8 @@ const sl: Messages = {
 	chart: {
 		show: 'Prikaži graf statistike udeležencev',
 		title: 'Statistika udeležencev',
-		preparingData: 'Pripravljanje podatkov grafa...',
 		preparing: 'Pripravljanje grafa...',
-		dataType: 'Vrsta podatkov:',
-		area: 'Območje:',
-		filter: 'Filter:',
+		area: 'Območje',
 		residence: 'Kraj bivanja',
 		nationality: 'Državljanstvo',
 		all: 'Vse',
@@ -86,7 +83,30 @@ const sl: Messages = {
 		attendeesLabel: 'Udeleženci',
 		attendeesCount: (n) => `${n} udeležencev`,
 		selectedAttendees: (n) => `Udeleženci: ${n}`,
-		others: 'Drugo'
+		others: 'Drugo',
+		editions: {
+			tab: 'Izdaje',
+			title: 'Udeležba po izdajah',
+			splitDesc: 'Delež prijav',
+			inPersonOnly: 'V živo',
+			includeOnline: 'Vključi splet',
+			hostCountry: 'Država gostiteljica',
+			international: 'Tujina',
+			cancelled: 'Odpovedano',
+			shareLabel: 'Delež',
+			unknown: 'Ni razčlenjeno',
+			noBreakdown: 'Za nekatere izdaje ni podrobnih podatkov.',
+			partialSplit: 'Razčlenitev zajema le del celote',
+			source: 'Vir: letni podatki FOSS4G',
+			table: {
+				edition: 'Izdaja',
+				registrations: 'Prijavljeni',
+				inPerson: 'V živo',
+				online: 'Splet',
+				hostShare: 'Delež države gostiteljice',
+				status: 'Stanje'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

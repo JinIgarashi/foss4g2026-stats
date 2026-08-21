@@ -51,11 +51,8 @@ const sv: Messages = {
 	chart: {
 		show: 'Visa diagram över deltagarstatistik',
 		title: 'Deltagarstatistik',
-		preparingData: 'Förbereder diagramdata...',
 		preparing: 'Förbereder diagram...',
-		dataType: 'Datatyp:',
-		area: 'Område:',
-		filter: 'Filter:',
+		area: 'Område',
 		residence: 'Bostadsort',
 		nationality: 'Nationalitet',
 		all: 'Alla',
@@ -72,7 +69,30 @@ const sv: Messages = {
 		attendeesLabel: 'Deltagare',
 		attendeesCount: (n) => `${n} deltagare`,
 		selectedAttendees: (n) => `Deltagare: ${n}`,
-		others: 'Övriga'
+		others: 'Övriga',
+		editions: {
+			tab: 'Upplagor',
+			title: 'Deltagande per upplaga',
+			splitDesc: 'Andel av anmälningarna',
+			inPersonOnly: 'På plats',
+			includeOnline: 'Räkna med online',
+			hostCountry: 'Värdland',
+			international: 'Internationellt',
+			cancelled: 'Inställd',
+			shareLabel: 'Andel',
+			unknown: 'Ej uppdelat',
+			noBreakdown: 'Vissa upplagor saknar detaljerad statistik.',
+			partialSplit: 'Uppdelningen täcker bara en del av totalen',
+			source: 'Källa: FOSS4G:s årsstatistik',
+			table: {
+				edition: 'Upplaga',
+				registrations: 'Anmälda',
+				inPerson: 'På plats',
+				online: 'Online',
+				hostShare: 'Värdlandets andel',
+				status: 'Status'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

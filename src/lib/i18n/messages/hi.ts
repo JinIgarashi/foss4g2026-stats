@@ -51,11 +51,8 @@ const hi: Messages = {
 	chart: {
 		show: 'प्रतिभागी सांख्यिकी चार्ट दिखाएँ',
 		title: 'प्रतिभागी सांख्यिकी',
-		preparingData: 'चार्ट डेटा तैयार किया जा रहा है...',
 		preparing: 'चार्ट तैयार किया जा रहा है...',
-		dataType: 'डेटा प्रकार:',
-		area: 'क्षेत्र:',
-		filter: 'फ़िल्टर:',
+		area: 'क्षेत्र',
 		residence: 'निवास',
 		nationality: 'राष्ट्रीयता',
 		all: 'सभी',
@@ -72,7 +69,30 @@ const hi: Messages = {
 		attendeesLabel: 'प्रतिभागी',
 		attendeesCount: (n) => `${n} प्रतिभागी`,
 		selectedAttendees: (n) => `प्रतिभागी: ${n}`,
-		others: 'अन्य'
+		others: 'अन्य',
+		editions: {
+			tab: 'सम्मेलन',
+			title: 'प्रति सम्मेलन उपस्थिति',
+			splitDesc: 'पंजीकरण का अनुपात',
+			inPersonOnly: 'प्रत्यक्ष',
+			includeOnline: 'ऑनलाइन शामिल करें',
+			hostCountry: 'मेज़बान देश',
+			international: 'अंतरराष्ट्रीय',
+			cancelled: 'रद्द',
+			shareLabel: 'हिस्सा',
+			unknown: 'विवरण नहीं',
+			noBreakdown: 'कुछ सम्मेलनों का विस्तृत डेटा उपलब्ध नहीं है।',
+			partialSplit: 'विवरण कुल का केवल एक भाग ही दर्शाता है',
+			source: 'स्रोत: FOSS4G वार्षिक आँकड़े',
+			table: {
+				edition: 'सम्मेलन',
+				registrations: 'पंजीकृत',
+				inPerson: 'प्रत्यक्ष',
+				online: 'ऑनलाइन',
+				hostShare: 'मेज़बान देश का हिस्सा',
+				status: 'स्थिति'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

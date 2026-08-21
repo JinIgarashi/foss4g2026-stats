@@ -58,11 +58,8 @@ const ro: Messages = {
 	chart: {
 		show: 'Afișează graficul statisticilor participanților',
 		title: 'Statistici despre participanți',
-		preparingData: 'Se pregătesc datele graficului...',
 		preparing: 'Se pregătește graficul...',
-		dataType: 'Tip de date:',
-		area: 'Zonă:',
-		filter: 'Filtru:',
+		area: 'Zonă',
 		residence: 'Reședință',
 		nationality: 'Cetățenie',
 		all: 'Toate',
@@ -79,7 +76,30 @@ const ro: Messages = {
 		attendeesLabel: 'Participanți',
 		attendeesCount: (n) => `${n} participanți`,
 		selectedAttendees: (n) => `Participanți: ${n}`,
-		others: 'Altele'
+		others: 'Altele',
+		editions: {
+			tab: 'Ediții',
+			title: 'Participarea pe ediție',
+			splitDesc: 'Ponderea înscrierilor',
+			inPersonOnly: 'În persoană',
+			includeOnline: 'Include online',
+			hostCountry: 'Țara gazdă',
+			international: 'Internațional',
+			cancelled: 'Anulată',
+			shareLabel: 'Proporție',
+			unknown: 'Nedefalcat',
+			noBreakdown: 'Unele ediții nu au date detaliate.',
+			partialSplit: 'Defalcarea acoperă doar o parte din total',
+			source: 'Sursă: statistici anuale FOSS4G',
+			table: {
+				edition: 'Ediție',
+				registrations: 'Înscriși',
+				inPerson: 'În persoană',
+				online: 'Online',
+				hostShare: 'Proporția țării gazdă',
+				status: 'Stare'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

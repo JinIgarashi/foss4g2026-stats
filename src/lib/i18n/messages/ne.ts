@@ -51,11 +51,8 @@ const ne: Messages = {
 	chart: {
 		show: 'सहभागी तथ्याङ्कको चार्ट देखाउनुहोस्',
 		title: 'सहभागी तथ्याङ्क',
-		preparingData: 'चार्टको तथ्याङ्क तयार गर्दै...',
 		preparing: 'चार्ट तयार गर्दै...',
-		dataType: 'तथ्याङ्क प्रकार:',
-		area: 'क्षेत्र:',
-		filter: 'फिल्टर:',
+		area: 'क्षेत्र',
 		residence: 'बसोबास',
 		nationality: 'राष्ट्रियता',
 		all: 'सबै',
@@ -72,7 +69,30 @@ const ne: Messages = {
 		attendeesLabel: 'सहभागीहरू',
 		attendeesCount: (n) => `${n} सहभागी`,
 		selectedAttendees: (n) => `सहभागी: ${n}`,
-		others: 'अन्य'
+		others: 'अन्य',
+		editions: {
+			tab: 'सम्मेलनहरू',
+			title: 'प्रति सम्मेलन सहभागिता',
+			splitDesc: 'दर्ताको अनुपात',
+			inPersonOnly: 'प्रत्यक्ष',
+			includeOnline: 'अनलाइन समावेश गर्नुहोस्',
+			hostCountry: 'आयोजक देश',
+			international: 'विदेश',
+			cancelled: 'रद्द',
+			shareLabel: 'अनुपात',
+			unknown: 'विवरण छैन',
+			noBreakdown: 'केही सम्मेलनको विस्तृत तथ्याङ्क छैन।',
+			partialSplit: 'विवरणले कुलको केही भाग मात्र समेट्छ',
+			source: 'स्रोत: FOSS4G वार्षिक तथ्याङ्क',
+			table: {
+				edition: 'सम्मेलन',
+				registrations: 'दर्ता',
+				inPerson: 'प्रत्यक्ष',
+				online: 'अनलाइन',
+				hostShare: 'आयोजक देशको अनुपात',
+				status: 'स्थिति'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

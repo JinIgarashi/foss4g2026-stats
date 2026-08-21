@@ -51,11 +51,8 @@ const es: Messages = {
 	chart: {
 		show: 'Mostrar el gráfico de estadísticas',
 		title: 'Estadísticas de asistentes',
-		preparingData: 'Preparando los datos del gráfico…',
 		preparing: 'Preparando el gráfico…',
-		dataType: 'Tipo de datos:',
-		area: 'Área:',
-		filter: 'Filtro:',
+		area: 'Área',
 		residence: 'Residencia',
 		nationality: 'Nacionalidad',
 		all: 'Todo',
@@ -72,7 +69,30 @@ const es: Messages = {
 		attendeesLabel: 'Asistentes',
 		attendeesCount: (n) => `${n} asistentes`,
 		selectedAttendees: (n) => `Asistentes: ${n}`,
-		others: 'Otros'
+		others: 'Otros',
+		editions: {
+			tab: 'Ediciones',
+			title: 'Asistencia por edición',
+			splitDesc: 'Proporción de inscripciones',
+			inPersonOnly: 'Presencial',
+			includeOnline: 'Incluir en línea',
+			hostCountry: 'País anfitrión',
+			international: 'Internacional',
+			cancelled: 'Cancelada',
+			shareLabel: 'Proporción',
+			unknown: 'Sin desglosar',
+			noBreakdown: 'Algunas ediciones no tienen datos desglosados.',
+			partialSplit: 'El desglose cubre solo una parte del total',
+			source: 'Fuente: métricas interanuales de FOSS4G',
+			table: {
+				edition: 'Edición',
+				registrations: 'Inscritos',
+				inPerson: 'Presencial',
+				online: 'En línea',
+				hostShare: 'Proporción del país anfitrión',
+				status: 'Estado'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

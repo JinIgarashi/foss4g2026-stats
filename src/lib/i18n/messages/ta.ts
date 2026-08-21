@@ -52,11 +52,8 @@ const ta: Messages = {
 	chart: {
 		show: 'பங்கேற்பாளர் புள்ளிவிவர வரைபடத்தைக் காட்டு',
 		title: 'பங்கேற்பாளர் புள்ளிவிவரம்',
-		preparingData: 'வரைபடத் தரவைத் தயாரிக்கிறது...',
 		preparing: 'வரைபடத்தைத் தயாரிக்கிறது...',
-		dataType: 'தரவு வகை:',
-		area: 'பகுதி:',
-		filter: 'வடிகட்டி:',
+		area: 'பகுதி',
 		residence: 'இருப்பிடம்',
 		nationality: 'குடியுரிமை',
 		all: 'அனைத்தும்',
@@ -73,7 +70,30 @@ const ta: Messages = {
 		attendeesLabel: 'பங்கேற்பாளர்கள்',
 		attendeesCount: (n) => `${n} பங்கேற்பாளர்கள்`,
 		selectedAttendees: (n) => `பங்கேற்பாளர்கள்: ${n}`,
-		others: 'மற்றவை'
+		others: 'மற்றவை',
+		editions: {
+			tab: 'மாநாடுகள்',
+			title: 'மாநாடு வாரியான பங்கேற்பு',
+			splitDesc: 'பதிவுகளின் விகிதம்',
+			inPersonOnly: 'நேரில்',
+			includeOnline: 'ஆன்லைனையும் சேர்',
+			hostCountry: 'நடத்தும் நாடு',
+			international: 'வெளிநாடு',
+			cancelled: 'ரத்து',
+			shareLabel: 'விகிதம்',
+			unknown: 'விவரம் இல்லை',
+			noBreakdown: 'சில மாநாடுகளுக்கு விரிவான தரவு இல்லை.',
+			partialSplit: 'விவரம் மொத்தத்தின் ஒரு பகுதியை மட்டுமே உள்ளடக்கியது',
+			source: 'ஆதாரம்: FOSS4G ஆண்டு புள்ளிவிவரங்கள்',
+			table: {
+				edition: 'மாநாடு',
+				registrations: 'பதிவு',
+				inPerson: 'நேரில்',
+				online: 'ஆன்லைன்',
+				hostShare: 'நடத்தும் நாட்டின் விகிதம்',
+				status: 'நிலை'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

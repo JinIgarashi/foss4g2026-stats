@@ -51,11 +51,8 @@ const id: Messages = {
 	chart: {
 		show: 'Tampilkan grafik statistik peserta',
 		title: 'Statistik peserta',
-		preparingData: 'Menyiapkan data grafik...',
 		preparing: 'Menyiapkan grafik...',
-		dataType: 'Jenis data:',
-		area: 'Area:',
-		filter: 'Filter:',
+		area: 'Area',
 		residence: 'Tempat tinggal',
 		nationality: 'Kewarganegaraan',
 		all: 'Semua',
@@ -72,7 +69,30 @@ const id: Messages = {
 		attendeesLabel: 'Peserta',
 		attendeesCount: (n) => `${n} peserta`,
 		selectedAttendees: (n) => `Peserta: ${n}`,
-		others: 'Lainnya'
+		others: 'Lainnya',
+		editions: {
+			tab: 'Edisi',
+			title: 'Kehadiran per edisi',
+			splitDesc: 'Proporsi pendaftaran',
+			inPersonOnly: 'Tatap muka',
+			includeOnline: 'Sertakan daring',
+			hostCountry: 'Negara tuan rumah',
+			international: 'Internasional',
+			cancelled: 'Dibatalkan',
+			shareLabel: 'Proporsi',
+			unknown: 'Tidak dirinci',
+			noBreakdown: 'Beberapa edisi tidak memiliki data rinci.',
+			partialSplit: 'Rincian hanya mencakup sebagian dari total',
+			source: 'Sumber: statistik tahunan FOSS4G',
+			table: {
+				edition: 'Edisi',
+				registrations: 'Terdaftar',
+				inPerson: 'Tatap muka',
+				online: 'Daring',
+				hostShare: 'Proporsi tuan rumah',
+				status: 'Status'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

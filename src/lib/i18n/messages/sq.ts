@@ -51,11 +51,8 @@ const sq: Messages = {
 	chart: {
 		show: 'Shfaq grafikun e statistikave të pjesëmarrësve',
 		title: 'Statistika të pjesëmarrësve',
-		preparingData: 'Po përgatiten të dhënat e grafikut...',
 		preparing: 'Po përgatitet grafiku...',
-		dataType: 'Lloji i të dhënave:',
-		area: 'Zona:',
-		filter: 'Filtri:',
+		area: 'Zona',
 		residence: 'Vendbanimi',
 		nationality: 'Shtetësia',
 		all: 'Të gjitha',
@@ -72,7 +69,30 @@ const sq: Messages = {
 		attendeesLabel: 'Pjesëmarrës',
 		attendeesCount: (n) => `${n} pjesëmarrës`,
 		selectedAttendees: (n) => `Pjesëmarrës: ${n}`,
-		others: 'Të tjera'
+		others: 'Të tjera',
+		editions: {
+			tab: 'Edicionet',
+			title: 'Pjesëmarrja sipas edicionit',
+			splitDesc: 'Përqindja e regjistrimeve',
+			inPersonOnly: 'Në prani',
+			includeOnline: 'Përfshi online',
+			hostCountry: 'Vendi pritës',
+			international: 'Ndërkombëtar',
+			cancelled: 'E anuluar',
+			shareLabel: 'Pjesa',
+			unknown: 'Pa ndarje',
+			noBreakdown: 'Disa edicione nuk kanë të dhëna të detajuara.',
+			partialSplit: 'Ndarja mbulon vetëm një pjesë të totalit',
+			source: 'Burimi: të dhënat vjetore të FOSS4G',
+			table: {
+				edition: 'Edicioni',
+				registrations: 'Të regjistruar',
+				inPerson: 'Në prani',
+				online: 'Online',
+				hostShare: 'Pjesa e vendit pritës',
+				status: 'Statusi'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

@@ -51,11 +51,8 @@ const vi: Messages = {
 	chart: {
 		show: 'Hiện biểu đồ thống kê người tham dự',
 		title: 'Thống kê người tham dự',
-		preparingData: 'Đang chuẩn bị dữ liệu biểu đồ...',
 		preparing: 'Đang chuẩn bị biểu đồ...',
-		dataType: 'Loại dữ liệu:',
-		area: 'Khu vực:',
-		filter: 'Bộ lọc:',
+		area: 'Khu vực',
 		residence: 'Nơi cư trú',
 		nationality: 'Quốc tịch',
 		all: 'Tất cả',
@@ -72,7 +69,30 @@ const vi: Messages = {
 		attendeesLabel: 'Người tham dự',
 		attendeesCount: (n) => `${n} người`,
 		selectedAttendees: (n) => `Người tham dự: ${n}`,
-		others: 'Khác'
+		others: 'Khác',
+		editions: {
+			tab: 'Các kỳ hội nghị',
+			title: 'Số người tham dự theo từng kỳ',
+			splitDesc: 'Tỷ lệ đăng ký',
+			inPersonOnly: 'Trực tiếp',
+			includeOnline: 'Tính cả trực tuyến',
+			hostCountry: 'Nước chủ nhà',
+			international: 'Quốc tế',
+			cancelled: 'Đã hủy',
+			shareLabel: 'Tỷ lệ',
+			unknown: 'Không phân tích',
+			noBreakdown: 'Một số kỳ không có dữ liệu chi tiết.',
+			partialSplit: 'Phân tích chỉ bao gồm một phần tổng số',
+			source: 'Nguồn: số liệu theo năm của FOSS4G',
+			table: {
+				edition: 'Kỳ hội nghị',
+				registrations: 'Đã đăng ký',
+				inPerson: 'Trực tiếp',
+				online: 'Trực tuyến',
+				hostShare: 'Tỷ lệ nước chủ nhà',
+				status: 'Trạng thái'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>
