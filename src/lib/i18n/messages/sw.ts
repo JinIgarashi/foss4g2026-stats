@@ -51,11 +51,8 @@ const sw: Messages = {
 	chart: {
 		show: 'Onyesha chati ya takwimu za washiriki',
 		title: 'Takwimu za washiriki',
-		preparingData: 'Inaandaa data ya chati...',
 		preparing: 'Inaandaa chati...',
-		dataType: 'Aina ya data:',
-		area: 'Eneo:',
-		filter: 'Kichujio:',
+		area: 'Eneo',
 		residence: 'Makazi',
 		nationality: 'Uraia',
 		all: 'Zote',
@@ -72,7 +69,30 @@ const sw: Messages = {
 		attendeesLabel: 'Washiriki',
 		attendeesCount: (n) => `Washiriki ${n}`,
 		selectedAttendees: (n) => `Washiriki: ${n}`,
-		others: 'Nyingine'
+		others: 'Nyingine',
+		editions: {
+			tab: 'Mikutano iliyopita',
+			title: 'Washiriki kwa kila mkutano',
+			splitDesc: 'Sehemu ya usajili',
+			inPersonOnly: 'Ana kwa ana',
+			includeOnline: 'Jumuisha mtandaoni',
+			hostCountry: 'Nchi mwenyeji',
+			international: 'Kimataifa',
+			cancelled: 'Umeghairiwa',
+			shareLabel: 'Sehemu',
+			unknown: 'Haijachanganuliwa',
+			noBreakdown: 'Baadhi ya mikutano haina data ya kina.',
+			partialSplit: 'Mchanganuo unahusu sehemu tu ya jumla',
+			source: 'Chanzo: takwimu za mwaka za FOSS4G',
+			table: {
+				edition: 'Mkutano',
+				registrations: 'Waliojiandikisha',
+				inPerson: 'Ana kwa ana',
+				online: 'Mtandaoni',
+				hostShare: 'Sehemu ya nchi mwenyeji',
+				status: 'Hali'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

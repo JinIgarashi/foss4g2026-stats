@@ -51,11 +51,8 @@ const si: Messages = {
 	chart: {
 		show: 'සහභාගිවන්නන්ගේ සංඛ්‍යාලේඛන ප්‍රස්තාරය පෙන්වන්න',
 		title: 'සහභාගිවන්නන්ගේ සංඛ්‍යාලේඛන',
-		preparingData: 'ප්‍රස්තාර දත්ත සූදානම් කරමින්...',
 		preparing: 'ප්‍රස්තාරය සූදානම් කරමින්...',
-		dataType: 'දත්ත වර්ගය:',
-		area: 'ප්‍රදේශය:',
-		filter: 'පෙරහන:',
+		area: 'ප්‍රදේශය',
 		residence: 'පදිංචිය',
 		nationality: 'ජාතිකත්වය',
 		all: 'සියල්ල',
@@ -72,7 +69,30 @@ const si: Messages = {
 		attendeesLabel: 'සහභාගිවන්නෝ',
 		attendeesCount: (n) => `සහභාගිවන්නන් ${n}`,
 		selectedAttendees: (n) => `සහභාගිවන්නෝ: ${n}`,
-		others: 'වෙනත්'
+		others: 'වෙනත්',
+		editions: {
+			tab: 'සමුළු',
+			title: 'සමුළුව අනුව සහභාගිත්වය',
+			splitDesc: 'ලියාපදිංචියේ අනුපාතය',
+			inPersonOnly: 'ප්‍රත්‍යක්ෂ',
+			includeOnline: 'මාර්ගගත ද ඇතුළත් කරන්න',
+			hostCountry: 'සත්කාරක රට',
+			international: 'විදේශ',
+			cancelled: 'අවලංගුයි',
+			shareLabel: 'අනුපාතය',
+			unknown: 'විස්තර නොමැත',
+			noBreakdown: 'සමහර සමුළු සඳහා විස්තර දත්ත නොමැත.',
+			partialSplit: 'විස්තරය මුළු ගණනින් කොටසක් පමණක් ආවරණය කරයි',
+			source: 'මූලාශ්‍රය: FOSS4G වාර්ෂික දත්ත',
+			table: {
+				edition: 'සමුළුව',
+				registrations: 'ලියාපදිංචි',
+				inPerson: 'ප්‍රත්‍යක්ෂ',
+				online: 'ඔන්ලයින්',
+				hostShare: 'සත්කාරක රටේ අනුපාතය',
+				status: 'තත්ත්වය'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

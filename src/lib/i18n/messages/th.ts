@@ -50,11 +50,8 @@ const th: Messages = {
 	chart: {
 		show: 'แสดงแผนภูมิสถิติผู้เข้าร่วม',
 		title: 'สถิติผู้เข้าร่วม',
-		preparingData: 'กำลังเตรียมข้อมูลแผนภูมิ...',
 		preparing: 'กำลังเตรียมแผนภูมิ...',
-		dataType: 'ประเภทข้อมูล:',
-		area: 'ขอบเขต:',
-		filter: 'ตัวกรอง:',
+		area: 'ขอบเขต',
 		residence: 'ถิ่นที่อยู่',
 		nationality: 'สัญชาติ',
 		all: 'ทั้งหมด',
@@ -71,7 +68,30 @@ const th: Messages = {
 		attendeesLabel: 'ผู้เข้าร่วม',
 		attendeesCount: (n) => `${n} คน`,
 		selectedAttendees: (n) => `ผู้เข้าร่วม: ${n}`,
-		others: 'อื่น ๆ'
+		others: 'อื่น ๆ',
+		editions: {
+			tab: 'การประชุมที่ผ่านมา',
+			title: 'จำนวนผู้เข้าร่วมแต่ละครั้ง',
+			splitDesc: 'สัดส่วนผู้ลงทะเบียน',
+			inPersonOnly: 'เข้าร่วมด้วยตนเอง',
+			includeOnline: 'รวมออนไลน์',
+			hostCountry: 'ประเทศเจ้าภาพ',
+			international: 'ต่างประเทศ',
+			cancelled: 'ยกเลิก',
+			shareLabel: 'สัดส่วน',
+			unknown: 'ไม่มีรายละเอียด',
+			noBreakdown: 'บางครั้งไม่มีข้อมูลแยกย่อย',
+			partialSplit: 'รายละเอียดครอบคลุมเพียงบางส่วนของยอดรวม',
+			source: 'ที่มา: สถิติรายปีของ FOSS4G',
+			table: {
+				edition: 'การประชุม',
+				registrations: 'ผู้ลงทะเบียน',
+				inPerson: 'เข้าร่วมด้วยตนเอง',
+				online: 'ออนไลน์',
+				hostShare: 'สัดส่วนประเทศเจ้าภาพ',
+				status: 'สถานะ'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

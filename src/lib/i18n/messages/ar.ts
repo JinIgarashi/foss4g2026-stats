@@ -85,11 +85,8 @@ const ar: Messages = {
 	chart: {
 		show: 'إظهار الرسم البياني لإحصاءات المشاركين',
 		title: 'إحصاءات المشاركين',
-		preparingData: 'جارٍ تجهيز بيانات الرسم البياني...',
 		preparing: 'جارٍ تجهيز الرسم البياني...',
-		dataType: 'نوع البيانات:',
-		area: 'النطاق:',
-		filter: 'التصفية:',
+		area: 'النطاق',
 		residence: 'مكان الإقامة',
 		nationality: 'الجنسية',
 		all: 'الكل',
@@ -106,7 +103,30 @@ const ar: Messages = {
 		attendeesLabel: 'المشاركون',
 		attendeesCount: (n) => `${n} مشارك`,
 		selectedAttendees: (n) => `المشاركون: ${n}`,
-		others: 'أخرى'
+		others: 'أخرى',
+		editions: {
+			tab: 'الدورات السابقة',
+			title: 'الحضور حسب الدورة',
+			splitDesc: 'نسبة التسجيلات',
+			inPersonOnly: 'حضوريًا',
+			includeOnline: 'تضمين الحضور عبر الإنترنت',
+			hostCountry: 'البلد المضيف',
+			international: 'دولي',
+			cancelled: 'أُلغيت',
+			shareLabel: 'النسبة',
+			unknown: 'غير مفصّل',
+			noBreakdown: 'بعض الدورات لا تتوفر لها بيانات تفصيلية.',
+			partialSplit: 'التفصيل يغطي جزءًا من الإجمالي فقط',
+			source: 'المصدر: إحصاءات FOSS4G السنوية',
+			table: {
+				edition: 'الدورة',
+				registrations: 'المسجّلون',
+				inPerson: 'حضوريًا',
+				online: 'عبر الإنترنت',
+				hostShare: 'نسبة البلد المضيف',
+				status: 'الحالة'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

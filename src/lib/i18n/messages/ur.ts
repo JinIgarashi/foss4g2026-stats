@@ -55,11 +55,8 @@ const ur: Messages = {
 	chart: {
 		show: 'شرکاء کے اعدادوشمار کا چارٹ دکھائیں',
 		title: 'شرکاء کے اعدادوشمار',
-		preparingData: 'چارٹ کا ڈیٹا تیار کیا جا رہا ہے...',
 		preparing: 'چارٹ تیار کیا جا رہا ہے...',
-		dataType: 'ڈیٹا کی قسم:',
-		area: 'علاقہ:',
-		filter: 'فلٹر:',
+		area: 'علاقہ',
 		residence: 'رہائش',
 		nationality: 'قومیت',
 		all: 'سب',
@@ -76,7 +73,30 @@ const ur: Messages = {
 		attendeesLabel: 'شرکاء',
 		attendeesCount: (n) => `${n} شرکاء`,
 		selectedAttendees: (n) => `شرکاء: ${n}`,
-		others: 'دیگر'
+		others: 'دیگر',
+		editions: {
+			tab: 'سابقہ اجلاس',
+			title: 'فی اجلاس شرکت',
+			splitDesc: 'رجسٹریشن کا تناسب',
+			inPersonOnly: 'بالمشافہ',
+			includeOnline: 'آن لائن شامل کریں',
+			hostCountry: 'میزبان ملک',
+			international: 'بین الاقوامی',
+			cancelled: 'منسوخ',
+			shareLabel: 'حصہ',
+			unknown: 'تفصیل نہیں',
+			noBreakdown: 'کچھ اجلاس کی تفصیلی معلومات دستیاب نہیں۔',
+			partialSplit: 'تفصیل کل کا صرف ایک حصہ ظاہر کرتی ہے',
+			source: 'ماخذ: FOSS4G سالانہ اعداد و شمار',
+			table: {
+				edition: 'اجلاس',
+				registrations: 'رجسٹرڈ',
+				inPerson: 'بالمشافہ',
+				online: 'آن لائن',
+				hostShare: 'میزبان ملک کا حصہ',
+				status: 'حیثیت'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

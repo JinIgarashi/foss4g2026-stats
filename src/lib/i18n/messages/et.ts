@@ -51,11 +51,8 @@ const et: Messages = {
 	chart: {
 		show: 'Näita osalejate statistika diagrammi',
 		title: 'Osalejate statistika',
-		preparingData: 'Diagrammi andmete ettevalmistamine...',
 		preparing: 'Diagrammi ettevalmistamine...',
-		dataType: 'Andmetüüp:',
-		area: 'Ala:',
-		filter: 'Filter:',
+		area: 'Ala',
 		residence: 'Elukoht',
 		nationality: 'Kodakondsus',
 		all: 'Kõik',
@@ -72,7 +69,30 @@ const et: Messages = {
 		attendeesLabel: 'Osalejad',
 		attendeesCount: (n) => `${n} osalejat`,
 		selectedAttendees: (n) => `Osalejaid: ${n}`,
-		others: 'Muud'
+		others: 'Muud',
+		editions: {
+			tab: 'Konverentsid',
+			title: 'Osalemine konverentsi kaupa',
+			splitDesc: 'Registreerimiste osakaal',
+			inPersonOnly: 'Kohapeal',
+			includeOnline: 'Arvesta veebiosalus',
+			hostCountry: 'Korraldajariik',
+			international: 'Välismaa',
+			cancelled: 'Ära jäetud',
+			shareLabel: 'Osakaal',
+			unknown: 'Jaotamata',
+			noBreakdown: 'Mõne konverentsi kohta puuduvad täpsemad andmed.',
+			partialSplit: 'Jaotus katab vaid osa koguarvust',
+			source: 'Allikas: FOSS4G aastastatistika',
+			table: {
+				edition: 'Konverents',
+				registrations: 'Registreerunud',
+				inPerson: 'Kohapeal',
+				online: 'Veebis',
+				hostShare: 'Korraldajariigi osakaal',
+				status: 'Olek'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

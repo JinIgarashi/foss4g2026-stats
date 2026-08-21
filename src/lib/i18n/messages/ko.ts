@@ -51,11 +51,8 @@ const ko: Messages = {
 	chart: {
 		show: '참가자 통계 차트 표시',
 		title: '참가자 통계',
-		preparingData: '차트 데이터를 준비하는 중...',
 		preparing: '차트를 준비하는 중...',
-		dataType: '데이터 종류:',
-		area: '범위:',
-		filter: '필터:',
+		area: '범위',
 		residence: '거주지',
 		nationality: '국적',
 		all: '전체',
@@ -72,7 +69,30 @@ const ko: Messages = {
 		attendeesLabel: '참가자 수',
 		attendeesCount: (n) => `${n}명`,
 		selectedAttendees: (n) => `참가자 수: ${n}`,
-		others: '기타'
+		others: '기타',
+		editions: {
+			tab: '역대 대회',
+			title: '대회별 참가자 수와 구성',
+			splitDesc: '등록자 비율',
+			inPersonOnly: '대면만',
+			includeOnline: '온라인 포함',
+			hostCountry: '개최국',
+			international: '해외',
+			cancelled: '취소됨',
+			shareLabel: '비율',
+			unknown: '내역 없음',
+			noBreakdown: '일부 대회는 세부 데이터가 없습니다.',
+			partialSplit: '내역이 전체의 일부만 포함합니다',
+			source: '출처: FOSS4G 연도별 통계',
+			table: {
+				edition: '대회',
+				registrations: '등록자',
+				inPerson: '대면',
+				online: '온라인',
+				hostShare: '개최국 비율',
+				status: '상태'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

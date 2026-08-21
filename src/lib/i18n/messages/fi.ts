@@ -51,11 +51,8 @@ const fi: Messages = {
 	chart: {
 		show: 'Näytä osallistujatilastojen kaavio',
 		title: 'Osallistujatilastot',
-		preparingData: 'Valmistellaan kaavion tietoja...',
 		preparing: 'Valmistellaan kaaviota...',
-		dataType: 'Tietotyyppi:',
-		area: 'Alue:',
-		filter: 'Suodatin:',
+		area: 'Alue',
 		residence: 'Asuinpaikka',
 		nationality: 'Kansalaisuus',
 		all: 'Kaikki',
@@ -72,7 +69,30 @@ const fi: Messages = {
 		attendeesLabel: 'Osallistujat',
 		attendeesCount: (n) => `${n} osallistujaa`,
 		selectedAttendees: (n) => `Osallistujia: ${n}`,
-		others: 'Muut'
+		others: 'Muut',
+		editions: {
+			tab: 'Konferenssit',
+			title: 'Osallistuminen konferensseittain',
+			splitDesc: 'Osuus ilmoittautuneista',
+			inPersonOnly: 'Paikan päällä',
+			includeOnline: 'Laske verkko mukaan',
+			hostCountry: 'Isäntämaa',
+			international: 'Ulkomaat',
+			cancelled: 'Peruttu',
+			shareLabel: 'Osuus',
+			unknown: 'Erittelemättä',
+			noBreakdown: 'Joistakin konferensseista ei ole erittelytietoja.',
+			partialSplit: 'Erittely kattaa vain osan kokonaismäärästä',
+			source: 'Lähde: FOSS4G:n vuositilastot',
+			table: {
+				edition: 'Konferenssi',
+				registrations: 'Ilmoittautuneet',
+				inPerson: 'Paikan päällä',
+				online: 'Verkossa',
+				hostShare: 'Isäntämaan osuus',
+				status: 'Tila'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

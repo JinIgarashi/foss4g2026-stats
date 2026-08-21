@@ -51,11 +51,8 @@ const de: Messages = {
 	chart: {
 		show: 'Diagramm zur Teilnehmerstatistik anzeigen',
 		title: 'Teilnehmerstatistik',
-		preparingData: 'Diagrammdaten werden vorbereitet …',
 		preparing: 'Diagramm wird vorbereitet …',
-		dataType: 'Datentyp:',
-		area: 'Bereich:',
-		filter: 'Filter:',
+		area: 'Bereich',
 		residence: 'Wohnort',
 		nationality: 'Nationalität',
 		all: 'Alle',
@@ -72,7 +69,30 @@ const de: Messages = {
 		attendeesLabel: 'Teilnehmende',
 		attendeesCount: (n) => `${n} Teilnehmende`,
 		selectedAttendees: (n) => `Teilnehmende: ${n}`,
-		others: 'Sonstige'
+		others: 'Sonstige',
+		editions: {
+			tab: 'Ausgaben',
+			title: 'Teilnahme je Ausgabe',
+			splitDesc: 'Anteil der Anmeldungen',
+			inPersonOnly: 'Vor Ort',
+			includeOnline: 'Online einbeziehen',
+			hostCountry: 'Gastgeberland',
+			international: 'Ausland',
+			cancelled: 'Abgesagt',
+			shareLabel: 'Anteil',
+			unknown: 'Nicht aufgeschlüsselt',
+			noBreakdown: 'Für einige Ausgaben liegen keine Detaildaten vor.',
+			partialSplit: 'Die Aufschlüsselung deckt nur einen Teil der Gesamtzahl ab',
+			source: 'Quelle: FOSS4G-Jahresvergleichsdaten',
+			table: {
+				edition: 'Ausgabe',
+				registrations: 'Angemeldet',
+				inPerson: 'Vor Ort',
+				online: 'Online',
+				hostShare: 'Anteil Gastgeberland',
+				status: 'Status'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

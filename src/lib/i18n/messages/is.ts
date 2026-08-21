@@ -63,11 +63,8 @@ const is: Messages = {
 	chart: {
 		show: 'Sýna tölfræðirit þátttakenda',
 		title: 'Tölfræði þátttakenda',
-		preparingData: 'Undirbý gögn fyrir ritið...',
 		preparing: 'Undirbý ritið...',
-		dataType: 'Gagnategund:',
-		area: 'Svæði:',
-		filter: 'Sía:',
+		area: 'Svæði',
 		residence: 'Búseta',
 		nationality: 'Þjóðerni',
 		all: 'Allt',
@@ -84,7 +81,30 @@ const is: Messages = {
 		attendeesLabel: 'Þátttakendur',
 		attendeesCount: (n) => `${n} þátttakendur`,
 		selectedAttendees: (n) => `Þátttakendur: ${n}`,
-		others: 'Annað'
+		others: 'Annað',
+		editions: {
+			tab: 'Ráðstefnur',
+			title: 'Þátttaka eftir ráðstefnu',
+			splitDesc: 'Hlutfall skráninga',
+			inPersonOnly: 'Á staðnum',
+			includeOnline: 'Telja netþátttöku með',
+			hostCountry: 'Gestgjafaland',
+			international: 'Útlönd',
+			cancelled: 'Aflýst',
+			shareLabel: 'Hlutfall',
+			unknown: 'Ósundurliðað',
+			noBreakdown: 'Sumar ráðstefnur hafa engin sundurliðuð gögn.',
+			partialSplit: 'Sundurliðunin nær aðeins yfir hluta heildarinnar',
+			source: 'Heimild: árlegar FOSS4G-tölur',
+			table: {
+				edition: 'Ráðstefna',
+				registrations: 'Skráðir',
+				inPerson: 'Á staðnum',
+				online: 'Á neti',
+				hostShare: 'Hlutfall gestgjafalands',
+				status: 'Staða'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

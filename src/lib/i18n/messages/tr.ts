@@ -51,11 +51,8 @@ const tr: Messages = {
 	chart: {
 		show: 'Katılımcı istatistikleri grafiğini göster',
 		title: 'Katılımcı istatistikleri',
-		preparingData: 'Grafik verileri hazırlanıyor...',
 		preparing: 'Grafik hazırlanıyor...',
-		dataType: 'Veri türü:',
-		area: 'Alan:',
-		filter: 'Filtre:',
+		area: 'Alan',
 		residence: 'İkamet',
 		nationality: 'Uyruk',
 		all: 'Tümü',
@@ -72,7 +69,30 @@ const tr: Messages = {
 		attendeesLabel: 'Katılımcılar',
 		attendeesCount: (n) => `${n} katılımcı`,
 		selectedAttendees: (n) => `Katılımcı: ${n}`,
-		others: 'Diğer'
+		others: 'Diğer',
+		editions: {
+			tab: 'Konferanslar',
+			title: 'Yıllara göre katılım',
+			splitDesc: 'Kayıtların oranı',
+			inPersonOnly: 'Yüz yüze',
+			includeOnline: 'Çevrimiçi dahil',
+			hostCountry: 'Ev sahibi ülke',
+			international: 'Uluslararası',
+			cancelled: 'İptal edildi',
+			shareLabel: 'Pay',
+			unknown: 'Dağılım yok',
+			noBreakdown: 'Bazı konferanslar için ayrıntılı veri yok.',
+			partialSplit: 'Dağılım toplamın yalnızca bir kısmını kapsıyor',
+			source: 'Kaynak: FOSS4G yıllık verileri',
+			table: {
+				edition: 'Konferans',
+				registrations: 'Kayıtlı',
+				inPerson: 'Yüz yüze',
+				online: 'Çevrim içi',
+				hostShare: 'Ev sahibi payı',
+				status: 'Durum'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

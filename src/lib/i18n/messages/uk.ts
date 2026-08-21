@@ -63,11 +63,8 @@ const uk: Messages = {
 	chart: {
 		show: 'Показати діаграму статистики учасників',
 		title: 'Статистика учасників',
-		preparingData: 'Підготовка даних діаграми...',
 		preparing: 'Підготовка діаграми...',
-		dataType: 'Тип даних:',
-		area: 'Область:',
-		filter: 'Фільтр:',
+		area: 'Область',
 		residence: 'Місце проживання',
 		nationality: 'Громадянство',
 		all: 'Усі',
@@ -84,7 +81,30 @@ const uk: Messages = {
 		attendeesLabel: 'Учасники',
 		attendeesCount: (n) => `${n} учасників`,
 		selectedAttendees: (n) => `Учасники: ${n}`,
-		others: 'Інші'
+		others: 'Інші',
+		editions: {
+			tab: 'Конференції',
+			title: 'Учасники за роками',
+			splitDesc: 'Частка реєстрацій',
+			inPersonOnly: 'Очно',
+			includeOnline: 'Враховувати онлайн',
+			hostCountry: 'Країна проведення',
+			international: 'Закордон',
+			cancelled: 'Скасовано',
+			shareLabel: 'Частка',
+			unknown: 'Без розподілу',
+			noBreakdown: 'Для деяких конференцій немає докладних даних.',
+			partialSplit: 'Розподіл охоплює лише частину загальної кількості',
+			source: 'Джерело: річна статистика FOSS4G',
+			table: {
+				edition: 'Конференція',
+				registrations: 'Зареєстровано',
+				inPerson: 'Очно',
+				online: 'Онлайн',
+				hostShare: 'Частка країни-господаря',
+				status: 'Статус'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

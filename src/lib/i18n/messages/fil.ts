@@ -51,11 +51,8 @@ const fil: Messages = {
 	chart: {
 		show: 'Ipakita ang tsart ng estadistika',
 		title: 'Estadistika ng mga dumalo',
-		preparingData: 'Inihahanda ang datos ng tsart…',
 		preparing: 'Inihahanda ang tsart…',
-		dataType: 'Uri ng datos:',
-		area: 'Lawak:',
-		filter: 'Salain:',
+		area: 'Lawak',
 		residence: 'Tinitirhan',
 		nationality: 'Nasyonalidad',
 		all: 'Lahat',
@@ -72,7 +69,30 @@ const fil: Messages = {
 		attendeesLabel: 'Mga dumalo',
 		attendeesCount: (n) => `${n} dumalo`,
 		selectedAttendees: (n) => `Mga dumalo: ${n}`,
-		others: 'Iba pa'
+		others: 'Iba pa',
+		editions: {
+			tab: 'Mga Edisyon',
+			title: 'Dumalo kada edisyon',
+			splitDesc: 'Bahagi ng rehistrasyon',
+			inPersonOnly: 'Harapan',
+			includeOnline: 'Isama ang online',
+			hostCountry: 'Bansang host',
+			international: 'Internasyonal',
+			cancelled: 'Kanselado',
+			shareLabel: 'Bahagi',
+			unknown: 'Walang breakdown',
+			noBreakdown: 'May mga edisyong walang detalyadong datos.',
+			partialSplit: 'Bahagi lang ng kabuuan ang saklaw ng breakdown',
+			source: 'Pinagmulan: taunang datos ng FOSS4G',
+			table: {
+				edition: 'Edisyon',
+				registrations: 'Nakarehistro',
+				inPerson: 'Harapan',
+				online: 'Online',
+				hostShare: 'Bahagi ng host',
+				status: 'Katayuan'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>

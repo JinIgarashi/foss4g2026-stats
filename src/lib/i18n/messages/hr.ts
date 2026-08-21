@@ -58,11 +58,8 @@ const hr: Messages = {
 	chart: {
 		show: 'Prikaži grafikon statistike sudionika',
 		title: 'Statistika sudionika',
-		preparingData: 'Priprema podataka grafikona...',
 		preparing: 'Priprema grafikona...',
-		dataType: 'Vrsta podataka:',
-		area: 'Područje:',
-		filter: 'Filtar:',
+		area: 'Područje',
 		residence: 'Mjesto stanovanja',
 		nationality: 'Državljanstvo',
 		all: 'Sve',
@@ -79,7 +76,30 @@ const hr: Messages = {
 		attendeesLabel: 'Sudionici',
 		attendeesCount: (n) => `${n} sudionika`,
 		selectedAttendees: (n) => `Sudionici: ${n}`,
-		others: 'Ostalo'
+		others: 'Ostalo',
+		editions: {
+			tab: 'Izdanja',
+			title: 'Sudjelovanje po izdanju',
+			splitDesc: 'Udio prijava',
+			inPersonOnly: 'Uživo',
+			includeOnline: 'Uključi online',
+			hostCountry: 'Zemlja domaćin',
+			international: 'Inozemstvo',
+			cancelled: 'Otkazano',
+			shareLabel: 'Udio',
+			unknown: 'Nije raščlanjeno',
+			noBreakdown: 'Za neka izdanja nema detaljnih podataka.',
+			partialSplit: 'Raščlamba pokriva samo dio ukupnog broja',
+			source: 'Izvor: godišnji podaci FOSS4G-a',
+			table: {
+				edition: 'Izdanje',
+				registrations: 'Prijavljeni',
+				inPerson: 'Uživo',
+				online: 'Online',
+				hostShare: 'Udio zemlje domaćina',
+				status: 'Status'
+			}
+		}
 	},
 	table: {
 		sortedBy: (key, direction, rows) =>
