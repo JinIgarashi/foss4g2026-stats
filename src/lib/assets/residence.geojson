@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-20T21:13:22.328Z",
+	"created_at": "2026-08-27T00:42:28.618Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -136,7 +136,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 153,
+				"count": 163,
 				"country": "France",
 				"region": "Europe & Central Asia",
 				"iso": "FR"
@@ -304,7 +304,7 @@
 			},
 			"properties": {
 				"name": "Berlin, Germany",
-				"count": 7,
+				"count": 8,
 				"country": "Germany",
 				"region": "Europe & Central Asia",
 				"iso": "DE"
@@ -514,7 +514,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan, TOKYO, Tokyo Japan, Japan Tokyo",
-				"count": 83,
+				"count": 87,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -807,8 +807,8 @@
 				"coordinates": [135.1943764, 34.6932379]
 			},
 			"properties": {
-				"name": "Kobe, Japan",
-				"count": 1,
+				"name": "Kobe, Japan, Kobe, Hyogo, Japan",
+				"count": 3,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -874,20 +874,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [9.2581267, 46.806412]
-			},
-			"properties": {
-				"name": "Laax",
-				"count": 1,
-				"country": "Switzerland",
-				"region": "Europe & Central Asia",
-				"iso": "CH"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [0.3065856, 52.4570345]
 			},
 			"properties": {
@@ -934,7 +920,7 @@
 			},
 			"properties": {
 				"name": "Seoul, South Korea, Seoul, Seoul, Korea",
-				"count": 16,
+				"count": 17,
 				"country": "South Korea",
 				"region": "East Asia & Pacific",
 				"iso": "KR"
@@ -1297,8 +1283,8 @@
 				"coordinates": [139.374753, 35.4342935]
 			},
 			"properties": {
-				"name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa, 神奈川県, Kanagawa Prefecture",
-				"count": 19,
+				"name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa, 神奈川県, Kanagawa Prefecture, Japan, Kanagawa",
+				"count": 20,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -1955,8 +1941,8 @@
 				"coordinates": [28.9758715, 41.006381]
 			},
 			"properties": {
-				"name": "İstanbul, Türkiye, Istanbul, Türkiye",
-				"count": 2,
+				"name": "İstanbul, Türkiye",
+				"count": 1,
 				"country": "Turkey",
 				"region": "Europe & Central Asia",
 				"iso": "TR"
@@ -2893,7 +2879,7 @@
 				"coordinates": [106.827168, -6.1754049]
 			},
 			"properties": {
-				"name": "Jakarta, Indonesia",
+				"name": "jakarta, indonesia",
 				"count": 1,
 				"country": "Indonesia",
 				"region": "East Asia & Pacific",
@@ -2936,7 +2922,7 @@
 			},
 			"properties": {
 				"name": "Bremen, Germany",
-				"count": 1,
+				"count": 2,
 				"country": "Germany",
 				"region": "Europe & Central Asia",
 				"iso": "DE"
@@ -3089,8 +3075,8 @@
 				"coordinates": [139.8096549, 36.6782167]
 			},
 			"properties": {
-				"name": "Tochigi Japan",
-				"count": 1,
+				"name": "Tochigi Japan, Tochigi Prefecture, Japan",
+				"count": 2,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -3355,8 +3341,8 @@
 				"coordinates": [147.3281233, -42.8825088]
 			},
 			"properties": {
-				"name": "Hobart, Australia",
-				"count": 1,
+				"name": "Hobart, Australia, Hobart, Tasmania",
+				"count": 2,
 				"country": "Australia",
 				"region": "East Asia & Pacific",
 				"iso": "AU"
@@ -3528,6 +3514,48 @@
 				"country": "South Korea",
 				"region": "East Asia & Pacific",
 				"iso": "KR"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [11.8058487, 45.391408]
+			},
+			"properties": {
+				"name": "Padova, Italy",
+				"count": 1,
+				"country": "Italy",
+				"region": "Europe & Central Asia",
+				"iso": "IT"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [9.2581267, 46.806412]
+			},
+			"properties": {
+				"name": "Laax, Switzerland",
+				"count": 1,
+				"country": "Switzerland",
+				"region": "Europe & Central Asia",
+				"iso": "CH"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [153.0235009, -27.4689623]
+			},
+			"properties": {
+				"name": "Brisbane, Australia",
+				"count": 2,
+				"country": "Australia",
+				"region": "East Asia & Pacific",
+				"iso": "AU"
 			}
 		}
 	]

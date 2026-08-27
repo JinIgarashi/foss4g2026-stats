@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-20T21:13:22.328Z",
+	"created_at": "2026-08-27T00:42:28.619Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -52,7 +52,7 @@
 			},
 			"properties": {
 				"name": "Australia",
-				"count": 23,
+				"count": 26,
 				"country": "Australia",
 				"region": "East Asia & Pacific",
 				"iso": "AU"
@@ -122,7 +122,7 @@
 			},
 			"properties": {
 				"name": "Germany",
-				"count": 13,
+				"count": 15,
 				"country": "Germany",
 				"region": "Europe & Central Asia",
 				"iso": "DE"
@@ -136,7 +136,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 77,
+				"count": 84,
 				"country": "France",
 				"region": "Europe & Central Asia",
 				"iso": "FR"
@@ -150,7 +150,7 @@
 			},
 			"properties": {
 				"name": "Italy",
-				"count": 8,
+				"count": 9,
 				"country": "Italy",
 				"region": "Europe & Central Asia",
 				"iso": "IT"
@@ -234,7 +234,7 @@
 			},
 			"properties": {
 				"name": "United States",
-				"count": 42,
+				"count": 43,
 				"country": "United States of America",
 				"region": "North America",
 				"iso": "US"
@@ -276,7 +276,7 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 287,
+				"count": 296,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -332,7 +332,7 @@
 			},
 			"properties": {
 				"name": "Thailand",
-				"count": 30,
+				"count": 31,
 				"country": "Thailand",
 				"region": "East Asia & Pacific",
 				"iso": "TH"
@@ -346,7 +346,7 @@
 			},
 			"properties": {
 				"name": "South Korea",
-				"count": 55,
+				"count": 56,
 				"country": "South Korea",
 				"region": "East Asia & Pacific",
 				"iso": "KR"
@@ -360,7 +360,7 @@
 			},
 			"properties": {
 				"name": "India",
-				"count": 21,
+				"count": 22,
 				"country": "India",
 				"region": "South Asia",
 				"iso": "IN"
@@ -426,20 +426,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [8.2319736, 46.7985624]
-			},
-			"properties": {
-				"name": "Switzerland",
-				"count": 5,
-				"country": "Switzerland",
-				"region": "Europe & Central Asia",
-				"iso": "CH"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [-58.1693445, -23.3165935]
 			},
 			"properties": {
@@ -476,6 +462,20 @@
 				"country": "Singapore",
 				"region": "East Asia & Pacific",
 				"iso": "SG"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.2319736, 46.7985624]
+			},
+			"properties": {
+				"name": "Switzerland",
+				"count": 5,
+				"country": "Switzerland",
+				"region": "Europe & Central Asia",
+				"iso": "CH"
 			}
 		},
 		{
@@ -570,7 +570,7 @@
 			},
 			"properties": {
 				"name": "Türkiye",
-				"count": 4,
+				"count": 3,
 				"country": "Turkey",
 				"region": "Europe & Central Asia",
 				"iso": "TR"

@@ -2107,5 +2107,46 @@
     "lat": 64.9841821,
     "lon": -18.1059013,
     "display_name": "Ísland"
+  },
+  "Kobe, Hyogo, Japan": {
+    "lat": 34.6932379,
+    "lon": 135.1943764,
+    "display_name": "神戸市, 兵庫県, 日本"
+  },
+  "jakarta, indonesia": {
+    "lat": -6.1754049,
+    "lon": 106.827168,
+    "display_name": "Daerah Khusus Ibukota Jakarta, Indonesia"
+  },
+  "Hobart, Tasmania": {
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "display_name": "Hobart, Tasmania, Australia"
+  },
+  "Japan, Kanagawa": {
+    "lat": 35.4342935,
+    "lon": 139.374753,
+    "display_name": "神奈川県, 日本"
+  },
+  "Japnan, Tokyo": null,
+  "Padova, Italy": {
+    "lat": 45.391408,
+    "lon": 11.8058487,
+    "display_name": "Padova, Veneto, Italia"
+  },
+  "Laax, Switzerland": {
+    "lat": 46.806412,
+    "lon": 9.2581267,
+    "display_name": "Laax, Surselva, Graubünden/Grischun/Grigioni, Schweiz/Suisse/Svizzera/Svizra"
+  },
+  "Brisbane, Australia": {
+    "lat": -27.4689623,
+    "lon": 153.0235009,
+    "display_name": "Brisbane, Queensland, Australia"
+  },
+  "Tochigi Prefecture, Japan": {
+    "lat": 36.6782167,
+    "lon": 139.8096549,
+    "display_name": "栃木県, 日本"
   }
 }
