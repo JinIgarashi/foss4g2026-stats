@@ -2148,5 +2148,15 @@
     "lat": 36.6782167,
     "lon": 139.8096549,
     "display_name": "栃木県, 日本"
+  },
+  "Tsukuba, Ibaraki, JAPAN": {
+    "lat": 36.0833265,
+    "lon": 140.077279,
+    "display_name": "つくば市, 茨城県, 日本"
+  },
+  "Tsukuba": {
+    "lat": 36.0833265,
+    "lon": 140.077279,
+    "display_name": "つくば市, 茨城県, 日本"
   }
 }

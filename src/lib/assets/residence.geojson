@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-27T00:42:28.618Z",
+	"created_at": "2026-08-28T09:28:53.420Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -24,7 +24,7 @@
 			},
 			"properties": {
 				"name": "Quezon City, Philippines",
-				"count": 3,
+				"count": 2,
 				"country": "Philippines",
 				"region": "East Asia & Pacific",
 				"iso": "PH"
@@ -136,7 +136,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 163,
+				"count": 170,
 				"country": "France",
 				"region": "Europe & Central Asia",
 				"iso": "FR"
@@ -514,7 +514,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan, TOKYO, Tokyo Japan, Japan Tokyo",
-				"count": 87,
+				"count": 89,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -1032,7 +1032,7 @@
 			},
 			"properties": {
 				"name": "Aichi, Japan, aichi",
-				"count": 5,
+				"count": 6,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -1284,7 +1284,7 @@
 			},
 			"properties": {
 				"name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa, 神奈川県, Kanagawa Prefecture, Japan, Kanagawa",
-				"count": 20,
+				"count": 21,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -1899,8 +1899,8 @@
 				"coordinates": [140.077279, 36.0833265]
 			},
 			"properties": {
-				"name": "Tsukuba, Japan",
-				"count": 1,
+				"name": "Tsukuba, Japan, Tsukuba, Ibaraki, JAPAN, Tsukuba",
+				"count": 3,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
