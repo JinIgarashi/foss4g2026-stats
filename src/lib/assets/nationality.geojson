@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-28T09:28:53.421Z",
+	"created_at": "2026-08-29T21:30:21.684Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -276,7 +276,7 @@
 			},
 			"properties": {
 				"name": "Japan",
-				"count": 303,
+				"count": 304,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -532,20 +532,6 @@
 				"country": "Estonia",
 				"region": "Europe & Central Asia",
 				"iso": "EE"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-77.3947693, 18.1850507]
-			},
-			"properties": {
-				"name": "Jamaica",
-				"count": 1,
-				"country": "Jamaica",
-				"region": "Latin America & Caribbean",
-				"iso": "JM"
 			}
 		},
 		{

@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-28T09:28:53.420Z",
+	"created_at": "2026-08-29T21:30:21.683Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -136,7 +136,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 170,
+				"count": 171,
 				"country": "France",
 				"region": "Europe & Central Asia",
 				"iso": "FR"
@@ -514,7 +514,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan, TOKYO, Tokyo Japan, Japan Tokyo",
-				"count": 89,
+				"count": 90,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -584,7 +584,7 @@
 			},
 			"properties": {
 				"name": "Bangkok, Thailand, Bangkok,Thailand, Bankok, Thailand, Bangkok",
-				"count": 10,
+				"count": 9,
 				"country": "Thailand",
 				"region": "East Asia & Pacific",
 				"iso": "TH"
@@ -1284,7 +1284,7 @@
 			},
 			"properties": {
 				"name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa, 神奈川県, Kanagawa Prefecture, Japan, Kanagawa",
-				"count": 21,
+				"count": 22,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -1358,20 +1358,6 @@
 				"country": "Brazil",
 				"region": "Latin America & Caribbean",
 				"iso": "BR"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-76.7928128, 17.9712148]
-			},
-			"properties": {
-				"name": "Kingston, Jamaica",
-				"count": 1,
-				"country": "Jamaica",
-				"region": "Latin America & Caribbean",
-				"iso": "JM"
 			}
 		},
 		{
