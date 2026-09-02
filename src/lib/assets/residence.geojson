@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
-	"created_at": "2026-08-29T21:30:21.683Z",
+	"created_at": "2026-09-02T21:39:30.749Z",
 	"features": [
 		{
 			"type": "Feature",
@@ -136,7 +136,7 @@
 			},
 			"properties": {
 				"name": "No answer",
-				"count": 171,
+				"count": 178,
 				"country": "France",
 				"region": "Europe & Central Asia",
 				"iso": "FR"
@@ -415,8 +415,8 @@
 				"coordinates": [-75.6901106, 45.4208777]
 			},
 			"properties": {
-				"name": "Ottawa, Canada",
-				"count": 4,
+				"name": "Ottawa, Canada, Ottawa",
+				"count": 5,
 				"country": "Canada",
 				"region": "North America",
 				"iso": "CA"
@@ -514,7 +514,7 @@
 			},
 			"properties": {
 				"name": "Tokyo, Japan, Tokyo, Tokyo,Japan, TOKYO, Tokyo Japan, Japan Tokyo",
-				"count": 90,
+				"count": 91,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -919,8 +919,8 @@
 				"coordinates": [126.9782914, 37.5666791]
 			},
 			"properties": {
-				"name": "Seoul, South Korea, Seoul, Seoul, Korea",
-				"count": 17,
+				"name": "Seoul, South Korea, Seoul, Seoul, Korea, Korea, seoul",
+				"count": 18,
 				"country": "South Korea",
 				"region": "East Asia & Pacific",
 				"iso": "KR"
@@ -976,7 +976,7 @@
 			},
 			"properties": {
 				"name": "Saitama, Japan, saitama, Saitama, 埼玉県、日本, Saitama-ken,Japan, Saitama,Japan, Saitama, japan, Saitama-ken, Japan",
-				"count": 25,
+				"count": 26,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -1210,20 +1210,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [3.3941795, 6.4550575]
-			},
-			"properties": {
-				"name": "Lagos, Nigeria",
-				"count": 1,
-				"country": "Nigeria",
-				"region": "Sub-Saharan Africa",
-				"iso": "NG"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [4.8080282, 52.4744145]
 			},
 			"properties": {
@@ -1283,8 +1269,8 @@
 				"coordinates": [139.374753, 35.4342935]
 			},
 			"properties": {
-				"name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa, 神奈川県, Kanagawa Prefecture, Japan, Kanagawa",
-				"count": 22,
+				"name": "Kanagawa ken, Kanagawa, Japan, Kanagawa prefecture, Kanagawa, 神奈川県, Kanagawa Prefecture",
+				"count": 21,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -1731,8 +1717,8 @@
 				"coordinates": [46.7160104, 24.638916]
 			},
 			"properties": {
-				"name": "Riyadh, Riyadh, Kingdom of Saudi Arabia, Riyadh, Saudi Arabia",
-				"count": 3,
+				"name": "Riyadh, Riyadh, Saudi Arabia",
+				"count": 2,
 				"country": "Saudi Arabia",
 				"region": "Middle East & North Africa",
 				"iso": "SA"
@@ -3019,8 +3005,8 @@
 				"coordinates": [140.9761025, 38.3880155]
 			},
 			"properties": {
-				"name": "Miyagi,japan",
-				"count": 1,
+				"name": "Miyagi,japan, Miyagi, Japan",
+				"count": 2,
 				"country": "Japan",
 				"region": "East Asia & Pacific",
 				"iso": "JP"
@@ -3542,6 +3528,20 @@
 				"country": "Australia",
 				"region": "East Asia & Pacific",
 				"iso": "AU"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [114.1582831, 22.2818333]
+			},
+			"properties": {
+				"name": "Hong Kong",
+				"count": 1,
+				"country": "Hong Kong",
+				"region": "East Asia & Pacific",
+				"iso": "HK"
 			}
 		}
 	]

@@ -2158,5 +2158,20 @@
     "lat": 36.0833265,
     "lon": 140.077279,
     "display_name": "つくば市, 茨城県, 日本"
+  },
+  "Ottawa": {
+    "lat": 45.4208777,
+    "lon": -75.6901106,
+    "display_name": "Ottawa, Eastern Ontario, Ontario, Canada"
+  },
+  "Miyagi, Japan": {
+    "lat": 38.3880155,
+    "lon": 140.9761025,
+    "display_name": "宮城県, 日本"
+  },
+  "Korea, seoul": {
+    "lat": 37.5666791,
+    "lon": 126.9782914,
+    "display_name": "서울특별시, 대한민국"
   }
 }
